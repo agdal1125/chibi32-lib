@@ -38,29 +38,6 @@ vvNNN
 vvnnn
 nnn..
 
-[part back_item]
-GYg........
-GCCGg......
-GCcGg......
-..Ggg......
-...Oo......
-....Oo.....
-....Oo.....
-.....Oo....
-.....Oo....
-......Oo...
-......OO...
-.......OO..
-.......Oo..
-........Oo.
-........Oo.
-.........Oo
-.........oo
-
-[part back_hand]
-SS
-Ss
-
 [part body]
 .VVVVVVVv...
 VVVVVVVVvv..
@@ -71,6 +48,25 @@ VVVVVVVVvv..
 VVVVVVVVvvv.
 VVVVVVVVvvvv
 .vvvvvvvvvv.
+
+[part held_item]
+.......GYg
+.....GCCGg
+.....GCcGg
+.....Ggg..
+......Oo..
+.....Oo...
+.....Oo...
+....Oo....
+....Oo....
+...Oo.....
+...OO.....
+..OO......
+..Oo......
+.Oo.......
+.Oo.......
+Oo........
+oo........
 
 [part head]
 .......W....W...
@@ -90,10 +86,14 @@ WWWWWWWWWWWWWWww
 ......sSSSSs....
 
 [part beard]
-.wwhwwh.
-wwwwwwww
-.hwwwwh.
+.WWWWWW.
+WWWWWWWw
+.WWWWWh.
 ..hhhh..
+
+[part front_hand]
+SS
+Ss
 
 [part hat]
 ......V.........
@@ -107,47 +107,47 @@ VVVVVVVVVvvvvvvv
 
 [frame base]
 legs_stand 13 26
-back_item 5 9
-back_hand 11 19
 body 11 20
+held_item 19 10
 head 8 6
-beard 13 18
+beard 13 19 nooutline
+front_hand 21 20
 hat 6 3
 
 [frame walk_0]
 legs_near_fwd 12 26
-back_item 4 9
-back_hand 10 19
 body 11 20
+held_item 19 10
 head 8 6
-beard 13 18
+beard 13 19 nooutline
+front_hand 21 20
 hat 6 3
 
 [frame walk_1]
 legs_near_support 13 25
-back_item 5 8
-back_hand 11 18
 body 11 19
+held_item 19 9
 head 8 5
-beard 13 17
+beard 13 18 nooutline
+front_hand 21 19
 hat 6 2
 
 [frame walk_2]
 legs_far_fwd 12 26
-back_item 6 9
-back_hand 12 19
 body 11 20
+held_item 19 10
 head 8 6
-beard 13 18
+beard 13 19 nooutline
+front_hand 21 20
 hat 6 3
 
 [frame walk_3]
 legs_far_support 14 25
-back_item 5 8
-back_hand 11 18
 body 11 19
+held_item 19 9
 head 8 5
-beard 13 17
+beard 13 18 nooutline
+front_hand 21 19
 hat 6 2
 
 [anim walk]

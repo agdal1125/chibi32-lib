@@ -29,7 +29,7 @@ The full list with every id, title and description is in [docs/catalog.md](docs/
 
 ### Characters
 
-78 characters share one walk cycle. Each holds its weapon in a small fist that touches the body, in one of five poses: rest (upright at the hip), raise (lifted back over the shoulder), thrust (level, pointing ahead), guard (upright in front) and low (tipped toward the ground).
+78 characters share one walk cycle. Each holds its weapon in a small fist that touches the body, in one of five poses: rest (upright at the hip), raise (fist at the chin, weapon up behind the head), thrust (level, pointing ahead), guard (upright in front) and low (tipped toward the ground).
 
 ![Characters](preview/characters.png)
 

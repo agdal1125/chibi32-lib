@@ -40,35 +40,12 @@ nnn..
 
 [part hair_back]
 .AAAAAAAAAAAA.
-AAAAAArAAAAAAA
-AAAAArrAAAAAAA
-.AAAArrAAAAAA.
-.rAAArrAAAAAr.
-.rrAArrAAAArr.
-..rrrrrrrrrr..
-
-[part back_item]
-GYg........
-GCCGg......
-GCcGg......
-..Ggg......
-...Oo......
-....Oo.....
-....Oo.....
-.....Oo....
-.....Oo....
-......Oo...
-......OO...
-.......OO..
-.......Oo..
-........Oo.
-........Oo.
-.........Oo
-.........oo
-
-[part back_hand]
-SS
-Ss
+AAAAAAaAAAAAAA
+AAAAAaaAAAAAAA
+.AAAAaaAAAAAA.
+.aAAAaaAAAAAa.
+.aaAAaaAAAAaa.
+..aaaaaaaaaa..
 
 [part body]
 .ddDDDDDD...
@@ -81,6 +58,25 @@ ddDDDDDDDDD.
 ddDDDDDDDDDD
 .DDDDDDDDDD.
 
+[part held_item]
+.......GYg
+.....GCCGg
+.....GCcGg
+.....Ggg..
+......Oo..
+.....Oo...
+.....Oo...
+....Oo....
+....Oo....
+...Oo.....
+...OO.....
+..OO......
+..Oo......
+.Oo.......
+.Oo.......
+Oo........
+oo........
+
 [part head]
 .......R....R...
 ......RR...RR...
@@ -90,53 +86,57 @@ ddDDDDDDDDDD
 RRRRRRRRRRRRRRAA
 .RRRRRRRRRRRRAAA
 ..ARRRARRRASAAA.
-.RAARArSSSrSSSr.
-..rAArSSSSSSSSS.
-..rrASSSSKSSSKS.
-...rrSSSSKSSSKS.
-...rrsSSpSSSSpS.
-....rsSSSSSSSs..
+.RAARAaSSSaSSSa.
+..aAAaSSSSSSSSS.
+..aaASSSSKSSSKS.
+...aaSSSSKSSSKS.
+...aasSSpSSSSpS.
+....asSSSSSSSs..
 ......sSSSSs....
+
+[part front_hand]
+SS
+Ss
 
 [frame base]
 legs_stand 13 26
 hair_back 9 17
-back_item 5 9
-back_hand 11 19
 body 11 20
+held_item 19 10
 head 8 6
+front_hand 21 20
 
 [frame walk_0]
 legs_near_fwd 12 26
 hair_back 9 17
-back_item 4 9
-back_hand 10 19
 body 11 20
+held_item 19 10
 head 8 6
+front_hand 21 20
 
 [frame walk_1]
 legs_near_support 13 25
 hair_back 9 16
-back_item 5 8
-back_hand 11 18
 body 11 19
+held_item 19 9
 head 8 5
+front_hand 21 19
 
 [frame walk_2]
 legs_far_fwd 12 26
 hair_back 9 17
-back_item 6 9
-back_hand 12 19
 body 11 20
+held_item 19 10
 head 8 6
+front_hand 21 20
 
 [frame walk_3]
 legs_far_support 14 25
 hair_back 9 16
-back_item 5 8
-back_hand 11 18
 body 11 19
+held_item 19 9
 head 8 5
+front_hand 21 19
 
 [anim walk]
 walk_0 150

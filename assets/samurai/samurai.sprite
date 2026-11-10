@@ -1,7 +1,7 @@
 # generated from assets/samurai/recipe.py by tools/draw.py; edit the recipe, not this file
 [meta]
 id = samurai
-title = Samurai, sword on shoulder
+title = Samurai, sword lowered
 size = 32 32
 anchor = 16 29
 palette = ../../styles/chibi32/palette.txt
@@ -38,24 +38,6 @@ rrDDD
 rrddd
 ddd..
 
-[part back_item]
-M......
-Mm.....
-.Mm....
-.Mm....
-..Mm...
-..Mm...
-...Mm..
-...Md..
-...GGgg
-....nn.
-.....nn
-.....gg
-
-[part back_hand]
-SS
-Ss
-
 [part body]
 .RRRRRRRr.
 RRRRRRRRrr
@@ -81,40 +63,53 @@ ddddddddddddddDD
 ....KsSSSSSSSs..
 ......sSSSSs....
 
+[part held_item]
+gn.G........
+gnnG........
+..ngMM......
+...gdmMM....
+......mmMM..
+........mmMM
+..........m.
+
+[part front_hand]
+SS
+Ss
+
 [frame base]
 legs_stand 13 26
-back_item 4 10
-back_hand 8 19
 body 11 20
 head 8 6
+held_item 17 21
+front_hand 18 21
 
 [frame walk_0]
 legs_near_fwd 12 26
-back_item 3 10
-back_hand 7 19
 body 11 20
 head 8 6
+held_item 17 21
+front_hand 18 21
 
 [frame walk_1]
 legs_near_support 13 25
-back_item 4 9
-back_hand 8 18
 body 11 19
 head 8 5
+held_item 17 20
+front_hand 18 20
 
 [frame walk_2]
 legs_far_fwd 12 26
-back_item 5 10
-back_hand 9 19
 body 11 20
 head 8 6
+held_item 17 21
+front_hand 18 21
 
 [frame walk_3]
 legs_far_support 14 25
-back_item 4 9
-back_hand 8 18
 body 11 19
 head 8 5
+held_item 17 20
+front_hand 18 20
 
 [anim walk]
 walk_0 150

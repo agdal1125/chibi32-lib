@@ -16,19 +16,19 @@
 | `bandit` | Bandit | 산적. 도끼를 낮게 든 붉은 두건. |
 | `barbarian` | Barbarian with great axe | 야만전사. 붉은 머리, 가죽 옷, 커다란 도끼. |
 | `bard` | Bard with lute | 음유시인. 분홍 머리, 보라 옷, 류트를 들고 노래한다. |
-| `berserker` | Berserker, axe overhead | 도끼를 머리 위로 휘두르는 광전사. |
+| `berserker` | Berserker, axe raised | 도끼를 치켜든 광전사. 붉은 머리와 수염. |
 | `blacksmith` | Blacksmith with hammer | 대장장이. 검은 머리, 갈색 앞치마, 망치. |
 | `boy` | Boy | 소년. 검은 머리, 하늘색 옷, 빈손. |
 | `child` | Child adventurer | 꼬마 모험가. 주황 머리, 나무 검 대신 단검. |
 | `dancer` | Dancer | 무희. 붉은 긴 머리, 분홍 옷, 두 팔 벌림(빈손). |
 | `dark_knight` | Dark knight | 암흑기사. 검은 갑옷과 붉은 눈빛의 검. |
 | `demon_lord` | Demon lord | 마왕. 붉은 피부 대신 보라 로브, 뿔 모자, 지팡이를 높이. |
-| `druid` | Druid | 드루이드. 초록 로브, 어깨에 걸친 나무 지팡이, 수염. |
+| `druid` | Druid | 드루이드. 초록 로브, 앞손에 세워 든 나무 지팡이, 수염. |
 | `dwarf` | Dwarf with hammer | 드워프. 둥근 머리에 긴 수염, 망치를 치켜들었다. |
 | `elder` | Village elder | 마을 장로. 흰 수염 대신 흰 머리, 회색 로브, 지팡이. |
-| `elf_m` | Elf swordsman | 남성 엘프. 금발, 초록 옷, 검을 어깨에. |
+| `elf_m` | Elf swordsman | 남성 엘프. 금발, 초록 옷, 검을 앞에 세워 들었다. |
 | `fairy` | Fairy | 요정. 분홍 머리에 하늘색 옷, 마법봉을 앞으로. |
-| `farmer` | Farmer | 농부. 쇠스랑(창)을 어깨에 멨다. |
+| `farmer` | Farmer | 농부. 쇠스랑(창)을 세워 들었다. |
 | `fire_knight` | Fire knight | 화염 기사. 붉은 갑옷, 검을 머리 위로. |
 | `fire_mage` | Fire mage | 화염 마법사. 붉은 로브, 주황 머리, 불꽃 지팡이. |
 | `fisher` | Fisher | 낚시꾼. 긴 낚싯대(창)를 앞으로 드리웠다. |
@@ -52,7 +52,7 @@
 | `mage_cast` | Mage, casting | 지팡이를 앞으로 내밀고 주문을 외는 마법사. |
 | `mage_f` | Female mage with crystal staff | 여성 마법사. 긴 보라색 머리에 마녀 모자, 푸른 로브, 수정 지팡이를 들었다. |
 | `merchant` | Merchant with travel bag | 상인. 주황 옷에 커다란 짐 가방, 금화를 좋아한다. |
-| `miner` | Miner | 광부. 곡괭이(도끼)를 어깨에 멨다, 투구. |
+| `miner` | Miner | 광부. 곡괭이(도끼)를 허리춤에 들었다, 투구. |
 | `monk` | Monk | 수도승. 주황 승복, 맨손 격투가. |
 | `monk_staff` | Monk with staff | 봉술 수도승. 지팡이를 수평으로 앞에. |
 | `necromancer` | Necromancer | 강령술사. 창백한 피부, 검은 후드 로브, 해골 지팡이. |
@@ -70,18 +70,18 @@
 | `ranger` | Hooded ranger | 순찰자. 초록 후드에 활과 화살. |
 | `rogue` | Hooded rogue with dagger | 도적. 검은 후드와 단검, 조용히 움직인다. |
 | `sailor` | Sailor | 선원. 흰 옷에 푸른 띠, 검을 낮게. |
-| `samurai` | Samurai, sword on shoulder | 어깨에 칼을 걸친 사무라이. 검은 머리, 붉은 갑옷. |
+| `samurai` | Samurai, sword lowered | 칼끝을 낮춘 사무라이. 검은 머리, 붉은 갑옷. |
 | `shadow_archer` | Shadow archer | 그림자 궁수. 보라 후드, 활을 낮게. |
 | `shaman` | Shaman | 주술사. 주황 머리, 보라 옷, 지팡이를 앞으로. |
 | `sorceress` | Sorceress, staff raised | 지팡이를 높이 든 여마법사. 붉은 머리, 검은 로브. |
 | `spearman` | Spearman | 창병. 푸른 갑옷에 긴 창과 투구. |
 | `swordsman_raise` | Swordsman, sword raised | 검을 머리 위로 치켜든 검사. 공격 직전의 자세. |
-| `templar` | Templar | 성전기사. 붉은 띠 흰 갑옷, 검을 어깨에. |
+| `templar` | Templar | 성전기사. 붉은 띠 흰 갑옷, 검을 허리춤에. |
 | `vampire` | Vampire | 뱀파이어. 창백한 피부, 검은 옷, 붉은 띠. |
 | `villager_f` | Villager (young woman) | 마을 처녀. 붉은 긴 머리에 흰 원피스. |
 | `villager_m` | Villager (young man) | 마을 청년. 갈색 머리에 초록 튜닉. |
 | `villager_old_f` | Old woman | 할머니. 흰 머리, 갈색 옷, 지팡이를 낮게. |
-| `warhammer_knight` | Knight with warhammer on shoulder | 망치를 어깨에 멘 중장기사. |
+| `warhammer_knight` | Knight with warhammer | 망치를 허리춤에 든 중장기사. |
 | `witch` | Witch with wand | 초록 피부의 마녀. 검은 로브와 뾰족 모자, 손에는 마법 지팡이. |
 | `wizard_old` | Old wizard | 노마법사. 흰 수염, 보라 로브, 지팡이를 높이. |
 | `zombie` | Zombie | 좀비. 회색 피부, 찢어진 초록 옷, 팔을 앞으로. |

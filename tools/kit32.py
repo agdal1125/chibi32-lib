@@ -400,7 +400,7 @@ SCARECROW = "....Oo....\n...NNNNn..\n..NNNNNNn.\n..NSKSKSn.\n...SSSSs..\nOOOOLLL
 
 # ---------------------------------------------------------------- recoloring
 HAIR = {  # hair tone triples: light, mid, shadow
-    "white": "Wwh", "blonde": "YGg", "brown": "OoN", "black": "dDK", "red": "RAr", "pink": "PPx",
+    "white": "Wwh", "blonde": "YGg", "brown": "OoN", "black": "dDK", "red": "RAa", "pink": "PPx",
     "blue": "LBb", "green": "Eeq", "purple": "VVv", "orange": "AAa", "cyan": "CCc", "grey": "mmd",
 }
 CLOTH = {
@@ -467,11 +467,12 @@ def tilt_down(rows):
 
 # Hands: a 2x2 fist that always touches the body, so no pose needs a stretched arm.
 # The body spans x 11..20, y 20..25; its outline is x 10 and x 21.
-BACK_HAND, RAISED_HAND, FRONT_HAND, GUARD_HAND = (8, 22), (7, 19), (22, 22), (23, 22)
-# pose -> (transform of the upright grid, hand top-left, side). side "back" draws weapon and fist behind the body.
+BACK_HAND, RAISED_HAND, FRONT_HAND, GUARD_HAND = (8, 22), (23, 20), (22, 22), (23, 22)
+# pose -> (transform of the upright grid, hand top-left, side). "back": weapon and fist behind the body;
+# "front": both in front of everything; "mid": weapon behind the head so it never covers the face, fist in front.
 POSES = {
     "rest": (None, BACK_HAND, "back"),                           # upright in the back hand at the hip
-    "raise": (lambda r: lean(r, -1), RAISED_HAND, "back"),       # back hand at the shoulder, tip up and back
+    "raise": (lambda r: lean(r, 1), RAISED_HAND, "mid"),         # front fist at the chin, tip up past the head
     "thrust": (rot90, FRONT_HAND, "front"),                      # level in the front hand, pointing ahead
     "guard": (None, GUARD_HAND, "front"),                        # upright in the front hand beside the face
     "low": (lambda r: tilt_down(rot90(r)), FRONT_HAND, "front"),  # front hand, tip lowered toward the ground
@@ -504,10 +505,10 @@ def placed(rows, grip, hand, margin=3):
     return (x + dx, y + dy), (hand[0] + dx, hand[1] + dy)
 
 
-BEARD = """..wwhwwh..
-.wwwwwwww.
-..hwwwwh..
-...hhhh..."""
+BEARD = """.WWWWWW.
+WWWWWWWw
+.WWWWWh.
+..hhhh.."""
 
 
 def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky", back=None, front=None,
@@ -551,12 +552,15 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
         grid, pos = FRONT[front]
         pos = front_pos or pos
         add("front_item", [r.replace("+", "N") for r in recolor(grid, cm)], pos[0], pos[1], up)
+    if held and held[3] == "mid":
+        add("held_item", held[0], held[1][0], held[1][1], up)
     add("head", recolor(hg, hm, sm), 8, 6 if head != "round" else 8, up)
     if beard:
-        add("beard", recolor(BEARD, hm), 12, 18, up)
-    if held and held[3] == "front":
-        rows, pos, hand, _ = held
-        add("held_item", rows, pos[0], pos[1], up)
+        add("beard", recolor(BEARD, hm), 13, 19, up, outline=False)
+    if held and held[3] in ("front", "mid"):
+        rows, pos, hand, side = held
+        if side == "front":
+            add("held_item", rows, pos[0], pos[1], up)
         if back != "bone_arm":
             add("front_hand", recolor(FIST, sm), hand[0], hand[1], up)
     if hat:

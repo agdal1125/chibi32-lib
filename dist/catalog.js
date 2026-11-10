@@ -6623,7 +6623,7 @@ window.CATALOG = {
     },
     {
       "id": "berserker",
-      "title": "Berserker, axe overhead",
+      "title": "Berserker, axe raised",
       "dir": "dist/berserker",
       "size": {
         "w": 32,
@@ -55137,7 +55137,7 @@ window.CATALOG = {
     },
     {
       "id": "samurai",
-      "title": "Samurai, sword on shoulder",
+      "title": "Samurai, sword lowered",
       "dir": "dist/samurai",
       "size": {
         "w": 32,
@@ -77403,7 +77403,7 @@ window.CATALOG = {
     },
     {
       "id": "warhammer_knight",
-      "title": "Knight with warhammer on shoulder",
+      "title": "Knight with warhammer",
       "dir": "dist/warhammer_knight",
       "size": {
         "w": 32,

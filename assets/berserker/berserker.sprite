@@ -1,7 +1,7 @@
 # generated from assets/berserker/recipe.py by tools/draw.py; edit the recipe, not this file
 [meta]
 id = berserker
-title = Berserker, axe overhead
+title = Berserker, axe raised
 size = 32 32
 anchor = 16 29
 palette = ../../styles/chibi32/palette.txt
@@ -38,23 +38,6 @@ NNNNN
 NNnnn
 nnn..
 
-[part back_item]
-MMM......
-MMMMm....
-MMmOod...
-..mmOo...
-....Oo...
-.....Oo..
-.....Oo..
-......OO.
-......OO.
-.......Oo
-.......oo
-
-[part back_hand]
-SS
-Ss
-
 [part body]
 .OOoooooN.
 OOooooooNN
@@ -62,6 +45,19 @@ OoooooooNN
 NNNNGgNNNn
 OoooooooNN
 .oooooooN.
+
+[part held_item]
+...MMM.
+.MMMMm.
+.MMmOod
+.mmOo..
+...Oo..
+..Oo...
+..Oo...
+.OO....
+.OO....
+Oo.....
+oo.....
 
 [part head]
 .......R....R...
@@ -72,59 +68,63 @@ OoooooooNN
 RRRRRRRRRRRRRRAA
 .RRRRRRRRRRRRAAA
 ..ARRRARRRASAAA.
-.RAARArSSSrSSSr.
-..rAArSSSSSSSSS.
-..rrASSSSKSSSKS.
-...rrSSSSKSSSKS.
-...rrsSSpSSSSpS.
-....rsSSSSSSSs..
+.RAARAaSSSaSSSa.
+..aAAaSSSSSSSSS.
+..aaASSSSKSSSKS.
+...aaSSSSKSSSKS.
+...aasSSpSSSSpS.
+....asSSSSSSSs..
 ......sSSSSs....
 
 [part beard]
-.AArAAr.
-AAAAAAAA
-.rAAAAr.
-..rrrr..
+.RRRRRR.
+RRRRRRRA
+.RRRRRa.
+..aaaa..
+
+[part front_hand]
+SS
+Ss
 
 [frame base]
 legs_stand 13 26
-back_item 5 12
-back_hand 11 19
 body 11 20
+held_item 21 13
 head 8 6
-beard 13 18
+beard 13 19 nooutline
+front_hand 22 20
 
 [frame walk_0]
 legs_near_fwd 12 26
-back_item 4 12
-back_hand 10 19
 body 11 20
+held_item 21 13
 head 8 6
-beard 13 18
+beard 13 19 nooutline
+front_hand 22 20
 
 [frame walk_1]
 legs_near_support 13 25
-back_item 5 11
-back_hand 11 18
 body 11 19
+held_item 21 12
 head 8 5
-beard 13 17
+beard 13 18 nooutline
+front_hand 22 19
 
 [frame walk_2]
 legs_far_fwd 12 26
-back_item 6 12
-back_hand 12 19
 body 11 20
+held_item 21 13
 head 8 6
-beard 13 18
+beard 13 19 nooutline
+front_hand 22 20
 
 [frame walk_3]
 legs_far_support 14 25
-back_item 5 11
-back_hand 11 18
 body 11 19
+held_item 21 12
 head 8 5
-beard 13 17
+beard 13 18 nooutline
+front_hand 22 19
 
 [anim walk]
 walk_0 150
