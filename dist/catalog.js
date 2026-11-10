@@ -225,8 +225,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -404,8 +404,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -583,8 +583,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -762,8 +762,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -991,8 +991,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -1170,8 +1170,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -1349,8 +1349,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -1528,8 +1528,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -1757,8 +1757,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -1986,8 +1986,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -2165,8 +2165,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -2344,8 +2344,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -2573,8 +2573,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -2752,8 +2752,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -2931,8 +2931,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -3160,8 +3160,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -3339,8 +3339,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -3518,8 +3518,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -3747,8 +3747,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -3976,8 +3976,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -4155,8 +4155,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -4334,8 +4334,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -4513,8 +4513,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -4692,8 +4692,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -4919,8 +4919,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -5127,8 +5127,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -5335,8 +5335,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -5543,8 +5543,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -5722,8 +5722,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -5901,8 +5901,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -6080,8 +6080,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -6259,8 +6259,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -6438,8 +6438,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -6617,8 +6617,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -6846,8 +6846,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -7025,8 +7025,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -7204,8 +7204,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -7383,8 +7383,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -7612,8 +7612,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -7791,8 +7791,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -7970,8 +7970,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -8149,8 +8149,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -8328,8 +8328,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -8507,8 +8507,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -8686,8 +8686,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -8865,8 +8865,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -9094,8 +9094,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -9273,8 +9273,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -9452,8 +9452,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -9631,8 +9631,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -9810,8 +9810,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -9989,8 +9989,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -10168,8 +10168,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -10347,8 +10347,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -10526,8 +10526,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -10705,8 +10705,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -10884,8 +10884,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -11092,8 +11092,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -11271,8 +11271,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -11450,8 +11450,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -11629,8 +11629,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -11808,8 +11808,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -11987,8 +11987,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -12166,8 +12166,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -12345,8 +12345,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -12524,8 +12524,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -12703,8 +12703,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -12882,8 +12882,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -13061,8 +13061,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -13240,8 +13240,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -13419,8 +13419,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -13599,8 +13599,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -13778,8 +13778,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -13957,8 +13957,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -14136,8 +14136,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -14365,8 +14365,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -14544,8 +14544,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -14723,8 +14723,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -14902,8 +14902,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -15081,8 +15081,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -15260,8 +15260,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -15439,8 +15439,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -15666,8 +15666,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -15845,8 +15845,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -16024,8 +16024,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -16203,8 +16203,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -16382,8 +16382,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -16561,8 +16561,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -16740,8 +16740,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -16919,8 +16919,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -17098,8 +17098,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -17277,8 +17277,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -17456,8 +17456,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -17635,8 +17635,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -17814,8 +17814,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -17993,8 +17993,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -18172,8 +18172,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -18401,8 +18401,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -18630,8 +18630,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -18809,8 +18809,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -18988,8 +18988,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -19217,8 +19217,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -19396,8 +19396,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -19575,8 +19575,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -19754,8 +19754,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -19933,8 +19933,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -20112,8 +20112,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -20291,8 +20291,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -20470,8 +20470,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -20649,8 +20649,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -20878,8 +20878,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -21107,8 +21107,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -21286,8 +21286,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -21515,8 +21515,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -21744,8 +21744,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -21923,8 +21923,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -22131,8 +22131,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -22310,8 +22310,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -22539,8 +22539,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -22768,8 +22768,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -22947,8 +22947,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -23126,8 +23126,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -23305,8 +23305,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -23534,8 +23534,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -23763,8 +23763,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -23942,8 +23942,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -24150,8 +24150,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -24358,8 +24358,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -24537,8 +24537,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -24716,8 +24716,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -24895,8 +24895,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -25124,8 +25124,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -25303,8 +25303,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -25482,8 +25482,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -25661,8 +25661,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -25840,8 +25840,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -26019,8 +26019,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -26198,8 +26198,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -26377,8 +26377,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -26556,8 +26556,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -26735,8 +26735,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -26914,8 +26914,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -27093,8 +27093,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -27272,8 +27272,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -27451,8 +27451,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -27630,8 +27630,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -27838,8 +27838,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -28017,8 +28017,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -28246,8 +28246,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -28475,8 +28475,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -28654,8 +28654,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -28833,8 +28833,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -29062,8 +29062,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -29291,8 +29291,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -29520,8 +29520,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -29699,8 +29699,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -29878,8 +29878,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -30057,8 +30057,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -30236,8 +30236,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -30415,8 +30415,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -30644,8 +30644,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -30823,8 +30823,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -31002,8 +31002,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -31181,8 +31181,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -31360,8 +31360,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -31568,8 +31568,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -31797,8 +31797,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -31976,8 +31976,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -32155,8 +32155,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -32334,8 +32334,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -32570,8 +32570,8 @@ window.CATALOG = {
             "used_as": "general style target only (thick dark outline, large head, 2 to 3 tones per material). No pixels, shapes or palette were copied. The file is not stored in this repository."
           }
         ],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -32749,8 +32749,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -32928,8 +32928,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -33107,8 +33107,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -33286,8 +33286,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -33465,8 +33465,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -33644,8 +33644,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -33823,8 +33823,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -34031,8 +34031,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -34260,8 +34260,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -34489,8 +34489,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -34668,8 +34668,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -34847,8 +34847,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -35026,8 +35026,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -35205,8 +35205,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -35384,8 +35384,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -35563,8 +35563,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -35742,8 +35742,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -35921,8 +35921,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -36100,8 +36100,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -36329,8 +36329,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -36508,8 +36508,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -36687,8 +36687,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -36916,8 +36916,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -37145,8 +37145,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -37374,8 +37374,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -37553,8 +37553,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -37732,8 +37732,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -37961,8 +37961,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -38140,8 +38140,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -38369,8 +38369,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -38548,8 +38548,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -38727,8 +38727,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -38906,8 +38906,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -39114,8 +39114,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -39293,8 +39293,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -39472,8 +39472,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -39651,8 +39651,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -39880,8 +39880,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -40109,8 +40109,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -40338,8 +40338,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -40517,8 +40517,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -40696,8 +40696,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -40875,8 +40875,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -41104,8 +41104,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -41283,8 +41283,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -41462,8 +41462,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -41691,8 +41691,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -41870,8 +41870,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -42099,8 +42099,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -42328,8 +42328,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -42507,8 +42507,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -42686,8 +42686,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -42865,8 +42865,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -43044,8 +43044,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -43223,8 +43223,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -43402,8 +43402,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -43581,8 +43581,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -43760,8 +43760,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -43989,8 +43989,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -44168,8 +44168,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -44347,8 +44347,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -44576,8 +44576,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -44805,8 +44805,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -44984,8 +44984,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -45213,8 +45213,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -45442,8 +45442,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -45621,8 +45621,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -45800,8 +45800,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -45979,8 +45979,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -46158,8 +46158,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -46387,8 +46387,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -46616,8 +46616,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -46795,8 +46795,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -46974,8 +46974,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -47153,8 +47153,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -47332,8 +47332,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -47511,8 +47511,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -47690,8 +47690,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -47919,8 +47919,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -48098,8 +48098,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -48306,8 +48306,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -48485,8 +48485,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -48693,8 +48693,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -48872,8 +48872,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -49053,8 +49053,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -49232,8 +49232,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -49411,8 +49411,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -49590,8 +49590,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -49769,8 +49769,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -49948,8 +49948,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -50177,8 +50177,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -50406,8 +50406,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -50635,8 +50635,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -50814,8 +50814,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -50993,8 +50993,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -51222,8 +51222,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -51401,8 +51401,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -51580,8 +51580,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -51759,8 +51759,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -51988,8 +51988,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -52167,8 +52167,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -52346,8 +52346,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -52525,8 +52525,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -52704,8 +52704,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -52883,8 +52883,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -53062,8 +53062,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -53241,8 +53241,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -53420,8 +53420,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -53599,8 +53599,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -53778,8 +53778,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -54007,8 +54007,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -54186,8 +54186,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -54365,8 +54365,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -54544,8 +54544,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -54723,8 +54723,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -54902,8 +54902,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -55131,8 +55131,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -55360,8 +55360,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -55539,8 +55539,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -55718,8 +55718,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -55897,8 +55897,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -56076,8 +56076,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -56255,8 +56255,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -56434,8 +56434,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -56613,8 +56613,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -56792,8 +56792,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -57021,8 +57021,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -57250,8 +57250,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -57429,8 +57429,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -57608,8 +57608,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -57787,8 +57787,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -57966,8 +57966,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -58145,8 +58145,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -58324,8 +58324,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -58503,8 +58503,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -58682,8 +58682,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -58861,8 +58861,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -59040,8 +59040,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -59219,8 +59219,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -59398,8 +59398,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -59577,8 +59577,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -59756,8 +59756,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -59964,8 +59964,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -60191,8 +60191,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -60399,8 +60399,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -60607,8 +60607,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -60815,8 +60815,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -61023,8 +61023,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -61231,8 +61231,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -61439,8 +61439,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -61647,8 +61647,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -61855,8 +61855,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -62063,8 +62063,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -62242,8 +62242,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -62421,8 +62421,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -62600,8 +62600,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -62779,8 +62779,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -63008,8 +63008,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -63216,8 +63216,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -63445,8 +63445,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -63624,8 +63624,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -63803,8 +63803,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -63982,8 +63982,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -64161,8 +64161,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -64340,8 +64340,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -64519,8 +64519,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -64698,8 +64698,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -64877,8 +64877,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -65056,8 +65056,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -65235,8 +65235,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -65414,8 +65414,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -65593,8 +65593,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -65772,8 +65772,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -65951,8 +65951,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -66130,8 +66130,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -66309,8 +66309,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -66488,8 +66488,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -66667,8 +66667,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -66846,8 +66846,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -67075,8 +67075,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -67254,8 +67254,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -67433,8 +67433,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -67612,8 +67612,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -67791,8 +67791,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -68020,8 +68020,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -68199,8 +68199,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -68378,8 +68378,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -68557,8 +68557,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -68736,8 +68736,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -68915,8 +68915,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -69094,8 +69094,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -69273,8 +69273,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -69452,8 +69452,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -69631,8 +69631,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -69810,8 +69810,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -69989,8 +69989,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -70168,8 +70168,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -70347,8 +70347,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -70526,8 +70526,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -70705,8 +70705,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -70884,8 +70884,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -71063,8 +71063,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -71242,8 +71242,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -71421,8 +71421,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -71600,8 +71600,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -71779,8 +71779,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -71958,8 +71958,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -72137,8 +72137,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -72316,8 +72316,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -72495,8 +72495,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -72674,8 +72674,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -72853,8 +72853,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -73032,8 +73032,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -73211,8 +73211,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -73390,8 +73390,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -73617,8 +73617,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -73796,8 +73796,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -73975,8 +73975,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -74154,8 +74154,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -74333,8 +74333,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -74512,8 +74512,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -74691,8 +74691,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -74870,8 +74870,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -75049,8 +75049,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -75228,8 +75228,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -75407,8 +75407,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -75586,8 +75586,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -75765,8 +75765,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -75994,8 +75994,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -76173,8 +76173,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -76402,8 +76402,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -76631,8 +76631,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -76860,8 +76860,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -77039,8 +77039,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -77218,8 +77218,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -77397,8 +77397,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -77626,8 +77626,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -77805,8 +77805,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -78013,8 +78013,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -78192,8 +78192,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -78371,8 +78371,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -78550,8 +78550,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -78729,8 +78729,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -78908,8 +78908,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -79087,8 +79087,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -79266,8 +79266,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -79445,8 +79445,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -79674,8 +79674,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -79903,8 +79903,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -80082,8 +80082,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -80261,8 +80261,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -80440,8 +80440,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -80619,8 +80619,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -80798,8 +80798,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -81027,8 +81027,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     },
     {
@@ -81256,8 +81256,8 @@ window.CATALOG = {
           "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
         },
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."
       }
     }
   ]

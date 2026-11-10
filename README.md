@@ -8,7 +8,7 @@
 
 Every sprite is stored as plain text (a grid of palette keys), so you can read, diff and edit pixels in any text editor. A build script turns the text into PNGs, sprite sheets, JSON frame data and GIFs.
 
-> **License: not decided yet.** The art and code are not licensed for reuse until a license is chosen. See [LICENSING.md](LICENSING.md).
+**License: [MIT](LICENSE)**, for both code and art. Use the sprites in free or commercial projects; keep the license notice with copies. See [LICENSING.md](LICENSING.md).
 
 ## Gallery
 

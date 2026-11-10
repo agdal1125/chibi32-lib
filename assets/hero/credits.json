@@ -1,11 +1,20 @@
 {
   "id": "hero",
   "authors": [
-    {"name": "Project owner", "role": "art direction (character brief, style reference choice)"},
-    {"name": "Claude Opus 5.5 (Anthropic), via Claude Code", "role": "wrote the pixel grids in hero.sprite"}
+    {
+      "name": "Project owner",
+      "role": "art direction (character brief, style reference choice)"
+    },
+    {
+      "name": "Claude Opus 5.5 (Anthropic), via Claude Code",
+      "role": "wrote the pixel grids in hero.sprite"
+    }
   ],
   "created": "2026-11-08",
-  "tools": ["text editor (hero.sprite grids)", "tools/build.py (Python 3 + Pillow)"],
+  "tools": [
+    "text editor (hero.sprite grids)",
+    "tools/build.py (Python 3 + Pillow)"
+  ],
   "ai_usage": {
     "used": true,
     "kind": "A language model typed every pixel as text in hero.sprite, rendered it, and revised it after looking at the render. No image-generation model was used.",
@@ -20,6 +29,6 @@
       "used_as": "general style target only (thick dark outline, large head, 2 to 3 tones per material). No pixels, shapes or palette were copied. The file is not stored in this repository."
     }
   ],
-  "license": "UNDECIDED",
-  "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+  "license": "MIT",
+  "license_note": "See LICENSE and LICENSING.md."
 }

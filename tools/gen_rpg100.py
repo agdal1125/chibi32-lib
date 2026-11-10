@@ -32,8 +32,8 @@ for aid, (desc, _) in kit32.SPECS.items():
                      "terms_checked": False,
                      "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."},
         "references": [],
-        "license": "UNDECIDED",
-        "license_note": "See LICENSING.md. The owner picks the art license before the first release."}
+        "license": "MIT",
+        "license_note": "See LICENSE and LICENSING.md."}
     (d / "credits.json").write_text(json.dumps(credits, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 print(len(kit32.SPECS), "specs")
