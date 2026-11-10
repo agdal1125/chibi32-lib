@@ -12,29 +12,36 @@ dD...dD
 dD...dD
 DDD.DDD
 
-[part item]
-.MMM..
-MMMMm.
-MMmOod
-.mmOo.
-...Oo.
-...Oo.
-...Oo.
-...OO.
-...OO.
-...Oo.
-...oo.
-
-[part fist]
-MM
-Mm
-
 [part body]
 .ddddddD.
 dDdDdDdDD
 .ddddddD.
 dDdDdDdDD
 .DDDDDDD.
+
+[part item]
+......MW...............
+.....MMMW..............
+.....MMMMW.............
+...gGMMMMW.............
+.mmmOOMMW..............
+mmmmmOOM...............
+dmmmmmOO...............
+.dmmd..OO..............
+..dd....OO.............
+.........OO............
+..........OO...........
+...........OO..........
+............OO.........
+.............OO........
+..............OO.......
+...............OO......
+................OO.....
+.................OO....
+..................OO...
+...................OO..
+....................OO.
+.....................oo
 
 [part head]
 ..dddddddd..
@@ -48,9 +55,13 @@ ddddddddddDD
 .DDDDDDDDDD.
 ..dDdDdDdD..
 
+[part fist]
+MM
+Mm
+
 [frame base]
 legs 12 26
-item 5 14
-fist 8 21
 body 11 21
+item 3 3
 head 10 11
+fist 22 22

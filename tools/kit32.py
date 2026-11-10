@@ -118,7 +118,8 @@ HALO = "..YYYY..\n.YYYYYY.\n..YYYY.."
 # cells marked '+' (the grip), so the same grid works in every pose and as a loose item icon.
 SWORD = ".M..\n.Mm.\n.Mm.\n.Mm.\n.Mm.\n.Mm.\n.Mm.\n.Md.\nGGgg\n.++.\n.++.\n.gg."
 DAGGER = ".M..\n.Mm.\n.Md.\nGGgg\n.++.\n.++.\n.gg."
-AXE = "..MMM..\n.MMMMm.\n.MMmOod\n..mmOo.\n....Oo.\n....Oo.\n....Oo.\n....++.\n....++.\n....Oo.\n....oo."
+# double-bitted great axe: a crescent blade on each side of the haft, lit edge on the left
+AXE = ".....Gg.....\nWM...Mm...md\nWMM..Mm..mmd\nWMMMMMmmmmmd\nWMMMMGgmmmmd\nWMMMMMmmmmmd\nWMM..Oo..mmd\nWM...Oo...md\n.....Oo.....\n.....Oo.....\n.....++.....\n.....++.....\n.....Oo.....\n.....oo....."
 SPEAR = "..M.\n.MMm\n.Mm.\n.Od.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\n.++.\n.++.\n.Oo.\n.Oo.\n.oo."
 WAND = ".Y..\nYRY.\n.Y..\n.Oo.\n.Oo.\n.++.\n.++.\n.oo."
 HAMMER = "mMMMMd\nmMMMMd\nmmmmdd\n..Oo..\n..Oo..\n..Oo..\n..++..\n..++..\n..Oo..\n..oo.."
@@ -479,7 +480,7 @@ POSES = {
 }
 POSES["shoulder"] = POSES["raise"]
 POSES["overhead"] = POSES["raise"]
-FORCED_POSE = {"bow": "guard", "lute": "guard", "bag": "rest", "lantern": "rest"}  # things held only one way
+FORCED_POSE = {"bow": "guard", "lute": "guard", "bag": "rest", "lantern": "rest", "axe": "raise"}  # things held only one way
 FIST = "SS\nSs"
 
 
@@ -501,7 +502,7 @@ def placed(rows, grip, hand, margin=3):
     x, y = hand[0] - grip[0], hand[1] - grip[1]
     w, h = len(rows[0]), len(rows)
     dx = max(0, margin - x) - max(0, x + w - (32 - margin))
-    dy = max(0, margin + 1 - y) - max(0, y + h - (32 - margin))
+    dy = max(0, margin - y) - max(0, y + h - (32 - margin))
     return (x + dx, y + dy), (hand[0] + dx, hand[1] + dy)
 
 
@@ -539,8 +540,10 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
     sway = [(0, 0), (-1, 0), (0, -1), (1, 0), (0, -1)]
     held = None
     if back:
-        transform, hand, side = POSES[FORCED_POSE.get(back, pose)]
-        rows, grip = grip_weapon(WEAPONS[back], transform, (cm, sm), HANDLE.get(back, "n"))
+        pose_name = FORCED_POSE.get(back, pose)
+        pose_name = "raise" if pose_name in ("shoulder", "overhead") else pose_name
+        grid, transform, hand, side = SPECIAL.get((back, pose_name), (WEAPONS[back], *POSES[pose_name]))
+        rows, grip = grip_weapon(grid, transform, (cm, sm), HANDLE.get(back, "n"))
         pos, hand = placed(rows, grip, hand)
         held = (rows, pos, hand, side)
         if side == "back":
@@ -570,6 +573,40 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
     anims = {"walk": [("walk_0", 150), ("walk_1", 150), ("walk_2", 150), ("walk_3", 150)]}
     return Recipe(meta=meta(aid, title), layers=layers, frames=frames, anims=anims)
 
+
+# Hand-drawn upper blade of a 45-degree double axe (head up and to the right of its haft); the lower blade is its
+# reflection across the haft. Coordinates are (x, y) before shifting.
+UPPER = {(6, 0): "W", (7, 0): "M", (5, 1): "W", (6, 1): "M", (7, 1): "M", (8, 1): "M",
+         (4, 2): "W", (5, 2): "M", (6, 2): "M", (7, 2): "M", (8, 2): "M",
+         (4, 3): "W", (5, 3): "M", (6, 3): "M", (7, 3): "M", (8, 3): "M",
+         (5, 4): "W", (6, 4): "M", (7, 4): "M", (6, 5): "M"}
+LOWER_KEY = {"W": "d", "M": "m"}
+
+
+def diagonal_axe(tail_y=21, grip_from_tail=1, mirror=True):
+    """Great axe carried on the shoulder at 45 degrees: head up and back over the shoulder, grip at the front fist."""
+    cells = dict(UPPER)
+    for (x, y), k in UPPER.items():
+        cells[(13 - y, 12 - x)] = LOWER_KEY[k]
+    cells[(9, 3)] = "G"; cells[(10, 3)] = "g"
+    for y in range(4, tail_y + 1):
+        for x in (12 - y, 13 - y):
+            cells[(x, y)] = "o" if y == tail_y else "O"
+    for y in (tail_y - grip_from_tail - 1, tail_y - grip_from_tail):
+        for x in (12 - y, 13 - y):
+            cells[(x, y)] = "+"
+    xs = [x for x, _ in cells]; ys = [y for _, y in cells]
+    x0, y0, w, h = min(xs), min(ys), max(xs) - min(xs) + 1, max(ys) - min(ys) + 1
+    grid = [["."] * w for _ in range(h)]
+    for (x, y), k in cells.items():
+        grid[y - y0][(w - 1 - (x - x0)) if mirror else (x - x0)] = k
+    return ["".join(r) for r in grid]
+
+
+# Every character carries the great axe diagonally on the shoulder: the front fist holds the haft at the hip, the haft runs
+# behind the head and the double head shows above and behind it.
+DIAG_AXE = "\n".join(diagonal_axe())
+SPECIAL = {("axe", "raise"): (DIAG_AXE, None, FRONT_HAND, "mid")}
 
 WEAPONS = {"sword": SWORD, "dagger": DAGGER, "axe": AXE, "spear": SPEAR, "wand": WAND, "hammer": HAMMER,
            "staff": STAFF, "bow": BOW, "lute": LUTE, "bag": BAG, "lantern": LANTERN_HELD,
@@ -633,12 +670,19 @@ def skeleton(aid, title, tones="Mmd", held=None):
               layer("head", recolor(SKELETON_HEAD, cm), 9, 11)]
     base = [("legs", 0, 0), ("body", 0, 0), ("head", 0, 0)]
     if held:
-        transform, hand, _ = POSES[FORCED_POSE.get(held, "rest")]
-        rows, grip = grip_weapon(WEAPONS[held], transform, (("S", "M"), ("B", "m"), ("b", "d")), HANDLE.get(held, "n"))
-        pos, hand = placed(rows, grip, (hand[0], hand[1] - 1))
-        side = 1 if hand[0] < 16 else len(layers)
-        layers[side:side] = [layer("item", rows, *pos), layer("fist", ["MM", "Mm"], *hand)]
-        base[side:side] = [("item", 0, 0), ("fist", 0, 0)]
+        pose_name = FORCED_POSE.get(held, "rest")
+        grid, transform, hand, side = SPECIAL.get((held, pose_name), (WEAPONS[held], *POSES[pose_name]))
+        rows, grip = grip_weapon(grid, transform, (("S", "M"), ("B", "m"), ("b", "d")), HANDLE.get(held, "n"))
+        pos, hand = placed(rows, grip, (hand[0] - (1 if hand[0] > 16 else 0), hand[1] - 1))
+        if side == "mid":  # weapon between body and skull, fist in front of everything
+            layers[2:2] = [layer("item", rows, *pos)]
+            base[2:2] = [("item", 0, 0)]
+            layers.append(layer("fist", ["MM", "Mm"], *hand))
+            base.append(("fist", 0, 0))
+        else:
+            at = 1 if side == "back" else len(layers)
+            layers[at:at] = [layer("item", rows, *pos), layer("fist", ["MM", "Mm"], *hand)]
+            base[at:at] = [("item", 0, 0), ("fist", 0, 0)]
     return Recipe(meta=meta(aid, title), layers=layers, frames={"base": base})
 
 
@@ -851,7 +895,7 @@ spec("boots", "가죽 장화.", lambda: item("boots", "Leather boots", BOOTS))
 spec("chestplate", "강철 흉갑.", lambda: item("chestplate", "Steel chestplate", CHESTPLATE))
 spec("helmet_item", "강철 투구.", lambda: item("helmet_item", "Steel helmet", HELMET_ITEM))
 spec("sword_item", "장검. 바닥에 놓인 아이템 아이콘.", lambda: item("sword_item", "Longsword (item)", SWORD, bottom=26))
-spec("axe_item", "전투 도끼.", lambda: item("axe_item", "Battle axe (item)", AXE, bottom=26))
+spec("axe_item", "쌍날 전투 도끼.", lambda: item("axe_item", "Double-bladed battle axe (item)", AXE, bottom=26))
 spec("staff_item", "수정 지팡이.", lambda: item("staff_item", "Crystal staff (item)", STAFF, bottom=28))
 spec("bow_item", "장궁.", lambda: item("bow_item", "Longbow (item)", BOW, bottom=26))
 spec("wand_item", "마법봉.", lambda: item("wand_item", "Wand (item)", WAND, bottom=24))

@@ -2579,7 +2579,7 @@
     },
     {
       "id": "axe_item",
-      "title": "Battle axe (item)",
+      "title": "Double-bladed battle axe (item)",
       "dir": "dist/axe_item",
       "size": {
         "w": 32,
@@ -6623,7 +6623,7 @@
     },
     {
       "id": "berserker",
-      "title": "Berserker, axe raised",
+      "title": "Berserker with great axe",
       "dir": "dist/berserker",
       "size": {
         "w": 32,

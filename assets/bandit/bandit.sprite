@@ -46,6 +46,30 @@ NNNNGgNNNn
 RRRRRRRRrr
 .RRRRRRRr.
 
+[part held_item]
+......MW...............
+.....MMMW..............
+.....MMMMW.............
+...gGMMMMW.............
+.mmmOOMMW..............
+mmmmmOOM...............
+dmmmmmOO...............
+.dmmd..OO..............
+..dd....OO.............
+.........OO............
+..........OO...........
+...........OO..........
+............OO.........
+.............OO........
+..............OO.......
+...............OO......
+................OO.....
+.................OO....
+..................OO...
+...................OO..
+....................OO.
+.....................oo
+
 [part head]
 .......R....R...
 ......RR...RR...
@@ -63,15 +87,6 @@ RRRRRRRRRRRRRRRR
 ....rsSSSSSSSs..
 ......sSSSSs....
 
-[part held_item]
-oO.........
-ooOO...mMM.
-..OOOO.mMM.
-....ooOOmMM
-......ooOMM
-........omM
-........d..
-
 [part front_hand]
 SS
 Ss
@@ -79,37 +94,37 @@ Ss
 [frame base]
 legs_stand 13 26
 body 11 20
+held_item 3 3
 head 8 6
-held_item 18 21
-front_hand 20 22
+front_hand 22 22
 
 [frame walk_0]
 legs_near_fwd 12 26
 body 11 20
+held_item 3 3
 head 8 6
-held_item 18 21
-front_hand 20 22
+front_hand 22 22
 
 [frame walk_1]
 legs_near_support 13 25
 body 11 19
+held_item 3 2
 head 8 5
-held_item 18 20
-front_hand 20 21
+front_hand 22 21
 
 [frame walk_2]
 legs_far_fwd 12 26
 body 11 20
+held_item 3 3
 head 8 6
-held_item 18 21
-front_hand 20 22
+front_hand 22 22
 
 [frame walk_3]
 legs_far_support 14 25
 body 11 19
+held_item 3 2
 head 8 5
-held_item 18 20
-front_hand 20 21
+front_hand 22 21
 
 [anim walk]
 walk_0 150

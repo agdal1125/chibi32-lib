@@ -13,10 +13,10 @@
 | `archer_aim` | Archer, aiming | 활을 앞으로 겨눈 궁수. |
 | `archer_f` | Elf archer | 엘프 궁수. 초록 망토와 긴 활, 금발 머리. |
 | `assassin` | Assassin, dagger low | 암살자. 단검을 거꾸로 낮게 든 검은 후드. |
-| `bandit` | Bandit | 산적. 도끼를 낮게 든 붉은 두건. |
+| `bandit` | Bandit | 산적. 붉은 두건, 어깨에 비스듬히 멘 쌍날 도끼. |
 | `barbarian` | Barbarian with great axe | 야만전사. 붉은 머리, 가죽 옷, 커다란 도끼. |
 | `bard` | Bard with lute | 음유시인. 분홍 머리, 보라 옷, 류트를 들고 노래한다. |
-| `berserker` | Berserker, axe raised | 도끼를 치켜든 광전사. 붉은 머리와 수염. |
+| `berserker` | Berserker with great axe | 쌍날 대도끼를 어깨에 비스듬히 멘 광전사. 붉은 머리와 수염. |
 | `blacksmith` | Blacksmith with hammer | 대장장이. 검은 머리, 갈색 앞치마, 망치. |
 | `boy` | Boy | 소년. 검은 머리, 하늘색 옷, 빈손. |
 | `child` | Child adventurer | 꼬마 모험가. 주황 머리, 나무 검 대신 단검. |
@@ -48,18 +48,18 @@
 | `knight_thrust` | Knight, thrusting | 앞으로 검을 찌르는 기사. 방패는 위로 들었다. |
 | `lancer_thrust` | Lancer, thrusting | 창을 수평으로 내지르는 창기병. |
 | `lantern_keeper` | Lantern keeper | 등불지기. 밤길을 밝히는 노인, 손에 등불. |
-| `lumberjack` | Lumberjack | 나무꾼. 도끼를 들어 올린 수염 난 거한. |
+| `lumberjack` | Lumberjack | 나무꾼. 쌍날 도끼를 어깨에 비스듬히 멘 수염 난 거한. |
 | `mage_cast` | Mage, casting | 지팡이를 앞으로 내밀고 주문을 외는 마법사. |
 | `mage_f` | Female mage with crystal staff | 여성 마법사. 긴 보라색 머리에 마녀 모자, 푸른 로브, 수정 지팡이를 들었다. |
 | `merchant` | Merchant with travel bag | 상인. 주황 옷에 커다란 짐 가방, 금화를 좋아한다. |
-| `miner` | Miner | 광부. 곡괭이(도끼)를 허리춤에 들었다, 투구. |
+| `miner` | Miner | 광부. 쌍날 도끼를 어깨에 비스듬히 멨다, 투구. |
 | `monk` | Monk | 수도승. 주황 승복, 맨손 격투가. |
 | `monk_staff` | Monk with staff | 봉술 수도승. 지팡이를 수평으로 앞에. |
 | `necromancer` | Necromancer | 강령술사. 창백한 피부, 검은 후드 로브, 해골 지팡이. |
 | `ninja` | Ninja, striking | 닌자. 단검을 앞으로 찌르는 자세. |
 | `nun` | Nun | 수녀. 검은 후드에 흰 띠, 책을 품에. |
 | `orc` | Orc warrior | 오크 전사. 초록 피부, 검은 머리, 큰 도끼. |
-| `orc_chief` | Orc chief | 오크 족장. 도끼를 머리 위로, 금관. |
+| `orc_chief` | Orc chief | 오크 족장. 쌍날 대도끼를 어깨에 비스듬히 멨다, 금관. |
 | `paladin_f` | Female paladin | 여성 성기사. 흰 갑옷과 황금 장식, 검과 방패. |
 | `paladin_m` | Paladin with hammer | 남성 성기사. 흰 갑옷, 망치를 앞으로, 방패. |
 | `pirate` | Pirate | 해적. 붉은 두건, 검은 옷, 커틀러스. |
@@ -176,7 +176,7 @@
 | `amulet` | Crystal amulet | 수정 목걸이. |
 | `apple` | Apple | 사과. 체력을 조금 회복한다. |
 | `arrow` | Arrow | 화살. 궁수의 탄약. |
-| `axe_item` | Battle axe (item) | 전투 도끼. |
+| `axe_item` | Double-bladed battle axe (item) | 쌍날 전투 도끼. |
 | `bomb` | Bomb | 폭탄. 심지에 불이 붙었다. |
 | `bone` | Bone | 뼈. 해골이 남긴 것. |
 | `boots` | Leather boots | 가죽 장화. |

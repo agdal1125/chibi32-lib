@@ -1,23 +1,26 @@
 # generated from assets/axe_item/recipe.py by tools/draw.py; edit the recipe, not this file
 [meta]
 id = axe_item
-title = Battle axe (item)
+title = Double-bladed battle axe (item)
 size = 32 32
 anchor = 16 26
 palette = ../../styles/chibi32/palette.txt
 
 [part item]
-.MMM..
-MMMMm.
-MMmOod
-.mmOo.
-...Oo.
-...Oo.
-...Oo.
-...nn.
-...nn.
-...Oo.
-...oo.
+.....Gg.....
+WM...Mm...md
+WMM..Mm..mmd
+WMMMMMmmmmmd
+WMMMMGgmmmmd
+WMMMMMmmmmmd
+WMM..Oo..mmd
+WM...Oo...md
+.....Oo.....
+.....Oo.....
+.....nn.....
+.....nn.....
+.....Oo.....
+.....oo.....
 
 [frame base]
-item 13 16
+item 10 13
