@@ -1,0 +1,40 @@
+{
+  "id": "smoke",
+  "animation": "loop",
+  "image": "smoke_loop_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 24
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/smoke/smoke.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "smoke_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 200
+    },
+    {
+      "name": "alt",
+      "file": "smoke_alt.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 200
+    }
+  ]
+}

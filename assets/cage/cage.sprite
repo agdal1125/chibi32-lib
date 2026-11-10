@@ -1,0 +1,22 @@
+# generated from assets/cage/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cage
+title = Cage
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.DDDDDDDDDD.
+DDDDDDDDDDDD
+DD.D.DD.D.DD
+DD.D.DD.D.DD
+DD.D.DD.D.DD
+DD.D.DD.D.DD
+DD.D.DD.D.DD
+DD.D.DD.D.DD
+DDDDDDDDDDDD
+DDDDDDDDDDDD
+
+[frame base]
+item 10 19

@@ -1,0 +1,21 @@
+# generated from assets/bomb/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bomb
+title = Bomb
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....Oo.Y
+....Oo..
+..DDDD..
+.DDMDDD.
+DDMDDDDD
+DDDDDDDD
+DDDDDDDD
+.DDDDDD.
+..DDDD..
+
+[frame base]
+item 12 16

@@ -1,0 +1,41 @@
+# generated from assets/slime_ice/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = slime_ice
+title = Ice slime
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....CCCCCC.....
+...CCCCCCCCCC...
+..CMMCCCCCCCCC..
+.CMMCCCCCCCCCCC.
+.CMCCCCCCCCCCCC.
+CCCCCCKCCCKCCCCC
+CCCCCCKCCCKCCCCC
+CCCCCpCCCCCpCCCC
+CCCCCCCCCCCCCCCC
+.CCCCCCCCCCCCCC.
+..cCCCCCCCCCCc..
+
+[part slime_squash]
+......CCCCCC......
+...CCCCCCCCCCCC...
+.CCMMCCCCCCCCCCCC.
+CCMCCCCCCCCCCCCCCC
+CCCCCCCKCCCKCCCCCC
+CCCCCCCKCCCKCCCCCC
+CCCCCCpCCCCCpCCCCC
+.CCCCCCCCCCCCCCCC.
+..cCCCCCCCCCCCCc..
+
+[frame base]
+slime_mid 8 19
+
+[frame squash]
+slime_squash 7 21
+
+[anim idle]
+base 260
+squash 160

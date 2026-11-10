@@ -1,0 +1,19 @@
+# generated from assets/cart/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cart
+title = Cart
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.OOOOOOOOOOo.
+OOOOOOOOOOOOo
+OoOOOOOOOOoOo
+ooooooooooooo
+.DDD....DDD..
+DDMDD..DDMDD.
+.DDD....DDD..
+
+[frame base]
+item 9 22

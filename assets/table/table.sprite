@@ -1,0 +1,18 @@
+# generated from assets/table/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = table
+title = Table
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOOOOOo
+ooooooooooooooo.
+.Oo..........Oo.
+.Oo..........Oo.
+.Oo..........Oo.
+.oo..........oo.
+
+[frame base]
+item 8 23

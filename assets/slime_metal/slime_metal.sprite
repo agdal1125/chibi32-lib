@@ -1,0 +1,41 @@
+# generated from assets/slime_metal/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = slime_metal
+title = Metal slime
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....MMMMMM.....
+...MMMMMMMMMM...
+..MMMMMMMMMMMm..
+.MMMMMMMMMMMMmm.
+.MMMMMMMMMMMMmm.
+MMMMMMKMMMKMMmmm
+MMMMMMKMMMKMMmmm
+MMMMMpMMMMMpMmmm
+mMMMMMMMMMMMMmmm
+.mMMMMMMMMMMmmm.
+..dmmmmmmmmmmd..
+
+[part slime_squash]
+......MMMMMM......
+...MMMMMMMMMMMM...
+.MMMMMMMMMMMMMMmm.
+MMMMMMMMMMMMMMMmmm
+MMMMMMMKMMMKMMMmmm
+MMMMMMMKMMMKMMMmmm
+MMMMMMpMMMMMpMMmmm
+.mMMMMMMMMMMMMmmm.
+..dmmmmmmmmmmmmd..
+
+[frame base]
+slime_mid 8 19
+
+[frame squash]
+slime_squash 7 21
+
+[anim idle]
+base 260
+squash 160

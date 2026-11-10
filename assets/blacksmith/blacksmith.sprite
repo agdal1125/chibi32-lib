@@ -1,0 +1,112 @@
+# generated from assets/blacksmith/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = blacksmith
+title = Blacksmith with hammer
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+oN..oN.
+oN..oN.
+DDD.DDD
+ddd.ddd
+
+[part legs_near_fwd]
+..NNoo...
+.NN...oo.
+ddd...DDD
+dd....ddd
+
+[part legs_near_support]
+.NNoo.
+.NNoo.
+dddoo.
+dd.DDD
+...ddd
+
+[part legs_far_fwd]
+..ooNN...
+.oo...NN.
+DDD...ddd
+dd....ddd
+
+[part legs_far_support]
+NNoo.
+NNoo.
+NNDDD
+NNddd
+ddd..
+
+[part back_item]
+mMMMMd
+mMMMMd
+mmmmdd
+..Oo..
+..Oo..
+..Oo..
+..Oo..
+..Oo..
+SSoooo
+.gNNNN
+
+[part body]
+.OOoooooN.
+OOooooooNN
+OoooooooNN
+DDDDGgDDDd
+OoooooooNN
+.oooooooN.
+
+[part head]
+.......d....d...
+......dd...dd...
+...d.ddd..ddd...
+...ddddddddddd..
+.dddddddddddddd.
+ddddddddddddddDD
+.ddddddddddddDDD
+..DdddDdddDSDDD.
+.dDDdDKSSSKSSSK.
+..KDDKSSSSSSSSS.
+..KKDSSSSKSSSKS.
+...KKSSSSKSSSKS.
+...KKsSSpSSSSpS.
+....KsSSSSSSSs..
+......sSSSSs....
+
+[frame base]
+legs_stand 13 26
+back_item 4 14
+body 11 20
+head 8 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+back_item 3 14
+body 11 20
+head 8 6
+
+[frame walk_1]
+legs_near_support 13 25
+back_item 4 13
+body 11 19
+head 8 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+back_item 5 14
+body 11 20
+head 8 6
+
+[frame walk_3]
+legs_far_support 14 25
+back_item 4 13
+body 11 19
+head 8 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

@@ -1,0 +1,22 @@
+# generated from assets/ivy_wall/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ivy_wall
+title = Ivy wall
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mMMMMMMMMMMMMd
+mMEEMMMMMEMMMd
+mMEEEMMMEEEMMd
+mMMEEEMEEEEMMd
+mMMMEEEEEEMMMd
+mMMMMEEEMMMMMd
+mMMMMEEMMMMMMd
+mMMMMEEEMMMMMd
+mmmmmEEmmmmmmd
+.....ee.......
+
+[frame base]
+item 9 19

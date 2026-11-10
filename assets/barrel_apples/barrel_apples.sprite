@@ -1,0 +1,22 @@
+# generated from assets/barrel_apples/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = barrel_apples
+title = Apple barrel
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..RR.RRR..
+.RRRRRRRR.
+mmmmmmmmmm
+OOOOOOOOoo
+OOOOOOOOoo
+mmmmmmmmmm
+OOOOOOOOoo
+OOOOOOOOoo
+mmmmmmmmmm
+.oooooooo.
+
+[frame base]
+item 11 19

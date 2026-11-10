@@ -1,0 +1,21 @@
+# generated from assets/stone_circle/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = stone_circle
+title = Stone circle
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...mMd....mMd..
+...mMd....mMd..
+...mMd....mMd..
+mMd.........mMd
+mMd.........mMd
+mMd.........mMd
+...mMd....mMd..
+...mMd....mMd..
+...dddd...dddd.
+
+[frame base]
+item 8 20

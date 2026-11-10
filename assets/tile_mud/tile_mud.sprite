@@ -1,0 +1,45 @@
+# generated from assets/tile_mud/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_mud
+title = Mud tile
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+ooooooooooooooonoooooooooooooooo
+oooooooooooooooooooooooooooooooo
+oooooooooooooonooooooooooooonooo
+oooooooooooooooooooooooooooooooo
+oooooooooonoooonooooooooooonoooo
+onoooooooooooooooooooooooooooooo
+ooooooooooooooonoooooooooooooooo
+oooonnoooooooooooooonooooooooooo
+oooooooooooooooooooooooooooooooo
+onoooooooooooooooooooooooooooooo
+ooooooooooonoooooooooooooooooooo
+ooooooooonoooooooooooooooooooono
+oooooooooooooooooooooooooooooooo
+oooooooooooonooooooooooooooooono
+oooonoooonoooooooooooooooooooooo
+oooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooonooooooo
+oooooooooooooooooooooooooonooooo
+oooooooooooooooooooooonooooooooo
+oooooooooooooooooooooooooooooooo
+oooooooooononooooooooonooooooooo
+oooooooooooooooooooooooooooooooo
+noooooonoooooooooonooooooooooooo
+oooooooooooooooooooooooooooonono
+oooooooooooooooooooooooooooooooo
+ooooooooonnoooooooooooooooonoooo
+oooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooo
+onoooooooooooooooooooooooooooooo
+oonooooooooooooooooooooooooooooo
+nooooooooonooooooooonnooonoooooo
+
+[frame base]
+tile 0 0 nooutline

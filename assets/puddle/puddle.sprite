@@ -1,0 +1,18 @@
+# generated from assets/puddle/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = puddle
+title = Puddle
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...LLLL...
+.LLCCCLLL.
+LCCCCCCCLL
+LCCCCCCCLB
+.LLCCCLLB.
+...BBBB...
+
+[frame base]
+item 11 23

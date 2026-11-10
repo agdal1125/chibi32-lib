@@ -1,0 +1,113 @@
+# generated from assets/swordsman_raise/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = swordsman_raise
+title = Swordsman, sword raised
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+Rr..Rr.
+Rr..Rr.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..rrRR...
+.rr...RR.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.rrRR.
+.rrRR.
+nnnRR.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..RRrr...
+.RR...rr.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+rrRR.
+rrRR.
+rrNNN
+rrnnn
+nnn..
+
+[part body]
+.RRRRRRRr.
+RRRRRRRRrr
+RRRRRRRRrr
+NNNNGgNNNn
+RRRRRRRRrr
+.RRRRRRRr.
+
+[part head]
+.......O....O...
+......OO...OO...
+...O.OOO..OOO...
+...OOOOOOOOOOO..
+.OOOOOOOOOOOOOO.
+OOOOOOOOOOOOOOoo
+.OOOOOOOOOOOOooo
+..oOOOoOOOoSooo.
+.OooOoNSSSNSSSN.
+..NooNSSSSSSSSS.
+..NNoSSSSKSSSKS.
+...NNSSSSKSSSKS.
+...NNsSSpSSSSpS.
+....NsSSSSSSSs..
+......sSSSSs....
+
+[part held_item]
+.....M
+....Mm
+....Mm
+...Mm.
+...Mm.
+..Mm..
+..Mm..
+.Md...
+GGgg..
+SSRRRR
+.grrrr
+
+[frame base]
+legs_stand 13 26
+body 11 20
+head 8 6
+held_item 5 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+body 11 20
+head 8 6
+held_item 5 6
+
+[frame walk_1]
+legs_near_support 13 25
+body 11 19
+head 8 5
+held_item 5 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+body 11 20
+head 8 6
+held_item 5 6
+
+[frame walk_3]
+legs_far_support 14 25
+body 11 19
+head 8 5
+held_item 5 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

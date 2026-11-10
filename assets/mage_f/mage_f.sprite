@@ -1,0 +1,152 @@
+# generated from assets/mage_f/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mage_f
+title = Female mage with crystal staff
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+Bb..Bb.
+Bb..Bb.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..bbBB...
+.bb...BB.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.bbBB.
+.bbBB.
+nnnBB.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..BBbb...
+.BB...bb.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+bbBB.
+bbBB.
+bbNNN
+bbnnn
+nnn..
+
+[part hair_back]
+.VVVVVVVVVVVV.
+VVVVVVvVVVVVVV
+VVVVVvvVVVVVVV
+.VVVVvvVVVVVV.
+.vVVVvvVVVVVv.
+.vvVVvvVVVVvv.
+..vvvvvvvvvv..
+
+[part back_item]
+.GYg.
+GCCGg
+GCcGg
+.Ggg.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+
+[part body]
+.LLBBBBBb...
+LLBBBBBBbb..
+LBBBBBBBbb..
+NNNNGgNNNn..
+LBBBBBBBbb..
+LBBBBBBBbb..
+LLBBBBBBbbb.
+LLBBBBBBbbbb
+.bbbbbbbbbb.
+
+[part head]
+.......V....V...
+......VV...VV...
+...V.VVV..VVV...
+...VVVVVVVVVVV..
+.VVVVVVVVVVVVVV.
+VVVVVVVVVVVVVVVV
+.VVVVVVVVVVVVVVV
+..VVVVVVVVVSVVV.
+.VVVVVvSSSvSSSv.
+..vVVvSSSSSSSSS.
+..vvVSSSSKSSSKS.
+...vvSSSSKSSSKS.
+...vvsSSpSSSSpS.
+....vsSSSSSSSs..
+......sSSSSs....
+
+[part hat]
+......V.........
+.....VVv........
+....VVVv........
+....VVVvv.......
+...VVVVvv.......
+...VVVGGvv......
+..VVVVVVvvv.....
+VVVVVVVVVvvvvvvv
+
+[frame base]
+legs_stand 13 26
+hair_back 9 17
+back_item 5 5
+body 11 20
+head 8 6
+hat 6 3
+
+[frame walk_0]
+legs_near_fwd 12 26
+hair_back 9 17
+back_item 4 5
+body 11 20
+head 8 6
+hat 6 3
+
+[frame walk_1]
+legs_near_support 13 25
+hair_back 9 16
+back_item 5 4
+body 11 19
+head 8 5
+hat 6 2
+
+[frame walk_2]
+legs_far_fwd 12 26
+hair_back 9 17
+back_item 6 5
+body 11 20
+head 8 6
+hat 6 3
+
+[frame walk_3]
+legs_far_support 14 25
+hair_back 9 16
+back_item 5 4
+body 11 19
+head 8 5
+hat 6 2
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

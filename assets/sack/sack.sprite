@@ -1,0 +1,20 @@
+# generated from assets/sack/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sack
+title = Sack
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...Nn...
+..NNNn..
+.NNNNNn.
+NNNNNNNn
+NNNNNNNn
+NNNNNNNn
+.NNNNNn.
+..nnnnn.
+
+[frame base]
+item 12 21

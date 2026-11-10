@@ -1,0 +1,21 @@
+# generated from assets/crab/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = crab
+title = Crab
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.R........R.
+RRr......RRr
+RRr......RRr
+.Rr.RRRR.Rr.
+..RRRRRRRR..
+..RRKRRKRRr.
+.RRRRRRRRRRr
+..rRRRRRRrr.
+.Rr.Rr.Rr.Rr
+
+[frame base]
+item 10 20

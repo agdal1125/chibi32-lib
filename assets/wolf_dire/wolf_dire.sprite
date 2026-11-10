@@ -1,0 +1,23 @@
+# generated from assets/wolf_dire/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = wolf_dire
+title = Dire wolf
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.......DDK......
+......DDDK..D...
+.DDDDDDDDDDDDK..
+DDDDDDDDDDDKDKK.
+DDDDDDDDDDDDKKK.
+DDDDDDDDDDDDKKMm
+KDDDDDDDDDDKKKK.
+.KKDDDDDDDKKK...
+..DK.DK..DK.DK..
+..DK.DK..DK.DK..
+..KK.KK..KK.KK..
+
+[frame base]
+item 8 18

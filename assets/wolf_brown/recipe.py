@@ -1,0 +1,7 @@
+"""wolf_brown: 갈색 늑대.
+Generated from tools/kit32.py; edit the spec there."""
+from kit32 import make
+
+
+def build():
+    return make("wolf_brown")

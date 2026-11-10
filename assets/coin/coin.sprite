@@ -1,0 +1,63 @@
+[meta]
+id = coin
+title = Spinning gold coin
+size = 32 32
+anchor = 16 21
+palette = ../../styles/chibi32/palette.txt
+
+[part face]
+....GGGG....
+..GGYYGGGg..
+.GYYGGGGGGg.
+.GYGggggGGg.
+GYGgGGGGgGGg
+GYGgGYGGgGgg
+GGGgGGGGgGgg
+GGGgGGGGgGgg
+.GGGggggGgg.
+.GGGGGGGGgg.
+..gGGGGGgg..
+....gggg....
+
+[part three]
+..GGGG..
+.GYGGGg.
+GYGGGGgg
+GYGgGGgg
+GYGgGGgg
+GYGgGGgg
+GGGgGGgg
+GGGgGGgg
+GGGgGggg
+GGGGGggg
+.gGGGgg.
+..gggg..
+
+[part edge]
+.GG.
+GYgg
+GYgg
+GYgg
+GYgg
+GYgg
+GYgg
+GYgg
+GYgg
+GYgg
+Gggg
+.gg.
+
+[frame base]
+face 10 10
+
+[frame three]
+three 12 10
+
+[frame edge]
+edge 14 10
+
+[anim spin]
+base 140
+three 90
+edge 90
+three 90

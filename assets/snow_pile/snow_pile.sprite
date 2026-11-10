@@ -1,0 +1,18 @@
+# generated from assets/snow_pile/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = snow_pile
+title = Snow pile
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....WWWW.....
+...WWWWWWWW...
+..WWWWWWWWWw..
+.WWWWWWWWWWww.
+WWWWWWWWWWWwww
+.wwwwwwwwwwww.
+
+[frame base]
+item 9 23

@@ -1,0 +1,18 @@
+# generated from assets/hitching_post/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = hitching_post
+title = Hitching post
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+Oo.........Oo
+OOOOOOOOOOOOo
+Oo.........Oo
+Oo.........Oo
+Oo.........Oo
+oo.........oo
+
+[frame base]
+item 9 23

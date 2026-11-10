@@ -1,0 +1,25 @@
+# generated from assets/bookshelf/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bookshelf
+title = Bookshelf
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOOOOo
+ORRLLGGVVRRLLOo
+ORRLLGGVVRRLLOo
+ORRLLGGVVRRLLOo
+OOOOOOOOOOOOOOo
+OLLRRVVGGLLRROo
+OLLRRVVGGLLRROo
+OLLRRVVGGLLRROo
+OOOOOOOOOOOOOOo
+OGGVVLLRRGGVVOo
+OGGVVLLRRGGVVOo
+OGGVVLLRRGGVVOo
+ooooooooooooooo
+
+[frame base]
+item 8 17

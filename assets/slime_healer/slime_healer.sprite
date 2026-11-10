@@ -1,0 +1,48 @@
+# generated from assets/slime_healer/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = slime_healer
+title = Healer slime
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....PPPPPP.....
+...PPPPPPPPPP...
+..PMMPPPPPPPPP..
+.PMMPPPPPPPPPPP.
+.PMPPPPPPPPPPPP.
+PPPPPPKPPPKPPPPP
+PPPPPPKPPPKPPPPP
+PPPPPpPPPPPpPPPP
+PPPPPPPPPPPPPPPP
+.PPPPPPPPPPPPPP.
+..xPPPPPPPPPPx..
+
+[part slime_squash]
+......PPPPPP......
+...PPPPPPPPPPPP...
+.PPMMPPPPPPPPPPPP.
+PPMPPPPPPPPPPPPPPP
+PPPPPPPKPPPKPPPPPP
+PPPPPPPKPPPKPPPPPP
+PPPPPPpPPPPPpPPPPP
+.PPPPPPPPPPPPPPPP.
+..xPPPPPPPPPPPPx..
+
+[part mark]
+.M.
+MMM
+.M.
+
+[frame base]
+slime_mid 8 19
+mark 15 23
+
+[frame squash]
+slime_squash 7 21
+mark 15 25
+
+[anim idle]
+base 260
+squash 160

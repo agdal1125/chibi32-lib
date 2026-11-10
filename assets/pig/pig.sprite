@@ -1,0 +1,19 @@
+# generated from assets/pig/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = pig
+title = Pig
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..........P.P.
+.PPPPPPPPPPPP.
+PPPPPPPPPPKPPx
+PPPPPPPPPPPPxx
+PPPPPPPPPPPPP.
+.PPPPPPPPPPP..
+.Px.Px..Px.Px.
+
+[frame base]
+item 9 22

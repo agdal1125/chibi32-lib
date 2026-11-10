@@ -1,0 +1,19 @@
+# generated from assets/hay_bale/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = hay_bale
+title = Hay bale
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.GGGGGGGGGGGg.
+GGGGGGGGGGGGGg
+GGgggggggggGGg
+GGGGGGGGGGGGGg
+GGgggggggggGGg
+GGGGGGGGGGGGGg
+.ggggggggggg..
+
+[frame base]
+item 9 22

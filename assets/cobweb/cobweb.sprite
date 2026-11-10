@@ -1,0 +1,21 @@
+# generated from assets/cobweb/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cobweb
+title = Cobweb
+size = 32 32
+anchor = 16 20
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+W.......W
+.W..W..W.
+..W.W.W..
+...WWW...
+WWWWWWWWW
+...WWW...
+..W.W.W..
+.W..W..W.
+W.......W
+
+[frame base]
+item 11 12

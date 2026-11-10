@@ -1,0 +1,7 @@
+"""scorpion_black: 검은 전갈.
+Generated from tools/kit32.py; edit the spec there."""
+from kit32 import make
+
+
+def build():
+    return make("scorpion_black")

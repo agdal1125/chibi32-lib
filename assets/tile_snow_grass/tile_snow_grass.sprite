@@ -1,0 +1,45 @@
+# generated from assets/tile_snow_grass/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_snow_grass
+title = Snowy grass
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeWeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeWeeeeW
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeWeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+eeeeeeeeWWWWWWWWWeeeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeWeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeWeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeWeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+WWWWWWWWeWWeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeWe
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeWeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+WWWWWWWWeWeeeeeeWWWWWWWWeeeeWWee
+WWWWWWWWeeeeeeeeWWWWWWWWeeeeeeee
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeeeWeeWWWWWWWWeeeeeeeeWWWWWWWW
+WeeeeeeeWWWWWWWWeeeWeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+WeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+eeeeeeeeWWWWWWWWeeeeeeeeWWWWWWWW
+
+[frame base]
+tile 0 0 nooutline

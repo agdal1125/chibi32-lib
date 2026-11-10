@@ -1,0 +1,20 @@
+# generated from assets/spider_green/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = spider_green
+title = Poison spider
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..q....EEEE....q..
+...q..EEEEEq..q...
+....qEEREEREqq....
+.qqqqEEEEEEEqqqqq.
+q....EEEEEEEqq...q
+.....qEEEEEqq.....
+..qqqq.qqqqq.qqqq.
+.q....q.....q....q
+
+[frame base]
+item 7 21

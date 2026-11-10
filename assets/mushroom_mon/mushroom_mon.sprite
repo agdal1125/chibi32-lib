@@ -1,0 +1,26 @@
+# generated from assets/mushroom_mon/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mushroom_mon
+title = Mushroom monster
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....RRRRRR.....
+...RRRMMRRRRRR..
+..RRRMMRRRRMMRr.
+.RRRRRRRRRRMMRrr
+.RRMMRRRRRRRRRrr
+RRRMMRRRRRRRRrrr
+RRRRRRRRRMMRRrrr
+rrrrrrrrrrrrrrrr
+....SSSSSSSs....
+....SSKSSKSs....
+....SSKSSKSs....
+....SSSSSSSs....
+....SSSSSSSs....
+....sssssssss...
+
+[frame base]
+item 8 15

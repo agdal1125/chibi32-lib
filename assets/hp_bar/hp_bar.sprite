@@ -1,0 +1,16 @@
+# generated from assets/hp_bar/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = hp_bar
+title = HP bar
+size = 32 32
+anchor = 16 18
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+MMMMMMMMMMMMMMMMMMMM
+MRRRRRRRRRRRRRKKKKKM
+MrrrrrrrrrrrrrKKKKKM
+MMMMMMMMMMMMMMMMMMMM
+
+[frame base]
+item 6 15

@@ -1,0 +1,17 @@
+# generated from assets/meat/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = meat
+title = Roast meat
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+RRRRRr....
+RRRRRRr...
+rRRRRRRMmm
+.rRRRRrrMm
+..rrrr..mm
+
+[frame base]
+item 11 20

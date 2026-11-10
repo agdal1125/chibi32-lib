@@ -1,0 +1,25 @@
+# generated from assets/palm/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = palm
+title = Palm tree
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+EEEE......EEEE.
+.EEEEe..EEEEe..
+..EEEEeEEEEe...
+EEEEEEEEEEEEEEe
+.EEEEEEEEEEEEe.
+...EEEqOoEEe...
+..EEe.qOo.EEe..
+.Ee...qOo...Ee.
+......qOo......
+......qOo......
+......qOo......
+.....qOOo......
+.....qOOoo.....
+
+[frame base]
+item 8 17

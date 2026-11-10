@@ -1,0 +1,23 @@
+# generated from assets/vine/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = vine
+title = Vine
+size = 32 32
+anchor = 16 27
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+Ee......
+EEe.....
+.EEe....
+..EEe.E.
+...EEEEe
+....EEe.
+...EEe..
+..EEe...
+.EEe....
+EEe.....
+Ee......
+
+[frame base]
+item 12 17

@@ -1,0 +1,20 @@
+# generated from assets/feather/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = feather
+title = Feather
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......W
+.....WW
+....WWw
+...WWWw
+..WWWw.
+.WWWw..
+WWWw...
+Oo.....
+
+[frame base]
+item 12 17

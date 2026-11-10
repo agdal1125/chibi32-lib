@@ -1,0 +1,122 @@
+# generated from assets/angel/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = angel
+title = Angel
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+wM..wM.
+wM..wM.
+GGG.GGG
+ggg.ggg
+
+[part legs_near_fwd]
+..MMww...
+.MM...ww.
+ggg...GGG
+gg....ggg
+
+[part legs_near_support]
+.MMww.
+.MMww.
+gggww.
+gg.GGG
+...ggg
+
+[part legs_far_fwd]
+..wwMM...
+.ww...MM.
+GGG...ggg
+gg....ggg
+
+[part legs_far_support]
+MMww.
+MMww.
+MMGGG
+MMggg
+ggg..
+
+[part hair_back]
+.GGGGGGGGGGGG.
+GGGGGGgGGGGGGG
+GGGGGggGGGGGGG
+.GGGGggGGGGGG.
+.gGGGggGGGGGg.
+.ggGGggGGGGgg.
+..gggggggggg..
+
+[part body]
+.WWwwwwwM...
+WWwwwwwwMM..
+WwwwwwwwMM..
+GGGGGgGGGg..
+WwwwwwwwMM..
+WwwwwwwwMM..
+WWwwwwwwMMM.
+WWwwwwwwMMMM
+.MMMMMMMMMM.
+
+[part head]
+.......Y....Y...
+......YY...YY...
+...Y.YYY..YYY...
+...YYYYYYYYYYY..
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+.YYYYYYYYYYYYGGG
+..GYYYGYYYGSGGG.
+.YGGYGgSSSgSSSg.
+..gGGgSSSSSSSSS.
+..ggGSSSSKSSSKS.
+...ggSSSSKSSSKS.
+...ggsSSpSSSSpS.
+....gsSSSSSSSs..
+......sSSSSs....
+
+[part hat]
+.YYYY.
+YYYYYY
+.YYYY.
+
+[frame base]
+legs_stand 13 26
+hair_back 9 17
+body 11 20
+head 8 6
+hat 13 3
+
+[frame walk_0]
+legs_near_fwd 12 26
+hair_back 9 17
+body 11 20
+head 8 6
+hat 13 3
+
+[frame walk_1]
+legs_near_support 13 25
+hair_back 9 16
+body 11 19
+head 8 5
+hat 13 2
+
+[frame walk_2]
+legs_far_fwd 12 26
+hair_back 9 17
+body 11 20
+head 8 6
+hat 13 3
+
+[frame walk_3]
+legs_far_support 14 25
+hair_back 9 16
+body 11 19
+head 8 5
+hat 13 2
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

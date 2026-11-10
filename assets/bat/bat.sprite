@@ -1,0 +1,91 @@
+[meta]
+id = bat
+title = Purple cave bat (flying)
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part body]
+.V......v.
+.VV....Vv.
+.VVVVVVVv.
+VVVVVVVVvv
+VVRVVVRVvv
+VVRVVVRVvv
+VVVMVMVvvv
+.VVMvMvvv.
+..vv..vv..
+
+[part wing_mid_l]
+.....VVVV
+..VVVVvvV
+VVVvvvvvv
+Vvvvvvvvv
+v.vv.vvvv
+...v...vv
+
+[part wing_mid_r]
+VVVV.....
+VvvVVVV..
+vvvvvvVVV
+vvvvvvvvV
+vvvv.vv.v
+vv...v...
+
+[part wing_up_l]
+VV......
+.VVV....
+vvVVV...
+.vvvVVV.
+vvvvvvVV
+.vvvvvvV
+..vvvvvV
+....vvvV
+
+[part wing_up_r]
+......VV
+....VVV.
+...VVVvv
+.VVVvvv.
+VVvvvvvv
+Vvvvvvv.
+Vvvvvv..
+Vvvv....
+
+[part wing_down_l]
+....VVV
+..VVvvV
+.VvvvvV
+Vvvvvv.
+vvvvv..
+v.v.v..
+
+[part wing_down_r]
+VVV....
+VvvVV..
+VvvvvV.
+.vvvvvV
+..vvvvv
+..v.v.v
+
+# Wings first, body on top. The body never moves, so the feet stay on y 22 while the wings flap.
+[frame base]
+wing_mid_l 2 16
+wing_mid_r 21 16
+body 11 14
+
+[frame up]
+wing_up_l 3 10
+wing_up_r 21 10
+body 11 14
+
+[frame down]
+wing_down_l 4 17
+wing_down_r 21 17
+body 11 14
+
+[anim fly]
+up 100
+base 100
+down 100
+base 100

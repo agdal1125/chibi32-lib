@@ -1,0 +1,41 @@
+# generated from assets/slime_blue/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = slime_blue
+title = Water slime
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....CCCCCC.....
+...CCCCCCCCCC...
+..CMMCCCCCCCCL..
+.CMMCCCCCCCCCLL.
+.CMCCCCCCCCCCLL.
+CCCCCCKCCCKCCLLL
+CCCCCCKCCCKCCLLL
+CCCCCpCCCCCpCLLL
+LCCCCCCCCCCCCLLL
+.LCCCCCCCCCCLLL.
+..BLLLLLLLLLLB..
+
+[part slime_squash]
+......CCCCCC......
+...CCCCCCCCCCCC...
+.CCMMCCCCCCCCCCLL.
+CCMCCCCCCCCCCCCLLL
+CCCCCCCKCCCKCCCLLL
+CCCCCCCKCCCKCCCLLL
+CCCCCCpCCCCCpCCLLL
+.LCCCCCCCCCCCCLLL.
+..BLLLLLLLLLLLLB..
+
+[frame base]
+slime_mid 8 19
+
+[frame squash]
+slime_squash 7 21
+
+[anim idle]
+base 260
+squash 160

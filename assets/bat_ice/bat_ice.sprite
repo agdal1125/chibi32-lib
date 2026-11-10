@@ -1,0 +1,68 @@
+# generated from assets/bat_ice/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bat_ice
+title = Frost bat
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part body]
+.C......c.
+.CC....Cc.
+.CCCCCCCc.
+CCCCCCCCcc
+CCWCCCWCcc
+CCWCCCWCcc
+CCCMCMCccc
+.CCMcMccc.
+..cc..cc..
+
+[part wl]
+.....CCCC
+..CCCCccC
+CCCcccccc
+Ccccccccc
+c.cc.cccc
+...c...cc
+
+[part wr]
+CCCC.....
+CccCCCC..
+ccccccCCC
+ccccccccC
+cccc.cc.c
+cc...c...
+
+[part ul]
+CC......
+.CCC....
+ccCCC...
+.cccCCC.
+ccccccCC
+.ccccccC
+..cccccC
+....cccC
+
+[part ur]
+......CC
+....CCC.
+...CCCcc
+.CCCccc.
+CCcccccc
+Ccccccc.
+Cccccc..
+Cccc....
+
+[frame base]
+wl 2 16
+wr 21 16
+body 11 14
+
+[frame up]
+ul 3 10
+ur 21 10
+body 11 14
+
+[anim fly]
+base 110
+up 110

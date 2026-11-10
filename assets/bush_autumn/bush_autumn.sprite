@@ -1,0 +1,19 @@
+# generated from assets/bush_autumn/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bush_autumn
+title = Autumn bush
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....AAAA....
+..AAAAAAAA..
+.AAAAAAAAAA.
+AAAAAAAAAAAA
+AAAAAAAAAAAA
+.AAAAAAAAAA.
+..AAAAAAAA..
+
+[frame base]
+item 10 22

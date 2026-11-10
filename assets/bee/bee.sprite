@@ -1,0 +1,22 @@
+# generated from assets/bee/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bee
+title = Giant bee
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..WW..WW..
+.WwW..WwW.
+..WYYYYW..
+.YYKYYKYY.
+YYYYYYYYYG
+YDDYYDDYYG
+YYYYYYYYYG
+.DDYYDDYG.
+..YYYYYG..
+....YG....
+
+[frame base]
+item 11 17

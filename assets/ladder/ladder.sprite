@@ -1,0 +1,24 @@
+# generated from assets/ladder/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ladder
+title = Ladder
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+Oo......Oo
+OOOOOOOOOo
+Oo......Oo
+Oo......Oo
+OOOOOOOOOo
+Oo......Oo
+Oo......Oo
+OOOOOOOOOo
+Oo......Oo
+Oo......Oo
+OOOOOOOOOo
+oo......oo
+
+[frame base]
+item 11 18

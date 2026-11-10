@@ -1,0 +1,22 @@
+# generated from assets/speech_bubble/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = speech_bubble
+title = Speech bubble
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.WWWWWWWWWWWWWW.
+WWWWWWWWWWWWWWWW
+WWDDDDDDDDDDWWWW
+WWWWWWWWWWWWWWWW
+WWDDDDDDDWWWWWWW
+WWWWWWWWWWWWWWWW
+.WWWWWWWWWWWWWW.
+...WWW..........
+...WW...........
+...W............
+
+[frame base]
+item 8 13

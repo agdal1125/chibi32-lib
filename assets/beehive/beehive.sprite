@@ -1,0 +1,20 @@
+# generated from assets/beehive/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = beehive
+title = Beehive
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...GGGG...
+.GGGGGGGg.
+GgggggggGg
+GGGGGGGGGg
+GgggggggGg
+GGGGKGGGGg
+.GGGGGGGg.
+..gggggg..
+
+[frame base]
+item 11 17

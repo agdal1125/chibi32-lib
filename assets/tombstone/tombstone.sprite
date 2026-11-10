@@ -1,0 +1,22 @@
+# generated from assets/tombstone/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tombstone
+title = Tombstone
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..mmmmm..
+.mMMMMMd.
+mMMMMMMMd
+mMMKMMMMd
+mMKKKMMMd
+mMMKMMMMd
+mMMKMMMMd
+mMMMMMMMd
+mMMMMMMMd
+ddddddddd
+
+[frame base]
+item 11 19

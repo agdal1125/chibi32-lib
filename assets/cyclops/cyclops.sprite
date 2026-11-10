@@ -1,0 +1,23 @@
+# generated from assets/cyclops/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cyclops
+title = Cyclops
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..EEEEEEEEE..
+.EEEEEEEEEEE.
+EEEEEEEEEEEEe
+EEEMMMMMMEEEe
+EEMMMRRRMMMEe
+EEMMRRKRRMMEe
+EEEMMRRRMMEEe
+EEEEMMMMMEEEe
+.EEEEEEEEEEe.
+.EEEEKKKEEEe.
+..eeeeeeeee..
+
+[frame base]
+item 9 14

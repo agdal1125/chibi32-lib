@@ -1,0 +1,38 @@
+# key  hex     role
+# '.' is reserved for transparent. Keys are single characters used in *.sprite grids.
+K  1a1420  outline and eyes
+W  f6f7fb  hair light
+w  c9cddc  hair mid
+h  8a8fa8  hair shadow
+S  ffdcc0  skin light
+s  e8a88c  skin shadow
+p  f08c8c  blush
+L  6fa0f2  cloth light
+B  3d6fd6  cloth mid
+b  284a9e  cloth shadow
+N  9a6038  leather light
+n  603822  leather shadow
+M  eef3f8  metal light
+m  a9b5c6  metal mid
+d  66718a  metal shadow
+G  f4c24e  gold light
+g  b47f2c  gold shadow
+O  c27a42  wood light
+o  80492a  wood shadow
+# added 2026-11-08 for the fantasy RPG set (items, monsters, tiles); existing keys are unchanged
+R  e8483c  red light (potion, flame edge, seal)
+r  9e2a3a  red shadow
+E  8ad45e  green light (slime, grass)
+e  3e9a4a  green mid
+q  25603a  green shadow
+V  a77ad6  purple light (bat)
+v  6b46a8  purple shadow
+Y  fff3b0  glow (flame core, gold shine)
+# added 2026-11-08 for the rpg100 set
+P  f5a0c8  pink light (hair, fairy)
+x  c05a8e  pink shadow
+A  f5a142  orange light (hair, fire, fruit)
+a  c2642a  orange shadow
+C  7fe0e8  cyan light (water, ice, mana)
+c  2f8fa8  cyan shadow
+D  3a3f52  dark grey (black hair, iron)

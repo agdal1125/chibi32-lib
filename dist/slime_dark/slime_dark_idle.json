@@ -1,0 +1,40 @@
+{
+  "id": "slime_dark",
+  "animation": "idle",
+  "image": "slime_dark_idle_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/slime_dark/slime_dark.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "slime_dark_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 260
+    },
+    {
+      "name": "squash",
+      "file": "slime_dark_squash.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 160
+    }
+  ]
+}

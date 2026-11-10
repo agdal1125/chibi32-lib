@@ -1,0 +1,27 @@
+{
+  "id": "stump",
+  "authors": [
+    {
+      "name": "Project owner",
+      "role": "art direction (asked for 100 fantasy RPG assets in the chibi32 style)"
+    },
+    {
+      "name": "Claude (Anthropic) via Claude Code; Opus 5.5, Fable 5.1 and Fable 5.2 models were used across sessions",
+      "role": "wrote the pixel grids and templates in tools/kit32.py"
+    }
+  ],
+  "created": "2026-11-08",
+  "tools": [
+    "tools/kit32.py (shared grids and recolor templates)",
+    "tools/build.py (Python 3 + Pillow)"
+  ],
+  "ai_usage": {
+    "used": true,
+    "kind": "A language model wrote every pixel as text in shared templates, rendered them, and revised after looking at the render. No image-generation model was used.",
+    "terms_checked": false,
+    "note": "The owner has not yet reviewed whether the AI tool's terms allow distribution under the chosen license."
+  },
+  "references": [],
+  "license": "UNDECIDED",
+  "license_note": "See LICENSING.md. The owner picks the art license before the first release."
+}

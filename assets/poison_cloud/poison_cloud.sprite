@@ -1,0 +1,33 @@
+# generated from assets/poison_cloud/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = poison_cloud
+title = Poison cloud
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+...VVVV.....
+.VVVVVVV.VV.
+VVVEVVVVVVVV
+VVVVVVVEVVVv
+.VVVVVVVVVv.
+..vvVVVvvv..
+
+[part f1]
+.....VVVV...
+.VV.VVVVVVV.
+VVVVVVVVEVVV
+vVVVEVVVVVVV
+.vVVVVVVVVV.
+..vvvVVVvv..
+
+[frame base]
+f0 10 19
+
+[frame alt]
+f1 10 19
+
+[anim loop]
+base 220
+alt 220

@@ -1,0 +1,98 @@
+# generated from assets/vampire/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = vampire
+title = Vampire
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+DD..DD.
+DD..DD.
+RRR.RRR
+rrr.rrr
+
+[part legs_near_fwd]
+..DDDD...
+.DD...DD.
+rrr...RRR
+rr....rrr
+
+[part legs_near_support]
+.DDDD.
+.DDDD.
+rrrDD.
+rr.RRR
+...rrr
+
+[part legs_far_fwd]
+..DDDD...
+.DD...DD.
+RRR...rrr
+rr....rrr
+
+[part legs_far_support]
+DDDD.
+DDDD.
+DDRRR
+DDrrr
+rrr..
+
+[part body]
+.ddDDDDDD...
+ddDDDDDDDD..
+dDDDDDDDDD..
+RRRRGgRRRr..
+dDDDDDDDDD..
+dDDDDDDDDD..
+ddDDDDDDDDD.
+ddDDDDDDDDDD
+.DDDDDDDDDD.
+
+[part head]
+.......d....d...
+......dd...dd...
+...d.ddd..ddd...
+...ddddddddddd..
+.dddddddddddddd.
+ddddddddddddddDD
+.ddddddddddddDDD
+..DdddDdddDWDDD.
+.dDDdDKWWWKWWWK.
+..KDDKWWWWWWWWW.
+..KKDWWWWKWWWKW.
+...KKWWWWKWWWKW.
+...KKwWWPWWWWPW.
+....KwWWWWWWWw..
+......wWWWWw....
+
+[frame base]
+legs_stand 13 26
+body 11 20
+head 8 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+body 11 20
+head 8 6
+
+[frame walk_1]
+legs_near_support 13 25
+body 11 19
+head 8 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+body 11 20
+head 8 6
+
+[frame walk_3]
+legs_far_support 14 25
+body 11 19
+head 8 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

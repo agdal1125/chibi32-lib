@@ -1,0 +1,19 @@
+# generated from assets/rock_dark/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rock_dark
+title = Dark rock
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...dddd...
+..dmmmdD..
+.dmmmmdDD.
+dmmmmddDDD
+dmmmdddDDD
+.dddddDDD.
+..DDDDDD..
+
+[frame base]
+item 11 22

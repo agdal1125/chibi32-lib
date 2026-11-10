@@ -1,0 +1,26 @@
+# generated from assets/potion_purple/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = potion_purple
+title = Poison potion
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....NNNn....
+....NNnn....
+...mMMMMd...
+....MVVd....
+....MVVd....
+..mMVVVVmd..
+.mMVVVVVVvd.
+mVMVVVVVVvvd
+mVMVVVVVVvvd
+mVVVVVVVVvvd
+mVVVVVVVvvvd
+.mVVVVVVvvd.
+..dvvvvvvd..
+...dddddd...
+
+[frame base]
+item 10 11

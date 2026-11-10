@@ -1,0 +1,22 @@
+# generated from assets/castle_gate/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = castle_gate
+title = Castle gate
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+dmd.dmd.dmmd.dmd.dmd
+dmmmmmmmmmmmmmmmmmmd
+dmmmmmmmmmmmmmmmmmmd
+dmmmmmDDDDDDDDmmmmmd
+dmmmmDDOOOOOODDmmmmd
+dmmmmDOOOOOOOODmmmmd
+dmmmmDOoOOooOoDmmmmd
+dmmmmDOoOOooOoDmmmmd
+dmmmmDOoOOooOoDmmmmd
+dddddDOoOOooOoDddddd
+
+[frame base]
+item 6 20

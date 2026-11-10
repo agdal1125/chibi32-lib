@@ -1,0 +1,22 @@
+# generated from assets/telescope/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = telescope
+title = Telescope
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+........mMd
+.......mMMd
+......mMMd.
+.....mMMd..
+....mMMd...
+...mMMd....
+..mMMd.....
+..Oo.......
+.Oo.Oo.....
+Oo...Oo....
+
+[frame base]
+item 11 19

@@ -1,0 +1,20 @@
+# generated from assets/map_item/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = map_item
+title = Treasure map
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+SSSSSSSSSSSs
+SSqqSSSSSSSs
+SSqqqSSRSSSs
+SSSqSSSSSSSs
+SSSSSCCSSSSs
+SSSSCCCCSSSs
+SSSSSCCSSSSs
+ssssssssssss
+
+[frame base]
+item 10 17

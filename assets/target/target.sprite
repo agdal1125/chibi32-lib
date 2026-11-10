@@ -1,0 +1,23 @@
+# generated from assets/target/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = target
+title = Target marker
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....RRR....
+..RR.R.RR..
+.R...R...R.
+.R...R...R.
+R....R....R
+RRRRR.RRRRR
+R....R....R
+.R...R...R.
+.R...R...R.
+..RR.R.RR..
+....RRR....
+
+[frame base]
+item 10 12

@@ -1,0 +1,21 @@
+# generated from assets/mushrooms/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mushrooms
+title = Mushroom patch
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...RRR......
+..RMRRr.RRR.
+..rrrrr.RMRr
+...SSs..rrrr
+...SSs...SSs
+RRR.SSs..SSs
+RMRr........
+rrrr........
+.SSs........
+
+[frame base]
+item 10 20

@@ -1,0 +1,20 @@
+# generated from assets/anchor/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = anchor
+title = Anchor
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...mm...
+..mMMd..
+...mm...
+...Md...
+mm.Md.mm
+MmmMdmMd
+.MMMMMd.
+..mmmd..
+
+[frame base]
+item 12 21

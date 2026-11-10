@@ -1,0 +1,45 @@
+# generated from assets/tile_grass/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_grass
+title = Grass ground tile (seamless)
+size = 32 32
+anchor = 16 31
+margin = 0
+palette = ../../styles/chibi32/palette.txt
+
+[part ground]
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeEeEeeeeeee
+eeeeeeeeeeeeeqeeeeeeeeqEqeqeeeee
+eEeeqeeeeeeeeeeeeeeeeeeqeqeqeeeE
+Eqeeeeeeeeeeeeeeeeqeeeeeeeqeeeeq
+eEeeqeeeeeeeeeeqeeeeeeeeMeeeeeeE
+EqeeqeeeeeeeeeeeeeeeeeeMGMeeeeeq
+eeeeeeeeeqEeEeeeeeeeeeeeMeeeeeee
+eeqeeeeeeeqEqeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeEeEeeeqeeeeeeeeeee
+eeeeeeeeeeeeeeqEqeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeqeeeqeeeeeeeeeeee
+eeeeeeqeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeqeeeqeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeEeEeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeqEqeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeEeEeeee
+eeeeeeeeeeeeeEeEeeeeeeeeeqEqeeee
+eeeeeeeeeeeeeqEqeeeeeeeqeeeeeeee
+eeeeqeeMeeeeeeeeeeeeeeeeeeeqeeee
+eeeeeeMGMeqeeeeeeeeeeeeeeeeeeeee
+eeeeeeeMeeeeeeeeeeeeeqeeeeeeeEeE
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeqEq
+eeeeeeeeeeeeeeeeeeqeeeEeEeeeeeee
+eeeqeeeeeeeeeeeeeeeeeeqEqEeEeeee
+eeeeeeeqeeeeeeeeeEqEeeeeeqEqeeee
+eeeeeqeeEeEeeeeeeqEqeeeeeeeeeeee
+eeeeeeeeqEqeEeeeeeeqeqeeeeeeeeee
+eeeeeeeeeeqEqeeeeeeeeeeeeeeeeqeq
+eeeeeeeeeeeeeeeeeqeeeeeeeeeeeeee
+eeeeeeeeeqeeeqeeeeeqeeeeeeeeeeee
+
+[frame base]
+ground 0 0 nooutline

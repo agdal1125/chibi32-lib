@@ -1,0 +1,20 @@
+# generated from assets/sheep/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sheep
+title = Sheep
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..WWWWWWWW...
+.WWWWWWWWWWDD
+WWWWWWWWWWDKD
+WWWWWWWWWWDDD
+WWWWWWWWWWW..
+.WWWWWWWWW...
+..D.D..D.D...
+..D.D..D.D...
+
+[frame base]
+item 9 21

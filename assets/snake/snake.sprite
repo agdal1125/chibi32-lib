@@ -1,0 +1,21 @@
+# generated from assets/snake/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = snake
+title = Snake
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........EEE.
+........EEEEe
+........EKEKe
+.........EEe.
+.EEEEEE..EEe.
+EEEEEEEE.EEe.
+EEe..EEEEEEe.
+Ee....eeeeee.
+.e...........
+
+[frame base]
+item 9 20

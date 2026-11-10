@@ -1,0 +1,20 @@
+# generated from assets/cat/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cat
+title = Cat
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+A..........A.A
+A..........AAA
+A.........AAKA
+AAAAAAAAAAAAAA
+.AAAAAAAAAApA.
+.AAAAAAAAAAA..
+.Aa.Aa..Aa.Aa.
+.aa.aa..aa.aa.
+
+[frame base]
+item 9 21

@@ -1,0 +1,20 @@
+# generated from assets/tulips/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tulips
+title = Tulips
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.P..R..Y.
+PPPRRRYYY
+PPPRRRYYY
+.P..R..Y.
+.Ee.Ee.Ee
+EEeEEeEEe
+.Ee.Ee.Ee
+.ee.ee.ee
+
+[frame base]
+item 11 21

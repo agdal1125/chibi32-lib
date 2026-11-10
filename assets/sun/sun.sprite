@@ -1,0 +1,21 @@
+# generated from assets/sun/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sun
+title = Sun
+size = 32 32
+anchor = 16 20
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....Y....
+.Y..Y..Y.
+..YYYYY..
+.YYYYYYY.
+YYYYGYYYY
+.YYYYYYY.
+..YYYYY..
+.Y..Y..Y.
+....Y....
+
+[frame base]
+item 10 12

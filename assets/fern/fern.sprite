@@ -1,0 +1,21 @@
+# generated from assets/fern/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = fern
+title = Fern
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....E....E....
+...EE.E..EE...
+E..EEE.E.EE..E
+EE..EEEEEEE.EE
+.EEEEEEEEEEEE.
+..EEEEEEEEEE..
+....eEEEEe....
+......Ee......
+......ee......
+
+[frame base]
+item 9 20

@@ -1,0 +1,18 @@
+# generated from assets/anvil/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = anvil
+title = Anvil
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mMMMMMMMMMMd
+.mMMMMMMMMd.
+....mMMd....
+....mMMd....
+..mMMMMMMd..
+..dddddddd..
+
+[frame base]
+item 10 23

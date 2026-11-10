@@ -1,0 +1,18 @@
+# generated from assets/chestplate/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = chestplate
+title = Steel chestplate
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.MMMMMMMm.
+MMMMMMMMmm
+MMMMMMMMmm
+.MMMMMMmm.
+.MMMGMMmm.
+.mmmmmmmm.
+
+[frame base]
+item 11 19

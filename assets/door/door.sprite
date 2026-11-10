@@ -1,0 +1,27 @@
+# generated from assets/door/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = door
+title = Wooden door
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..OOOOOOOO..
+.OOOOOOOOOo.
+OOOoOOOOoOOo
+OOOoOOOOoOOo
+OOOoOOOOoOOo
+OoooooooooOo
+OOOoOOOOoOOo
+OOOoOOOOoOOo
+OOOoOOOGoOOo
+OOOoOOOGoOOo
+OoooooooooOo
+OOOoOOOOoOOo
+OOOoOOOOoOOo
+OOOoOOOOoOOo
+oooooooooooo
+
+[frame base]
+item 10 15

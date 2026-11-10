@@ -1,0 +1,22 @@
+# generated from assets/carrot/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = carrot
+title = Carrot
+size = 32 32
+anchor = 16 25
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.E.E
+EEEE
+.EE.
+AAAA
+AAAa
+AAAa
+.AAa
+.AAa
+..Aa
+..a.
+
+[frame base]
+item 14 16

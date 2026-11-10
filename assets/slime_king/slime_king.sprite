@@ -1,0 +1,48 @@
+# generated from assets/slime_king/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = slime_king
+title = Slime king
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....VVVVVV.....
+...VVVVVVVVVV...
+..VMMVVVVVVVVV..
+.VMMVVVVVVVVVVV.
+.VMVVVVVVVVVVVV.
+VVVVVVKVVVKVVVVV
+VVVVVVKVVVKVVVVV
+VVVVVpVVVVVpVVVV
+VVVVVVVVVVVVVVVV
+.VVVVVVVVVVVVVV.
+..vVVVVVVVVVVv..
+
+[part slime_squash]
+......VVVVVV......
+...VVVVVVVVVVVV...
+.VVMMVVVVVVVVVVVV.
+VVMVVVVVVVVVVVVVVV
+VVVVVVVKVVVKVVVVVV
+VVVVVVVKVVVKVVVVVV
+VVVVVVpVVVVVpVVVVV
+.VVVVVVVVVVVVVVVV.
+..vVVVVVVVVVVVVv..
+
+[part mark]
+G..G..G
+GRGGGRG
+GGGGGGg
+
+[frame base]
+slime_mid 8 19
+mark 13 16
+
+[frame squash]
+slime_squash 7 21
+mark 13 18
+
+[anim idle]
+base 260
+squash 160

@@ -1,0 +1,51 @@
+# generated from assets/skeleton_dark/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = skeleton_dark
+title = Dark skeleton
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs]
+dD...dD
+dD...dD
+dD...dD
+DDD.DDD
+
+[part item]
+.MMM...
+MMMMm..
+MMmOod.
+.mmOo..
+...Oo..
+...Oo..
+...Oo..
+...Oo..
+...Oo..
+.MMmmmm
+..gdddd
+
+[part body]
+.ddddddD.
+dDdDdDdDD
+.ddddddD.
+dDdDdDdDD
+.DDDDDDD.
+
+[part head]
+..dddddddd..
+.dddddddddD.
+ddddddddddDD
+ddddddddddDD
+ddKKddddKKDD
+ddKKddddKKDD
+ddddddddddDD
+.dddKddKdDD.
+.DDDDDDDDDD.
+..dDdDdDdD..
+
+[frame base]
+legs 12 26
+item 5 13
+body 11 21
+head 10 11

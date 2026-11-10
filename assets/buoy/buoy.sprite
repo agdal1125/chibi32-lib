@@ -1,0 +1,22 @@
+# generated from assets/buoy/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = buoy
+title = Buoy
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...R....
+..RRr...
+.RRRRr..
+.WWWWw..
+.RRRRr..
+.RRRRr..
+..rrr...
+.LLLLLL.
+LLLLLLLB
+.LLLLLB.
+
+[frame base]
+item 12 17

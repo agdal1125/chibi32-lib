@@ -1,0 +1,18 @@
+# generated from assets/heart/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = heart
+title = Heart
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.RR.RR.
+RYRRRRr
+RRRRRRr
+.RRRRr.
+..RRr..
+...r...
+
+[frame base]
+item 12 19

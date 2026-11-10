@@ -1,0 +1,45 @@
+# generated from assets/portal/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = portal
+title = Portal
+size = 32 32
+anchor = 16 27
+palette = ../../styles/chibi32/palette.txt
+
+[part p0]
+....VVVVVV....
+..VVvvvvvvVV..
+.VvvCCCCCCvvV.
+.VvCCCCCCCCvV.
+VvCCCMMCCCCCvV
+VvCCMMMMCCCCvV
+VvCCCMMCCCCCvV
+VvCCCCCCCCCCvV
+.VvCCCCCCCCvV.
+.VvvCCCCCCvvV.
+..VVvvvvvvVV..
+....VVVVVV....
+
+[part p1]
+....VVVVVV....
+..VVvvvvvvVV..
+.VvvCCCCCCvvV.
+.VvCCCCCCCCvV.
+VvCCCCCCMCCCvV
+VvCCMCCCMMCCvV
+VvCCMMCCCCCCvV
+VvCCCCCCCCCCvV
+.VvCCCMCCCCvV.
+.VvvCCCCCCvvV.
+..VVvvvvvvVV..
+....VVVVVV....
+
+[frame base]
+p0 9 16
+
+[frame swirl]
+p1 9 16
+
+[anim swirl]
+base 160
+swirl 160

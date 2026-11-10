@@ -1,0 +1,40 @@
+{
+  "id": "slime_metal",
+  "animation": "idle",
+  "image": "slime_metal_idle_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/slime_metal/slime_metal.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "slime_metal_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 260
+    },
+    {
+      "name": "squash",
+      "file": "slime_metal_squash.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 160
+    }
+  ]
+}

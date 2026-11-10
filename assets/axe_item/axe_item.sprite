@@ -1,0 +1,23 @@
+# generated from assets/axe_item/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = axe_item
+title = Battle axe (item)
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.MMM...
+MMMMm..
+MMmOod.
+.mmOo..
+...Oo..
+...Oo..
+...Oo..
+...Oo..
+...Oo..
+.SSBBBB
+..gbbbb
+
+[frame base]
+item 13 16

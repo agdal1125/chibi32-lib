@@ -1,0 +1,26 @@
+# generated from assets/birch/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = birch
+title = Birch
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....EEEEE....
+..EEEEEEEEE..
+.EEEEEEEEEEe.
+EEEEEEEEEEEEe
+EEEEEEEEEEEEe
+.EEEEEEEEEEe.
+..EEEEEEEEe..
+....WWWw.....
+....WDWw.....
+....WWWw.....
+....WWDw.....
+....WWWw.....
+....WDWw.....
+...wWWWww....
+
+[frame base]
+item 9 16

@@ -1,0 +1,20 @@
+# generated from assets/spider/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = spider
+title = Cave spider
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..v....VVVV....v..
+...v..VVVVVv..v...
+....vVVRVVRVvv....
+.vvvvVVVVVVVvvvvv.
+v....VVVVVVVvv...v
+.....vVVVVVvv.....
+..vvvv.vvvvv.vvvv.
+.v....v.....v....v
+
+[frame base]
+item 7 21

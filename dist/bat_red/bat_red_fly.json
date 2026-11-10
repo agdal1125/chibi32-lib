@@ -1,0 +1,40 @@
+{
+  "id": "bat_red",
+  "animation": "fly",
+  "image": "bat_red_fly_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 22
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/bat_red/bat_red.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "bat_red_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 110
+    },
+    {
+      "name": "up",
+      "file": "bat_red_up.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 110
+    }
+  ]
+}

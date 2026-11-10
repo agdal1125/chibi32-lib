@@ -1,0 +1,22 @@
+# generated from assets/wagon_wheel/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = wagon_wheel
+title = Wagon wheel
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...DDDD...
+..DMDDMD..
+.DDDMMDDD.
+DMDDMMDDMD
+DDMMMMMMDD
+DDMMMMMMDD
+DMDDMMDDMD
+.DDDMMDDD.
+..DMDDMD..
+...DDDD...
+
+[frame base]
+item 11 19

@@ -1,0 +1,125 @@
+# generated from assets/templar/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = templar
+title = Templar
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+wM..wM.
+wM..wM.
+RRR.RRR
+rrr.rrr
+
+[part legs_near_fwd]
+..MMww...
+.MM...ww.
+rrr...RRR
+rr....rrr
+
+[part legs_near_support]
+.MMww.
+.MMww.
+rrrww.
+rr.RRR
+...rrr
+
+[part legs_far_fwd]
+..wwMM...
+.ww...MM.
+RRR...rrr
+rr....rrr
+
+[part legs_far_support]
+MMww.
+MMww.
+MMRRR
+MMrrr
+rrr..
+
+[part back_item]
+M..........
+.Mm........
+.Mm........
+..Mm.......
+..Mm.......
+...Mm......
+...Mm......
+....Md.....
+...GGgg....
+.....SSwwww
+......gMMMM
+
+[part body]
+.WWwwwwwM.
+WWwwwwwwMM
+WwwwwwwwMM
+RRRRGgRRRr
+WwwwwwwwMM
+.wwwwwwwM.
+
+[part head]
+.......Y....Y...
+......YY...YY...
+...Y.YYY..YYY...
+...YYYYYYYYYYY..
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+.YYYYYYYYYYYYGGG
+..GYYYGYYYGSGGG.
+.YGGYGgSSSgSSSg.
+..gGGgSSSSSSSSS.
+..ggGSSSSKSSSKS.
+...ggSSSSKSSSKS.
+...ggsSSpSSSSpS.
+....gsSSSSSSSs..
+......sSSSSs....
+
+[part hat]
+....MMMM....
+..MMMMMMMm..
+.MMMMMMMmmm.
+MMMMMMMmmmdd
+MMMMMMmmmmdd
+
+[frame base]
+legs_stand 13 26
+back_item 4 9
+body 11 20
+head 8 6
+hat 10 4
+
+[frame walk_0]
+legs_near_fwd 12 26
+back_item 3 9
+body 11 20
+head 8 6
+hat 10 4
+
+[frame walk_1]
+legs_near_support 13 25
+back_item 4 8
+body 11 19
+head 8 5
+hat 10 3
+
+[frame walk_2]
+legs_far_fwd 12 26
+back_item 5 9
+body 11 20
+head 8 6
+hat 10 4
+
+[frame walk_3]
+legs_far_support 14 25
+back_item 4 8
+body 11 19
+head 8 5
+hat 10 3
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

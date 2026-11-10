@@ -1,0 +1,22 @@
+# generated from assets/cattail/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cattail
+title = Cattails
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..Oo..Oo..
+..Oo..Oo..
+..Oo..Oo..
+..oo..oo..
+E.Ee..Ee.E
+EEEe..Ee.E
+.EEe..EeEe
+.EEe..EEe.
+..Ee..Ee..
+..ee..ee..
+
+[frame base]
+item 11 19

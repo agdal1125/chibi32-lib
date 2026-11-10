@@ -1,0 +1,21 @@
+# generated from assets/cliff/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cliff
+title = Cliff piece
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mMMMMMMMMMMMMMMd
+mEEEEEEEEEEEEEEd
+mMMMMMMMMMMMMMMd
+mMMMMMMMMMMMMMMd
+mmMMMMMmmMMMMMmd
+mdmMMMmddmMMMmdd
+mdmMMMmddmMMMmdd
+mddmmmdddmmmmddd
+dddddddddddddddd
+
+[frame base]
+item 8 21

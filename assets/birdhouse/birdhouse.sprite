@@ -1,0 +1,24 @@
+# generated from assets/birdhouse/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = birdhouse
+title = Birdhouse
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...OOo...
+..OOOOo..
+.OOOOOOo.
+OOOOOOOOo
+.OOOKOOo.
+.OOOKOOo.
+.OOOOOOo.
+.ooooooo.
+....Oo...
+....Oo...
+....Oo...
+....Oo...
+
+[frame base]
+item 11 18

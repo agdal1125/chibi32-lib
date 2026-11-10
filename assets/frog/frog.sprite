@@ -1,0 +1,21 @@
+# generated from assets/frog/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = frog
+title = Frog
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..EE......EE..
+.EKEe....EKEe.
+.EEEEEEEEEEEe.
+EEEEEEEEEEEEee
+EEEEEEEEEEEEee
+EEEqqqqqqqqEee
+.EEEEEEEEEEee.
+EEe.eeeeee.eEe
+ee..........ee
+
+[frame base]
+item 9 20

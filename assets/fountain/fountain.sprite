@@ -1,0 +1,22 @@
+# generated from assets/fountain/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = fountain
+title = Fountain
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......CC......
+.....CCCC.....
+....mMMMMd....
+.....mMMd.....
+..CC.mMMd.CC..
+.mMMMMMMMMMMd.
+mMCCCCCCCCCCmd
+mMCCCCCCCCCCmd
+mmMMMMMMMMMMmd
+.mmmmmmmmmmmd.
+
+[frame base]
+item 9 19

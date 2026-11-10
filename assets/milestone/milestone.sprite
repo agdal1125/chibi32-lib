@@ -1,0 +1,20 @@
+# generated from assets/milestone/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = milestone
+title = Milestone
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..mMMMd..
+.mMMMMMd.
+.mMKMMMd.
+.mMMMMMd.
+.mMKKMMd.
+.mMMMMMd.
+.mMMMMMd.
+mmmmmmmdd
+
+[frame base]
+item 11 21

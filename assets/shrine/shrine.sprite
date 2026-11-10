@@ -1,0 +1,22 @@
+# generated from assets/shrine/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = shrine
+title = Shrine
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....RRr.....
+RRRRRRRRRRRRr
+.rrrrrrrrrrr.
+..Rr.....Rr..
+..Rr.....Rr..
+..Rr.YYY.Rr..
+..Rr.YGY.Rr..
+..Rr.YYY.Rr..
+.mmmmmmmmmmd.
+.dddddddddddd
+
+[frame base]
+item 9 20

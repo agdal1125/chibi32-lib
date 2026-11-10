@@ -1,0 +1,45 @@
+# generated from assets/fireplace/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = fireplace
+title = Fireplace
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+mMMMMMMMMMMMMMMd
+mMMMMMMMMMMMMMMd
+.mMMMMMMMMMMMMd.
+.mMDDDDDDDDDDMd.
+.mMDDDDDDDDDDMd.
+.mMDDDDRDDDDDMd.
+.mMDDDRADDDDDMd.
+.mMDDRAYARDDDMd.
+.mMDDRAYYARDDMd.
+.mMDOOOOOOOODMd.
+mMMMMMMMMMMMMMMd
+mmmmmmmmmmmmmmdd
+
+[part f1]
+mMMMMMMMMMMMMMMd
+mMMMMMMMMMMMMMMd
+.mMMMMMMMMMMMMd.
+.mMDDDDDDDDDDMd.
+.mMDDDDDDDDDDMd.
+.mMDDDDDRDDDDMd.
+.mMDDDDARDDDDMd.
+.mMDDRAYARDDDMd.
+.mMDDRAYYARDDMd.
+.mMDOOOOOOOODMd.
+mMMMMMMMMMMMMMMd
+mmmmmmmmmmmmmmdd
+
+[frame base]
+f0 8 18
+
+[frame alt]
+f1 8 18
+
+[anim loop]
+base 150
+alt 150

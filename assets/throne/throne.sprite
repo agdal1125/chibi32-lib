@@ -1,0 +1,24 @@
+# generated from assets/throne/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = throne
+title = Throne
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..GG....GG..
+.GRRRRRRRRg.
+.GRRRRRRRRg.
+.GRRYYYYRRg.
+.GRRRRRRRRg.
+.GRRRRRRRRg.
+GGRRRRRRRRgg
+GGRRRRRRRRgg
+GGGGGGGGGGgg
+GGRRRRRRRRgg
+GGGGGGGGGGgg
+.Gg......Gg.
+
+[frame base]
+item 10 18

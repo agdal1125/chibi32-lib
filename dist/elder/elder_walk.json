@@ -1,0 +1,58 @@
+{
+  "id": "elder",
+  "animation": "walk",
+  "image": "elder_walk_sheet.png",
+  "imageSize": {
+    "w": 128,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/elder/elder.sprite",
+  "frames": [
+    {
+      "name": "walk_0",
+      "file": "elder_walk_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 150
+    },
+    {
+      "name": "walk_1",
+      "file": "elder_walk_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 150
+    },
+    {
+      "name": "walk_2",
+      "file": "elder_walk_2.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 150
+    },
+    {
+      "name": "walk_3",
+      "file": "elder_walk_3.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 150
+    }
+  ]
+}

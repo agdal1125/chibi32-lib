@@ -1,0 +1,18 @@
+# generated from assets/mud_pool/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mud_pool
+title = Mud pool
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...OOOO...
+.OOooooOO.
+OooooooooO
+Ooooooooon
+.OOooooon.
+...nnnn...
+
+[frame base]
+item 11 23

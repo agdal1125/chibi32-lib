@@ -1,0 +1,26 @@
+# generated from assets/willow/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = willow
+title = Willow
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....EEEEEEE....
+...EEEEEEEEEEE..
+..EEEEEEEEEEEEe.
+.EEEEEEEEEEEEEee
+.EEEEEEEEEEEEEee
+EEeEEEeEEEeEEeee
+EEeEEEeEEEeEEeee
+.EeEEEeEEEeEEee.
+.Ee.EEe.Ee.Eee..
+.e..Ee..Ee..e...
+....Ee..e.......
+.....OOo........
+.....OOo........
+....oOOoo.......
+
+[frame base]
+item 8 16

@@ -1,0 +1,22 @@
+# generated from assets/stalactite/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = stalactite
+title = Stalactite
+size = 32 32
+anchor = 16 12
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mmmmmmdddd
+mMMMMmdddd
+.mMMMmddd.
+.mMMMmddd.
+..mMMmdd..
+..mMMmdd..
+...mMmd...
+...mMmd...
+....Mm....
+....mm....
+
+[frame base]
+item 11 3

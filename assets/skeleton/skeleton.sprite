@@ -1,0 +1,37 @@
+# generated from assets/skeleton/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = skeleton
+title = Skeleton
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs]
+Mm...Mm
+Mm...Mm
+Mm...Mm
+mmm.mmm
+
+[part body]
+.MMMMMMm.
+MdMdMdMdm
+.MMMMMMm.
+MdMdMdMdm
+.mmmmmmm.
+
+[part head]
+..MMMMMMMM..
+.MMMMMMMMMm.
+MMMMMMMMMMmm
+MMMMMMMMMMmm
+MMKKMMMMKKmm
+MMKKMMMMKKmm
+MMMMMMMMMMmm
+.MMMKMMKMmm.
+.mmmmmmmmmm.
+..MdMdMdMd..
+
+[frame base]
+legs 12 26
+body 11 21
+head 10 11

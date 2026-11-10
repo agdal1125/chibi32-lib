@@ -1,0 +1,19 @@
+# generated from assets/flower_blue/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = flower_blue
+title = Blue flowers
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.L...L.
+LYL.LYL
+.L...L.
+.Ee.Ee.
+E.EeE.E
+EEEEEEE
+..eee..
+
+[frame base]
+item 12 22

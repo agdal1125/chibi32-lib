@@ -1,0 +1,7 @@
+"""gem_green: 에메랄드. 초록 보석.
+Generated from tools/kit32.py; edit the spec there."""
+from kit32 import make
+
+
+def build():
+    return make("gem_green")

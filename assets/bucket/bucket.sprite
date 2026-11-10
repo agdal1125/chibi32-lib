@@ -1,0 +1,19 @@
+# generated from assets/bucket/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bucket
+title = Bucket
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOo
+Oo...Oo
+mMMMMmd
+mMMMMmd
+mMMMMmd
+mmmmmdd
+.ddddd.
+
+[frame base]
+item 12 22

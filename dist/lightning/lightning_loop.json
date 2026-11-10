@@ -1,0 +1,40 @@
+{
+  "id": "lightning",
+  "animation": "loop",
+  "image": "lightning_loop_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 26
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/lightning/lightning.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "lightning_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 80
+    },
+    {
+      "name": "alt",
+      "file": "lightning_alt.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 80
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# generated from assets/wolf_brown/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = wolf_brown
+title = Brown wolf
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.......OOo......
+......OOOo..O...
+.OOOOOOOOOOOOo..
+OOOOOOOOOOOKOoo.
+OOOOOOOOOOOOooo.
+OOOOOOOOOOOOooMm
+oOOOOOOOOOOoooo.
+.ooOOOOOOOooo...
+..Oo.Oo..Oo.Oo..
+..Oo.Oo..Oo.Oo..
+..oo.oo..oo.oo..
+
+[frame base]
+item 8 18

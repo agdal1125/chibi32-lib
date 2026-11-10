@@ -1,0 +1,83 @@
+[meta]
+id = torch
+title = Burning torch (flicker)
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part handle]
+OOo
+OOo
+OOo
+NNn
+NNn
+OOo
+OOo
+OOo
+OOo
+OOo
+OOo
+ooo
+
+[part cup]
+mMMMMmd
+.mMMmd.
+..mmd..
+
+[part flame_0]
+....R....
+....RR...
+...RGR...
+...RGGR..
+..RGYGR..
+..RGYYGR.
+.RGYYYGR.
+.RGYYYGr.
+.RGGYGGr.
+..RGGGr..
+
+[part flame_1]
+...R.....
+...RR....
+..RGR....
+..RGGR...
+..RGYGR..
+.RGYYGR..
+.RGYYYGR.
+.RGYYYGr.
+.RGGYGGr.
+..RGGGr..
+
+[part flame_2]
+.....R...
+..R..RR..
+..R.RGR..
+..RRGGR..
+..RGYGGR.
+.RGYYYGR.
+.RGYYYGR.
+.RGYYYGr.
+.RGGYGGr.
+..RGGGr..
+
+# The cup is drawn after the flame so its outline cuts a clean line under the fire.
+[frame base]
+handle 15 17
+flame_0 12 4
+cup 13 14
+
+[frame flick_1]
+handle 15 17
+flame_1 12 4
+cup 13 14
+
+[frame flick_2]
+handle 15 17
+flame_2 12 4
+cup 13 14
+
+[anim burn]
+base 120
+flick_1 120
+flick_2 120
+flick_1 120

@@ -1,0 +1,25 @@
+# generated from assets/deer/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = deer
+title = Deer
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...........N.N..
+..........NN.NN.
+...........OOo..
+..........OOOOo.
+..........OOKOOo
+W.........OOOOOo
+WOOOOOOOOOOOOo..
+WOOOOOOOOOOOO...
+.OOOOOOOOOOOO...
+.OOOOOOOOOOOo...
+.Oo.Oo...Oo.Oo..
+.Oo.Oo...Oo.Oo..
+.DD.DD...DD.DD..
+
+[frame base]
+item 8 16

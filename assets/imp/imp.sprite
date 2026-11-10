@@ -1,0 +1,24 @@
+# generated from assets/imp/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = imp
+title = Imp
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.R.....R..
+.RR...RR..
+.RRRRRRR..
+RRRRRRRRr.
+RRKRRRKRr.
+RRRRRRRRr.
+.RRRRRRr..
+..RRRRr...
+RRRRRRRRr.
+RRRRRRRRrr
+..RRrRRr.r
+..Rr.Rr...
+
+[frame base]
+item 11 17

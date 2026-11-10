@@ -1,0 +1,18 @@
+# generated from assets/clover/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = clover
+title = Clover
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.EE.EE.
+EEEEEEE
+.EEEEE.
+EEE.EEE
+...Ee..
+...Ee..
+
+[frame base]
+item 12 21

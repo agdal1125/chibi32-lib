@@ -1,0 +1,113 @@
+# generated from assets/samurai/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = samurai
+title = Samurai, sword on shoulder
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+Rr..Rr.
+Rr..Rr.
+DDD.DDD
+ddd.ddd
+
+[part legs_near_fwd]
+..rrRR...
+.rr...RR.
+ddd...DDD
+dd....ddd
+
+[part legs_near_support]
+.rrRR.
+.rrRR.
+dddRR.
+dd.DDD
+...ddd
+
+[part legs_far_fwd]
+..RRrr...
+.RR...rr.
+DDD...ddd
+dd....ddd
+
+[part legs_far_support]
+rrRR.
+rrRR.
+rrDDD
+rrddd
+ddd..
+
+[part back_item]
+M..........
+.Mm........
+.Mm........
+..Mm.......
+..Mm.......
+...Mm......
+...Mm......
+....Md.....
+...GGgg....
+.....SSRRRR
+......grrrr
+
+[part body]
+.RRRRRRRr.
+RRRRRRRRrr
+RRRRRRRRrr
+DDDDGgDDDd
+RRRRRRRRrr
+.RRRRRRRr.
+
+[part head]
+.......d....d...
+......dd...dd...
+...d.ddd..ddd...
+...ddddddddddd..
+.dddddddddddddd.
+ddddddddddddddDD
+.ddddddddddddDDD
+..DdddDdddDSDDD.
+.dDDdDKSSSKSSSK.
+..KDDKSSSSSSSSS.
+..KKDSSSSKSSSKS.
+...KKSSSSKSSSKS.
+...KKsSSpSSSSpS.
+....KsSSSSSSSs..
+......sSSSSs....
+
+[frame base]
+legs_stand 13 26
+back_item 4 9
+body 11 20
+head 8 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+back_item 3 9
+body 11 20
+head 8 6
+
+[frame walk_1]
+legs_near_support 13 25
+back_item 4 8
+body 11 19
+head 8 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+back_item 5 9
+body 11 20
+head 8 6
+
+[frame walk_3]
+legs_far_support 14 25
+back_item 4 8
+body 11 19
+head 8 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

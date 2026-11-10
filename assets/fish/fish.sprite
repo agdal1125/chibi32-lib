@@ -1,0 +1,17 @@
+# generated from assets/fish/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = fish
+title = Fish
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....CCC..C
+..CCCCCCCC
+CCKCCCCCCc
+.CCCCCCCCC
+..ccccc..c
+
+[frame base]
+item 11 20

@@ -1,0 +1,45 @@
+# generated from assets/tile_swamp/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_swamp
+title = Swamp water
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqeqqq
+eeeeeeqqqqqqqqqqeeeeeeqqqqeqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqDDDDqqqqqqqqqqqqDDDDqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+eqqqqqqqqqqeeeeeeqeqqqqqqqqeeeee
+qeqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqDDDDqqqqqqqqqqqqDDDDqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqeqqqqqqqqq
+qqqqqqeeeeeeqqqqqqqqqqeeeeeeqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+DDqqqqqqqqqqqqDDDDqqqqqqqqqqqqDD
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qeeeeeeqqqqqqqqqqeeeeeeqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqDDDDqqqqqqqqqqqqDDDDqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+eeqqqqqqqqqqeeeeeeqqqqqqqqqqeeee
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qeqqDDDDqqqqqqqqqqqqDDDDqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqeeeeeeqqqqqqqqqqeeeeeeqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+DDDqqqqqqqqqqqqDDDDqqqqqqqqqqqqD
+qqqqqqqqqqqqqqqqqqqqqqqqqqqeqqqq
+qqeeeeeeqqqqqqqqqqeeeeeeqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqDDDDqqqqqqqqqqqqDDDDqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+eeeqqqqqqqqqqeeeeeeqqqqqqqqqqeee
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqeDDDqqqqqqqqqqqqDDDDqqqqqqq
+
+[frame base]
+tile 0 0 nooutline

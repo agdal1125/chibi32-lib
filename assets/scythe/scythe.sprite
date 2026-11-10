@@ -1,0 +1,22 @@
+# generated from assets/scythe/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = scythe
+title = Scythe
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mMMMMMMMMd.
+.mmmmmmMMMd
+.......mMMd
+........Oo.
+........Oo.
+........Oo.
+........Oo.
+........Oo.
+........Oo.
+........oo.
+
+[frame base]
+item 10 19

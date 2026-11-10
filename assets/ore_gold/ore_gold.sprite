@@ -1,0 +1,19 @@
+# generated from assets/ore_gold/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ore_gold
+title = Gold ore
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...mmmm...
+..mMMGmd..
+.mMGYMmdd.
+mMMMMGmddd
+mMGYMmmddd
+.mmmmGddd.
+..dddddd..
+
+[frame base]
+item 11 22

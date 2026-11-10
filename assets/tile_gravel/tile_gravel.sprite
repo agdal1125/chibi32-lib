@@ -1,0 +1,45 @@
+# generated from assets/tile_gravel/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_gravel
+title = Gravel tile
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+mmmmmmmmmmmmmmmmmmmmmmmmmdmmmmmm
+mmmdmmmdmmmdmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmdmmmmmmmmmmmmmmmmmdmm
+mmmmmmdmmmmmmmmmmmmmmmmmmdmmmmmm
+mmdmmmmmmmmmmmmmmmmmmmmmmmmmmmmd
+mmmmmdmmmmmmmmmmmmmmmmdmmmmmmmmm
+mmmmmmmmmmmmmmmmmdmmmmmmmmmmmmmm
+mmmmmmmmmmmdmmmmmmmmmmdmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmdmmmmmmmmmmmdmmmmmmmmmmmm
+mmmmmmdmmmmmdmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmdmmmmmmmmm
+mmmmdmmmdmmmmmmmmmmmmmmmmmdmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmdmmmdmmmmmmmmmmmmmmmmmmm
+mmmmmmmdmmmmmdmmmmmmmdmmmmmmmmmm
+mmmmmmmmmmmmmmdmmdmmmmmmmmmdmmmm
+mmmmmmmmdmmmmmmmdmmmmmmmmmmmmmmm
+mdmmmmmmmmmdmmmmdmmmmmmmmmmmmmmm
+mmmdmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmddmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmdmmmmmmdmmmmmmmmmdmmmmmmdmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mdmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmdmmmmmmmmmmmdmmdmmmmm
+mmdmmmmmmmmmdmmmmmmmmmmmmmmmmmmm
+mmmmmmdmmmmdmmmmmmmmmmmmmmmdmmmm
+mdmmmmmmmmmmdmmmmmmmmmmmmmmmmmmm
+mmmmmmdmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdm
+mmmmmmmdmmmmmmmmmmmmmmmmmmmmmmmm
+
+[frame base]
+tile 0 0 nooutline

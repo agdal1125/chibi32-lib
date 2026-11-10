@@ -1,0 +1,24 @@
+# generated from assets/mimic/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mimic
+title = Mimic
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..OOOOOOOOOOOOo..
+.OOOOOOOOOOOOOOo.
+OOOOOOKOOOOOKOOoo
+OOOOOOOOOOOOOOOoo
+OKKKKKKKKKKKKKKKo
+OKMKMKMKMKMKMKMKo
+OKKKKKKKKKKKKKKKo
+OKMKMKMKMKMKMKMKo
+OKKKKKKKKKKKKKKKo
+OOOOOOOOOOOOOOOoo
+OOOOOOOOOOOOOOOoo
+ooooooooooooooooo
+
+[frame base]
+item 7 17

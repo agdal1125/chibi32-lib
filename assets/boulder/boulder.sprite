@@ -1,0 +1,22 @@
+# generated from assets/boulder/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = boulder
+title = Boulder
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......mmmmm.....
+....mmMMMMMmd...
+...mMMMMMMMmmd..
+..mMMMMMMMMmmdd.
+.mMMMMMMMmmmmdd.
+.mMMMMMMmmmmddd.
+mMMMMMmmmmmmdddd
+mMMMmmmmmmmdddd.
+.mmmmmmmmddddd..
+..ddddddddddd...
+
+[frame base]
+item 8 19

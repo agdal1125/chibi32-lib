@@ -1,0 +1,21 @@
+# generated from assets/arrow/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = arrow
+title = Arrow
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..M.
+.MMm
+OOOo
+.Oo.
+.Oo.
+.Oo.
+.Oo.
+WWw.
+Ww..
+
+[frame base]
+item 14 16

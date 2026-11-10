@@ -1,0 +1,20 @@
+# generated from assets/chair/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = chair
+title = Chair
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOo
+Oo..Oo
+Oo..Oo
+OOOOOo
+OOOOOo
+Oo..Oo
+Oo..Oo
+oo..oo
+
+[frame base]
+item 13 21

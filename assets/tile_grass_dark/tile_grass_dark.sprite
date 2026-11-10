@@ -1,0 +1,45 @@
+# generated from assets/tile_grass_dark/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_grass_dark
+title = Dark grass
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqeq
+qqqqqqqqqqqeqqqqeqqeqqqqqqqqqqqq
+eqqqqqqqqqqqqqqqqqqqqqqqqqeqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqeqqqqqqqq
+qqqqqqqqqqqqqqqeqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqeqqqqqqqqqqq
+qqqqqqqqqqeqqqqeeqqqqqqeqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqe
+qqqqqqqqqqqqqqqqqqqqqqqqqeqqqqqq
+qqqqqeqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqeqqqqqqeqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqeqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+eqqqqqqqqqqqqqqqqqqqqqqqqqqqeqqq
+qqqqqeqqqqqqqqqqqqqqqqqqqeqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqeqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqeqqqeqqqqqqqeqqqqqq
+qqqqqqqqeqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqeqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqeqqqqqqqqqqqqq
+qqqqqeqqqeqeqqqqqqeqqeqqqqqqqqqq
+qqqqqeqqqeqqqqqqqqqqqqqqqqqqqqqe
+
+[frame base]
+tile 0 0 nooutline

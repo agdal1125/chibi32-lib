@@ -1,0 +1,25 @@
+# generated from assets/dragon_red/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = dragon_red
+title = Red dragon whelp
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........RRr..
+........RRRRr.
+.......RRKRRRr
+.......RRRRRrr
+....R...RRrr..
+...RRR.RRRr...
+..RRRRRRRRRr..
+.RRRRRRRRRRr..
+RRYYYYRRRRRr..
+.RYYYYRRRRr...
+..RYYYRRRRr...
+...RRRRRRr.r..
+....Rr.Rr.rr..
+
+[frame base]
+item 8 16

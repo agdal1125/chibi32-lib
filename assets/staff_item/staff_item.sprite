@@ -1,0 +1,30 @@
+# generated from assets/staff_item/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = staff_item
+title = Crystal staff (item)
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.GYg.
+GCCGg
+GCcGg
+.Ggg.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+..Oo.
+
+[frame base]
+item 14 11

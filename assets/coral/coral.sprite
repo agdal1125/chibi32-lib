@@ -1,0 +1,19 @@
+# generated from assets/coral/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = coral
+title = Coral
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..P....P..
+.PPP.PPPP.
+.PxP..PxP.
+..Px.PPx..
+PPPPxPxPPP
+.PxPPxPPx.
+..xxxxxx..
+
+[frame base]
+item 11 22

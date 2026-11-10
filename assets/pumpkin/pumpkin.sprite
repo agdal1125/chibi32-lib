@@ -1,0 +1,21 @@
+# generated from assets/pumpkin/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = pumpkin
+title = Pumpkin
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......Eq......
+.....Ee.......
+..AAAAAAAAAA..
+.AAYAAAAAAAAa.
+AAYAAAAAAAAAaa
+AAAAAAAAAAAAaa
+AAAAAAAAAAAAaa
+.AAAAAAAAAAaa.
+..aaaaaaaaaa..
+
+[frame base]
+item 9 20

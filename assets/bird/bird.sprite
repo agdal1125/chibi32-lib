@@ -1,0 +1,18 @@
+# generated from assets/bird/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bird
+title = Bluebird
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...LLL.
+..LLKLA
+LLLLLLL
+.LLLLBB
+..LLBB.
+...A.A.
+
+[frame base]
+item 11 19

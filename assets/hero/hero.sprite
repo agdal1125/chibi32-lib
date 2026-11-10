@@ -1,0 +1,130 @@
+[meta]
+id = hero
+title = Hero with longsword and round shield
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part head]
+.......W....W...
+......WW...WW...
+...W.WWW..WWW...
+...WWWWWWWWWWW..
+.WWWWWWWWWWWWWW.
+WWWWWWWWWWWWWWww
+.WWWWWWWWWWWWwww
+..wWWWwWWWwSwww.
+.WwwWwhSSShSSSh.
+..hwwhSSSSSSSSS.
+..hhwSSSSKSSSKS.
+...hhSSSSKSSSKS.
+...hhsSSpSSSSpS.
+....hsSSSSSSSs..
+......sSSSSs....
+
+[part body]
+.LLBBBBBb.
+LLBBBBBBbb
+LBBBBBBBbb
+NNNNGgNNNn
+LBBBBBBBbb
+.BBBBBBBb.
+
+[part legs_stand]
+.Bb..Bb.
+.Bb..Bb.
+.NNN.NNN
+.nnn.nnn
+
+[part shield]
+..mmmmm..
+.mOOOOOd.
+mOOOOOOod
+mOOOGOOod
+mOOGGgOod
+mOOOgOOod
+mOOOOOood
+.doooood.
+..ddddd..
+
+[part sword]
+.M.....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Md....
+GGgg...
+.SSBBBB
+..gbbbb
+
+[part legs_near_fwd]
+...bbBB...
+..bb...BB.
+.nnn...NNN
+.nn....nnn
+
+[part legs_far_fwd]
+...BBbb...
+..BB...bb.
+.NNN...nnn
+.nn....nnn
+
+[part legs_near_support]
+..bbBB..
+..bbBB..
+.nnnBB..
+.nn.NNN.
+....nnn.
+
+[part legs_far_support]
+..bbBB..
+..bbBB..
+..bbNNN.
+..bbnnn.
+..nnn...
+
+# Draw order is back to front: legs, body, shield, head, sword arm.
+# Passing frames lift the whole upper body by 1 px and use 5-row legs to stay attached.
+[frame base]
+legs_stand 12 26
+body 11 20
+shield 18 19
+head 8 6
+sword 5 13
+
+[frame walk_0]
+legs_near_fwd 11 26
+body 11 20
+shield 18 19
+head 8 6
+sword 4 13
+
+[frame walk_1]
+legs_near_support 12 25
+body 11 19
+shield 18 18
+head 8 5
+sword 5 12
+
+[frame walk_2]
+legs_far_fwd 11 26
+body 11 20
+shield 18 19
+head 8 6
+sword 6 13
+
+[frame walk_3]
+legs_far_support 12 25
+body 11 19
+shield 18 18
+head 8 5
+sword 5 12
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

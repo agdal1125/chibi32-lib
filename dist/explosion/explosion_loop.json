@@ -1,0 +1,40 @@
+{
+  "id": "explosion",
+  "animation": "loop",
+  "image": "explosion_loop_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 24
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/explosion/explosion.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "explosion_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    },
+    {
+      "name": "alt",
+      "file": "explosion_alt.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    }
+  ]
+}

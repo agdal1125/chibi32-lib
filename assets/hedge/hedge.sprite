@@ -1,0 +1,18 @@
+# generated from assets/hedge/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = hedge
+title = Hedge
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+EEEEEEEEEEEEEEEe
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEeee
+EEEEEEEEEEEEeeee
+EEEEEEEEEEEeeeee
+eeeeeeeeeeeeeeee
+
+[frame base]
+item 8 23

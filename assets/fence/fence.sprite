@@ -1,0 +1,19 @@
+# generated from assets/fence/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = fence
+title = Wooden fence
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+Oo....Oo....Oo
+Oo....Oo....Oo
+OOOOOOOOOOOOOo
+Oo....Oo....Oo
+OOOOOOOOOOOOOo
+Oo....Oo....Oo
+oo....oo....oo
+
+[frame base]
+item 9 22

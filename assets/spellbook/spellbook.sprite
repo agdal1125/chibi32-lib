@@ -1,0 +1,20 @@
+# generated from assets/spellbook/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = spellbook
+title = Spellbook
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+LLLLLLLLb
+LMMMMMMLb
+LMhhhMMLb
+LMMMMMMLb
+LMhhhhMLb
+LMMMMMMLb
+LLLLLLLLb
+bbbbbbbbb
+
+[frame base]
+item 11 17

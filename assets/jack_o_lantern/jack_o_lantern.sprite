@@ -1,0 +1,21 @@
+# generated from assets/jack_o_lantern/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = jack_o_lantern
+title = Jack-o'-lantern
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......Eq......
+.....Ee.......
+..AAAAAAAAAA..
+.AAYAAAAAAAAa.
+AAYKKAAAAKKAaa
+AAAAKAAAAKAAaa
+AAAKAAAAAAKAaa
+.AAAKKKKKKAaa.
+..aaaaaaaaaa..
+
+[frame base]
+item 9 20

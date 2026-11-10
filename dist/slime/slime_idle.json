@@ -1,0 +1,58 @@
+{
+  "id": "slime",
+  "animation": "idle",
+  "image": "slime_idle_sheet.png",
+  "imageSize": {
+    "w": 128,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/slime/slime.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "slime_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 220
+    },
+    {
+      "name": "squash",
+      "file": "slime_squash.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 140
+    },
+    {
+      "name": "base",
+      "file": "slime_base.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "stretch",
+      "file": "slime_stretch.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 180
+    }
+  ]
+}

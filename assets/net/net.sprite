@@ -1,0 +1,18 @@
+# generated from assets/net/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = net
+title = Fishing net
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+n..n..n..n
+.nn.nn.nn.
+n..n..n..n
+.nn.nn.nn.
+n..n..n..n
+.nn.nn.nn.
+
+[frame base]
+item 11 23

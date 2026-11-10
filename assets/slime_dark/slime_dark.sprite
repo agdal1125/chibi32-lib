@@ -1,0 +1,41 @@
+# generated from assets/slime_dark/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = slime_dark
+title = Dark slime
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....dddddd.....
+...dddddddddd...
+..dMMddddddddD..
+.dMMdddddddddDD.
+.dMddddddddddDD.
+ddddddKdddKddDDD
+ddddddKdddKddDDD
+dddddpdddddpdDDD
+DddddddddddddDDD
+.DddddddddddDDD.
+..DDDDDDDDDDDD..
+
+[part slime_squash]
+......dddddd......
+...dddddddddddd...
+.ddMMddddddddddDD.
+ddMddddddddddddDDD
+dddddddKdddKdddDDD
+dddddddKdddKdddDDD
+ddddddpdddddpddDDD
+.DddddddddddddDDD.
+..DDDDDDDDDDDDDD..
+
+[frame base]
+slime_mid 8 19
+
+[frame squash]
+slime_squash 7 21
+
+[anim idle]
+base 260
+squash 160

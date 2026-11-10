@@ -1,0 +1,7 @@
+"""shop: 상점. 초록 지붕, 불 켜진 창.
+Generated from tools/kit32.py; edit the spec there."""
+from kit32 import make
+
+
+def build():
+    return make("shop")

@@ -1,0 +1,21 @@
+# generated from assets/question/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = question
+title = Question mark
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.YYYYY.
+YYY.YYY
+YY...YY
+....YYY
+...YYY.
+...YY..
+.......
+...YY..
+...YY..
+
+[frame base]
+item 12 14

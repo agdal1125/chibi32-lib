@@ -1,0 +1,20 @@
+# generated from assets/dog/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = dog
+title = Dog
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+............OO..
+N..........OOOO.
+N.........NOOKOO
+NOOOOOOOOOOOOOOK
+.OOOOOOOOOOOOO..
+.OOOOOOOOOOOO...
+.Oo.Oo...Oo.Oo..
+.oo.oo...oo.oo..
+
+[frame base]
+item 8 21

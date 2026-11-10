@@ -1,0 +1,45 @@
+# generated from assets/waterfall/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = waterfall
+title = Waterfall
+size = 32 32
+anchor = 16 27
+palette = ../../styles/chibi32/palette.txt
+
+[part w0]
+mMCCCCCCMd
+mMCCCMCCMd
+mMCMCCCCMd
+mMCCCCMCMd
+mMCCCCCCMd
+mMCMCCCCMd
+mMCCCMCCMd
+mMCCCCCCMd
+mMCCCCMCMd
+mMCCCCCCMd
+WWWWWWWWWW
+.WCWCWCWW.
+
+[part w1]
+mMCCCCCCMd
+mMCCCCMCMd
+mMCCCMCCMd
+mMCMCCCCMd
+mMCCCCMCMd
+mMCCCCCCMd
+mMCMCCCCMd
+mMCCCMCCMd
+mMCCCCCCMd
+mMCCCCMCMd
+WWWWWWWWWW
+.WWCWCWCW.
+
+[frame base]
+w0 11 16
+
+[frame flow]
+w1 11 16
+
+[anim flow]
+base 120
+flow 120

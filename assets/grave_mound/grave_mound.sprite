@@ -1,0 +1,17 @@
+# generated from assets/grave_mound/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = grave_mound
+title = Grave mound
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....OOOO....
+..OOOOOOOO..
+.OOOOOOOOOo.
+OOOOOOOOOOoo
+oooooooooooo
+
+[frame base]
+item 10 24

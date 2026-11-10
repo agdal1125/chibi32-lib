@@ -1,0 +1,45 @@
+# generated from assets/tile_wet_sand/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_wet_sand
+title = Wet sand
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+ssssssssssssssssssNsssssssssssss
+sssssssNssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+sssssssssssssssssssssssssssssssN
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+sssssNssssssssssssssssssssssssss
+ssssssssssssNNssNsssssssssssssss
+ssssssssssssssssssssssssNsssssss
+sssssssssssssssssNssssssssssssss
+ssNsssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssNsssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssNsssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssNsssssssssssssssNsssssssNsss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssNsssssssssss
+ssssssssssssssssssssssssssssssss
+ssssNsssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssNsss
+ssssssssssssssssssssssssssssssss
+sssssssssNNsssssssssssssssssssss
+
+[frame base]
+tile 0 0 nooutline

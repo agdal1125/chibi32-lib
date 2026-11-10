@@ -1,0 +1,58 @@
+{
+  "id": "bat",
+  "animation": "fly",
+  "image": "bat_fly_sheet.png",
+  "imageSize": {
+    "w": 128,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 22
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/bat/bat.sprite",
+  "frames": [
+    {
+      "name": "up",
+      "file": "bat_up.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    },
+    {
+      "name": "base",
+      "file": "bat_base.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    },
+    {
+      "name": "down",
+      "file": "bat_down.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    },
+    {
+      "name": "base",
+      "file": "bat_base.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    }
+  ]
+}

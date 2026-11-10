@@ -1,0 +1,23 @@
+# generated from assets/signpost/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = signpost
+title = Signpost
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOOOo
+OhhhhhhhhhhhOo
+OOOOOOOOOOOOOo
+OhhhhhhhhOOOOo
+OOOOOOOOOOOOOo
+ooooooooooooo.
+......Oo......
+......Oo......
+......Oo......
+......Oo......
+......oo......
+
+[frame base]
+item 9 18

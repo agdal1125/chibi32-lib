@@ -1,0 +1,18 @@
+# generated from assets/gloves/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = gloves
+title = Leather gloves
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.NN.....NN..
+NNNN...NNNN.
+NNNNN..NNNNN
+NNNNN..NNNNN
+.NNNn...NNNn
+.nnnn...nnnn
+
+[frame base]
+item 10 19

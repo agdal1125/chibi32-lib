@@ -1,0 +1,18 @@
+# generated from assets/cheese/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cheese
+title = Cheese
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......YYYY
+...YYYYYYG
+YYYYYYYGGG
+YYGYYYYYGG
+YGYYYYGYYG
+GGGGGGGGGG
+
+[frame base]
+item 11 19

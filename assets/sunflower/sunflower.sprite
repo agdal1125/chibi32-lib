@@ -1,0 +1,24 @@
+# generated from assets/sunflower/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sunflower
+title = Sunflower
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..YYYY..
+.YYooYY.
+YYooooYY
+YYooooYY
+.YYooYY.
+..YYYY..
+...Ee...
+.E.Ee.E.
+.EEEeEE.
+...Ee...
+...Ee...
+...ee...
+
+[frame base]
+item 12 18

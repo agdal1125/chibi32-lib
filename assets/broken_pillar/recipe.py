@@ -1,0 +1,7 @@
+"""broken_pillar: 부서진 기둥.
+Generated from tools/kit32.py; edit the spec there."""
+from kit32 import make
+
+
+def build():
+    return make("broken_pillar")

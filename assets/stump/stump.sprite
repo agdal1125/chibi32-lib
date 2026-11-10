@@ -1,0 +1,21 @@
+# generated from assets/stump/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = stump
+title = Tree stump
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..OOOOOOOO..
+.OOmmmmmmOo.
+OOmOOOOOOmOo
+OOmOOmmOOmOo
+OOmOOOOOOmOo
+.OOmmmmmmOoo
+.OOOOOOOOOoo
+.OOOOOOOOOoo
+..oooooooo..
+
+[frame base]
+item 10 20

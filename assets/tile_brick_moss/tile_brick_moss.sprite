@@ -1,0 +1,45 @@
+# generated from assets/tile_brick_moss/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_brick_moss
+title = Mossy brick wall
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+MMMMMMMMMMMMeMMKMMMMMMMMMMMMMMMK
+MmmmmmmmmmmmemdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmemmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MdddeddddddddddKMddddddddddddddK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+MMMMMMMeMMMMMMMMMMMMMMMKMMMMeMMM
+mmmmmmdKMmmmmemmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMemmmmmm
+mmmmmmdKemmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKememmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMmemmmmm
+dddddddKMddedddddedddddKMddddddd
+KKKKKKKKKKKKKKKKKKKKKKKKKKeKKKKK
+MMMMMMMMMMMMMMMKMMeMMMMMMMMMMMMK
+MmmmmemmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmemmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MddddddddddddddKMddddddddddddddK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKe
+MMMMMMMKMMeMMMMMeMMMMMMKMMMMMMMM
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdeMmmmmmmmmmmmmmdKMmmmmmmm
+mmemmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKemmmmmmmmmmmmmdKMmmmmmmm
+dddddddKMddddddddddddddKMddddddd
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+
+[frame base]
+tile 0 0 nooutline

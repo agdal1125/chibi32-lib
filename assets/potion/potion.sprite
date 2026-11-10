@@ -1,0 +1,63 @@
+[meta]
+id = potion
+title = Potions (health, mana, antidote)
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part health]
+....NNNn....
+....NNnn....
+...mMMMMd...
+....MRRd....
+....MRRd....
+..mMRRRRmd..
+.mMRRRRRRrd.
+mRMRRRRRRrrd
+mRMRRRRRRrrd
+mRRRRRRRRrrd
+mRRRRRRRrrrd
+.mRRRRRRrrd.
+..drrrrrrd..
+...dddddd...
+
+[part mana]
+....NNNn....
+....NNnn....
+...mMMMMd...
+....MLLd....
+....MLLd....
+..mMLLLLmd..
+.mMLLLLLLbd.
+mLMLLLLLLbbd
+mLMLBLLLLbbd
+mLLLLLLBLbbd
+mLLLLLLLbbbd
+.mLLLLLLbbd.
+..dbbbbbbd..
+...dddddd...
+
+[part antidote]
+....NNNn....
+....NNnn....
+...mMMMMd...
+....MEEd....
+....MEEd....
+..mMEEEEmd..
+.mMEEEEEEed.
+mEMEEEEEEeed
+mEMEEEEEEeed
+mEEEEEEEEeed
+mEEEEEEEeeed
+.mEEEEEEeed.
+..deeeeeed..
+...dddddd...
+
+[frame base]
+health 10 15
+
+[frame mana]
+mana 10 15
+
+[frame antidote]
+antidote 10 15

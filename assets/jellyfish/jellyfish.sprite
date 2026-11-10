@@ -1,0 +1,21 @@
+# generated from assets/jellyfish/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = jellyfish
+title = Jellyfish
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...VVVVVV...
+.VVVVVVVVVV.
+VVVVVVVVVVVv
+VVKVVVVVVKVv
+VVVVVVVVVVVv
+.vvvvvvvvvv.
+.V.V.V.V.V.v
+.V.v.V.v.V.v
+.v...v...v..
+
+[frame base]
+item 10 16

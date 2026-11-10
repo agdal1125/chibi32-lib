@@ -1,0 +1,20 @@
+# generated from assets/mushroom_blue/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mushroom_blue
+title = Blue mushroom
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..LLLL...
+.LLMLLLb.
+LLLLLMLLb
+bbbbbbbbb
+...SSs...
+...SSs...
+...SSs...
+..sssss..
+
+[frame base]
+item 12 21

@@ -1,0 +1,19 @@
+# generated from assets/ore_crystal/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ore_crystal
+title = Crystal ore
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...mmmm...
+..mMMVmd..
+.mMVVMmdd.
+mMMMMVmddd
+mMVVMmmddd
+.mmmmVddd.
+..dddddd..
+
+[frame base]
+item 11 22

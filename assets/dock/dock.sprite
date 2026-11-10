@@ -1,0 +1,17 @@
+# generated from assets/dock/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = dock
+title = Dock piece
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOOOOOOOOOOOOOO
+OoOoOoOoOoOoOoOoOoOoOoOo
+OOOOOOOOOOOOOOOOOOOOOOOO
+nn....nn....nn....nn....
+nn....nn....nn....nn....
+
+[frame base]
+item 4 24

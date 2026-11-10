@@ -1,0 +1,26 @@
+# generated from assets/mushroom_giant/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mushroom_giant
+title = Giant mushroom
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....RRRRRRR....
+...RRRRMMRRRRR..
+..RRRRRMMRRRRRr.
+.RRMMRRRRRRRMMrr
+.RRMMRRRRRRRMMrr
+RRRRRRRRRRRRRRrr
+RRRRRRRMMRRRRRrr
+rrrrrrrrrrrrrrrr
+.....SSSSSSs....
+.....SSSSSSs....
+.....SSSSSSs....
+.....SSSSSSs....
+.....SSSSSSs....
+....ssssssssss..
+
+[frame base]
+item 8 16

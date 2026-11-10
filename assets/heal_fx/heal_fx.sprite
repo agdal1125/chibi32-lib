@@ -1,0 +1,39 @@
+# generated from assets/heal_fx/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = heal_fx
+title = Heal effect
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+....E.....
+...EEE....
+....E...E.
+.......EEE
+.E......E.
+EEE.......
+.E...E....
+....EEE...
+.....E....
+
+[part f1]
+...EEE....
+....E...E.
+.......EEE
+.E......E.
+EEE.......
+.E...E....
+....EEE...
+.....E....
+....E.....
+
+[frame base]
+f0 11 16
+
+[frame alt]
+f1 11 16
+
+[anim loop]
+base 140
+alt 140

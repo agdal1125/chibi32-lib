@@ -1,0 +1,22 @@
+# generated from assets/banner_blue/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = banner_blue
+title = Blue banner
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+GGGGGGGGGGg
+LLLLLLLLLBg
+LLLLLLLLLB.
+LLLYYYLLLB.
+LLYYYYYLLB.
+LLLYYYLLLB.
+LLLLLLLLLB.
+LLLLLLLLLB.
+LLLBLLBLLB.
+LLB.LLB.LB.
+
+[frame base]
+item 10 17

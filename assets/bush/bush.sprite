@@ -1,0 +1,19 @@
+# generated from assets/bush/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bush
+title = Bush
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....EEEE....
+..EEEEEEEE..
+.EEEEEEEEEe.
+EEEEEEEEEEee
+EEEEEEEEEeee
+.EEEEEEEeee.
+..eeeeeeee..
+
+[frame base]
+item 10 22

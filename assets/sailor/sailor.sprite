@@ -1,0 +1,113 @@
+# generated from assets/sailor/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sailor
+title = Sailor
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+wM..wM.
+wM..wM.
+BBB.BBB
+bbb.bbb
+
+[part legs_near_fwd]
+..MMww...
+.MM...ww.
+bbb...BBB
+bb....bbb
+
+[part legs_near_support]
+.MMww.
+.MMww.
+bbbww.
+bb.BBB
+...bbb
+
+[part legs_far_fwd]
+..wwMM...
+.ww...MM.
+BBB...bbb
+bb....bbb
+
+[part legs_far_support]
+MMww.
+MMww.
+MMBBB
+MMbbb
+bbb..
+
+[part back_item]
+.M.....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Md....
+GGgg...
+.SSwwww
+..gMMMM
+
+[part body]
+.WWwwwwwM.
+WWwwwwwwMM
+WwwwwwwwMM
+BBBBGgBBBb
+WwwwwwwwMM
+.wwwwwwwM.
+
+[part head]
+.......O....O...
+......OO...OO...
+...O.OOO..OOO...
+...OOOOOOOOOOO..
+.OOOOOOOOOOOOOO.
+OOOOOOOOOOOOOOoo
+.OOOOOOOOOOOOooo
+..oOOOoOOOoSooo.
+.OooOoNSSSNSSSN.
+..NooNSSSSSSSSS.
+..NNoSSSSKSSSKS.
+...NNSSSSKSSSKS.
+...NNsSSpSSSSpS.
+....NsSSSSSSSs..
+......sSSSSs....
+
+[frame base]
+legs_stand 13 26
+back_item 3 18
+body 11 20
+head 8 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+back_item 2 18
+body 11 20
+head 8 6
+
+[frame walk_1]
+legs_near_support 13 25
+back_item 3 17
+body 11 19
+head 8 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+back_item 4 18
+body 11 20
+head 8 6
+
+[frame walk_3]
+legs_far_support 14 25
+back_item 3 17
+body 11 19
+head 8 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

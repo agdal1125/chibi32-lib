@@ -1,0 +1,19 @@
+# generated from assets/rock_sand/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rock_sand
+title = Sandstone rock
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...ssss...
+..sSSSsN..
+.sSSSSsNN.
+sSSSSssNNN
+sSSSsssNNN
+.sssssNNN.
+..NNNNNN..
+
+[frame base]
+item 11 22

@@ -1,0 +1,20 @@
+# generated from assets/wheelbarrow/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = wheelbarrow
+title = Wheelbarrow
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.............Oo
+............Oo.
+OOOOOOOOOOOOo..
+OGGGGGGGGGOo...
+.OOOOOOOOOo....
+..DDD..oo......
+.DDMDD.........
+..DDD..........
+
+[frame base]
+item 8 21

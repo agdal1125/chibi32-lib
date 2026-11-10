@@ -1,0 +1,19 @@
+# generated from assets/lava_rock/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = lava_rock
+title = Lava rock
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...DDDD...
+..DDRDDD..
+.DDDDRRDD.
+DDRDDDDDDD
+DDDDDRDDDD
+.DDDDDDDD.
+..DDRDDD..
+
+[frame base]
+item 11 22

@@ -1,0 +1,19 @@
+# generated from assets/sapling/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sapling
+title = Sapling
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..EEe..
+.EEEEe.
+..EEe..
+...Oo..
+...Oo..
+.nnnnn.
+nnnnnnn
+
+[frame base]
+item 12 22

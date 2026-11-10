@@ -1,0 +1,17 @@
+# generated from assets/pressure_plate/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = pressure_plate
+title = Pressure plate
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mmmmmmmmmmmm
+mMMMMMMMMMmd
+mMMMMMMMMMmd
+mmmmmmmmmmdd
+dddddddddddd
+
+[frame base]
+item 10 24

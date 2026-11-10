@@ -1,0 +1,22 @@
+# generated from assets/cupboard/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cupboard
+title = Cupboard
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOOOo
+OCCCCCOOCCCCOo
+OCCCCCOOCCCCOo
+OCCCCCOOCCCCOo
+OOOOOOOOOOOOOo
+OOOOOGOOGOOOOo
+OOOOOOOOOOOOOo
+OOOOOGOOGOOOOo
+OOOOOOOOOOOOOo
+oooooooooooooo
+
+[frame base]
+item 9 20

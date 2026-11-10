@@ -1,0 +1,26 @@
+# generated from assets/potion_cyan/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = potion_cyan
+title = Speed potion
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....NNNn....
+....NNnn....
+...mMMMMd...
+....MCCd....
+....MCCd....
+..mMCCCCmd..
+.mMCCCCCCcd.
+mCMCCCCCCccd
+mCMCCCCCCccd
+mCCCCCCCCccd
+mCCCCCCCcccd
+.mCCCCCCccd.
+..dccccccd..
+...dddddd...
+
+[frame base]
+item 10 11

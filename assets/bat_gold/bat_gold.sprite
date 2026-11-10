@@ -1,0 +1,68 @@
+# generated from assets/bat_gold/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bat_gold
+title = Gold bat
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part body]
+.G......g.
+.GG....Gg.
+.GGGGGGGg.
+GGGGGGGGgg
+GGKGGGKGgg
+GGKGGGKGgg
+GGGMGMGggg
+.GGMgMggg.
+..gg..gg..
+
+[part wl]
+.....GGGG
+..GGGGggG
+GGGgggggg
+Ggggggggg
+g.gg.gggg
+...g...gg
+
+[part wr]
+GGGG.....
+GggGGGG..
+ggggggGGG
+ggggggggG
+gggg.gg.g
+gg...g...
+
+[part ul]
+GG......
+.GGG....
+ggGGG...
+.gggGGG.
+ggggggGG
+.ggggggG
+..gggggG
+....gggG
+
+[part ur]
+......GG
+....GGG.
+...GGGgg
+.GGGggg.
+GGgggggg
+Ggggggg.
+Gggggg..
+Gggg....
+
+[frame base]
+wl 2 16
+wr 21 16
+body 11 14
+
+[frame up]
+ul 3 10
+ur 21 10
+body 11 14
+
+[anim fly]
+base 110
+up 110

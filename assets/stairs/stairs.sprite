@@ -1,0 +1,18 @@
+# generated from assets/stairs/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = stairs
+title = Stone stairs
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+............MMMMd
+.........MMMmmmmd
+......MMMmmmmmmmd
+...MMMmmmmmmmmmmd
+MMMmmmmmmmmmmmmmd
+dddddddddddddddd.
+
+[frame base]
+item 7 23

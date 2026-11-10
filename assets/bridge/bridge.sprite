@@ -1,0 +1,17 @@
+# generated from assets/bridge/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bridge
+title = Bridge piece
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOOOOOOOOOOOOOOOOOO
+OoOoOoOoOoOoOoOoOoOoOoOoOoOo
+OOOOOOOOOOOOOOOOOOOOOOOOOOOO
+nOnOnOnOnOnOnOnOnOnOnOnOnOnO
+oooooooooooooooooooooooooooo
+
+[frame base]
+item 2 24

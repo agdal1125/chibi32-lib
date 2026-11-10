@@ -1,0 +1,22 @@
+# generated from assets/crates/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = crates
+title = Crate stack
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......OOOOOOOo
+......OoooooOo
+......OoOOOoOo
+......OoooooOo
+OOOOOOOOOOOOOo
+OoooooOoooooOo
+OoOOOoOoOOOoOo
+OoooooOoooooOo
+OOOOOOOOOOOOOo
+oooooooooooooo
+
+[frame base]
+item 9 20

@@ -1,0 +1,17 @@
+# generated from assets/spike_trap/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = spike_trap
+title = Spike trap
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+M...M...M...M.
+Mm..Mm..Mm..Mm
+Mm..Mm..Mm..Mm
+mmmmmmmmmmmmmm
+dddddddddddddd
+
+[frame base]
+item 9 24

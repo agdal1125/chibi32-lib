@@ -1,0 +1,25 @@
+# generated from assets/house/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = house
+title = House (red roof)
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........RR.........
+.......RRRRRR.......
+.....RRRRRRRRRR.....
+...RRRRRRRRRRRRRR...
+.RRRRRRRRRRRRRRRRRR.
+rrrrrrrrrrrrrrrrrrrr
+.WWWWWWWWWWWWWWWWWw.
+.WCCCWWWWWWWWCCCWWw.
+.WCCCWWOOOOWWCCCWWw.
+.WWWWWWOOOOWWWWWWWw.
+.WWWWWWOOGOWWWWWWWw.
+.WWWWWWOOOOWWWWWWWw.
+.wwwwwwoooowwwwwwww.
+
+[frame base]
+item 6 17

@@ -1,0 +1,45 @@
+# generated from assets/tile_stone/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_stone
+title = Stone brick tile (seamless)
+size = 32 32
+anchor = 16 31
+margin = 0
+palette = ../../styles/chibi32/palette.txt
+
+[part stone]
+MMMMMMMMMMMMMMMKMMMMMMMMMMMMMMMK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmddK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MddmmmmmddmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MddddddddddddddKMddddddddddddddK
+KKKKKKKKKKKKKeKKKKKKKKKeKKKKKKKK
+MMMMMMMKMMMMMMMMMMMMMMMKMMMMMMMM
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmddm
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmddmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+dddddddKMddddddddddddddKMddddddd
+KKKKKKKKKKKeKKKKKKKKKKKKKKKKKKKK
+MMMMMMMMMMMMMMMKMMMMMMMMMMMMMMMK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmddmmmmmmdK
+MmmmmmmmmmmmmmdKMmmmmmmmmmmmmmdK
+MddddddddddddddKMddddddddddddddK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+MMMMMMMKMMMMMMMMMMMMMMMKMMMMMMMM
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmddmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+mmmmmmdKMmmmmmmmmmmmmmdKMmmmmmmm
+dddddddKMddddddddddddddKMddddddd
+KKKKKKKKeKKKKKKKKKKKKKKKeKKKKKKe
+
+[frame base]
+stone 0 0 nooutline

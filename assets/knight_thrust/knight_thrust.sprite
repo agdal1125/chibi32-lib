@@ -1,0 +1,137 @@
+# generated from assets/knight_thrust/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = knight_thrust
+title = Knight, thrusting
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+md..md.
+md..md.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..ddmm...
+.dd...mm.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.ddmm.
+.ddmm.
+nnnmm.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..mmdd...
+.mm...dd.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+ddmm.
+ddmm.
+ddNNN
+ddnnn
+nnn..
+
+[part body]
+.MMmmmmmd.
+MMmmmmmmdd
+Mmmmmmmmdd
+NNNNGgNNNn
+Mmmmmmmmdd
+.mmmmmmmd.
+
+[part front_item]
+..mmmmm..
+.mOOOOOd.
+mOOOOOOod
+mOOOGOOod
+mOOGGgOod
+mOOOgOOod
+mOOOOOood
+.doooood.
+..ddddd..
+
+[part head]
+.......O....O...
+......OO...OO...
+...O.OOO..OOO...
+...OOOOOOOOOOO..
+.OOOOOOOOOOOOOO.
+OOOOOOOOOOOOOOoo
+.OOOOOOOOOOOOooo
+..oOOOoOOOoSooo.
+.OooOoNSSSNSSSN.
+..NooNSSSSSSSSS.
+..NNoSSSSKSSSKS.
+...NNSSSSKSSSKS.
+...NNsSSpSSSSpS.
+....NsSSSSSSSs..
+......sSSSSs....
+
+[part held_item]
+..G........
+.SGMMMMMMMM
+gSgdmmmmmm.
+dmg........
+dm.........
+dm.........
+dm.........
+
+[part hat]
+....MMMM....
+..MMMMMMMm..
+.MMMMMMMmmm.
+MMMMMMMmmmdd
+MMMMMMmmmmdd
+
+[frame base]
+legs_stand 13 26
+body 11 20
+front_item 18 18
+head 8 6
+held_item 17 21
+hat 10 4
+
+[frame walk_0]
+legs_near_fwd 12 26
+body 11 20
+front_item 18 18
+head 8 6
+held_item 17 21
+hat 10 4
+
+[frame walk_1]
+legs_near_support 13 25
+body 11 19
+front_item 18 17
+head 8 5
+held_item 17 20
+hat 10 3
+
+[frame walk_2]
+legs_far_fwd 12 26
+body 11 20
+front_item 18 18
+head 8 6
+held_item 17 21
+hat 10 4
+
+[frame walk_3]
+legs_far_support 14 25
+body 11 19
+front_item 18 17
+head 8 5
+held_item 17 20
+hat 10 3
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

@@ -1,0 +1,24 @@
+# generated from assets/brazier/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = brazier
+title = Brazier
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....R.....
+....RAR....
+...RAYAR...
+...RAYYAR..
+..RAAYAAr..
+...RAAAr...
+mMMMMMMMMMd
+.mmmmmmmmmd
+....mMMd...
+....mMMd...
+..mMMMMMMd.
+..dddddddd.
+
+[frame base]
+item 10 18

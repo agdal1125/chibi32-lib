@@ -1,0 +1,24 @@
+# generated from assets/bamboo/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bamboo
+title = Bamboo
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....Ee....Ee...
+Ee..Ee.Ee.Ee...
+Ee..Eq.Ee.Eq...
+Eq..Ee.Eq.Ee...
+Ee..Ee.Ee.Ee...
+Ee..Eq.Ee.Eq.E.
+Eq..Ee.Eq.Ee.Ee
+Ee..Ee.Ee.Ee.Ee
+Ee..Eq.Eq.Eq.Eq
+Eq..Ee.Ee.Ee.Ee
+Ee..Ee.Ee.Ee.Ee
+Ee..Ee.Ee.Ee.Ee
+
+[frame base]
+item 9 18

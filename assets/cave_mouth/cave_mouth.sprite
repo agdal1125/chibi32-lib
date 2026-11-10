@@ -1,0 +1,22 @@
+# generated from assets/cave_mouth/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cave_mouth
+title = Cave mouth
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....DDDDDDDD.....
+...DDmmmmmmmmDD...
+..DmmMMMMMMMMmmD..
+.DmMMMmKKKKmMMMmD.
+.DmMMmKKKKKKmMMmD.
+DmMMmKKKKKKKKmMMmD
+DmMMmKKKKKKKKmMMmD
+DmMMmKKKKKKKKmMMmD
+DmMmKKKKKKKKKKmMmD
+dddddddddddddddddd
+
+[frame base]
+item 7 20

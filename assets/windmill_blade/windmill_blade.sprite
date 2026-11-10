@@ -1,0 +1,21 @@
+# generated from assets/windmill_blade/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = windmill_blade
+title = Windmill blades
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+WWWw....
+.WWWw...
+..WWWw..
+...WWWw.
+....OOo.
+...wWWWW
+..wWWW..
+.wWWW...
+wWWW....
+
+[frame base]
+item 11 16

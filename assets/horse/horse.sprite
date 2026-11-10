@@ -1,0 +1,23 @@
+# generated from assets/horse/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = horse
+title = Horse
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...........OOo..
+..........OOOOo.
+..........OOKOOo
+n.........OOOOOo
+nOOOOOOOOOOOOo..
+nOOOOOOOOOOOO...
+.OOOOOOOOOOOO...
+.OOOOOOOOOOOo...
+.Oo.Oo...Oo.Oo..
+.Oo.Oo...Oo.Oo..
+.DD.DD...DD.DD..
+
+[frame base]
+item 8 18

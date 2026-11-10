@@ -1,0 +1,25 @@
+# generated from assets/ghost/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ghost
+title = Ghost
+size = 32 32
+anchor = 16 27
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.....WWWWWW.....
+...WWWWWWWWWW...
+..WWWWWWWWWWWw..
+.WWWWWWWWWWWWww.
+.WWWKKWWWWKKWww.
+WWWWKKWWWWKKWwww
+WWWWWWWWWWWWwwww
+WWWWWWWKKWWWwwww
+WWWWWWWWWWWWwwww
+WWWWWWWWWWWwwwww
+.WWWWWWWWWWwwww.
+.WWwWWwwWWwwwww.
+.Ww.Ww.ww.ww.ww.
+
+[frame base]
+item 8 15

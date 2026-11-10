@@ -1,0 +1,20 @@
+# generated from assets/apple/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = apple
+title = Apple
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....Oo..
+...Oo...
+.RRRRRR.
+RYRRRRRr
+RYRRRRRr
+RRRRRRrr
+.RRRRrr.
+..rrrr..
+
+[frame base]
+item 12 17

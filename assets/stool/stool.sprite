@@ -1,0 +1,17 @@
+# generated from assets/stool/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = stool
+title = Stool
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOo
+ooooooo.
+.Oo..Oo.
+.Oo..Oo.
+.oo..oo.
+
+[frame base]
+item 12 24

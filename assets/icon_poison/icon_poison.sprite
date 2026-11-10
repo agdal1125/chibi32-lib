@@ -1,0 +1,22 @@
+# generated from assets/icon_poison/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = icon_poison
+title = Poison status
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...VV...
+...VV...
+..VVVV..
+..VVVV..
+.VMVVVv.
+VMVVVVVv
+VVVVVVVv
+VVVVVVvv
+.VVVVvv.
+..vvvv..
+
+[frame base]
+item 12 13

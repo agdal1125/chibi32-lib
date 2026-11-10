@@ -1,0 +1,23 @@
+# generated from assets/eyeball/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = eyeball
+title = Floating eyeball
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......KKKKK......
+...KKKMMMMMKKK...
+.KKMMMMMMMMMMMKK.
+KMMMMMMRRRMMMMMMK
+KMMMMMRRKRRMMMMMK
+KMMMMMRKKKRMMMMMK
+KMMMMMRRKRRMMMMMK
+KMMMMMMRRRMMMMMMK
+.KKMMMMMMMMMMMKK.
+...KKKmmmmmKKK...
+......KKKKK......
+
+[frame base]
+item 7 12

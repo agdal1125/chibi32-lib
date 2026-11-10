@@ -1,0 +1,20 @@
+# generated from assets/broken_pillar/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = broken_pillar
+title = Broken pillar
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.mMMd.M.
+.mMMMd..
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+mMMMMMMd
+mmmmmmmd
+
+[frame base]
+item 12 21

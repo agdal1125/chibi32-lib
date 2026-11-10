@@ -1,0 +1,22 @@
+# generated from assets/banner_red/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = banner_red
+title = Red banner
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+GGGGGGGGGGg
+RRRRRRRRRrg
+RRRRRRRRRr.
+RRRYYYRRRr.
+RRYYYYYRRr.
+RRRYYYRRRr.
+RRRRRRRRRr.
+RRRRRRRRRr.
+RRRrRRrRRr.
+RRr.RRr.Rr.
+
+[frame base]
+item 10 17

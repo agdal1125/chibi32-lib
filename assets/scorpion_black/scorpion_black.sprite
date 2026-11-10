@@ -1,0 +1,22 @@
+# generated from assets/scorpion_black/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = scorpion_black
+title = Black scorpion
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..............DDK
+.............DDKK
+..............DK.
+.............DK..
+..DDD.......DDK..
+.DDDD..DDDDDDK...
+DDK..DDDDDDDDK...
+DDK..DDKDDDDK....
+.DDDDDDDDDDKK....
+...K.K.K.K.K.....
+
+[frame base]
+item 7 19

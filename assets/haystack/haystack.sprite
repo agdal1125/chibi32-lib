@@ -1,0 +1,18 @@
+# generated from assets/haystack/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = haystack
+title = Haystack
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...GGGGGG...
+.GGYGGGGGGg.
+GGGGGGYGGGgg
+GGYGGGGGGGgg
+GGGGGGGGYGgg
+.ggggggggggg
+
+[frame base]
+item 10 23

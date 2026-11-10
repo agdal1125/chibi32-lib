@@ -1,0 +1,33 @@
+# generated from assets/smoke/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = smoke
+title = Smoke puff
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+...mmm....
+..mMMMm...
+.mMMMMMm.m
+mMMMMMMmmM
+.mMMMMmmMm
+..mmmm.mm.
+
+[part f1]
+....mmm...
+...mMMMm..
+m.mMMMMMm.
+MmmMMMMMMm
+mMmmMMMMm.
+.mm.mmmm..
+
+[frame base]
+f0 11 19
+
+[frame alt]
+f1 11 19
+
+[anim loop]
+base 200
+alt 200

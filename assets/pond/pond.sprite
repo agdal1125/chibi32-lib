@@ -1,0 +1,21 @@
+# generated from assets/pond/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = pond
+title = Pond
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....LLLLLL....
+..LLCCCCCCLL..
+.LCCCCCCCCCCL.
+LCCCCMMCCCCCCL
+LCCCCCCCCCCCCB
+LCCCCCCCCCCCCB
+.LCCCCCCCCCCB.
+..LLCCCCCCBB..
+....BBBBBB....
+
+[frame base]
+item 9 20

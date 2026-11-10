@@ -1,0 +1,18 @@
+# generated from assets/star_item/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = star_item
+title = Star
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...Y...
+..YYY..
+YYYGYYY
+.YGGGY.
+.YYYYY.
+YY...YY
+
+[frame base]
+item 12 19

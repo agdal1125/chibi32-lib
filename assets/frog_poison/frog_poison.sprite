@@ -1,0 +1,21 @@
+# generated from assets/frog_poison/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = frog_poison
+title = Poison frog
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..VV......VV..
+.VKVV....VKVV.
+.VVVVVVVVVVVV.
+VVVVVVVVVVVVVV
+VVVVVVVVVVVVVV
+VVVvvvvvvvvVVV
+.VVVVVVVVVVVV.
+VVV.VVVVVV.VVV
+VV..........VV
+
+[frame base]
+item 9 20

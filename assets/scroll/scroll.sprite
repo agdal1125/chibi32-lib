@@ -1,0 +1,30 @@
+[meta]
+id = scroll
+title = Spell scroll with wax seal
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part roller]
+.OOOOOOOOOOOOOo.
+OOOOOOOOOOOOOOoo
+.oooooooooooooo.
+
+[part sheet]
+SSSSSSSSSSSs
+SShhhhhhhSSs
+SSSSSSSSSSSs
+SShhhhhSSSSs
+SSSSSSSSSSSs
+SShhhhhhhhSs
+SSSSSSSSSSSs
+SShhhhSSSSSs
+SSSSSSSSSSss
+SSSSSSSRRSss
+SSSSSSRRRrss
+sSSSSSSrrsss
+
+[frame base]
+sheet 10 11
+roller 8 7
+roller 8 24

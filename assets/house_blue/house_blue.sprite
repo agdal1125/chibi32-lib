@@ -1,0 +1,25 @@
+# generated from assets/house_blue/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = house_blue
+title = House (blue roof)
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........LL.........
+.......LLLLLL.......
+.....LLLLLLLLLL.....
+...LLLLLLLLLLLLLL...
+.LLLLLLLLLLLLLLLLLL.
+bbbbbbbbbbbbbbbbbbbb
+.WWWWWWWWWWWWWWWWWw.
+.WCCCWWWWWWWWCCCWWw.
+.WCCCWWOOOOWWCCCWWw.
+.WWWWWWOOOOWWWWWWWw.
+.WWWWWWOOGOWWWWWWWw.
+.WWWWWWOOOOWWWWWWWw.
+.wwwwwwoooowwwwwwww.
+
+[frame base]
+item 6 17

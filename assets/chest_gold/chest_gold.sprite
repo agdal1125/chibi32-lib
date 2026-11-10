@@ -1,0 +1,21 @@
+# generated from assets/chest_gold/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = chest_gold
+title = Golden chest
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..GGGGGGGGGGGGGGg..
+.GGGGGGGGGGGGGGGGg.
+GGGGGGGGGGGGGGGGGgg
+GGGGGGGGGKKGGGGGGgg
+GGGGGGGGGgKgGGGGGgg
+GGGGGGGGGGGGGGGGGgg
+GGGGGGGGGGGGGGGGGgg
+GGGGGGGGGGGGGGGGGgg
+.gggggggggggggggggg
+
+[frame base]
+item 6 20

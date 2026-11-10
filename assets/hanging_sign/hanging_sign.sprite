@@ -1,0 +1,19 @@
+# generated from assets/hanging_sign/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = hanging_sign
+title = Hanging sign
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+nnnnnnnnnnnn
+.....Nn.....
+.OOOOOOOOOo.
+.OhhhhhhhOo.
+.OOOOOOOOOo.
+.OhhhhOOOOo.
+.ooooooooo..
+
+[frame base]
+item 10 16

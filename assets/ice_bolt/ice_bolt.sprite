@@ -1,0 +1,35 @@
+# generated from assets/ice_bolt/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ice_bolt
+title = Ice bolt
+size = 32 32
+anchor = 16 20
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+.....cccc..
+..cccCCCCc.
+ccCCCCWWWCc
+.ccCCWWWWCc
+ccCCCCWWWCc
+..cccCCCCc.
+.....cccc..
+
+[part f1]
+.....cccc..
+.ccccCCCCc.
+..cCCCWWWCc
+cccCCWWWWCc
+..cCCCWWWCc
+.ccccCCCCc.
+.....cccc..
+
+[frame base]
+f0 10 14
+
+[frame alt]
+f1 10 14
+
+[anim loop]
+base 110
+alt 110

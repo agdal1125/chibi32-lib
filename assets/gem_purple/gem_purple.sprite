@@ -1,0 +1,21 @@
+# generated from assets/gem_purple/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = gem_purple
+title = Amethyst
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...VVVV...
+..VMVVVVv.
+.VMVVVVVvv
+VMVVVVVVvv
+VVVVVVVVvv
+.VVVVVVvv.
+..VVVVvv..
+...VVvv...
+....vv....
+
+[frame base]
+item 11 16

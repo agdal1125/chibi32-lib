@@ -1,0 +1,19 @@
+# generated from assets/shard/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = shard
+title = Mana shard
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..C..
+.CCc.
+.CCc.
+CCCcc
+CCCcc
+.Ccc.
+..c..
+
+[frame base]
+item 13 18

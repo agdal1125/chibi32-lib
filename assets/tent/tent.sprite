@@ -1,0 +1,21 @@
+# generated from assets/tent/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tent
+title = Tent
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.......NNn.......
+......NNNNn......
+.....NNNNNNn.....
+....NNNNNNNNn....
+...NNNNNNNNNNn...
+..NNNNnnnnNNNNn..
+.NNNNnKKKKnNNNNn.
+NNNNnKKKKKKnNNNNn
+nnnnnKKKKKKnnnnnn
+
+[frame base]
+item 7 20

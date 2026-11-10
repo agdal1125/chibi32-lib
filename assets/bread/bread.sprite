@@ -1,0 +1,17 @@
+# generated from assets/bread/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bread
+title = Bread
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..OOOOOO..
+.OYOOOOOo.
+OOOOYOOOoo
+OOOOOOOooo
+.oooooooo.
+
+[frame base]
+item 11 20

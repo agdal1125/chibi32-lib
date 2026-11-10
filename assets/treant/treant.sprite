@@ -1,0 +1,26 @@
+# generated from assets/treant/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = treant
+title = Treant
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....EEEEEE....
+..EEEEEEEEEE..
+.EEEEEEEEEEEe.
+.EEEEEEEEEEEe.
+..EEEEEEEEEe..
+....OOOOOo....
+...OOKOOKOo...
+...OOOOOOOo...
+...OOOKKOOo...
+Oo.OOOOOOOo.Oo
+.OOOOOOOOOOOo.
+...OOOOOOOo...
+...OOo.OOOo...
+...oo..oooo...
+
+[frame base]
+item 9 15

@@ -1,0 +1,109 @@
+# generated from assets/ninja/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ninja
+title = Ninja, striking
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+DD..DD.
+DD..DD.
+RRR.RRR
+rrr.rrr
+
+[part legs_near_fwd]
+..DDDD...
+.DD...DD.
+rrr...RRR
+rr....rrr
+
+[part legs_near_support]
+.DDDD.
+.DDDD.
+rrrDD.
+rr.RRR
+...rrr
+
+[part legs_far_fwd]
+..DDDD...
+.DD...DD.
+RRR...rrr
+rr....rrr
+
+[part legs_far_support]
+DDDD.
+DDDD.
+DDRRR
+DDrrr
+rrr..
+
+[part body]
+.ddDDDDDD.
+ddDDDDDDDD
+dDDDDDDDDD
+RRRRGgRRRr
+dDDDDDDDDD
+.DDDDDDDD.
+
+[part head]
+.......d....d...
+......dd...dd...
+...d.ddd..ddd...
+...ddddddddddd..
+.dddddddddddddd.
+ddddddddddddddDD
+.ddddddddddddDDD
+..DdddDdddDSDDD.
+.dDDdDDSSSDSSSD.
+..DDDDSSSSSSSSS.
+..DDDSSSSKSSSKS.
+...DDSSSSKSSSKS.
+...DDsSSpSSSSpS.
+....DsSSSSSSSs..
+......sSSSSs....
+
+[part held_item]
+..G...
+.SGMMM
+gSgdm.
+DDg...
+DD....
+DD....
+DD....
+
+[frame base]
+legs_stand 13 26
+body 11 20
+head 8 6
+held_item 18 21
+
+[frame walk_0]
+legs_near_fwd 12 26
+body 11 20
+head 8 6
+held_item 18 21
+
+[frame walk_1]
+legs_near_support 13 25
+body 11 19
+head 8 5
+held_item 18 20
+
+[frame walk_2]
+legs_far_fwd 12 26
+body 11 20
+head 8 6
+held_item 18 21
+
+[frame walk_3]
+legs_far_support 14 25
+body 11 19
+head 8 5
+held_item 18 20
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

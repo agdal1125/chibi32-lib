@@ -1,0 +1,24 @@
+# generated from assets/barn/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = barn
+title = Barn
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......RRRRRR......
+....RRRRRRRRRR....
+..RRRRRRRRRRRRRR..
+.RRRRRRRWWRRRRRRR.
+RRRRRRRRWWRRRRRRRR
+rrrrrrrrrrrrrrrrrr
+RRRRRWWWWWWWWRRRRr
+RRRRRWOOWWOOWRRRRr
+RRRRRWOWOOWOWRRRRr
+RRRRRWOOWWOOWRRRRr
+RRRRRWOWOOWOWRRRRr
+rrrrrwwwwwwwwrrrrr
+
+[frame base]
+item 7 18

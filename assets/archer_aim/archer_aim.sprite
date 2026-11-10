@@ -1,0 +1,114 @@
+# generated from assets/archer_aim/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = archer_aim
+title = Archer, aiming
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+eq..eq.
+eq..eq.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..qqee...
+.qq...ee.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.qqee.
+.qqee.
+nnnee.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..eeqq...
+.ee...qq.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+qqee.
+qqee.
+qqNNN
+qqnnn
+nnn..
+
+[part body]
+.EEeeeeeq.
+EEeeeeeeqq
+Eeeeeeeeqq
+NNNNGgNNNn
+Eeeeeeeeqq
+.eeeeeeeq.
+
+[part head]
+.......E....E...
+......EE...EE...
+...E.EEE..EEE...
+...EEEEEEEEEEE..
+.EEEEEEEEEEEEEE.
+EEEEEEEEEEEEEEee
+.EEEEEEEEEEEEeee
+..eEEEeEEEeSeee.
+.EeeEeqSSSqSSSq.
+..qeeqSSSSSSSSS.
+..qqeSSSSKSSSKS.
+...qqSSSSKSSSKS.
+...qqsSSpSSSSpS.
+....qsSSSSSSSs..
+......sSSSSs....
+
+[part held_item]
+..O
+.Oo
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+.Oo
+..O
+
+[frame base]
+legs_stand 13 26
+body 11 20
+head 8 6
+held_item 24 11
+
+[frame walk_0]
+legs_near_fwd 12 26
+body 11 20
+head 8 6
+held_item 24 11
+
+[frame walk_1]
+legs_near_support 13 25
+body 11 19
+head 8 5
+held_item 24 10
+
+[frame walk_2]
+legs_far_fwd 12 26
+body 11 20
+head 8 6
+held_item 24 11
+
+[frame walk_3]
+legs_far_support 14 25
+body 11 19
+head 8 5
+held_item 24 10
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

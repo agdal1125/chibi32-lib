@@ -1,0 +1,22 @@
+# generated from assets/scorpion/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = scorpion
+title = Scorpion
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..............AAa
+.............AAaa
+..............Aa.
+.............Aa..
+..AAA.......AAa..
+.AAAA..AAAAAAa...
+AAa..AAAAAAAAa...
+AAa..AAKAAAAa....
+.AAAAAAAAAAaa....
+...a.a.a.a.a.....
+
+[frame base]
+item 7 19

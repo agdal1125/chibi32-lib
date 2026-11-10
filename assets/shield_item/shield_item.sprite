@@ -1,0 +1,21 @@
+# generated from assets/shield_item/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = shield_item
+title = Round shield (item)
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..mmmmm..
+.mOOOOOd.
+mOOOOOOod
+mOOOGOOod
+mOOGGgOod
+mOOOgOOod
+mOOOOOood
+.doooood.
+..ddddd..
+
+[frame base]
+item 11 16

@@ -1,0 +1,22 @@
+# generated from assets/hammer_item/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = hammer_item
+title = Hammer (item)
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mMMMMd
+mMMMMd
+mmmmdd
+..Oo..
+..Oo..
+..Oo..
+..Oo..
+..Oo..
+SSBBBB
+.gbbbb
+
+[frame base]
+item 13 17

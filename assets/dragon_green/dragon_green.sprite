@@ -1,0 +1,25 @@
+# generated from assets/dragon_green/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = dragon_green
+title = Green dragon whelp
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........EEq..
+........EEEEq.
+.......EEKEEEq
+.......EEEEEqq
+....E...EEqq..
+...EEE.EEEq...
+..EEEEEEEEEq..
+.EEEEEEEEEEq..
+EEYYYYEEEEEq..
+.EYYYYEEEEq...
+..EYYYEEEEq...
+...EEEEEEq.q..
+....Eq.Eq.qq..
+
+[frame base]
+item 8 16

@@ -1,0 +1,21 @@
+# generated from assets/rain_cloud/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rain_cloud
+title = Rain cloud
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......mmmm......
+....mmmmmmmm....
+..mmmmmmmmmmmm..
+.mmmmmmmmmmmmmd.
+mmmmmmmmmmmmmmdd
+.dddddddddddddd.
+..L..L..L..L....
+.L..L..L..L.....
+..L..L..L..L....
+
+[frame base]
+item 8 14

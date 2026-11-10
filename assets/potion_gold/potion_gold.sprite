@@ -1,0 +1,26 @@
+# generated from assets/potion_gold/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = potion_gold
+title = Elixir
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....NNNn....
+....NNnn....
+...mMMMMd...
+....MYYd....
+....MYYd....
+..mMYYYYmd..
+.mMYYYYYYGd.
+mYMYYYYYYGGd
+mYMYYYYYYGGd
+mYYYYYYYYGGd
+mYYYYYYYGGGd
+.mYYYYYYGGd.
+..dGGGGGGd..
+...dddddd...
+
+[frame base]
+item 10 11

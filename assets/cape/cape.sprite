@@ -1,0 +1,22 @@
+# generated from assets/cape/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cape
+title = Red cape
+size = 32 32
+anchor = 16 25
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.GG....GG.
+RRRRRRRRRR
+RRRRRRRRRr
+RRRRRRRRRr
+RRRRRRRRRr
+RRRRRRRRrr
+RRRRRRRRrr
+RRRRRRRrrr
+.RRRRRrrr.
+.Rr.RRr.r.
+
+[frame base]
+item 11 16

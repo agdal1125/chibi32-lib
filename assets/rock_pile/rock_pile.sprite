@@ -1,0 +1,19 @@
+# generated from assets/rock_pile/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rock_pile
+title = Rock pile
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......mmm.....
+..mm.mMMmd.mm.
+.mMMmMMMmdmMmd
+mMMMmMMmmdMMmd
+mMMmmmmmddmmdd
+.mmmddmmmdddd.
+..dddd.dddd...
+
+[frame base]
+item 9 22

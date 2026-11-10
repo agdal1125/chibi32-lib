@@ -1,0 +1,24 @@
+# generated from assets/imp_purple/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = imp_purple
+title = Shadow imp
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.V.....V..
+.VV...VV..
+.VVVVVVV..
+VVVVVVVVv.
+VVKVVVKVv.
+VVVVVVVVv.
+.VVVVVVv..
+..VVVVv...
+VVVVVVVVv.
+VVVVVVVVvv
+..VVvVVv.v
+..Vv.Vv...
+
+[frame base]
+item 11 17

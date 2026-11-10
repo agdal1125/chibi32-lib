@@ -1,0 +1,19 @@
+# generated from assets/egg/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = egg
+title = Egg
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..WWW..
+.WWWWw.
+WWWWWww
+WWWWwww
+WWWwwww
+.Wwwww.
+..www..
+
+[frame base]
+item 12 18

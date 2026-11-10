@@ -1,0 +1,40 @@
+{
+  "id": "ice_bolt",
+  "animation": "loop",
+  "image": "ice_bolt_loop_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 20
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/ice_bolt/ice_bolt.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "ice_bolt_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 110
+    },
+    {
+      "name": "alt",
+      "file": "ice_bolt_alt.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 110
+    }
+  ]
+}

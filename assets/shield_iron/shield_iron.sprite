@@ -1,0 +1,21 @@
+# generated from assets/shield_iron/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = shield_iron
+title = Iron shield
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..mmmmm..
+.mMMMMMd.
+mMMMMMMmd
+mMMMLMMmd
+mMMLLbMmd
+mMMMbMMmd
+mMMMMMmmd
+.dmmmmmd.
+..ddddd..
+
+[frame base]
+item 11 16

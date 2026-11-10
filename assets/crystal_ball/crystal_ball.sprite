@@ -1,0 +1,20 @@
+# generated from assets/crystal_ball/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = crystal_ball
+title = Crystal ball
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..CCCC..
+.CMCCCc.
+CMCCCCCc
+CCCCCCCc
+.CCCCcc.
+..cccc..
+.mMMMMd.
+.dddddd.
+
+[frame base]
+item 12 19

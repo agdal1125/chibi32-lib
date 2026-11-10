@@ -1,0 +1,35 @@
+# generated from assets/fireball/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = fireball
+title = Fireball
+size = 32 32
+anchor = 16 20
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+.....RRRR..
+..RRRAAAAR.
+RRAAAAYYYAR
+.RRAAYYYYAR
+RRAAAAYYYAR
+..RRRAAAAR.
+.....RRRR..
+
+[part f1]
+.....RRRR..
+.RRRRAAAAR.
+..RAAAYYYAR
+RRRAAYYYYAR
+..RAAAYYYAR
+.RRRRAAAAR.
+.....RRRR..
+
+[frame base]
+f0 10 14
+
+[frame alt]
+f1 10 14
+
+[anim loop]
+base 110
+alt 110

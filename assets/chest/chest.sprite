@@ -1,0 +1,47 @@
+[meta]
+id = chest
+title = Treasure chest (closed, open)
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part box]
+OOOOOGgOOGGOOGgOOooo
+OOOOOGgOGKKgOGgOOooo
+OOOOOGgOGgKgOGgOOooo
+OOOOOGgOOggOOGgOoooo
+OOOOOGgOOOOOOGgOoooo
+oOOOOGgOOOOOOGgooooo
+oooooggooooooggooooo
+nnnnnnnnnnnnnnnnnnnn
+
+[part lid]
+..OOOGgOOOOOOGgOOo..
+.OOOOGgOOOOOOGgOOoo.
+OOOOOGgOOOOOOGgOOooo
+OOOOOGgOOOOOOGgOoooo
+GGGGGGGGGGGGGGGGgggg
+
+[part lid_open]
+..OOOGgOOOOOOGgOOo..
+.OOOOGgOOOOOOGgOOoo.
+OOOOOGgOOOOOOGgOOooo
+onnnnnnnnnnnnnnnnnno
+onnnnnnnnnnnnnnnnnno
+.oooooooooooooooooo.
+
+[part treasure]
+...YG...GY..YG....
+..GGGgYGGGGgGGGg..
+.GGYGGGGGgGGYGGGg.
+GGGGGGgGGGGGGgGGgg
+
+# The lid and the box are separate parts, so the build draws a 1 px outline between them.
+[frame base]
+box 6 21
+lid 6 15
+
+[frame open]
+lid_open 6 9
+box 6 21
+treasure 7 16

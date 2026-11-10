@@ -1,0 +1,40 @@
+{
+  "id": "fireball",
+  "animation": "loop",
+  "image": "fireball_loop_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 20
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/fireball/fireball.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "fireball_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 110
+    },
+    {
+      "name": "alt",
+      "file": "fireball_alt.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 110
+    }
+  ]
+}

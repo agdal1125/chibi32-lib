@@ -1,0 +1,15 @@
+# generated from assets/bone/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bone
+title = Bone
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+MM....MM
+MMMMMMMM
+MM....MM
+
+[frame base]
+item 12 22

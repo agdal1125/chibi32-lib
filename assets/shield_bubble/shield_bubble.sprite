@@ -1,0 +1,24 @@
+# generated from assets/shield_bubble/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = shield_bubble
+title = Shield bubble
+size = 32 32
+anchor = 16 27
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....CCCCCC....
+..CC......CC..
+.C..M.......C.
+.C.M........C.
+C............C
+C............C
+C............C
+C............C
+.C..........c.
+.C..........c.
+..CC......cc..
+....CCcccc....
+
+[frame base]
+item 9 16

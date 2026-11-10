@@ -1,0 +1,22 @@
+# generated from assets/ice_spike/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = ice_spike
+title = Ice spike
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....CC....
+....CC....
+...CCCc...
+...CMCc...
+..CCMCcc..
+..CCMCcc..
+.CCCMCccc.
+.CCCCCccc.
+CCCCCCcccc
+cccccccccc
+
+[frame base]
+item 11 19

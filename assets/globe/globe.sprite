@@ -1,0 +1,21 @@
+# generated from assets/globe/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = globe
+title = Globe
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..GGGG...
+.GLLCCGg.
+GLECCCEGg
+GCCEECCGg
+GCECCCEGg
+.GCCEEGg.
+..GGGGg..
+...Gg....
+.GGGGGg..
+
+[frame base]
+item 12 18

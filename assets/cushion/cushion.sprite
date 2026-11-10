@@ -1,0 +1,17 @@
+# generated from assets/cushion/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cushion
+title = Cushion
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..VVVVVV..
+.VVVVVVVVv
+VVVVYVVVVv
+VVVVVVVVvv
+.vvvvvvvv.
+
+[frame base]
+item 11 24

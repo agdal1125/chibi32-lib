@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>chibi32</title>
+<style>
+  :root { --bg:#f4f4f6; --panel:#ffffff; --ink:#1a1420; --muted:#6a6f80; --line:#d9dbe3; --accent:#3d6fd6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1b1d24; --panel:#262a33; --ink:#eef0f5; --muted:#9aa0b2; --line:#3a3f4b; --accent:#6fa0f2; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui, sans-serif; }
+  header, main { max-width:1100px; margin:0 auto; padding:16px; }
+  h1 { font-size:20px; margin:8px 0 0; }
+  header p { margin:4px 0 0; color:var(--muted); }
+  main { display:grid; grid-template-columns:220px 1fr; gap:16px; align-items:start; }
+  @media (max-width:720px) { main { grid-template-columns:1fr; } }
+  .list { display:grid; gap:8px; }
+  .card { display:flex; gap:10px; align-items:center; padding:8px; background:var(--panel); border:1px solid var(--line);
+          border-radius:8px; cursor:pointer; text-align:left; color:inherit; font:inherit; width:100%; }
+  .card[aria-current="true"] { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent); }
+  .card img { width:64px; height:64px; background:#262a33; border-radius:4px; }
+  img, canvas { image-rendering:pixelated; image-rendering:crisp-edges; }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; min-width:0; }
+  .stage { overflow:auto; border-radius:6px; padding:16px; }
+  .stage canvas { display:block; margin:0 auto; }
+  .stage.dark { background:#262a33; }
+  .stage.light { background:#e9ebf0; }
+  .stage.checker { background:repeating-conic-gradient(#c9ccd6 0% 25%, #f2f3f6 0% 50%) 0 0 / 16px 16px; }
+  .controls { display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; margin:12px 0; }
+  .controls label { display:flex; gap:6px; align-items:center; }
+  button, select { font:inherit; padding:4px 10px; border-radius:6px; border:1px solid var(--line); background:var(--bg); color:inherit; cursor:pointer; }
+  .strip { display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 16px; }
+  .strip button { padding:4px; }
+  .strip button[aria-pressed="true"] { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent); }
+  .strip img { width:64px; height:64px; display:block; background:#262a33; }
+  h2 { font-size:16px; margin:16px 0 6px; }
+  ul.files { margin:0; padding-left:18px; }
+  .swatches { display:flex; flex-wrap:wrap; gap:4px; }
+  .swatches span { width:20px; height:20px; border-radius:3px; border:1px solid var(--line); }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 12px; margin:0; }
+  dt { color:var(--muted); }
+  dd { margin:0; }
+  .muted { color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>chibi32</h1>
+  <p>Pick an asset to see it enlarged, play its animation, and download its files. Pixels are drawn without smoothing.</p>
+</header>
+<main>
+  <nav class="list" id="list" aria-label="Assets"></nav>
+  <section class="panel" id="detail"></section>
+</main>
+<script src="dist/catalog.js"></script>
+<script>
+const assets = (window.CATALOG || { assets: [] }).assets;
+const list = document.getElementById("list");
+const detail = document.getElementById("detail");
+let timer = null;
+
+function el(tag, attrs = {}, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) k === "text" ? (n.textContent = v) : n.setAttribute(k, v);
+  n.append(...kids);
+  return n;
+}
+
+function loadImage(src) {
+  return new Promise((ok, fail) => { const i = new Image(); i.onload = () => ok(i); i.onerror = fail; i.src = src; });
+}
+
+function renderList(activeId) {
+  list.replaceChildren(...assets.map(a => {
+    const b = el("button", { class: "card", "aria-current": String(a.id === activeId) },
+      el("img", { src: `${a.dir}/${a.base}`, alt: "" }), el("span", { text: a.title }));
+    b.onclick = () => show(a.id);
+    return b;
+  }));
+}
+
+async function show(id) {
+  clearTimeout(timer);
+  const a = assets.find(x => x.id === id);
+  renderList(id);
+  const anim = a.animations[0];
+  const frames = anim ? anim.frames : [{ name: "base", file: a.base, duration: 0 }];
+  const images = await Promise.all(frames.map(f => loadImage(`${a.dir}/${f.file}`)));
+  const canvas = el("canvas");
+  const ctx = canvas.getContext("2d");
+  const zooms = [1, 2, 4, 6, 8, 12, 16];
+  // the largest zoom up to 12x whose frame fits the page; a hidden window can report a width of 0
+  const room = Math.min((innerWidth || document.documentElement.clientWidth || 1024) - 64, 900);
+  let scale = zooms.filter(z => z <= 12 && a.size.w * z <= room).pop() ?? 1, index = 0, playing = !!anim;
+
+  const draw = () => {
+    canvas.width = a.size.w * scale;
+    canvas.height = a.size.h * scale;
+    ctx.imageSmoothingEnabled = false;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(images[index], 0, 0, canvas.width, canvas.height);
+    frameLabel.textContent = `${frames[index].name} (${index + 1}/${frames.length}, ${frames[index].duration} ms)`;
+    strip.querySelectorAll("button").forEach((b, i) => b.setAttribute("aria-pressed", String(i === index)));
+  };
+  const tick = () => {
+    if (!playing) return;
+    timer = setTimeout(() => { index = (index + 1) % frames.length; draw(); tick(); }, frames[index].duration);
+  };
+
+  const stage = el("div", { class: "stage dark" }, canvas);
+  const play = el("button", { text: playing ? "Pause" : "Play" });
+  play.onclick = () => { playing = !playing; play.textContent = playing ? "Pause" : "Play"; clearTimeout(timer); tick(); };
+  const step = d => { playing = false; play.textContent = "Play"; clearTimeout(timer); index = (index + d + frames.length) % frames.length; draw(); };
+  const prev = el("button", { text: "◀ Frame", "aria-label": "Previous frame" }); prev.onclick = () => step(-1);
+  const next = el("button", { text: "Frame ▶", "aria-label": "Next frame" }); next.onclick = () => step(1);
+  const zoom = el("select", { "aria-label": "Zoom" });
+  zooms.forEach(z => zoom.append(el("option", { value: z, text: `${z}x`, ...(z === scale ? { selected: "" } : {}) })));
+  zoom.onchange = () => { scale = Number(zoom.value); draw(); };
+  const bg = el("select", { "aria-label": "Background" });
+  ["dark", "light", "checker"].forEach(b => bg.append(el("option", { value: b, text: b })));
+  bg.onchange = () => { stage.className = `stage ${bg.value}`; };
+  const frameLabel = el("span", { class: "muted" });
+
+  const strip = el("div", { class: "strip" }, ...frames.map((f, i) => {
+    const b = el("button", { "aria-label": f.name }, el("img", { src: `${a.dir}/${f.file}`, alt: "" }));
+    b.onclick = () => step(i - index);
+    return b;
+  }));
+
+  const files = [a.base, ...a.stills.filter(s => s !== a.base)];
+  for (const an of a.animations) files.push(an.sheet, an.json, an.gif, an.gifPreview);
+  const fileList = el("ul", { class: "files" }, ...files.map(f => el("li", {}, el("a", { href: `${a.dir}/${f}`, download: f, text: f }))));
+
+  const c = a.credits;
+  const credits = el("dl", {},
+    el("dt", { text: "Authors" }), el("dd", { text: c.authors.map(x => `${x.name} (${x.role})`).join("; ") }),
+    el("dt", { text: "AI use" }), el("dd", { text: c.ai_usage.used ? c.ai_usage.kind : "none" }),
+    el("dt", { text: "References" }), el("dd", { text: c.references.map(r => `${r.description}: ${r.used_as}`).join("; ") || "none" }),
+    el("dt", { text: "License" }), el("dd", { text: c.license === "UNDECIDED" ? "Not decided yet. Do not redistribute." : c.license }));
+
+  detail.replaceChildren(
+    el("h2", { text: a.title }),
+    stage,
+    el("div", { class: "controls" }, ...(anim ? [play, prev, next] : []),
+      el("label", {}, "Zoom", zoom), el("label", {}, "Background", bg), frameLabel),
+    strip,
+    el("h2", { text: "Download" }), fileList,
+    el("h2", { text: "Palette" }), el("div", { class: "swatches" }, ...a.palette.map(p => el("span", { title: `${p.key} ${p.hex}`, style: `background:${p.hex}` }))),
+    el("h2", { text: "Credits" }), credits);
+  draw();
+  tick();
+}
+
+if (assets.length) show(assets[0].id);
+else detail.textContent = "No assets found. Run: python tools/build.py";
+</script>
+</body>
+</html>

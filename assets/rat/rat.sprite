@@ -1,0 +1,18 @@
+# generated from assets/rat/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rat
+title = Rat
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........mm..
+........mMMm.
+mm...mmmmMKmm
+.mmmmmmmmmmmm
+..mmmmmmmmmdm
+...mdd.mdd...
+
+[frame base]
+item 9 23

@@ -1,0 +1,19 @@
+# generated from assets/berry_bush/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = berry_bush
+title = Berry bush
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....EEEE....
+..EEEREEEE..
+.EEEEEEERRe.
+EEREEEEEEEee
+EEEEEREEEeee
+.EEEEEEEeee.
+..eeeeeeee..
+
+[frame base]
+item 10 22

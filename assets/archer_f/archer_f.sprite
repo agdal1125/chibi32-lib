@@ -1,0 +1,128 @@
+# generated from assets/archer_f/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = archer_f
+title = Elf archer
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+eq..eq.
+eq..eq.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..qqee...
+.qq...ee.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.qqee.
+.qqee.
+nnnee.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..eeqq...
+.ee...qq.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+qqee.
+qqee.
+qqNNN
+qqnnn
+nnn..
+
+[part hair_back]
+.GGGGGGGGGGGG.
+GGGGGGgGGGGGGG
+GGGGGggGGGGGGG
+.GGGGggGGGGGG.
+.gGGGggGGGGGg.
+.ggGGggGGGGgg.
+..gggggggggg..
+
+[part back_item]
+..O
+.Oo
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+.Oo
+..O
+
+[part body]
+.EEeeeeeq.
+EEeeeeeeqq
+Eeeeeeeeqq
+NNNNGgNNNn
+Eeeeeeeeqq
+.eeeeeeeq.
+
+[part head]
+.......Y....Y...
+......YY...YY...
+...Y.YYY..YYY...
+...YYYYYYYYYYY..
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+.YYYYYYYYYYYYGGG
+..GYYYGYYYGSGGG.
+.YGGYGgSSSgSSSg.
+..gGGgSSSSSSSSS.
+..ggGSSSSKSSSKS.
+...ggSSSSKSSSKS.
+...ggsSSpSSSSpS.
+....gsSSSSSSSs..
+......sSSSSs....
+
+[frame base]
+legs_stand 13 26
+hair_back 9 17
+back_item 5 12
+body 11 20
+head 8 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+hair_back 9 17
+back_item 4 12
+body 11 20
+head 8 6
+
+[frame walk_1]
+legs_near_support 13 25
+hair_back 9 16
+back_item 5 11
+body 11 19
+head 8 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+hair_back 9 17
+back_item 6 12
+body 11 20
+head 8 6
+
+[frame walk_3]
+legs_far_support 14 25
+hair_back 9 16
+back_item 5 11
+body 11 19
+head 8 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

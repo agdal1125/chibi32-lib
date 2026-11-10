@@ -1,0 +1,46 @@
+# generated from assets/campfire/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = campfire
+title = Campfire
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part logs]
+oOOOOOOOOOOo
+nOOOOOOOOOon
+nnnnnnnnnnnn
+
+[part f0]
+...R...
+..RR...
+..RAR..
+.RAYAR.
+.RAYYAR
+RAYYYAR
+RAAYAAr
+.RAAAr.
+..RRr..
+
+[part f1]
+....R..
+...RR..
+..RAR..
+.RAYAR.
+RAYYYAR
+RAYYYAR
+RAAYAAr
+.RAAAr.
+..RRr..
+
+[frame base]
+f0 12 16
+logs 10 26
+
+[frame flick]
+f1 12 16
+logs 10 26
+
+[anim burn]
+base 130
+flick 130

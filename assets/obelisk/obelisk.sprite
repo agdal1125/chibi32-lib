@@ -1,0 +1,24 @@
+# generated from assets/obelisk/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = obelisk
+title = Obelisk
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...Y...
+..mMd..
+..mMd..
+..mMd..
+..mMd..
+.mMMMd.
+.mMMMd.
+.mMMMd.
+.mMMMd.
+.mMMMd.
+mMMMMMd
+ddddddd
+
+[frame base]
+item 12 18

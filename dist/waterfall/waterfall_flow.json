@@ -1,0 +1,40 @@
+{
+  "id": "waterfall",
+  "animation": "flow",
+  "image": "waterfall_flow_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 27
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/waterfall/waterfall.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "waterfall_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "flow",
+      "file": "waterfall_flow.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    }
+  ]
+}

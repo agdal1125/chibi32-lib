@@ -1,0 +1,39 @@
+# generated from assets/geyser/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = geyser
+title = Geyser
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part g0]
+....WW....
+...WWWW...
+...WWWW...
+....WW....
+....WW....
+..mmWWmm..
+.mMMMMMMd.
+mMMMMMMMMd
+mmmmmmmmdd
+
+[part g1]
+....WW....
+...WWWW...
+..WWWWWW..
+..WWWWWW..
+...WWWW...
+..mmWWmm..
+.mMMMMMMd.
+mMMMMMMMMd
+mmmmmmmmdd
+
+[frame base]
+g0 11 20
+
+[frame spout]
+g1 11 20
+
+[anim spout]
+base 200
+spout 200

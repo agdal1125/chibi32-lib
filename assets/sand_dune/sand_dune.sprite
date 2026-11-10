@@ -1,0 +1,18 @@
+# generated from assets/sand_dune/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sand_dune
+title = Sand dune
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+........SSSS........
+.....SSSSSSSSSs.....
+...SSSSSSSSSSSSss...
+.SSSSSSSSSSSSSSSsss.
+SSSSSSSSSSSSSSSSssss
+ssssssssssssssssssss
+
+[frame base]
+item 6 23

@@ -1,0 +1,17 @@
+# generated from assets/log_moss/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = log_moss
+title = Mossy log
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..OOOOEEOOOOo
+.OEEOOOOEEOOo
+OmOOOOOOOOEOo
+OOoOOOOEEOOOo
+.ooooooooooo.
+
+[frame base]
+item 9 24

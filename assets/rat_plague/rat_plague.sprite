@@ -1,0 +1,18 @@
+# generated from assets/rat_plague/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rat_plague
+title = Plague rat
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........ee..
+........eEEe.
+ee...eeeeEKee
+.eeeeeeeeeeee
+..eeeeeeeeede
+...edd.edd...
+
+[frame base]
+item 9 23

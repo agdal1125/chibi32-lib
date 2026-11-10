@@ -1,0 +1,40 @@
+# generated from assets/explosion/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = explosion
+title = Explosion
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+...RRRR...
+.RRAAAARR.
+RAAYYYYAAR
+RAYYWWYYAR
+RAYYWWYYAR
+RAAYYYYAAR
+.RRAAAARR.
+...RRRR...
+
+[part f1]
+R...RRRR...R
+.RRRAAAARRR.
+.RAAAYYAAAR.
+RAAYYYYYYAAR
+RAYYYWWYYYAR
+RAYYWWWWYYAR
+RAYYYWWYYYAR
+RAAYYYYYYAAR
+.RAAAYYAAAR.
+.RRRAAAARRR.
+R...RRRR...R
+
+[frame base]
+f0 11 17
+
+[frame alt]
+f1 10 14
+
+[anim loop]
+base 100
+alt 100

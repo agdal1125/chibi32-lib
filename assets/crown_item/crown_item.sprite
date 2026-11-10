@@ -1,0 +1,18 @@
+# generated from assets/crown_item/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = crown_item
+title = Crown
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+G....G....G
+GG..GGG..GG
+GGGGGGGGGGG
+GRGGGLGGGRG
+GGGGGGGGGGg
+ggggggggggg
+
+[frame base]
+item 10 19

@@ -1,0 +1,23 @@
+# generated from assets/lamp_stone/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = lamp_stone
+title = Stone lamp
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..YY..
+.mYYd.
+.mYYd.
+.mMMd.
+..Md..
+..Md..
+..Md..
+..Md..
+.mMMd.
+mMMMMd
+dddddd
+
+[frame base]
+item 13 19

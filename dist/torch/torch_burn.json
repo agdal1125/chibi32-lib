@@ -1,0 +1,58 @@
+{
+  "id": "torch",
+  "animation": "burn",
+  "image": "torch_burn_sheet.png",
+  "imageSize": {
+    "w": 128,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 28
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/torch/torch.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "torch_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "flick_1",
+      "file": "torch_flick_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "flick_2",
+      "file": "torch_flick_2.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "flick_1",
+      "file": "torch_flick_1.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    }
+  ]
+}

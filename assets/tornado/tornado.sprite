@@ -1,0 +1,21 @@
+# generated from assets/tornado/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tornado
+title = Tornado
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mmmmmmmmmmmm
+.mmmmmmmmmm.
+..mmmmmmmm..
+...mmmmmm...
+....mmmm....
+....mmmm....
+.....mm.....
+.....mm.....
+......m.....
+
+[frame base]
+item 10 20

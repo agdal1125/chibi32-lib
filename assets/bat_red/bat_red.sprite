@@ -1,0 +1,68 @@
+# generated from assets/bat_red/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bat_red
+title = Fire bat
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part body]
+.R......r.
+.RR....Rr.
+.RRRRRRRr.
+RRRRRRRRrr
+RRYRRRYRrr
+RRYRRRYRrr
+RRRMRMRrrr
+.RRMrMrrr.
+..rr..rr..
+
+[part wl]
+.....RRRR
+..RRRRrrR
+RRRrrrrrr
+Rrrrrrrrr
+r.rr.rrrr
+...r...rr
+
+[part wr]
+RRRR.....
+RrrRRRR..
+rrrrrrRRR
+rrrrrrrrR
+rrrr.rr.r
+rr...r...
+
+[part ul]
+RR......
+.RRR....
+rrRRR...
+.rrrRRR.
+rrrrrrRR
+.rrrrrrR
+..rrrrrR
+....rrrR
+
+[part ur]
+......RR
+....RRR.
+...RRRrr
+.RRRrrr.
+RRrrrrrr
+Rrrrrrr.
+Rrrrrr..
+Rrrr....
+
+[frame base]
+wl 2 16
+wr 21 16
+body 11 14
+
+[frame up]
+ul 3 10
+ur 21 10
+body 11 14
+
+[anim fly]
+base 110
+up 110

@@ -1,0 +1,52 @@
+# generated from assets/skeleton_archer/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = skeleton_archer
+title = Skeleton archer
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs]
+Mm...Mm
+Mm...Mm
+Mm...Mm
+mmm.mmm
+
+[part item]
+..O
+.Oo
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+Oo.
+.Oo
+..O
+
+[part body]
+.MMMMMMm.
+MdMdMdMdm
+.MMMMMMm.
+MdMdMdMdm
+.mmmmmmm.
+
+[part head]
+..MMMMMMMM..
+.MMMMMMMMMm.
+MMMMMMMMMMmm
+MMMMMMMMMMmm
+MMKKMMMMKKmm
+MMKKMMMMKKmm
+MMMMMMMMMMmm
+.MMMKMMKMmm.
+.mmmmmmmmmm.
+..MdMdMdMd..
+
+[frame base]
+legs 12 26
+item 5 12
+body 11 21
+head 10 11

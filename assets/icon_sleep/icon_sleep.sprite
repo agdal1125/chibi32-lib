@@ -1,0 +1,21 @@
+# generated from assets/icon_sleep/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = icon_sleep
+title = Sleep status
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......WWWWW
+.........W.
+........W..
+.......W...
+......WWWWW
+WWWW.......
+..W........
+.W.........
+WWWW.......
+
+[frame base]
+item 11 14

@@ -1,0 +1,21 @@
+# generated from assets/diamond/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = diamond
+title = Diamond
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...MMMM...
+..MMMMMMm.
+.MMMMMMMmm
+MMMMMMMMmm
+MMMMMMMMmm
+.MMMMMMmm.
+..MMMMmm..
+...MMmm...
+....mm....
+
+[frame base]
+item 11 16

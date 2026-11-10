@@ -1,0 +1,43 @@
+# generated from assets/lightning/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = lightning
+title = Lightning
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+....YY
+...YY.
+..YY..
+.YYYYY
+...YY.
+..YY..
+.YY...
+YYYY..
+..YY..
+.YY...
+YY....
+
+[part f1]
+....WW
+...WW.
+..WW..
+.WWWWW
+...WW.
+..WW..
+.WW...
+WWWW..
+..WW..
+.WW...
+WW....
+
+[frame base]
+f0 12 16
+
+[frame alt]
+f1 12 16
+
+[anim loop]
+base 80
+alt 80

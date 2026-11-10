@@ -1,0 +1,137 @@
+# generated from assets/sorceress/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sorceress
+title = Sorceress, staff raised
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+DD..DD.
+DD..DD.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..DDDD...
+.DD...DD.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.DDDD.
+.DDDD.
+nnnDD.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..DDDD...
+.DD...DD.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+DDDD.
+DDDD.
+DDNNN
+DDnnn
+nnn..
+
+[part hair_back]
+.AAAAAAAAAAAA.
+AAAAAArAAAAAAA
+AAAAArrAAAAAAA
+.AAAArrAAAAAA.
+.rAAArrAAAAAr.
+.rrAArrAAAArr.
+..rrrrrrrrrr..
+
+[part body]
+.ddDDDDDD...
+ddDDDDDDDD..
+dDDDDDDDDD..
+NNNNGgNNNn..
+dDDDDDDDDD..
+dDDDDDDDDD..
+ddDDDDDDDDD.
+ddDDDDDDDDDD
+.DDDDDDDDDD.
+
+[part head]
+.......R....R...
+......RR...RR...
+...R.RRR..RRR...
+...RRRRRRRRRRR..
+.RRRRRRRRRRRRRR.
+RRRRRRRRRRRRRRAA
+.RRRRRRRRRRRRAAA
+..ARRRARRRASAAA.
+.RAARArSSSrSSSr.
+..rAArSSSSSSSSS.
+..rrASSSSKSSSKS.
+...rrSSSSKSSSKS.
+...rrsSSpSSSSpS.
+....rsSSSSSSSs..
+......sSSSSs....
+
+[part held_item]
+.......GYg.
+......GCCGg
+.....GCcGg.
+......Ggg..
+......Oo...
+......Oo...
+.....Oo....
+.....Oo....
+....Oo.....
+....Oo.....
+...Oo......
+...Oo......
+..Oo.......
+..Oo.......
+.Oo........
+.Oo........
+Oo.........
+Oo.........
+
+[frame base]
+legs_stand 13 26
+hair_back 9 17
+body 11 20
+head 8 6
+held_item 7 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+hair_back 9 17
+body 11 20
+head 8 6
+held_item 7 6
+
+[frame walk_1]
+legs_near_support 13 25
+hair_back 9 16
+body 11 19
+head 8 5
+held_item 7 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+hair_back 9 17
+body 11 20
+head 8 6
+held_item 7 6
+
+[frame walk_3]
+legs_far_support 14 25
+hair_back 9 16
+body 11 19
+head 8 5
+held_item 7 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

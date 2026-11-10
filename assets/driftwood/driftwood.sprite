@@ -1,0 +1,17 @@
+# generated from assets/driftwood/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = driftwood
+title = Driftwood
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..........Oo
+.......OOOOo
+..OOOOOOOoo.
+OOOOOOOooo..
+oooooooo....
+
+[frame base]
+item 9 24

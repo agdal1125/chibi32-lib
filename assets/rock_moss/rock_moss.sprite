@@ -1,0 +1,19 @@
+# generated from assets/rock_moss/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rock_moss
+title = Mossy rock
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...EEmm...
+..EMMMmd..
+.mMMMMmdd.
+mMMMMmmddE
+mMMMmmmdEE
+.mmmmmEEe.
+..ddddee..
+
+[frame base]
+item 11 22

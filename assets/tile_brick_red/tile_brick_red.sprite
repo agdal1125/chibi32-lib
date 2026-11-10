@@ -1,0 +1,45 @@
+# generated from assets/tile_brick_red/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_brick_red
+title = Red brick wall
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+AAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+ArrrrrrrrrrrrrrKArrrrrrrrrrrrrrK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+AAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAA
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+rrrrrrrKArrrrrrrrrrrrrrKArrrrrrr
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+AAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+AaaaaaaaaaaaaarKAaaaaaaaaaaaaarK
+ArrrrrrrrrrrrrrKArrrrrrrrrrrrrrK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+AAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAA
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+aaaaaarKAaaaaaaaaaaaaarKAaaaaaaa
+rrrrrrrKArrrrrrrrrrrrrrKArrrrrrr
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+
+[frame base]
+tile 0 0 nooutline

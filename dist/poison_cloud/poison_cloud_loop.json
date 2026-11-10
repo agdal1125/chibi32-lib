@@ -1,0 +1,40 @@
+{
+  "id": "poison_cloud",
+  "animation": "loop",
+  "image": "poison_cloud_loop_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 24
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/poison_cloud/poison_cloud.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "poison_cloud_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 220
+    },
+    {
+      "name": "alt",
+      "file": "poison_cloud_alt.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 220
+    }
+  ]
+}

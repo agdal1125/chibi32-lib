@@ -1,0 +1,40 @@
+{
+  "id": "geyser",
+  "animation": "spout",
+  "image": "geyser_spout_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 28
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/geyser/geyser.sprite",
+  "frames": [
+    {
+      "name": "base",
+      "file": "geyser_base.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 200
+    },
+    {
+      "name": "spout",
+      "file": "geyser_spout.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 200
+    }
+  ]
+}

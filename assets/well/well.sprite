@@ -1,0 +1,27 @@
+# generated from assets/well/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = well
+title = Well
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.......OOOOOOo.....
+.....OOOOOOOOOOo...
+...OOOOOOOOOOOOOOo.
+...Oo..........Oo..
+...Oo..........Oo..
+...Oo..mmMMmd..Oo..
+...Oo.mMMMMMMd.Oo..
+...OommMMMMMMmmOo..
+..mmMMMMMMMMMMMmd..
+.mmMMMKKKKKKKKMMmd.
+mmMMMKKKKKKKKKKMmdd
+mmMMMMMMMMMMMMMMmdd
+mmmdMMMMdMMMMMdmddd
+mmmmMMMMMMMMMMmmddd
+.ddddddddddddddddd.
+
+[frame base]
+item 6 15

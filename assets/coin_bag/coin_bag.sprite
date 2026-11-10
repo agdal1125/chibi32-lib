@@ -1,0 +1,20 @@
+# generated from assets/coin_bag/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = coin_bag
+title = Coin bag
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...GGg...
+..NNNNn..
+.NNNNNNn.
+NNNNNNNNn
+NNNGGGNNn
+NNNNNNNNn
+.NNNNNNn.
+..nnnnn..
+
+[frame base]
+item 11 17

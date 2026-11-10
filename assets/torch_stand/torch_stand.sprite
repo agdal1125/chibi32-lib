@@ -1,0 +1,26 @@
+# generated from assets/torch_stand/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = torch_stand
+title = Torch stand
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+...R...
+..RAR..
+..RAYAR
+.RAYYAR
+.RAAAr.
+..mMd..
+..mMd..
+..OOo..
+..OOo..
+..OOo..
+..OOo..
+..OOo..
+mMMMMMd
+ddddddd
+
+[frame base]
+item 12 16

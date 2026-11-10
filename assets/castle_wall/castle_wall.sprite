@@ -1,0 +1,21 @@
+# generated from assets/castle_wall/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = castle_wall
+title = Castle wall
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+dmmd..dmmd..dmmd..dmmd..
+dmmd..dmmd..dmmd..dmmd..
+dmmmmmmmmmmmmmmmmmmmmmmd
+dmmmmmdmmmmmdmmmmmdmmmmd
+dmmmmmmmmmmmmmmmmmmmmmmd
+dmmdmmmmmdmmmmmdmmmmmdmd
+dmmmmmmmmmmmmmmmmmmmmmmd
+dmmmmmdmmmmmdmmmmmdmmmmd
+dddddddddddddddddddddddd
+
+[frame base]
+item 4 21

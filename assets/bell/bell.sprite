@@ -1,0 +1,21 @@
+# generated from assets/bell/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = bell
+title = Bell
+size = 32 32
+anchor = 16 26
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....GG....
+...GGGg...
+..GGGGGg..
+..GYGGGg..
+.GGYGGGGg.
+.GGGGGGGg.
+GGGGGGGGGg
+ggggggggg.
+....Gg....
+
+[frame base]
+item 11 18

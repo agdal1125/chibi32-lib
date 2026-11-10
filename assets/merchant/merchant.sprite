@@ -1,0 +1,107 @@
+# generated from assets/merchant/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = merchant
+title = Merchant with travel bag
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+Aa..Aa.
+Aa..Aa.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..aaAA...
+.aa...AA.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.aaAA.
+.aaAA.
+nnnAA.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..AAaa...
+.AA...aa.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+aaAA.
+aaAA.
+aaNNN
+aannn
+nnn..
+
+[part body]
+.AAAAAAAa.
+AAAAAAAAaa
+AAAAAAAAaa
+NNNNGgNNNn
+AAAAAAAAaa
+.AAAAAAAa.
+
+[part front_item]
+..Nn..
+.NNNn.
+NNNNNn
+NNnNNn
+nnnnnn
+
+[part head]
+.......O....O...
+......OO...OO...
+...O.OOO..OOO...
+...OOOOOOOOOOO..
+.OOOOOOOOOOOOOO.
+OOOOOOOOOOOOOOoo
+.OOOOOOOOOOOOooo
+..oOOOoOOOoSooo.
+.OooOoNSSSNSSSN.
+..NooNSSSSSSSSS.
+..NNoSSSSKSSSKS.
+...NNSSSSKSSSKS.
+...NNsSSpSSSSpS.
+....NsSSSSSSSs..
+......sSSSSs....
+
+[frame base]
+legs_stand 13 26
+body 11 20
+front_item 19 22
+head 8 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+body 11 20
+front_item 19 22
+head 8 6
+
+[frame walk_1]
+legs_near_support 13 25
+body 11 19
+front_item 19 21
+head 8 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+body 11 20
+front_item 19 22
+head 8 6
+
+[frame walk_3]
+legs_far_support 14 25
+body 11 19
+front_item 19 21
+head 8 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

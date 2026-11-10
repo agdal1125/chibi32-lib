@@ -1,0 +1,21 @@
+# generated from assets/exclaim/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = exclaim
+title = Exclamation mark
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.YY.
+YYYY
+YYYY
+YYYY
+.YY.
+.YY.
+....
+.YY.
+.YY.
+
+[frame base]
+item 14 14

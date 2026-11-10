@@ -1,0 +1,19 @@
+[meta]
+id = key
+title = Golden dungeon key
+size = 32 32
+anchor = 16 19
+palette = ../../styles/chibi32/palette.txt
+
+# The hole in the bow is left transparent; the automatic outline fills it with K.
+[part key]
+.GGGG.............
+GYYGGg............
+GY..Gg............
+GY..GGGGGGGGGGGGGg
+Gg..Gggggggggggggg
+.gggg.......gg.gg.
+............gg.g..
+
+[frame base]
+key 7 13

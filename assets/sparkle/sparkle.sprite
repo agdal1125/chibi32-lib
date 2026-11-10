@@ -1,0 +1,33 @@
+# generated from assets/sparkle/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sparkle
+title = Sparkle
+size = 32 32
+anchor = 16 22
+palette = ../../styles/chibi32/palette.txt
+
+[part f0]
+....Y....
+....Y....
+...YWY...
+YYYWWWYYY
+...YWY...
+....Y....
+....Y....
+
+[part f1]
+..Y..
+.YWY.
+YWWWY
+.YWY.
+..Y..
+
+[frame base]
+f0 11 16
+
+[frame alt]
+f1 13 18
+
+[anim loop]
+base 160
+alt 160

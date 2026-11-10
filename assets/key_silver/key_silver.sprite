@@ -1,0 +1,19 @@
+# generated from assets/key_silver/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = key_silver
+title = Silver key
+size = 32 32
+anchor = 16 24
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.MMMM.............
+MMMMMd............
+MM..Md............
+MM..MMMMMMMMMMMMMd
+Md..Mddddddddddddd
+.dddd.......dd.dd.
+............dd.d..
+
+[frame base]
+item 7 18

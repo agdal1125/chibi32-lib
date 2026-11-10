@@ -1,0 +1,61 @@
+[meta]
+id = slime
+title = Green slime (idle bounce)
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....EEEEEE.....
+...EEEEEEEEEE...
+..EMMEEEEEEEEe..
+.EMMEEEEEEEEEee.
+.EMEEEEEEEEEEee.
+EEEEEEKEEEKEEeee
+EEEEEEKEEEKEEeee
+EEEEEpEEEEEpEeee
+eEEEEEEEEEEEEeee
+.eEEEEEEEEEEeee.
+..qeeeeeeeeeeq..
+
+[part slime_squash]
+......EEEEEE......
+...EEEEEEEEEEEE...
+.EEMMEEEEEEEEEEee.
+EEMEEEEEEEEEEEEeee
+EEEEEEEKEEEKEEEeee
+EEEEEEEKEEEKEEEeee
+EEEEEEpEEEEEpEEeee
+.eEEEEEEEEEEEEeee.
+..qeeeeeeeeeeeeq..
+
+[part slime_stretch]
+....EEEEEE....
+..EEEEEEEEEE..
+.EMMEEEEEEEEe.
+.EMEEEEEEEEee.
+EMEEEEEEEEEeee
+EEEEEKEEEKEeee
+EEEEEKEEEKEeee
+EEEEpEEEEEpeee
+EEEEEEEEEEEeee
+eEEEEEEEEEEeee
+eEEEEEEEEEeeee
+.eEEEEEEEEeee.
+..qeeeeeeeeq..
+
+# Every frame keeps its bottom row on y 29 so the slime squashes on the ground instead of floating.
+[frame base]
+slime_mid 8 19
+
+[frame squash]
+slime_squash 7 21
+
+[frame stretch]
+slime_stretch 9 17
+
+[anim idle]
+base 220
+squash 140
+base 120
+stretch 180

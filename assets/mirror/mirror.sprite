@@ -1,0 +1,23 @@
+# generated from assets/mirror/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = mirror
+title = Mirror
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..GGGGGG..
+.GCCCCCCg.
+GCCMCCCCCg
+GCMCCCCCCg
+GCCCCCCCCg
+GCCCCCCCCg
+GCCCCCCCCg
+.GCCCCCCg.
+..GGGGgg..
+....Gg....
+...GGGg...
+
+[frame base]
+item 11 19

@@ -1,0 +1,132 @@
+# generated from assets/druid/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = druid
+title = Druid
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+eq..eq.
+eq..eq.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..qqee...
+.qq...ee.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.qqee.
+.qqee.
+nnnee.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..eeqq...
+.ee...qq.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+qqee.
+qqee.
+qqNNN
+qqnnn
+nnn..
+
+[part back_item]
+.GYg........
+GCCGg.......
+.GCcGg......
+..Ggg.......
+....Oo......
+....Oo......
+.....Oo.....
+.....Oo.....
+......Oo....
+......Oo....
+.......Oo...
+.......Oo...
+........Oo..
+........Oo..
+.........Oo.
+.........Oo.
+..........Oo
+..........Oo
+
+[part body]
+.EEeeeeeq...
+EEeeeeeeqq..
+Eeeeeeeeqq..
+NNNNGgNNNn..
+Eeeeeeeeqq..
+Eeeeeeeeqq..
+EEeeeeeeqqq.
+EEeeeeeeqqqq
+.qqqqqqqqqq.
+
+[part head]
+....OOOOOOOO....
+..OOOOOOOOOOOO..
+.OOOOOOOOOOOOOo.
+OOOOOOOOOOOOOooo
+OOOOOOOOOOOOoooo
+OOoOOOoOOOoSoooo
+OooOoNSSSNSSSNoo
+.NooNSSSSSSSSSN.
+.NNoSSSSKSSSKSN.
+..NNSSSSKSSSKS..
+..NNsSSpSSSSpS..
+...NsSSSSSSSs...
+.....sSSSSs.....
+
+[part beard]
+.ooNooN.
+oooooooo
+.NooooN.
+..NNNN..
+
+[frame base]
+legs_stand 13 26
+back_item 4 9
+body 11 20
+head 8 8
+beard 13 18
+
+[frame walk_0]
+legs_near_fwd 12 26
+back_item 3 9
+body 11 20
+head 8 8
+beard 13 18
+
+[frame walk_1]
+legs_near_support 13 25
+back_item 4 8
+body 11 19
+head 8 7
+beard 13 17
+
+[frame walk_2]
+legs_far_fwd 12 26
+back_item 5 9
+body 11 20
+head 8 8
+beard 13 18
+
+[frame walk_3]
+legs_far_support 14 25
+back_item 4 8
+body 11 19
+head 8 7
+beard 13 17
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

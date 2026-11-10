@@ -1,0 +1,123 @@
+# generated from assets/prince/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = prince
+title = Prince
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+Bb..Bb.
+Bb..Bb.
+GGG.GGG
+ggg.ggg
+
+[part legs_near_fwd]
+..bbBB...
+.bb...BB.
+ggg...GGG
+gg....ggg
+
+[part legs_near_support]
+.bbBB.
+.bbBB.
+gggBB.
+gg.GGG
+...ggg
+
+[part legs_far_fwd]
+..BBbb...
+.BB...bb.
+GGG...ggg
+gg....ggg
+
+[part legs_far_support]
+bbBB.
+bbBB.
+bbGGG
+bbggg
+ggg..
+
+[part back_item]
+.M.....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Mm....
+.Md....
+GGgg...
+.SSBBBB
+..gbbbb
+
+[part body]
+.LLBBBBBb.
+LLBBBBBBbb
+LBBBBBBBbb
+GGGGGgGGGg
+LBBBBBBBbb
+.BBBBBBBb.
+
+[part head]
+.......Y....Y...
+......YY...YY...
+...Y.YYY..YYY...
+...YYYYYYYYYYY..
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+.YYYYYYYYYYYYGGG
+..GYYYGYYYGSGGG.
+.YGGYGgSSSgSSSg.
+..gGGgSSSSSSSSS.
+..ggGSSSSKSSSKS.
+...ggSSSSKSSSKS.
+...ggsSSpSSSSpS.
+....gsSSSSSSSs..
+......sSSSSs....
+
+[part hat]
+G..G..G
+GRGGGRG
+GGGGGGg
+
+[frame base]
+legs_stand 13 26
+back_item 3 18
+body 11 20
+head 8 6
+hat 12 3
+
+[frame walk_0]
+legs_near_fwd 12 26
+back_item 2 18
+body 11 20
+head 8 6
+hat 12 3
+
+[frame walk_1]
+legs_near_support 13 25
+back_item 3 17
+body 11 19
+head 8 5
+hat 12 2
+
+[frame walk_2]
+legs_far_fwd 12 26
+back_item 4 18
+body 11 20
+head 8 6
+hat 12 3
+
+[frame walk_3]
+legs_far_support 14 25
+back_item 3 17
+body 11 19
+head 8 5
+hat 12 2
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150

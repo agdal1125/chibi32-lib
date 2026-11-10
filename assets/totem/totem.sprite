@@ -1,0 +1,25 @@
+# generated from assets/totem/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = totem
+title = Totem pole
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.RRRRr.
+RRKRKRr
+RRRRRRr
+RRKKKRr
+.YYYYG.
+YYKYKYG
+YYYYYYG
+YYKKKYG
+.LLLLb.
+LLKLKLb
+LLLLLLb
+LLKKKLb
+nnnnnnn
+
+[frame base]
+item 12 17

@@ -1,0 +1,24 @@
+# generated from assets/pillar/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = pillar
+title = Stone pillar
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+mMMMMMMd
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+.mMMMMd.
+mMMMMMMd
+mmmmmmdd
+
+[frame base]
+item 12 18

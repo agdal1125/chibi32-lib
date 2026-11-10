@@ -1,0 +1,23 @@
+# generated from assets/cactus/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = cactus
+title = Cactus
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....EEe....
+....EEe..Ee
+Ee..EEe..Ee
+Ee..EEe..Ee
+EEEEEEe..Ee
+.eeeEEEEEEe
+....EEeeee.
+....EEe....
+....EEe....
+....EEe....
+....eee....
+
+[frame base]
+item 10 19

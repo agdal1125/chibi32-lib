@@ -1,0 +1,19 @@
+# generated from assets/lever/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = lever
+title = Lever
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+......Oo..
+.....Oo...
+....Oo....
+...Oo.....
+mmMMMMmmd.
+mMMMMMMMmd
+mmmmmmmmdd
+
+[frame base]
+item 11 22

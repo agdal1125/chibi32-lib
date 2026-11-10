@@ -1,0 +1,21 @@
+# generated from assets/wood_gate/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = wood_gate
+title = Wooden gate
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOOOOo
+Oo...........Oo
+Oo...........Oo
+Oo.OOOOOOOOO.Oo
+Oo.OoOoOoOoO.Oo
+Oo.OOOOOOOOO.Oo
+Oo.OoOoOoOoO.Oo
+Oo.OOOOOOOOO.Oo
+oo.ooooooooo.oo
+
+[frame base]
+item 8 21

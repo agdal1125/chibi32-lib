@@ -1,0 +1,45 @@
+# generated from assets/tile_carpet/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = tile_carpet
+title = Checkered carpet
+size = 32 32
+anchor = 16 31
+palette = ../../styles/chibi32/palette.txt
+margin = 0
+
+[part tile]
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+RRRRRRRRrrrrrrrrRRRRRRRRrrrrrrrr
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+rrrrrrrrRRRRRRRRrrrrrrrrRRRRRRRR
+
+[frame base]
+tile 0 0 nooutline

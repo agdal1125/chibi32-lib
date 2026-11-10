@@ -1,0 +1,21 @@
+# generated from assets/frozen_pond/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = frozen_pond
+title = Frozen pond
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+....MMMMMM....
+..MMCCCCCCMM..
+.MCCCCCCCCCCM.
+MCCCCMMCCCCCCM
+MCCCCCCCCCCCCc
+MCCCCCCCCCCCCc
+.MCCCCCCCCCCc.
+..MMCCCCCCcc..
+....cccccc....
+
+[frame base]
+item 9 20

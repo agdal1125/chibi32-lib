@@ -1,0 +1,20 @@
+# generated from assets/sign_arrow/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = sign_arrow
+title = Arrow sign
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+OOOOOOOOOOOo..
+OhhhhhhhhhOOo.
+OOOOOOOOOOOOOo
+ooooooooooooo.
+.....Oo.......
+.....Oo.......
+.....Oo.......
+.....oo.......
+
+[frame base]
+item 9 21

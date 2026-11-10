@@ -1,0 +1,21 @@
+# generated from assets/vase/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = vase
+title = Vase
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+..LLLLb..
+...LLb...
+..LLLLb..
+.LLLBLLb.
+LLLBLBLLb
+LLLLBLLLb
+LLLLLLLbb
+.LLLLLbb.
+..bbbbb..
+
+[frame base]
+item 11 20

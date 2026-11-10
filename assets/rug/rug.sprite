@@ -1,0 +1,19 @@
+# generated from assets/rug/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = rug
+title = Rug
+size = 32 32
+anchor = 16 28
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+RRRRRRRRRRRRRRRRRR
+RYYYYYYYYYYYYYYYYR
+RYRRRRRRRRRRRRRRYR
+RYRRYYYYYYYYYYRRYR
+RYRRRRRRRRRRRRRRYR
+RYYYYYYYYYYYYYYYYR
+rrrrrrrrrrrrrrrrrr
+
+[frame base]
+item 7 22

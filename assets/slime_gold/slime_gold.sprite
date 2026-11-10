@@ -1,0 +1,41 @@
+# generated from assets/slime_gold/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = slime_gold
+title = Gold slime
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part slime_mid]
+.....YYYYYY.....
+...YYYYYYYYYY...
+..YMMYYYYYYYYG..
+.YMMYYYYYYYYYGG.
+.YMYYYYYYYYYYGG.
+YYYYYYKYYYKYYGGG
+YYYYYYKYYYKYYGGG
+YYYYYpYYYYYpYGGG
+GYYYYYYYYYYYYGGG
+.GYYYYYYYYYYGGG.
+..gGGGGGGGGGGg..
+
+[part slime_squash]
+......YYYYYY......
+...YYYYYYYYYYYY...
+.YYMMYYYYYYYYYYGG.
+YYMYYYYYYYYYYYYGGG
+YYYYYYYKYYYKYYYGGG
+YYYYYYYKYYYKYYYGGG
+YYYYYYpYYYYYpYYGGG
+.GYYYYYYYYYYYYGGG.
+..gGGGGGGGGGGGGg..
+
+[frame base]
+slime_mid 8 19
+
+[frame squash]
+slime_squash 7 21
+
+[anim idle]
+base 260
+squash 160

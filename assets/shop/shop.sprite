@@ -1,0 +1,25 @@
+# generated from assets/shop/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = shop
+title = Shop
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part item]
+.........EE.........
+.......EEEEEE.......
+.....EEEEEEEEEE.....
+...EEEEEEEEEEEEEE...
+.EEEEEEEEEEEEEEEEEE.
+qqqqqqqqqqqqqqqqqqqq
+.WWWWWWWWWWWWWWWWWw.
+.WYYYWWWWWWWWYYYWWw.
+.WYYYWWOOOOWWYYYWWw.
+.WWWWWWOOOOWWWWWWWw.
+.WWWWWWOOGOWWWWWWWw.
+.WWWWWWOOOOWWWWWWWw.
+.wwwwwwoooowwwwwwww.
+
+[frame base]
+item 6 17

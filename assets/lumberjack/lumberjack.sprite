@@ -1,0 +1,124 @@
+# generated from assets/lumberjack/recipe.py by tools/draw.py; edit the recipe, not this file
+[meta]
+id = lumberjack
+title = Lumberjack
+size = 32 32
+anchor = 16 29
+palette = ../../styles/chibi32/palette.txt
+
+[part legs_stand]
+Rr..Rr.
+Rr..Rr.
+NNN.NNN
+nnn.nnn
+
+[part legs_near_fwd]
+..rrRR...
+.rr...RR.
+nnn...NNN
+nn....nnn
+
+[part legs_near_support]
+.rrRR.
+.rrRR.
+nnnRR.
+nn.NNN
+...nnn
+
+[part legs_far_fwd]
+..RRrr...
+.RR...rr.
+NNN...nnn
+nn....nnn
+
+[part legs_far_support]
+rrRR.
+rrRR.
+rrNNN
+rrnnn
+nnn..
+
+[part body]
+.RRRRRRRr.
+RRRRRRRRrr
+RRRRRRRRrr
+NNNNGgNNNn
+RRRRRRRRrr
+.RRRRRRRr.
+
+[part head]
+.......A....A...
+......AA...AA...
+...A.AAA..AAA...
+...AAAAAAAAAAA..
+.AAAAAAAAAAAAAA.
+AAAAAAAAAAAAAAAA
+.AAAAAAAAAAAAAAA
+..AAAAAAAAASAAA.
+.AAAAAaSSSaSSSa.
+..aAAaSSSSSSSSS.
+..aaASSSSKSSSKS.
+...aaSSSSKSSSKS.
+...aasSSpSSSSpS.
+....asSSSSSSSs..
+......sSSSSs....
+
+[part beard]
+.AAaAAa.
+AAAAAAAA
+.aAAAAa.
+..aaaa..
+
+[part held_item]
+.....MMM.
+...MMMMm.
+...MMmOod
+...mmOo..
+.....Oo..
+....Oo...
+....Oo...
+...Oo....
+...Oo....
+SSRRRR...
+.grrrr...
+
+[frame base]
+legs_stand 13 26
+body 11 20
+head 8 6
+beard 13 18
+held_item 6 6
+
+[frame walk_0]
+legs_near_fwd 12 26
+body 11 20
+head 8 6
+beard 13 18
+held_item 6 6
+
+[frame walk_1]
+legs_near_support 13 25
+body 11 19
+head 8 5
+beard 13 17
+held_item 6 5
+
+[frame walk_2]
+legs_far_fwd 12 26
+body 11 20
+head 8 6
+beard 13 18
+held_item 6 6
+
+[frame walk_3]
+legs_far_support 14 25
+body 11 19
+head 8 5
+beard 13 17
+held_item 6 5
+
+[anim walk]
+walk_0 150
+walk_1 150
+walk_2 150
+walk_3 150
