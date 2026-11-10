@@ -47,16 +47,6 @@ wwwwwhhwwwwwww
 .hhwwhhwwwwhh.
 ..hhhhhhhhhh..
 
-[part back_item]
-.Y....
-YRY...
-.Y....
-.Oo...
-.Oo...
-.Oo...
-SSoooo
-.gNNNN
-
 [part body]
 .OOoooooN.
 OOooooooNN
@@ -80,40 +70,56 @@ WwwWwhSSShSSShww
 ...hsSSSSSSSs...
 .....sSSSSs.....
 
+[part held_item]
+oO......
+oOOO....
+..OoOYY.
+....o.RY
+......Y.
+
+[part front_hand]
+SS
+Ss
+
 [frame base]
 legs_stand 13 26
 hair_back 9 17
-back_item 3 19
 body 11 20
 head 8 8
+held_item 21 22
+front_hand 22 22
 
 [frame walk_0]
 legs_near_fwd 12 26
 hair_back 9 17
-back_item 2 19
 body 11 20
 head 8 8
+held_item 21 22
+front_hand 22 22
 
 [frame walk_1]
 legs_near_support 13 25
 hair_back 9 16
-back_item 3 18
 body 11 19
 head 8 7
+held_item 21 21
+front_hand 22 21
 
 [frame walk_2]
 legs_far_fwd 12 26
 hair_back 9 17
-back_item 4 19
 body 11 20
 head 8 8
+held_item 21 22
+front_hand 22 22
 
 [frame walk_3]
 legs_far_support 14 25
 hair_back 9 16
-back_item 3 18
 body 11 19
 head 8 7
+held_item 21 21
+front_hand 22 21
 
 [anim walk]
 walk_0 150

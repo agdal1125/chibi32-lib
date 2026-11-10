@@ -45,10 +45,14 @@ mmmmdd
 ..Oo..
 ..Oo..
 ..Oo..
+..OO..
+..OO..
 ..Oo..
-..Oo..
-SSoooo
-.gNNNN
+..oo..
+
+[part back_hand]
+SS
+Ss
 
 [part body]
 .OOoooooN.
@@ -77,31 +81,36 @@ ddddddddddddddDD
 
 [frame base]
 legs_stand 13 26
-back_item 4 14
+back_item 6 16
+back_hand 8 22
 body 11 20
 head 8 6
 
 [frame walk_0]
 legs_near_fwd 12 26
-back_item 3 14
+back_item 5 16
+back_hand 7 22
 body 11 20
 head 8 6
 
 [frame walk_1]
 legs_near_support 13 25
-back_item 4 13
+back_item 6 15
+back_hand 8 21
 body 11 19
 head 8 5
 
 [frame walk_2]
 legs_far_fwd 12 26
-back_item 5 14
+back_item 7 16
+back_hand 9 22
 body 11 20
 head 8 6
 
 [frame walk_3]
 legs_far_support 14 25
-back_item 4 13
+back_item 6 15
+back_hand 8 21
 body 11 19
 head 8 5
 

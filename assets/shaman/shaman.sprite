@@ -74,44 +74,52 @@ GCcGg
 ..Oo.
 ..Oo.
 ..Oo.
+..OO.
+..OO.
 ..Oo.
 ..Oo.
 ..Oo.
 ..Oo.
-..Oo.
-..Oo.
-..Oo.
-..Oo.
+..oo.
+
+[part front_hand]
+ss
+sN
 
 [frame base]
 legs_stand 13 26
 body 11 20
 head 8 6
-held_item 24 11
+held_item 21 12
+front_hand 23 22
 
 [frame walk_0]
 legs_near_fwd 12 26
 body 11 20
 head 8 6
-held_item 24 11
+held_item 21 12
+front_hand 23 22
 
 [frame walk_1]
 legs_near_support 13 25
 body 11 19
 head 8 5
-held_item 24 10
+held_item 21 11
+front_hand 23 21
 
 [frame walk_2]
 legs_far_fwd 12 26
 body 11 20
 head 8 6
-held_item 24 11
+held_item 21 12
+front_hand 23 22
 
 [frame walk_3]
 legs_far_support 14 25
 body 11 19
 head 8 5
-held_item 24 10
+held_item 21 11
+front_hand 23 21
 
 [anim walk]
 walk_0 150

@@ -23,14 +23,17 @@ GCcGg
 ..Oo.
 ..Oo.
 ..Oo.
+..OO.
+..OO.
 ..Oo.
 ..Oo.
 ..Oo.
 ..Oo.
-..Oo.
-..Oo.
-..Oo.
-..Oo.
+..oo.
+
+[part fist]
+MM
+Mm
 
 [part body]
 .MMMMMMm.
@@ -53,6 +56,7 @@ MMMMMMMMMMmm
 
 [frame base]
 legs 12 26
-item 5 5
+item 6 11
+fist 8 21
 body 11 21
 head 10 11

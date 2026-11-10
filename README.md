@@ -29,7 +29,7 @@ The full list with every id, title and description is in [docs/catalog.md](docs/
 
 ### Characters
 
-78 characters share one walk cycle. Weapons use seven poses (rest, raise, shoulder, thrust, overhead, guard, low).
+78 characters share one walk cycle. Each holds its weapon in a small fist that touches the body, in one of five poses: rest (upright at the hip), raise (lifted back over the shoulder), thrust (level, pointing ahead), guard (upright in front) and low (tipped toward the ground).
 
 ![Characters](preview/characters.png)
 
@@ -127,7 +127,7 @@ python -m unittest discover tests
 |---|---|
 | `assets/<id>/<id>.sprite` | Pixel grids, frames and animations as text. Generated for most assets; hand-typed source for 9 of them (`hero`, `slime`, `bat`, `coin`, `potion`, `key`, `scroll`, `chest`, `torch`); `tile_grass` and `tile_stone` come from their own `recipe.py` |
 | `assets/<id>/recipe.py` | Draws the `.sprite`. For templated assets it is one line, `make("<id>")` |
-| `tools/kit32.py` | Shared grids (heads, bodies, legs, weapons), recoloring, character and item templates, weapon poses |
+| `tools/kit32.py` | Shared grids (heads, bodies, legs, weapons), recoloring, character and item templates, weapon poses and grips |
 | `tools/kit32_more.py`, `kit32_nature.py`, `kit32_gaps.py` | The later groups of asset specs |
 | `styles/chibi32/palette.txt` | The 34 allowed colors, one letter each |
 | `styles/chibi32/rules.md` | Proportions, outline, lighting and animation rules (Korean) |
@@ -173,7 +173,7 @@ The pixels were written as text by Claude (Anthropic's language model) in Claude
 
 Known limits:
 
-- At 32×32 the characters have no separate arms, so held weapons sit beside the body.
+- At 32×32 the characters have no visible forearms: a 2×2 fist on the body holds the weapon.
 - Some props read weakly at this size, for example the stone circle, vine, tornado and gloves.
 - Characters have only a walk animation, facing right. Mirror the image for left; the held weapon then switches hands.
 - Art quality was judged by eye, not by the automated checks.

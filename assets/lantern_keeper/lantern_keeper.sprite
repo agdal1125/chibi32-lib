@@ -40,9 +40,15 @@ nnn..
 
 [part back_item]
 .mm.
+.mm.
+.mm.
 mYYd
 mYYd
 .dd.
+
+[part back_hand]
+SS
+Ss
 
 [part body]
 .OOoooooN.
@@ -69,31 +75,36 @@ mmmmmdSSSdSSSdmm
 
 [frame base]
 legs_stand 13 26
-back_item 6 21
+back_item 7 22
+back_hand 8 22
 body 11 20
 head 8 8
 
 [frame walk_0]
 legs_near_fwd 12 26
-back_item 5 21
+back_item 6 22
+back_hand 7 22
 body 11 20
 head 8 8
 
 [frame walk_1]
 legs_near_support 13 25
-back_item 6 20
+back_item 7 21
+back_hand 8 21
 body 11 19
 head 8 7
 
 [frame walk_2]
 legs_far_fwd 12 26
-back_item 7 21
+back_item 8 22
+back_hand 9 22
 body 11 20
 head 8 8
 
 [frame walk_3]
 legs_far_support 14 25
-back_item 6 20
+back_item 7 21
+back_hand 8 21
 body 11 19
 head 8 7
 

@@ -48,17 +48,23 @@ mOOOOOood
 ..ddddd..
 
 [part sword]
-.M.....
-.Mm....
-.Mm....
-.Mm....
-.Mm....
-.Mm....
-.Mm....
-.Md....
-GGgg...
-.SSBBBB
-..gbbbb
+.M..
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Md.
+GGgg
+.nn.
+.nn.
+.gg.
+
+# The fist covers the sword grip and touches the hip, so the hero needs no visible arm.
+[part hand]
+SS
+Ss
 
 [part legs_near_fwd]
 ...bbBB...
@@ -86,42 +92,47 @@ GGgg...
 ..bbnnn.
 ..nnn...
 
-# Draw order is back to front: legs, body, shield, head, sword arm.
+# Draw order is back to front: legs, body, shield, head, sword and fist.
 # Passing frames lift the whole upper body by 1 px and use 5-row legs to stay attached.
 [frame base]
 legs_stand 12 26
 body 11 20
 shield 18 19
 head 8 6
-sword 5 13
+sword 7 13
+hand 8 22
 
 [frame walk_0]
 legs_near_fwd 11 26
 body 11 20
 shield 18 19
 head 8 6
-sword 4 13
+sword 6 13
+hand 7 22
 
 [frame walk_1]
 legs_near_support 12 25
 body 11 19
 shield 18 18
 head 8 5
-sword 5 12
+sword 7 12
+hand 8 21
 
 [frame walk_2]
 legs_far_fwd 11 26
 body 11 20
 shield 18 19
 head 8 6
-sword 6 13
+sword 8 13
+hand 9 22
 
 [frame walk_3]
 legs_far_support 12 25
 body 11 19
 shield 18 18
 head 8 5
-sword 5 12
+sword 7 12
+hand 8 21
 
 [anim walk]
 walk_0 150

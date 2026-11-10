@@ -64,9 +64,13 @@ YYYYYYYYYYYYYYGG
 ......sSSSSs....
 
 [part held_item]
-...S...........
-OOgSOOOOOOOOMM.
-oobBooooooodmMM
+oOOOOOOOOOOMM.
+oooOOooooodmMM
+............m.
+
+[part front_hand]
+SS
+Ss
 
 [part hat]
 ....MMMM....
@@ -79,35 +83,40 @@ MMMMMMmmmmdd
 legs_stand 13 26
 body 11 20
 head 8 6
-held_item 13 21
+held_item 15 22
+front_hand 18 22
 hat 10 4
 
 [frame walk_0]
 legs_near_fwd 12 26
 body 11 20
 head 8 6
-held_item 13 21
+held_item 15 22
+front_hand 18 22
 hat 10 4
 
 [frame walk_1]
 legs_near_support 13 25
 body 11 19
 head 8 5
-held_item 13 20
+held_item 15 21
+front_hand 18 21
 hat 10 3
 
 [frame walk_2]
 legs_far_fwd 12 26
 body 11 20
 head 8 6
-held_item 13 21
+held_item 15 22
+front_hand 18 22
 hat 10 4
 
 [frame walk_3]
 legs_far_support 14 25
 body 11 19
 head 8 5
-held_item 13 20
+held_item 15 21
+front_hand 18 21
 hat 10 3
 
 [anim walk]

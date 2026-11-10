@@ -38,20 +38,6 @@ vvNNN
 vvnnn
 nnn..
 
-[part back_item]
-..O
-.Oo
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-.Oo
-..O
-
 [part body]
 .VVVVVVVv.
 VVVVVVVVvv
@@ -77,35 +63,58 @@ VVVVVVVVVVVVVVVV
 ....vsSSSSSSSs..
 ......sSSSSs....
 
+[part held_item]
+..O.
+.OoW
+Oo.W
+Oo.W
+Oo.W
+OO.W
+OO.W
+Oo.W
+Oo.W
+Oo.W
+.OoW
+..O.
+
+[part front_hand]
+SS
+Ss
+
 [frame base]
 legs_stand 13 26
-back_item 3 17
 body 11 20
 head 8 6
+held_item 23 17
+front_hand 23 22
 
 [frame walk_0]
 legs_near_fwd 12 26
-back_item 2 17
 body 11 20
 head 8 6
+held_item 23 17
+front_hand 23 22
 
 [frame walk_1]
 legs_near_support 13 25
-back_item 3 16
 body 11 19
 head 8 5
+held_item 23 16
+front_hand 23 21
 
 [frame walk_2]
 legs_far_fwd 12 26
-back_item 4 17
 body 11 20
 head 8 6
+held_item 23 17
+front_hand 23 22
 
 [frame walk_3]
 legs_far_support 14 25
-back_item 3 16
 body 11 19
 head 8 5
+held_item 23 16
+front_hand 23 21
 
 [anim walk]
 walk_0 150

@@ -13,17 +13,21 @@ dD...dD
 DDD.DDD
 
 [part item]
-.MMM...
-MMMMm..
-MMmOod.
-.mmOo..
-...Oo..
-...Oo..
-...Oo..
-...Oo..
-...Oo..
-.MMmmmm
-..gdddd
+.MMM..
+MMMMm.
+MMmOod
+.mmOo.
+...Oo.
+...Oo.
+...Oo.
+...OO.
+...OO.
+...Oo.
+...oo.
+
+[part fist]
+MM
+Mm
 
 [part body]
 .ddddddD.
@@ -46,6 +50,7 @@ ddddddddddDD
 
 [frame base]
 legs 12 26
-item 5 13
+item 5 14
+fist 8 21
 body 11 21
 head 10 11

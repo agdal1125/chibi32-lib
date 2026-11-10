@@ -48,17 +48,22 @@ GGGGGggGGGGGGG
 ..gggggggggg..
 
 [part back_item]
-.M.....
-.Mm....
-.Mm....
-.Mm....
-.Mm....
-.Mm....
-.Mm....
-.Md....
-GGgg...
-.SSwwww
-..gMMMM
+.M..
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Md.
+GGgg
+.nn.
+.nn.
+.gg.
+
+[part back_hand]
+SS
+Ss
 
 [part body]
 .WWwwwwwM.
@@ -99,7 +104,8 @@ YYYYYYYYYYYYYYGG
 [frame base]
 legs_stand 13 26
 hair_back 9 17
-back_item 5 13
+back_item 7 13
+back_hand 8 22
 body 11 20
 front_item 18 19
 head 8 6
@@ -107,7 +113,8 @@ head 8 6
 [frame walk_0]
 legs_near_fwd 12 26
 hair_back 9 17
-back_item 4 13
+back_item 6 13
+back_hand 7 22
 body 11 20
 front_item 18 19
 head 8 6
@@ -115,7 +122,8 @@ head 8 6
 [frame walk_1]
 legs_near_support 13 25
 hair_back 9 16
-back_item 5 12
+back_item 7 12
+back_hand 8 21
 body 11 19
 front_item 18 18
 head 8 5
@@ -123,7 +131,8 @@ head 8 5
 [frame walk_2]
 legs_far_fwd 12 26
 hair_back 9 17
-back_item 6 13
+back_item 8 13
+back_hand 9 22
 body 11 20
 front_item 18 19
 head 8 6
@@ -131,7 +140,8 @@ head 8 6
 [frame walk_3]
 legs_far_support 14 25
 hair_back 9 16
-back_item 5 12
+back_item 7 12
+back_hand 8 21
 body 11 19
 front_item 18 18
 head 8 5

@@ -114,19 +114,20 @@ CROWN = """
 .GGGGGGg.
 """
 HALO = "..YYYY..\n.YYYYYY.\n..YYYY.."
-# held things. back-hand items are placed like the hero sword at (5,13); front items near the shield spot.
-SWORD = ".M.....\n.Mm....\n.Mm....\n.Mm....\n.Mm....\n.Mm....\n.Mm....\n.Md....\nGGgg...\n.SSBBBB\n..gbbbb"
-DAGGER = ".M.....\n.Mm....\n.Md....\nGGgg...\n.SSBBBB\n..gbbbb"
-AXE = "..MMM..\n.MMMMm.\n.MMmOod\n..mmOo.\n....Oo.\n....Oo.\n....Oo.\n....Oo.\n....Oo.\n..SSBBBB\n...gbbbb"
-SPEAR = "..M\n.MMm\n.Mm.\n.Od.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\nSSBBBB\n.gbbbb\n.Oo.\n.Oo."
-WAND = ".Y..\nYRY.\n.Y..\n.Oo.\n.Oo.\n.Oo.\nSSBBBB\n.gbbbb"
-HAMMER = "mMMMMd\nmMMMMd\nmmmmdd\n..Oo..\n..Oo..\n..Oo..\n..Oo..\n..Oo..\nSSBBBB\n.gbbbb"
-STAFF = "..GYg\n.GCCGg\n.GCcGg\n..Ggg\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo"
-BOW = "..O\n.Oo\nOo.\nOo.\nOo.\nOo.\nOo.\nOo.\nOo.\nOo.\n.Oo\n..O"
+# held things. Weapons are drawn without hands or sleeves: the character template adds a 2x2 fist over the
+# cells marked '+' (the grip), so the same grid works in every pose and as a loose item icon.
+SWORD = ".M..\n.Mm.\n.Mm.\n.Mm.\n.Mm.\n.Mm.\n.Mm.\n.Md.\nGGgg\n.++.\n.++.\n.gg."
+DAGGER = ".M..\n.Mm.\n.Md.\nGGgg\n.++.\n.++.\n.gg."
+AXE = "..MMM..\n.MMMMm.\n.MMmOod\n..mmOo.\n....Oo.\n....Oo.\n....Oo.\n....++.\n....++.\n....Oo.\n....oo."
+SPEAR = "..M.\n.MMm\n.Mm.\n.Od.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\n.Oo.\n.++.\n.++.\n.Oo.\n.Oo.\n.oo."
+WAND = ".Y..\nYRY.\n.Y..\n.Oo.\n.Oo.\n.++.\n.++.\n.oo."
+HAMMER = "mMMMMd\nmMMMMd\nmmmmdd\n..Oo..\n..Oo..\n..Oo..\n..++..\n..++..\n..Oo..\n..oo.."
+STAFF = "..GYg\n.GCCGg\n.GCcGg\n..Ggg\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...Oo\n...++\n...++\n...Oo\n...Oo\n...Oo\n...Oo\n...oo"
+BOW = "..O.\n.OoW\nOo.W\nOo.W\nOo.W\n++.W\n++.W\nOo.W\nOo.W\nOo.W\n.OoW\n..O."
 BOOK = "RRRRr\nRMMRr\nRMMRr\nRRRRr\nrrrrr"
-LUTE = ".OOo\n.OOo\n.Oo.\nOOOo\nOGOo\nOOoo\n.ooo"
-BAG = "..Nn..\n.NNNn.\nNNNNNn\nNNnNNn\nnnnnnn"
-LANTERN_HELD = ".mm.\nmYYd\nmYYd\n.dd."
+LUTE = ".++o\n.++o\n.Oo.\nOOOo\nOGOo\nOOoo\n.ooo"
+BAG = "..++..\n..++..\n.NNNn.\nNNNNNn\nNNnNNn\nnnnnnn"
+LANTERN_HELD = ".++.\n.++.\n.mm.\nmYYd\nmYYd\n.dd."
 
 # ---------------------------------------------------------------- monsters, items and props (hand grids)
 SLIME = """
@@ -452,16 +453,57 @@ def lean(rows, direction=1):
     return out
 
 
-# pose -> (transform, position, in front of the body?). Positions are the grid's top-left on the 32x32 frame.
+def tilt_down(rows):
+    """A rot90 (pointing right) grid tipped 1:2 downward: every second column toward the tip drops one row."""
+    w, h = len(rows[0]), len(rows)
+    drop = [x // 2 for x in range(w)]
+    out = [["."] * w for _ in range(h + max(drop))]
+    for y, row in enumerate(rows):
+        for x, key in enumerate(row):
+            if key != ".":
+                out[y + drop[x]][x] = key
+    return ["".join(r) for r in out]
+
+
+# Hands: a 2x2 fist that always touches the body, so no pose needs a stretched arm.
+# The body spans x 11..20, y 20..25; its outline is x 10 and x 21.
+BACK_HAND, RAISED_HAND, FRONT_HAND, GUARD_HAND = (8, 22), (7, 19), (22, 22), (23, 22)
+# pose -> (transform of the upright grid, hand top-left, side). side "back" draws weapon and fist behind the body.
 POSES = {
-    "rest": (None, None, False),                     # vertical at the back hand, the hero default
-    "raise": (lambda r: lean(r, 1), (4, 6), True),    # lifted in front, tip over the head to the right
-    "shoulder": (lambda r: lean(r, -1), (2, 9), False),  # resting on the back shoulder, tip back and up
-    "thrust": (rot90, (18, 21), True),               # held level in front, pointing right
-    "overhead": (lambda r: lean(r, 1), (4, 6), True),  # same as raise: a level weapon above the head floated free of the hand at 32px
-    "guard": (None, (24, 11), True),                 # vertical in the front hand beside the face
-    "low": (None, (3, 19), False),                   # hanging low at the back hand
+    "rest": (None, BACK_HAND, "back"),                           # upright in the back hand at the hip
+    "raise": (lambda r: lean(r, -1), RAISED_HAND, "back"),       # back hand at the shoulder, tip up and back
+    "thrust": (rot90, FRONT_HAND, "front"),                      # level in the front hand, pointing ahead
+    "guard": (None, GUARD_HAND, "front"),                        # upright in the front hand beside the face
+    "low": (lambda r: tilt_down(rot90(r)), FRONT_HAND, "front"),  # front hand, tip lowered toward the ground
 }
+POSES["shoulder"] = POSES["raise"]
+POSES["overhead"] = POSES["raise"]
+FORCED_POSE = {"bow": "guard", "lute": "guard", "bag": "rest", "lantern": "rest"}  # things held only one way
+FIST = "SS\nSs"
+
+
+def grip_weapon(grid: str, transform, maps, handle: str = "n"):
+    """Applies the pose transform and returns (rows, top-left of the 2x2 grip cells) in the result."""
+    rows = recolor(grid, *maps)
+    if transform:
+        rows = transform(rows)
+    cells = [(x, y) for y, r in enumerate(rows) for x, k in enumerate(r) if k == "+"]
+    rows = [r.replace("+", handle) for r in rows]
+    if not cells:
+        return rows, (0, len(rows) - 2)
+    return rows, (min(x for x, _ in cells), min(y for _, y in cells))
+
+
+def placed(rows, grip, hand, margin=3):
+    """Top-left for the weapon and the fist so the grip sits under the fist; shifts both together
+    when the weapon would cross the frame border (the lifted walk frames need 1 more row at the top)."""
+    x, y = hand[0] - grip[0], hand[1] - grip[1]
+    w, h = len(rows[0]), len(rows)
+    dx = max(0, margin - x) - max(0, x + w - (32 - margin))
+    dy = max(0, margin + 1 - y) - max(0, y + h - (32 - margin))
+    return (x + dx, y + dy), (hand[0] + dx, hand[1] + dy)
+
+
 BEARD = """..wwhwwh..
 .wwwwwwww.
 ..hwwwwh..
@@ -494,29 +536,29 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
     if long_hair:
         add("hair_back", recolor(HAIR_BACK, hm), 9, 17, up)
     sway = [(0, 0), (-1, 0), (0, -1), (1, 0), (0, -1)]
-    item_rows, item_pos, in_front = None, None, False
+    held = None
     if back:
-        grid, pos = HELD[back]
-        transform, ppos, in_front = POSES[pose]
-        item_rows = recolor(grid, cm, sm)
-        if transform:
-            item_rows = transform(item_rows)
-        item_pos = ppos or pos
-        # keep the item and its outline inside the 1px border on every frame, including the lifted ones
-        iw, ih = len(item_rows[0]), len(item_rows)
-        item_pos = (max(3, min(item_pos[0], 28 - iw)), max(3, min(item_pos[1], 29 - ih)))
-        if not in_front:
-            add("back_item", item_rows, item_pos[0], item_pos[1], sway)
+        transform, hand, side = POSES[FORCED_POSE.get(back, pose)]
+        rows, grip = grip_weapon(WEAPONS[back], transform, (cm, sm), HANDLE.get(back, "n"))
+        pos, hand = placed(rows, grip, hand)
+        held = (rows, pos, hand, side)
+        if side == "back":
+            add("back_item", rows, pos[0], pos[1], sway)
+            if back != "bone_arm":
+                add("back_hand", recolor(FIST, sm), hand[0], hand[1], sway)
     add("body", recolor(ROBE if robe else BODY, cm, tm), 11, 20, up)
     if front:
         grid, pos = FRONT[front]
         pos = front_pos or pos
-        add("front_item", recolor(grid, cm), pos[0], pos[1], up)
+        add("front_item", [r.replace("+", "N") for r in recolor(grid, cm)], pos[0], pos[1], up)
     add("head", recolor(hg, hm, sm), 8, 6 if head != "round" else 8, up)
     if beard:
         add("beard", recolor(BEARD, hm), 12, 18, up)
-    if in_front and item_rows:
-        add("held_item", item_rows, item_pos[0], item_pos[1], up)
+    if held and held[3] == "front":
+        rows, pos, hand, _ = held
+        add("held_item", rows, pos[0], pos[1], up)
+        if back != "bone_arm":
+            add("front_hand", recolor(FIST, sm), hand[0], hand[1], up)
     if hat:
         grid, pos = HATS[hat]
         add("hat", recolor(grid, cm), pos[0], pos[1], up)
@@ -525,20 +567,11 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
     return Recipe(meta=meta(aid, title), layers=layers, frames=frames, anims=anims)
 
 
-HELD = {  # back-hand items, drawn behind the body: grid and top-left
-    "sword": (SWORD, (5, 13)), "dagger": (DAGGER, (5, 18)), "axe": (AXE, (4, 13)), "spear": (SPEAR, (6, 9)),
-    "wand": (WAND, (5, 16)), "hammer": (HAMMER, (4, 14)), "staff": (STAFF, (4, 5)), "bow": (BOW, (5, 12)),
-    "lute": (LUTE, (6, 18)), "bag": (BAG, (5, 21)), "lantern": (LANTERN_HELD, (6, 21)),
-    "bone_arm": ("""Ss
-Ss
-Ss
-Ss
-Ss
-Ss
-Ss
-BB
-bb""", (5, 18)),
-}
+WEAPONS = {"sword": SWORD, "dagger": DAGGER, "axe": AXE, "spear": SPEAR, "wand": WAND, "hammer": HAMMER,
+           "staff": STAFF, "bow": BOW, "lute": LUTE, "bag": BAG, "lantern": LANTERN_HELD,
+           "bone_arm": "SS\nSS\nBB\nBB\nBB"}  # a zombie's outstretched arm: no fist, the grid is the arm
+HANDLE = {"axe": "O", "spear": "O", "wand": "O", "hammer": "O", "staff": "O", "bow": "O", "lute": "O", "bag": "N",
+          "lantern": "m", "bone_arm": "S"}
 FRONT = {"shield": (SHIELD, (18, 19)), "book": (BOOK, (19, 21)), "bag": (BAG, (19, 22))}
 HATS = {"witch": (HAT_WITCH, (6, 3)), "helmet": (HELMET, (8, 4)), "crown": (CROWN, (11, 3)), "halo": (HALO, (12, 3)),
         "horns": (""".D......D.
@@ -559,7 +592,7 @@ def centered(rows: list[str], y_bottom: int = 28) -> tuple[int, int]:
 
 
 def item(aid, title, grid, *maps, bottom=24):
-    rows = recolor(grid, *maps)
+    rows = [r.replace("+", "n") for r in recolor(grid, *maps)]  # a weapon's grip shows as a leather wrap
     x, y = centered(rows, bottom)
     return still(aid, title, [("item", rows, x, y)], anchor=(16, bottom))
 
@@ -596,9 +629,12 @@ def skeleton(aid, title, tones="Mmd", held=None):
               layer("head", recolor(SKELETON_HEAD, cm), 9, 11)]
     base = [("legs", 0, 0), ("body", 0, 0), ("head", 0, 0)]
     if held:
-        grid, pos = HELD[held]
-        layers.insert(1, layer("item", recolor(grid, ("S", "M"), ("B", "m"), ("b", "d")), pos[0], pos[1]))
-        base.insert(1, ("item", 0, 0))
+        transform, hand, _ = POSES[FORCED_POSE.get(held, "rest")]
+        rows, grip = grip_weapon(WEAPONS[held], transform, (("S", "M"), ("B", "m"), ("b", "d")), HANDLE.get(held, "n"))
+        pos, hand = placed(rows, grip, (hand[0], hand[1] - 1))
+        side = 1 if hand[0] < 16 else len(layers)
+        layers[side:side] = [layer("item", rows, *pos), layer("fist", ["MM", "Mm"], *hand)]
+        base[side:side] = [("item", 0, 0), ("fist", 0, 0)]
     return Recipe(meta=meta(aid, title), layers=layers, frames={"base": base})
 
 

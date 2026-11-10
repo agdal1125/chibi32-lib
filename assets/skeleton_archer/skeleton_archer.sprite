@@ -12,20 +12,6 @@ Mm...Mm
 Mm...Mm
 mmm.mmm
 
-[part item]
-..O
-.Oo
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-Oo.
-.Oo
-..O
-
 [part body]
 .MMMMMMm.
 MdMdMdMdm
@@ -45,8 +31,27 @@ MMMMMMMMMMmm
 .mmmmmmmmmm.
 ..MdMdMdMd..
 
+[part item]
+..O.
+.OoW
+Oo.W
+Oo.W
+Oo.W
+OO.W
+OO.W
+Oo.W
+Oo.W
+Oo.W
+.OoW
+..O.
+
+[part fist]
+MM
+Mm
+
 [frame base]
 legs 12 26
-item 5 12
 body 11 21
 head 10 11
+item 23 16
+fist 23 21

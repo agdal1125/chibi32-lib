@@ -75,13 +75,14 @@ OOOOOOOOOOOOOOoo
 ......sSSSSs....
 
 [part held_item]
-..G........
-.SGMMMMMMMM
-gSgdmmmmmm.
-dmg........
-dm.........
-dm.........
-dm.........
+...G........
+gnnGMMMMMMMM
+gnngdmmmmmm.
+...g........
+
+[part front_hand]
+SS
+Ss
 
 [part hat]
 ....MMMM....
@@ -96,6 +97,7 @@ body 11 20
 front_item 18 18
 head 8 6
 held_item 17 21
+front_hand 18 22
 hat 10 4
 
 [frame walk_0]
@@ -104,6 +106,7 @@ body 11 20
 front_item 18 18
 head 8 6
 held_item 17 21
+front_hand 18 22
 hat 10 4
 
 [frame walk_1]
@@ -112,6 +115,7 @@ body 11 19
 front_item 18 17
 head 8 5
 held_item 17 20
+front_hand 18 21
 hat 10 3
 
 [frame walk_2]
@@ -120,6 +124,7 @@ body 11 20
 front_item 18 18
 head 8 6
 held_item 17 21
+front_hand 18 22
 hat 10 4
 
 [frame walk_3]
@@ -128,6 +133,7 @@ body 11 19
 front_item 18 17
 head 8 5
 held_item 17 20
+front_hand 18 21
 hat 10 3
 
 [anim walk]

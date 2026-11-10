@@ -76,14 +76,18 @@ ddddddddddddddDD
 ......sSSSSs....
 
 [part held_item]
-.Y....
-YRY...
-.Y....
-.Oo...
-.Oo...
-.Oo...
-SSVVVV
-.gvvvv
+.Y.
+YRY
+.Y.
+.Oo
+.Oo
+.OO
+.OO
+.oo
+
+[part front_hand]
+SS
+Ss
 
 [part hat]
 G..G..G
@@ -95,7 +99,8 @@ legs_stand 13 26
 hair_back 9 17
 body 11 20
 head 8 6
-held_item 24 11
+held_item 22 17
+front_hand 23 22
 hat 12 3
 
 [frame walk_0]
@@ -103,7 +108,8 @@ legs_near_fwd 12 26
 hair_back 9 17
 body 11 20
 head 8 6
-held_item 24 11
+held_item 22 17
+front_hand 23 22
 hat 12 3
 
 [frame walk_1]
@@ -111,7 +117,8 @@ legs_near_support 13 25
 hair_back 9 16
 body 11 19
 head 8 5
-held_item 24 10
+held_item 22 16
+front_hand 23 21
 hat 12 2
 
 [frame walk_2]
@@ -119,7 +126,8 @@ legs_far_fwd 12 26
 hair_back 9 17
 body 11 20
 head 8 6
-held_item 24 11
+held_item 22 17
+front_hand 23 22
 hat 12 3
 
 [frame walk_3]
@@ -127,7 +135,8 @@ legs_far_support 14 25
 hair_back 9 16
 body 11 19
 head 8 5
-held_item 24 10
+held_item 22 16
+front_hand 23 21
 hat 12 2
 
 [anim walk]
