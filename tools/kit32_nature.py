@@ -1,6 +1,6 @@
 """kit32_nature: the third hundred rpg specs, natural scenery and outdoor props.
 Imported by kit32 at the end of its module; registers into kit32.SPECS."""
-from drawkit import dotted, lumps
+from drawkit import dotted, lumps, pool
 from kit32 import (section, BUSH, PINE, ROCK, TREE, Recipe, bricks, checker, item, layer, meta, planks, rows_of, spec, tile,
                    waves)
 
@@ -10,22 +10,9 @@ def prop(aid, desc, title, grid, *maps, bottom=28):
 
 
 # ---------------------------------------------------------------- trees and large plants
-WILLOW = """
-.....EEEEEEE....
-...EEEEEEEEEEE..
-..EEEEEEEEEEEEe.
-.EEEEEEEEEEEEEee
-.EEEEEEEEEEEEEee
-EEeEEEeEEEeEEeee
-EEeEEEeEEEeEEeee
-.EeEEEeEEEeEEee.
-.Ee.EEe.Ee.Eee..
-.e..Ee..Ee..e...
-....Ee..e.......
-.....OOo........
-.....OOo........
-....oOOoo.......
-"""
+WILLOW = lumps([(2.5, 13, 1.6, 5), (6.5, 14, 1.6, 5), (15.5, 14, 1.6, 5), (19.5, 13, 1.6, 5), (11, 8.5, 10, 7),
+                (6.5, 7.5, 5.5, 5), (15.5, 8, 5.5, 5), (11, 4.8, 6.5, 4.6), (4, 11.5, 2, 5), (18, 12, 2, 5)], "Eeq", (0.3, -0.2),
+                under=(9, 13, "nOOo\nnOOo\nOOoo\nOOoo\nOOoo\nOOoo\nOOoo\nOOOoo"))
 PALM = """
 EEEE......EEEE..
 .EEEEe..EEEEe...
@@ -41,22 +28,8 @@ EEEEEEEEEEEEEEe.
 .....qOOo.......
 .....qOOoo......
 """
-BIRCH = """
-.....EEEEE......
-...EEEEEEEEE....
-..EEEEEEEEEEe...
-.EEEEEEEEEEEEe..
-.EEEEEEEEEEEEe..
-..EEEEEEEEEEe...
-...EEEEEEEEe....
-.....WWWw.......
-.....WDWw.......
-.....WWWw.......
-.....WWDw.......
-.....WWWw.......
-.....WDWw.......
-....wWWWww......
-"""
+BIRCH = lumps([(9, 7, 8, 6.5), (5.5, 6.5, 4.8, 4.4), (12.5, 7, 4.8, 4.4), (9, 4.2, 5.2, 4), (9, 10, 6, 3.4)], "Eeq", (0.3, -0.2),
+               under=(7, 11, "WWwh\nWWwh\nWWwh\nWWwh\nWWwh\nWDDh\nWWwh\nDDwh\nWWwh\nWWDhh"))
 BAMBOO = """
 .....Ee....Ee...
 .Ee..Ee.Ee.Ee...
@@ -141,9 +114,21 @@ dddddddddddddddddd
 """
 LAVA_ROCK = "...DDDD...\n..DDRDDD..\n.DDDDRRDD.\nDDRDDDDDDD\nDDDDDRDDDD\n.DDDDDDDD.\n..DDRDDD.."
 ICE_SPIKE = "....CC....\n....CC....\n...CCCc...\n...CMCc...\n..CCMCcc..\n..CCMCcc..\n.CCCMCccc.\n.CCCCCccc.\nCCCCCCcccc\ncccccccccc"
-ICE_BLOCK = "CCCCCCCCCCCc\nCMMCCCCCCCCc\nCMCCCCCCCCcc\nCCCCCCCCCCcc\nCCCCCCCCCCcc\nCCCCCCCCCCcc\nCCCCCCCCCCcc\ncccccccccccc"
-SNOW_PILE = ".....WWWW.....\n...WWWWWWWW...\n..WWWWWWWWWw..\n.WWWWWWWWWWww.\nWWWWWWWWWWWwww\n.wwwwwwwwwwww."
-SAND_DUNE = "........SSSS........\n.....SSSSSSSSSs.....\n...SSSSSSSSSSSSss...\n.SSSSSSSSSSSSSSSsss.\nSSSSSSSSSSSSSSSSssss\nssssssssssssssssssss"
+ICE_BLOCK = """
+.CCCCCCCCCCCC.
+CMMMMMCCCCCCCc
+CMCCCCCCCCMCCc
+CMCCCCCCCMCCcc
+CCCCCCCCMCCCcc
+CCCCCCCCCCCccc
+CCCCCMCCCCCccc
+CCCCMCCCCCcccc
+CCCCCCCCCccccc
+CcCCCCCCcccccc
+.cccccccccccc.
+"""
+SNOW_PILE = lumps([(9, 6.5, 8, 5.5), (4.5, 8, 4.5, 3.2), (14, 8, 4.5, 3.2)], "Wwh", (0.3, -0.25), floor=8)
+SAND_DUNE = lumps([(12, 8.5, 12, 6.5), (5.5, 9.5, 5.5, 3.6), (19, 9.5, 5, 3.2)], "Ss", (0.25,), floor=8)
 CLIFF = """
 mMMMMMMMMMMMMMMd
 mEEEEEEEEEEEEEEd
@@ -155,18 +140,8 @@ mdmMMMmddmMMMmdd
 mddmmmdddmmmmddd
 dddddddddddddddd
 """
-PUDDLE = "....LLLL....\n..LLCCCLLL..\n.LCCCCCCCLL.\n.LCCCCCCCLB.\n..LLCCCLLB..\n....BBBB...."
-POND = """
-.....LLLLLL.....
-...LLCCCCCCLL...
-..LCCCCCCCCCCL..
-.LCCCCMMCCCCCCL.
-.LCCCCCCCCCCCCB.
-.LCCCCCCCCCCCCB.
-..LCCCCCCCCCCB..
-...LLCCCCCCBB...
-.....BBBBBB.....
-"""
+PUDDLE = pool(7, 3.6, "c", "MCL", [(4, 3, 3), (8, 4, 2)])
+POND = pool(11.5, 6, "s", "MCc", [(6, 4, 4), (14, 6, 5), (8, 8, 3)])
 WATERFALL_0 = "mMCCCCCCMd\nmMCCCMCCMd\nmMCMCCCCMd\nmMCCCCMCMd\nmMCCCCCCMd\nmMCMCCCCMd\nmMCCCMCCMd\nmMCCCCCCMd\nmMCCCCMCMd\nmMCCCCCCMd\nWWWWWWWWWW\n.WCWCWCWW."
 WATERFALL_1 = "mMCCCCCCMd\nmMCCCCMCMd\nmMCCCMCCMd\nmMCMCCCCMd\nmMCCCCMCMd\nmMCCCCCCMd\nmMCMCCCCMd\nmMCCCMCCMd\nmMCCCCCCMd\nmMCCCCMCMd\nWWWWWWWWWW\n.WWCWCWCW."
 GEYSER_0 = "....WW....\n...WWWW...\n...WWWW...\n....WW....\n....WW....\n..mmWWmm..\n.mMMMMMMd.\nmMMMMMMMMd\nmmmmmmmmdd"
@@ -235,20 +210,21 @@ SCYTHE = "mMMMMMMMMd..\n.mmmmmmMMMd.\n.......mMMd.\n........Oo..\n........Oo..\n
 BASKET = "..NNNNNN..\n.NnNnNnNn.\nNNNNNNNNNn\nNnNnNnNnNn\nNNNNNNNNNn\n.nnnnnnnn."
 PLANTER = "..E.P.E..\n.EEEPEEE.\n..EEEEE..\nmMMMMMMMd\nmMMMMMMMd\nmmmmmmmmd"
 WINDMILL_BLADE = "WWWw......\n.WWWw.....\n..WWWw....\n...WWWw...\n....OOo...\n...wWWWW..\n..wWWW....\n.wWWW.....\nwWWW......"
-HAY_BALE = ".GGGGGGGGGGGg.\nGGGGGGGGGGGGGg\nGGgggggggggGGg\nGGGGGGGGGGGGGg\nGGgggggggggGGg\nGGGGGGGGGGGGGg\n.ggggggggggg.."
-WATER_LILY = "....P.....\n...PWP....\n..PPPPP...\n.EEEEEEEE.\nEEEEEE.EEE\nEEEEEEEEEe\n.EEEEEEEe.\n..eeeeee.."
-FROZEN_POND = """
-.....MMMMMM.....
-...MMCCCCCCMM...
-..MCCCCCCCCCCM..
-.MCCCCMMCCCCCCM.
-.MCCCCCCCCCCCCc.
-.MCCCCCCCCCCCCc.
-..MCCCCCCCCCCc..
-...MMCCCCCCcc...
-.....cccccc.....
+HAY_BALE = """
+..GGGGGGGGGGgg..
+.GYYGGGGGGGGggg.
+GYYGGGgGGGGgGggg
+GYGGGGGGgGGGgggg
+GGGGgGGGGGGggGgg
+GGGGGGGgGGGgGGgg
+GGgGGGGGGGGggGgg
+GGGGGgGGGGgGgggg
+.GGGGGGGggGgggg.
+..gggggggggggg..
 """
-MUD_POOL = "....OOOO....\n..OOooooOO..\n.OooooooooO.\n.Ooooooooon.\n..OOooooon..\n....nnnn...."
+WATER_LILY = "....P.....\n...PWP....\n..PPPPP...\n.EEEEEEEE.\nEEEEEE.EEE\nEEEEEEEEEe\n.EEEEEEEe.\n..eeeeee.."
+FROZEN_POND = pool(11.5, 6, "M", "WCc", [(5, 4, 5), (12, 5, 2), (14, 6, 2), (16, 7, 2), (7, 8, 4), (11, 3, 3)])
+MUD_POOL = pool(8, 4.2, "n", "NOo", [(5, 3, 3), (9, 5, 2)])
 
 # ---------------------------------------------------------------- register: trees and plants (28)
 section("nature")

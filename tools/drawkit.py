@@ -247,6 +247,18 @@ def lumps(blobs: list[tuple[float, float, float, float]], tones: str, cuts: Iter
     return "\n".join(lay.crop()[2])
 
 
+def pool(rx: float, ry: float, rim: str, tones: str, glints: list[tuple[int, int, int]]) -> str:
+    """A pond seen from above: a bank ring, the water, a shadow under the far bank and light dashes on the surface.
+    tones = glint, water, shadow; glints = (x, y, length) dashes, kept only where they fall on water."""
+    lay = Layer("pool")
+    lay.fill(ellipse(rx, ry, rx, ry), rim)
+    water = ellipse(rx, ry + 0.3, rx - 1.6, ry - 1.2)
+    lay.fill(water, lambda x, y: tones[1] if (x, y - 1) in water else tones[2])
+    for x0, y, n in glints:
+        lay.fill([(x, y) for x in range(x0, x0 + n) if (x, y) in water and (x, y - 1) in water], tones[0])
+    return "\n".join(lay.crop()[2])
+
+
 def dotted(grid: str, key: str, points: list[Pixel]) -> str:
     """The grid with `key` at the given painted cells: berries, flowers, moss."""
     rows = [list(r) for r in grid.split("\n")]

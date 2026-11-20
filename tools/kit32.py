@@ -351,7 +351,18 @@ mmmmMMMMMMMMMMmmddd
 .ddddddddddddddddd.
 """
 TABLE = "OOOOOOOOOOOOOOOo\nooooooooooooooo.\n.Oo..........Oo.\n.Oo..........Oo.\n.Oo..........Oo.\n.oo..........oo."
-BED = "OOOOo.........\nORRRRRRRRRRRo.\nOMMMRRRRRRRRo.\nOMMMRRRRRRRRo.\nORRRRRRRRRRRo.\nOrrrrrrrrrrro.\nOo.........Oo."
+BED = """
+Oo............Oo
+OOOOOOOOOOOOOOOo
+OWWWWwRRRRRRRRro
+OWWWWwRRYRRRRRro
+OMMMMwRRRRRRRRro
+OwwwwwRRRRRRRrro
+OrrrrrrrrrrrrrRo
+OOOOOOOOOOOOOOOo
+Oooooooooooooooo
+Oo............Oo
+"""
 LANTERN = "....mm....\n...mMMd...\n..mMMMMd..\n..mYYYYd..\n..mYYYYd..\n..mYYYYd..\n..mMMMMd..\n...mddd...\n....Oo....\n....Oo...."
 DOOR = """
 ...OOOOOOOO...
