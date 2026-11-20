@@ -32,92 +32,145 @@ def mirror(grid: str) -> str:
 # ---------------------------------------------------------------- friendly animals (10)
 section("animals")
 CAT = """
-A..........A.A
-A..........AAA
-A.........AAKA
-AAAAAAAAAAAAAA
-.AAAAAAAAAApA.
-.AAAAAAAAAAA..
-.Aa.Aa..Aa.Aa.
-.aa.aa..aa.aa.
+.A.........A...A.
+AA.........AA.AA.
+A..........AAAAAA
+A..........AKAAKA
+Aa.........AAApAA
+.Aa.AAAAAAAAAAAAa
+.AAAAAAAAAAAAWWa.
+..AAAAAAAAAAAaa..
+..AAAAAAAAAAaa...
+..Aa.aa..Aa.aa...
+..Aa.aa..Aa.aa...
 """
 DOG = """
-............OO..
-N..........OOOO.
-N.........NOOKOO
-NOOOOOOOOOOOOOOK
-.OOOOOOOOOOOOO..
-.OOOOOOOOOOOO...
-.Oo.Oo...Oo.Oo..
-.oo.oo...oo.oo..
+...........OOOOO.
+.N........nOOOOOn
+N.........nOKOOKn
+N.........nOOSSSo
+No..OOOOOOOOSKSSo
+.OOOOOOOOOOOOSSo.
+.OOOOOOOOOOOOoo..
+..OOOOOOOOOOoo...
+..Oo.oo..Oo.oo...
+..Oo.oo..Oo.oo...
 """
 CHICKEN = """
-......RR..
-.....WWW..
-.....WKWA.
-W...WWWWR.
-WW.WWWWW..
-WWWWWWWW..
-.WWWWWWw..
-..WWWWw...
-...A.A....
-...A.A....
+.......RR...
+......RRR...
+......WWWW..
+W.....WKWWA.
+WW....WWWWAa
+WWw..WWWWR..
+WWWWWWWWWR..
+.WWWWWWWWw..
+.WWWwwWWWw..
+..WWWWWWw...
+...wwwww....
+....A..A....
+...AA.AA....
 """
 COW = """
-............M..M
-...........WWWW.
-WWWWWWWWWWWWKWW.
-WDDWWWWDDWWWWPP.
-WDDWWWWDDWWWWPP.
-WWWWWDDWWWWWW...
-WWWWWDDWWWWW....
-.Ww.Ww...Ww.Ww..
-.Dd.Dd...Dd.Dd..
+...........M....M.
+...........MWWWWM.
+..........wWWWWWWw
+w.........WDKWWKWW
+w..DDDWWWWWDDWWWWW
+.wDDDDWWWWWWPPPPP.
+.WDDDWWWWDDWPxPxP.
+.WWWWWWWDDDDWPPP..
+.WWWWWWWWDDWWww...
+..WWWWWWWWWWww....
+..Ww.ww.PPWw.ww...
+..Ww.ww...Ww.ww...
+..DD.DD...DD.DD...
 """
 PIG = """
-..........P.P.
-.PPPPPPPPPPPP.
-PPPPPPPPPPKPPx
-PPPPPPPPPPPPxx
-PPPPPPPPPPPPP.
-.PPPPPPPPPPP..
-.Px.Px..Px.Px.
+.........Px..Px.
+.x.......PPPPPPP
+x.x.PPPPPPKPPKPP
+.xPPPPPPPPPxxxxP
+..PPPPPPPPPxrxrx
+..PPPPPPPPPPxxxx
+..PPPPPPPPPPPPx.
+..xPPPPPPPPPxx..
+...xxxxxxxxxx...
+...Px.xx.Px.xx..
+...xx.xx.xx.xx..
 """
 HORSE = """
-...........OOo..
-..........OOOOo.
-..........OOKOOo
-n.........OOOOOo
-nOOOOOOOOOOOOo..
-nOOOOOOOOOOOO...
-.OOOOOOOOOOOO...
-.OOOOOOOOOOOo...
-.Oo.Oo...Oo.Oo..
-.Oo.Oo...Oo.Oo..
-.DD.DD...DD.DD..
+............nn....
+...........nOOO...
+..........nnOOOOo.
+..........nOOKOOOo
+..........nOOOOOSs
+n........nnOOOooo.
+nn..OOOOOOOOOOo...
+nnOOOOOOOOOOOOo...
+n.OOOOOOOOOOOOo...
+n.OOOOOOOOOOOoo...
+..OOooooooOOOo....
+..Oo.oo...Oo.oo...
+..Oo.oo...Oo.oo...
+..Oo.oo...Oo.oo...
+..DD.DD...DD.DD...
 """
-DEER = "...........N.N..\n..........NN.NN.\n" + HORSE.strip("\n")
+DEER = """
+..........N.N.N.N.
+...........NN.NN..
+............N.N...
+...........OOOO...
+..........OOOOOo..
+..........OOKOOOo.
+..........OOOOOSK.
+W.........OOOoo...
+WW..OOOOOOOOOo....
+.WOOOOSOOSOOOo....
+..OOOOOOOOOOOo....
+..OOWWWWWWOOo.....
+..Oo.oo...Oo.oo...
+..Oo.oo...Oo.oo...
+..Oo.oo...Oo.oo...
+..DD.DD...DD.DD...
+"""
 RABBIT = """
-.....W.W.
-.....W.W.
-.....WWW.
-....WWKWW
-WWWWWWWWP
-WWWWWWWW.
-.WWWWWWW.
-.Ww..Ww..
+.....WP..WP.
+.....WP..WP.
+.....WPw.WP.
+.....WWWWWWw
+.....WKWWKWw
+W...WWWWpWWw
+WWWWWWWWWWw.
+.WWWWWWWWWw.
+.WWWWWWWWww.
+.wWWwwWWWw..
+..Ww...Ww...
 """
 SHEEP = """
-..WWWWWWWW....
-.WWWWWWWWWWDD.
-WWWWWWWWWWDKD.
-WWWWWWWWWWDDD.
-WWWWWWWWWWW...
-.WWWWWWWWW....
-..D.D..D.D....
-..D.D..D.D....
+...WW.WWW.WW....
+..WWWWWWWWWWW.D.
+.WWWWWWWWWWWDDDD
+WWWWwWWWWwWWDKDK
+WWWWWWWWWWWwDDDD
+.WWwWWWWwWWwwDD.
+WWWWWWWWWWwww...
+.wWWwwWWWwww....
+..wwwwwwwww.....
+...D.D..D.D.....
+...D.D..D.D.....
 """
-BIRD = "...LLL...\n..LLKLA..\nLLLLLLL..\n.LLLLBB..\n..LLBB...\n...A.A..."
+BIRD = """
+....LLLL...
+...LLLLLL..
+...LLKLLAA.
+B..LLLWWA..
+BBLLLBWWW..
+.BBLBBBWW..
+..BBBBbW...
+...bbbb....
+....A.A....
+"""
 
 prop("cat", "고양이. 주황 줄무늬 없는 단색.", "Cat", CAT)
 prop("dog", "개. 처진 귀의 갈색 개.", "Dog", DOG)
@@ -125,7 +178,7 @@ prop("chicken", "닭.", "Chicken", CHICKEN)
 prop("cow", "젖소.", "Cow", COW)
 prop("pig", "돼지.", "Pig", PIG)
 prop("horse", "말.", "Horse", HORSE)
-prop("deer", "사슴. 뿔 달린 수사슴.", "Deer", DEER, ("n", "W"))
+prop("deer", "사슴. 뿔 달린 수사슴.", "Deer", DEER)
 prop("rabbit", "토끼.", "Rabbit", RABBIT)
 prop("sheep", "양.", "Sheep", SHEEP)
 prop("bird", "파랑새.", "Bluebird", BIRD, bottom=24)
@@ -313,7 +366,23 @@ mmmmmmmmmmmmmmdd
 """
 FIREPLACE_1 = FIREPLACE_0.replace(".mMDDDDRDDDDDMd.", ".mMDDDDDRDDDDMd.").replace(".mMDDDRADDDDDMd.", ".mMDDDDARDDDDMd.")
 CLOCK = ".OOOOOO.\nOOOOOOOo\nOWWWWWOo\nOWWKWWOo\nOWWKKWOo\nOWWWWWOo\nOOOOOOOo\n.OOOOOo.\n.ODDDOo.\n.ODGDOo.\n.ODGDOo.\n.ODGDOo.\n.ODGGOo.\n.ODDDOo.\nOOOOOOOo\noooooooo"
-CUPBOARD = "OOOOOOOOOOOOOo\nOCCCCCOOCCCCOo\nOCCCCCOOCCCCOo\nOCCCCCOOCCCCOo\nOOOOOOOOOOOOOo\nOOOOOGOOGOOOOo\nOOOOOOOOOOOOOo\nOOOOOGOOGOOOOo\nOOOOOOOOOOOOOo\noooooooooooooo"
+CUPBOARD = """
+.OOOOOOOOOOOO.
+OOOOOOOOOOOOOo
+ONNNNNNNNNNNNo
+ONWCCCNNWCCCNo
+ONCCCCNNCCCCNo
+ONCCCcNNCCCcNo
+ONCCccNNCCccNo
+ONNNNNNNNNNNNo
+OOOOOOOOOOOOOo
+ONOOOOnNOOOOno
+ONOOOGnNGOOOno
+ONOOOOnNOOOOno
+ONnnnnnNnnnnno
+oooooooooooooo
+oo..........oo
+"""
 MIRROR = "..GGGGGG..\n.GCCCCCCg.\nGCCMCCCCCg\nGCMCCCCCCg\nGCCCCCCCCg\nGCCCCCCCCg\nGCCCCCCCCg\n.GCCCCCCg.\n..GGGGgg..\n....Gg....\n...GGGg..."
 THRONE = "..GG....GG..\n.GRRRRRRRRg.\n.GRRRRRRRRg.\n.GRRYYYYRRg.\n.GRRRRRRRRg.\n.GRRRRRRRRg.\nGGRRRRRRRRgg\nGGRRRRRRRRgg\nGGGGGGGGGGgg\nGGRRRRRRRRgg\nGGGGGGGGGGgg\n.Gg......Gg."
 

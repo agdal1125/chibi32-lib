@@ -14,19 +14,22 @@ WILLOW = lumps([(2.5, 13, 1.6, 5), (6.5, 14, 1.6, 5), (15.5, 14, 1.6, 5), (19.5,
                 (6.5, 7.5, 5.5, 5), (15.5, 8, 5.5, 5), (11, 4.8, 6.5, 4.6), (4, 11.5, 2, 5), (18, 12, 2, 5)], "Eeq", (0.3, -0.2),
                 under=(9, 13, "nOOo\nnOOo\nOOoo\nOOoo\nOOoo\nOOoo\nOOoo\nOOOoo"))
 PALM = """
-EEEE......EEEE..
-.EEEEe..EEEEe...
-..EEEEeEEEEe....
-EEEEEEEEEEEEEEe.
-.EEEEEEEEEEEEe..
-...EEEqOoEEe....
-..EEe.qOo.EEe...
-.Ee...qOo...Ee..
-......qOo.......
-......qOo.......
-......qOo.......
-.....qOOo.......
-.....qOOoo......
+....EEE....EEEE....
+..EEEEEEe.EEEEEEe..
+.EEeeEEEEEEEEeeEEe.
+EEe..qEEEEEEq..eEEe
+Ee..EEEEnnEEEEe..Ee
+q..EEEeqnOnqEEEe..q
+..EEeq..NOo.qEEe...
+..Eq....Noo...Ee...
+..q.....NOo....q...
+.........Noo.......
+.........NOo.......
+.........Noo.......
+..........NOo......
+..........Noo......
+.........NNOo......
+........NNOOoo.....
 """
 BIRCH = lumps([(9, 7, 8, 6.5), (5.5, 6.5, 4.8, 4.4), (12.5, 7, 4.8, 4.4), (9, 4.2, 5.2, 4), (9, 10, 6, 3.4)], "Eeq", (0.3, -0.2),
                under=(7, 11, "WWwh\nWWwh\nWWwh\nWWwh\nWWwh\nWDDh\nWWwh\nDDwh\nWWwh\nWWDhh"))
@@ -57,7 +60,16 @@ FERN = """
 """
 TALL_GRASS = "E..E....E..E\nE.EE.E..EE.E\nEEEE.EE.EEEE\n.EEEEEEEEEE.\n.eEEeEEeEEe.\n..eeeeeeee.."
 REEDS = "..Nn....Nn..\n..Nn.Nn.Nn..\n.EEe.Nn.EEe.\n.EEe.EEeEEe.\n.EEe.EEe.Ee.\n..Ee.EEe.Ee.\n..Ee..Ee.Ee.\n..Ee..Ee.Ee.\n..ee..ee.ee."
-LILY_PAD = "...EEEEEE...\n.EEEEEEEEEE.\nEEEEEEP.EEEe\nEEEEEPP..EEe\nEEEEEE.EEEEe\n.EEEEEEEEEe.\n...eeeeee..."
+LILY_PAD = """
+...EEEEEEEE...
+.EEEEEEEEEEEe.
+EEEEEEEEE..Eee
+EEEEEEEE..eEEe
+EEEEEEEeeEEEee
+EEEEEEEEEEEEeq
+.eEEEEEEEEEeq.
+...eeeeeeqq...
+"""
 SUNFLOWER = "...YYYY...\n..YYooYY..\n.YYooooYY.\n.YYooooYY.\n..YYooYY..\n...YYYY...\n....Ee....\n..E.Ee.E..\n..EEEeEE..\n....Ee....\n....Ee....\n....ee...."
 FLOWER_RED = "..R...R...\n.RYR.RYR..\n..R...R...\n..Ee.Ee...\n.E.EeE.E..\n.EEEEEEE..\n...eee...."
 TULIPS = ".P..R..Y.\nPPPRRRYYY\nPPPRRRYYY\n.P..R..Y.\n.Ee.Ee.Ee\nEEeEEeEEe\n.Ee.Ee.Ee\n.ee.ee.ee"
@@ -93,11 +105,19 @@ THORNS = "D..D....D..D\nDD.DD..DD.DD\n.DDDDDDDDDD.\n..DDDDDDDD..\n.DDDDDDDDDD.\n
 # ---------------------------------------------------------------- rocks, terrain features, water
 BOULDER = lumps([(10, 8, 9.5, 7.5), (5, 10.5, 5, 4), (15, 11, 4.5, 3.5)], "Mmd", (0.35, -0.2), floor=13)
 ROCK_MOSS = "\n".join(r.replace("M", "E").replace("m", "e") if y < 3 else r for y, r in enumerate(ROCK.split("\n")))
-ROCK_PILE = "......mmm.....\n..mm.mMMmd.mm.\n.mMMmMMMmdmMmd\nmMMMmMMmmdMMmd\nmMMmmmmmddmmdd\n.mmmddmmmdddd.\n..dddd.dddd..."
+ROCK_PILE = lumps([(9, 5, 4.6, 4.2), (4, 7.5, 3.6, 3), (14.5, 7.8, 3.6, 2.8), (7.5, 9, 3, 2.3), (11.5, 9.3, 2.8, 2)], "Mmd", (0.6, 0.15), floor=10)
 PEBBLES = "..mm....mm..\n.mMmd..mMmd.\n.mmdd..mmdd.\n......mm....\n..mm.mMmd...\n.mMmdmmdd.mm\n.mmdd....mMd\n.........mdd"
-ORE_IRON = "...mmmm...\n..mMMDmd..\n.mMDDMmdd.\nmMMMMDmddd\nmMDDMmmddd\n.mmmmDddd.\n..dddddd.."
-ORE_GOLD = "...mmmm...\n..mMMGmd..\n.mMGYMmdd.\nmMMMMGmddd\nmMGYMmmddd\n.mmmmGddd.\n..dddddd.."
-ORE_CRYSTAL = "...mmmm...\n..mMMVmd..\n.mMVVMmdd.\nmMMMMVmddd\nmMVVMmmddd\n.mmmmVddd.\n..dddddd.."
+
+def ore(vein: str, glint: str) -> str:
+    """A grey rock with three nuggets of `vein`, each with one `glint` pixel on its lit corner."""
+    rock = lumps([(7, 6, 6.5, 5.5), (3.8, 8, 3.6, 3), (11, 8.2, 3.6, 2.8)], "Mmd", (0.7, 0.0), floor=9)
+    rock = dotted(rock, vein, [(4, 2), (5, 2), (4, 3), (5, 3), (8, 4), (9, 4), (9, 5), (3, 6), (4, 6), (11, 6), (11, 7)])
+    return dotted(rock, glint, [(4, 2), (8, 4), (3, 6)])
+
+
+ORE_IRON = ore("a", "A")
+ORE_GOLD = ore("G", "Y")
+ORE_CRYSTAL = ore("v", "V")
 STALAGMITE = "....mm....\n....Mm....\n...mMmd...\n...mMmd...\n..mMMmdd..\n..mMMmdd..\n.mMMMmddd.\n.mMMMmddd.\nmMMMMmdddd\nmmmmmmdddd"
 STALACTITE = "mmmmmmdddd\nmMMMMmdddd\n.mMMMmddd.\n.mMMMmddd.\n..mMMmdd..\n..mMMmdd..\n...mMmd...\n...mMmd...\n....Mm....\n....mm...."
 CAVE_MOUTH = """
@@ -130,15 +150,16 @@ CcCCCCCCcccccc
 SNOW_PILE = lumps([(9, 6.5, 8, 5.5), (4.5, 8, 4.5, 3.2), (14, 8, 4.5, 3.2)], "Wwh", (0.3, -0.25), floor=8)
 SAND_DUNE = lumps([(12, 8.5, 12, 6.5), (5.5, 9.5, 5.5, 3.6), (19, 9.5, 5, 3.2)], "Ss", (0.25,), floor=8)
 CLIFF = """
-mMMMMMMMMMMMMMMd
-mEEEEEEEEEEEEEEd
-mMMMMMMMMMMMMMMd
-mMMMMMMMMMMMMMMd
-mmMMMMMmmMMMMMmd
-mdmMMMmddmMMMmdd
-mdmMMMmddmMMMmdd
-mddmmmdddmmmmddd
-dddddddddddddddd
+.EEEEEEEEEEEEEEEE.
+EEEEEEEEEEEEEEEEEe
+eEEeEEEEeEEEEeEEee
+MeeMMeeMMMeeMMMeed
+MMMMMMmMMMMMMmMMmd
+MMMMMmdMMMMMmdMmdd
+mMMMmddmMMMMmdmmdd
+mmMMmdddmMMmddmddd
+dmmmddDdmmmdddmddD
+ddddddDDddddddDDDD
 """
 PUDDLE = pool(7, 3.6, "c", "MCL", [(4, 3, 3), (8, 4, 2)])
 POND = pool(11.5, 6, "s", "MCc", [(6, 4, 4), (14, 6, 5), (8, 8, 3)])
@@ -207,7 +228,17 @@ CUSHION = "..VVVVVV..\n.VVVVVVVVv\nVVVVYVVVVv\nVVVVVVVVvv\n.vvvvvvvv."
 FISH_RACK = "Oo.........Oo\nOOOOOOOOOOOOo\nOo.C..C..C.Oo\nOo.CC.CC.CCOo\nOo.c..c..c.Oo\nOo.........Oo\noo.........oo"
 NET = "n..n..n..n\n.nn.nn.nn.\nn..n..n..n\n.nn.nn.nn.\nn..n..n..n\n.nn.nn.nn."
 SCYTHE = "mMMMMMMMMd..\n.mmmmmmMMMd.\n.......mMMd.\n........Oo..\n........Oo..\n........Oo..\n........Oo..\n........Oo..\n........Oo..\n........oo.."
-BASKET = "..NNNNNN..\n.NnNnNnNn.\nNNNNNNNNNn\nNnNnNnNnNn\nNNNNNNNNNn\n.nnnnnnnn."
+BASKET = """
+...nNNNNn...
+..N......N..
+.N........N.
+OOOOOOOOOOOo
+ONONONONONno
+NONONONONnno
+ONONONONONno
+.NONONONnno.
+..nnnnnnnn..
+"""
 PLANTER = "..E.P.E..\n.EEEPEEE.\n..EEEEE..\nmMMMMMMMd\nmMMMMMMMd\nmmmmmmmmd"
 WINDMILL_BLADE = "WWWw......\n.WWWw.....\n..WWWw....\n...WWWw...\n....OOo...\n...wWWWW..\n..wWWW....\n.wWWW.....\nwWWW......"
 HAY_BALE = """
@@ -232,7 +263,7 @@ prop("tree_autumn", "단풍 든 나무. 주황 잎.", "Autumn tree", TREE, ("Eeq
 prop("tree_cherry", "벚나무. 분홍 꽃.", "Cherry tree", TREE, ("Eeq", "PPx"), bottom=29)
 prop("tree_snowy", "눈 덮인 나무.", "Snowy tree", TREE, ("Eeq", "WwM"), bottom=29)
 prop("tree_dark", "어두운 숲의 나무.", "Dark forest tree", TREE, ("Eeq", "eqq"), bottom=29)
-prop("pine_snowy", "눈 덮인 소나무.", "Snowy pine", PINE, ("Eeq", "WwM"), bottom=29)
+prop("pine_snowy", "눈 덮인 소나무.", "Snowy pine", PINE, ("Eeq", "Wwh"), bottom=29)
 prop("willow", "버드나무. 늘어진 가지.", "Willow", WILLOW, bottom=29)
 prop("palm", "야자수.", "Palm tree", PALM, bottom=29)
 prop("birch", "자작나무. 흰 줄기.", "Birch", BIRCH, bottom=29)

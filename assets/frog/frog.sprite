@@ -7,15 +7,16 @@ anchor = 16 28
 palette = ../../styles/chibi32/palette.txt
 
 [part item]
-..EE......EE..
-.EKEe....EKEe.
-.EEEEEEEEEEEe.
-EEEEEEEEEEEEee
-EEEEEEEEEEEEee
-EEEqqqqqqqqEee
-.EEEEEEEEEEee.
-EEe.eeeeee.eEe
-ee..........ee
+..EEE.....EEE...
+.EWKEe...EWKEe..
+.EWKEEEEEEWKEe..
+EEEEEEEEEEEEEEe.
+EEEEEEEEEEEEEEe.
+EEqEEEEEEEEqEee.
+EEEqqqqqqqqEEee.
+.EeYYYYYYYYeEe..
+EEEeYYYYYYeEEEe.
+EEe.eeeeee..eEEe
 
 [frame base]
-item 9 20
+item 8 19

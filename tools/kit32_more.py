@@ -19,15 +19,17 @@ oo...........OOOKOOK
 ..Oo..o.....Oo.o....
 """
 SNAKE = """
-..........EEE...
-.........EEEEe..
-.........EKEKe..
-..........EEe...
-..EEEEEE..EEe...
-.EEEEEEEE.EEe...
-.EEe..EEEEEEe...
-.Ee....eeeeee...
-..e.............
+.........EEEE...
+........EEEEEe..
+........EKEEKe.R
+........EEEEEeRR
+.........EYYe...
+..EEEEE..EYYe...
+.EEeEEEEeEEYe...
+EEEEEeEEEEEEe...
+EeEEEEEEeEEee...
+.eeEEeEEEeee..e.
+...eeeeeeeeeeee.
 """
 GOLEM = """
 .....mmmmmmm....
@@ -76,12 +78,15 @@ IMP = """
 ...Rr.Rr...
 """
 RAT = """
-.........mm..
-........mMMm.
-mm...mmmmMKmm
-.mmmmmmmmmmmm
-..mmmmmmmmmdm
-...mdd.mdd...
+..........pm.pm.
+..........mmmmm.
+.........mMMMMKm
+....mmmmmMMMMMMp
+..mmMMMMMMMMMmm.
+.pmMMMMMMMMmmd..
+p.mmMMmmmMMmd...
+p..mdd...mdd....
+.pp.............
 """
 CRAB = """
 .R........R.
@@ -107,15 +112,16 @@ BEE = """
 .....YG.....
 """
 FROG = """
-..EE......EE..
-.EKEe....EKEe.
-.EEEEEEEEEEEe.
-EEEEEEEEEEEEee
-EEEEEEEEEEEEee
-EEEqqqqqqqqEee
-.EEEEEEEEEEee.
-EEe.eeeeee.eEe
-ee..........ee
+..EEE.....EEE...
+.EWKEe...EWKEe..
+.EWKEEEEEEWKEe..
+EEEEEEEEEEEEEEe.
+EEEEEEEEEEEEEEe.
+EEqEEEEEEEEqEee.
+EEEqqqqqqqqEEee.
+.EeYYYYYYYYeEe..
+EEEeYYYYYYeEEEe.
+EEe.eeeeee..eEEe
 """
 WISP = """
 ....YYY....
@@ -160,16 +166,17 @@ OOOOOOOOOOOOOOOoo
 ooooooooooooooooo
 """
 SCORPION = """
-..............AAa
-.............AAaa
-..............Aa.
-.............Aa..
-..AAA.......AAa..
-.AAAA..AAAAAAa...
-AAa..AAAAAAAAa...
-AAa..AAKAAAAa....
-.AAAAAAAAAAaa....
-...a.a.a.a.a.....
+....AAAA..........
+...AAaaAA.........
+..AAa..AAr........
+..Aa..............
+..AAa.........AA..
+...AAa.......A.AA.
+...AAAAAAAAA..aAA.
+..AAaAAaAAaAAAAa..
+..AAAAAAAAAKAAa...
+...AAaAAaAAAAaAA..
+..a.a.a.a.a..A.AA.
 """
 WORM = """
 .....PPP..........
@@ -251,13 +258,52 @@ OGGVVLLRRGGVVOo
 OGGVVLLRRGGVVOo
 ooooooooooooooo
 """
-CHAIR = "OOOOOo\nOo..Oo\nOo..Oo\nOOOOOo\nOOOOOo\nOo..Oo\nOo..Oo\noo..oo"
-STOOL = "OOOOOOOo\nooooooo.\n.Oo..Oo.\n.Oo..Oo.\n.oo..oo."
+CHAIR = """
+NOOOOOOo
+NO.OO.Oo
+NO.OO.Oo
+NO.OO.Oo
+NOOOOOOo
+OOOOOOOO
+OOOOOOOO
+NNNNNNNo
+No....No
+No....No
+no....no
+"""
+STOOL = """
+..OOOOOO..
+.OOOOOOOO.
+.NOOOOOOo.
+..NNNNoo..
+..No..No..
+..No..No..
+..no..no..
+"""
 CANDLE = ".Y.\nYAY\n.R.\nWWw\nWWw\nWWw\nWWw\nmMd\nmmd"
 BUCKET = "OOOOOOo\nOo...Oo\nmMMMMmd\nmMMMMmd\nmMMMMmd\nmmmmmdd\n.ddddd."
 HAY = lumps([(8, 7.5, 7.5, 7), (4, 9, 3.5, 3), (12, 9.5, 3.5, 2.6)], "YGg", (0.45, -0.15), floor=11)
-LOG = "..OOOOOOOOOOo\n.OOOOOOOOOOOo\nOmOOOOOOOOOOo\nOOoOOOOOOOOOo\n.ooooooooooo."
-STUMP = "..OOOOOOOO..\n.OOmmmmmmOo.\nOOmOOOOOOmOo\nOOmOOmmOOmOo\nOOmOOOOOOmOo\n.OOmmmmmmOoo\n.OOOOOOOOOoo\n.OOOOOOOOOoo\n..oooooooo.."
+LOG = """
+..SSNNNNNNNNNNn.
+.SOSoNNNONNNNNNn
+SOSSoNNNNNNONNnn
+SSOSoONNNNNNNNnn
+SOSSoNNNONNNnnnn
+.SSSonnnnnnnnnn.
+..SS.nnnnnnnnn..
+"""
+STUMP = """
+...SSSSSSSS...
+.SSSOOOOOSSSS.
+SSOOSSSSSOOSSS
+SSOSSOOSSSOSSo
+.SSOOSSSOOSSo.
+NNSSSSSSSSSnnn
+NNNNNNNNNNnnnn
+NONNNONNNnnnnn
+NNNNNNNNNnnnnn
+NNnNNNNNnnnnnn
+"""
 MUSHROOMS = "...RRR......\n..RMRRr.RRR.\n..rrrrr.RMRr\n...SSs..rrrr\n...SSs...SSs\nRRR.SSs..SSs\nRMRr.......\nrrrr.......\n.SSs........"
 PUMPKIN = "......Eq......\n.....Ee.......\n..AAAAAAAAAA..\n.AAYAAAAAAAAa.\nAAYAAAAAAAAAaa\nAAAAAAAAAAAAaa\nAAAAAAAAAAAAaa\n.AAAAAAAAAAaa.\n..aaaaaaaaaa.."
 JACK = "......Eq......\n.....Ee.......\n..AAAAAAAAAA..\n.AAYAAAAAAAAa.\nAAYKKAAAAKKAaa\nAAAAKAAAAKAAaa\nAAAKAAAAAAKAaa\n.AAAKKKKKKAaa.\n..aaaaaaaaaa.."
@@ -285,7 +331,16 @@ PLATE = "mmmmmmmmmmmm\nmMMMMMMMMMmd\nmMMMMMMMMMmd\nmmmmmmmmmmdd\ndddddddddddd"
 LEVER = "......Oo..\n.....Oo...\n....Oo....\n...Oo.....\nmmMMMMmmd.\nmMMMMMMMmd\nmmmmmmmmdd"
 BANNER = "GGGGGGGGGGg\nRRRRRRRRRrg\nRRRRRRRRRr.\nRRRYYYRRRr.\nRRYYYYYRRr.\nRRRYYYRRRr.\nRRRRRRRRRr.\nRRRRRRRRRr.\nRRRrRRrRRr.\nRRr.RRr.Rr."
 BELL = "....GG....\n...GGGg...\n..GGGGGg..\n..GYGGGg..\n.GGYGGGGg.\n.GGGGGGGg.\nGGGGGGGGGg\nggggggggg.\n....Gg...."
-BENCH = "OOOOOOOOOOOOOOOo\nooooooooooooooo.\n.Oo..........Oo.\n.Oo..........Oo.\n.oo..........oo."
+BENCH = """
+OOOOOOOOOOOOOOOOOOOO
+NNNNNNNNNNNNNNNNNNNo
+.No..............No.
+OOOOOOOOOOOOOOOOOOOO
+OOOOONOOOOOOOONOOOOO
+NNNNNNNNNNNNNNNNNNNo
+.No..............No.
+.no..............no.
+"""
 WINDOW = "OOOOOOOOOOo\nOCCCCoCCCOo\nOCCCCoCCCOo\nOCCMCoCCCOo\nOoooooooooo\nOCCCCoCCCOo\nOCCCCoCCCOo\nOCCCCoCCCOo\nooooooooooo"
 TORCH_STAND = "....R....\n...RAR...\n...RAYAR.\n..RAYYAR.\n..RAAAr..\n...mMd...\n...mMd...\n...OOo...\n...OOo...\n...OOo...\n...OOo...\n...OOo...\n.mMMMMMd.\n.ddddddd."
 GRAVE_CROSS = "....OOo....\n....OOo....\n.OOOOOOOOo.\n.ooooooooo.\n....OOo....\n....OOo....\n....OOo....\n....OOo....\n..mmmmmmd..\n..dddddddd."
