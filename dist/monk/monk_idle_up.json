@@ -1,0 +1,40 @@
+{
+  "id": "monk",
+  "animation": "idle_up",
+  "image": "monk_idle_up_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/monk/monk.sprite",
+  "frames": [
+    {
+      "name": "idle_up_0",
+      "file": "monk_idle_up_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 500
+    },
+    {
+      "name": "idle_up_1",
+      "file": "monk_idle_up_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 500
+    }
+  ]
+}

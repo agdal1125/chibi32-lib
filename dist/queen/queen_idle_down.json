@@ -1,0 +1,40 @@
+{
+  "id": "queen",
+  "animation": "idle_down",
+  "image": "queen_idle_down_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/queen/queen.sprite",
+  "frames": [
+    {
+      "name": "idle_down_0",
+      "file": "queen_idle_down_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 500
+    },
+    {
+      "name": "idle_down_1",
+      "file": "queen_idle_down_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 500
+    }
+  ]
+}

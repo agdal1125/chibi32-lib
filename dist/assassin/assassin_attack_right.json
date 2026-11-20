@@ -1,0 +1,49 @@
+{
+  "id": "assassin",
+  "animation": "attack_right",
+  "image": "assassin_attack_right_sheet.png",
+  "imageSize": {
+    "w": 96,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/assassin/assassin.sprite",
+  "frames": [
+    {
+      "name": "attack_right_0",
+      "file": "assassin_attack_right_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "attack_right_1",
+      "file": "assassin_attack_right_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 90
+    },
+    {
+      "name": "attack_right_2",
+      "file": "assassin_attack_right_2.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 180
+    }
+  ]
+}

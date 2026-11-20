@@ -39,7 +39,7 @@
 | `goblin_shaman` | Goblin shaman | 고블린 주술사. 지팡이를 높이. |
 | `guard` | Gate guard | 성문 경비병. 창을 세워 들었다. |
 | `healer_f` | Healer with staff | 여성 힐러. 초록 로브에 하얀 머리, 치유 지팡이. |
-| `hero` | Hero with longsword and round shield |  |
+| `hero` | Hero with longsword and round shield | 용사. 흰 삐침머리, 푸른 옷, 장검과 둥근 방패. 스타일의 기준 캐릭터. |
 | `ice_knight` | Ice knight | 얼음 기사. 하늘색 갑옷, 창을 높이. |
 | `ice_mage` | Ice mage | 얼음 마법사. 하늘색 머리와 로브, 서리 지팡이. |
 | `jester` | Jester | 광대. 분홍 머리, 보라·금 옷, 류트를 높이. |

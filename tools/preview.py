@@ -1,4 +1,4 @@
-"""Builds the README gallery: preview/<category>.png sheets, preview/banner.png, preview/walk.gif
+"""Builds the README gallery: preview/<category>.png sheets, preview/banner.png, preview/walk.gif, preview/sheets.png
 and docs/catalog.md (every asset id with its English title and description, grouped like the sheets).
 Run after tools/build.py.
 
@@ -69,9 +69,23 @@ def walk_gif(assets: dict) -> None:
     for i in range(4):
         img = Image.new("RGBA", (PAD + cols * (CELL + PAD), PAD + rows * (CELL + PAD)), BG)
         for j, a in enumerate(walkers):
-            img.paste(frame(a, f"{a['id']}_walk_{i}.png"), (PAD + (j % cols) * (CELL + PAD), PAD + (j // cols) * (CELL + PAD)))
+            img.paste(frame(a, f"{a['id']}_walk_right_{i}.png"), (PAD + (j % cols) * (CELL + PAD), PAD + (j // cols) * (CELL + PAD)))
         frames.append(img.convert("RGB").quantize(colors=128, method=Image.Quantize.MEDIANCUT))
     frames[0].save(OUT / "walk.gif", save_all=True, append_images=frames[1:], duration=150, loop=0, optimize=False)
+
+
+def character_sheets(assets: dict, ids: list[str]) -> None:
+    """A few full character sheets side by side: rows are down, left, right, up."""
+    sheets = [Image.open(ROOT / assets[i]["dir"] / assets[i]["sheet"]["image"]).convert("RGBA") for i in ids]
+    scale, cols = 2, 2
+    w, h = sheets[0].width * scale, sheets[0].height * scale
+    rows = (len(sheets) + cols - 1) // cols
+    img = Image.new("RGBA", (PAD + cols * (w + PAD), PAD + rows * (h + PAD)), BG)
+    for j, sh in enumerate(sheets):
+        x, y = PAD + (j % cols) * (w + PAD), PAD + (j // cols) * (h + PAD)
+        img.paste(CARD, (x, y, x + w, y + h))
+        img.alpha_composite(sh.resize((w, h), Image.NEAREST), (x, y))
+    img.save(OUT / "sheets.png")
 
 
 def palette_strip() -> None:
@@ -97,6 +111,7 @@ def main() -> None:
         print(f"{c}: {len(items)}")
     sheet([assets[a] for a in BANNER], labels=False).save(OUT / "banner.png")
     walk_gif(assets)
+    character_sheets(assets, ["hero", "mage_f", "berserker", "archer_f"])
     palette_strip()
 
     lines = ["# Asset catalog", "", f"{len(assets)} assets. Descriptions are in Korean, the language the set was "

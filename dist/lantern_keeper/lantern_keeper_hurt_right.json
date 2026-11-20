@@ -1,0 +1,40 @@
+{
+  "id": "lantern_keeper",
+  "animation": "hurt_right",
+  "image": "lantern_keeper_hurt_right_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/lantern_keeper/lantern_keeper.sprite",
+  "frames": [
+    {
+      "name": "hurt_right_0",
+      "file": "lantern_keeper_hurt_right_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    },
+    {
+      "name": "hurt_right_1",
+      "file": "lantern_keeper_hurt_right_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 200
+    }
+  ]
+}

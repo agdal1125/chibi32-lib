@@ -1,0 +1,49 @@
+{
+  "id": "knight_thrust",
+  "animation": "attack_up",
+  "image": "knight_thrust_attack_up_sheet.png",
+  "imageSize": {
+    "w": 96,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/knight_thrust/knight_thrust.sprite",
+  "frames": [
+    {
+      "name": "attack_up_0",
+      "file": "knight_thrust_attack_up_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "attack_up_1",
+      "file": "knight_thrust_attack_up_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 90
+    },
+    {
+      "name": "attack_up_2",
+      "file": "knight_thrust_attack_up_2.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 180
+    }
+  ]
+}

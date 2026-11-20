@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import random
 
-from drawkit import Layer, Recipe
+from drawkit import Layer, Recipe, dotted, lumps
 
 PALETTE = "../../styles/chibi32/palette.txt"
 
@@ -289,30 +289,28 @@ mmmmmmmmmmm
 OOOOOOOOOoo
 .ooooooooo.
 """
-CRATE = "OOOOOOOOOOOo\nOooooooooOoo\nOoOOOOOOoOoo\nOoOOOOOOoOoo\nOoOOOOOOoOoo\nOoOOOOOOoOoo\nOooooooooOoo\nOOOOOOOOOOOo\noooooooooooo"
+CRATE = """
+OOOOOOOOOOOOOo
+OnnnnnnnnnnnOo
+OnOOOOOOOoonOo
+OnOoOOOOooOnOo
+OnOOooOooOOnOo
+OnOOOoooOOOnOo
+OnOOooOooOOnOo
+OnOooOOOooOnOo
+OnooOOOOOoonOo
+OnnnnnnnnnnnOo
+OOOOOOOOOOOOOo
+oooooooooooooo
+"""
 SIGN = "OOOOOOOOOOOOOo\nOhhhhhhhhhhhOo\nOOOOOOOOOOOOOo\nOhhhhhhhhOOOOo\nOOOOOOOOOOOOOo\nooooooooooooo.\n......Oo......\n......Oo......\n......Oo......\n......Oo......\n......oo......"
 TOMB = "..mmmmm..\n.mMMMMMd.\nmMMMMMMMd\nmMMKMMMMd\nmMKKKMMMd\nmMMKMMMMd\nmMMKMMMMd\nmMMMMMMMd\nmMMMMMMMd\nddddddddd"
 FIRE_LOGS = "oOOOOOOOOOOo\nnOOOOOOOOOon\nnnnnnnnnnnnn"
 FIRE_0 = "....R....\n...RR....\n...RAR...\n..RAYAR..\n..RAYYAR.\n.RAYYYAR.\n.RAAYAAr.\n..RAAAr..\n...RRr..."
 FIRE_1 = ".....R...\n....RR...\n...RAR...\n..RAYAR..\n.RAYYYAR.\n.RAYYYAR.\n.RAAYAAr.\n..RAAAr..\n...RRr..."
-BUSH = "....EEEE....\n..EEEEEEEE..\n.EEEEEEEEEe.\nEEEEEEEEEEee\nEEEEEEEEEeee\n.EEEEEEEeee.\n..eeeeeeee.."
-TREE = """
-......EEEE......
-....EEEEEEEE....
-...EEEEEEEEEe...
-..EEEEEEEEEEee..
-.EEEEEEEEEEEeee.
-.EEEEEEEEEEeeee.
-EEEEEEEEEEEeeeee
-.EEEEEEEEEeeeee.
-..eEEEEEEeeeee..
-...eeeeeeeeee...
-......OOoo......
-......OOoo......
-......OOoo......
-......OOoo......
-.....oOOooo.....
-"""
+BUSH = lumps([(4.8, 6, 4.8, 4.3), (11.2, 6.2, 4.8, 4.1), (8, 4.8, 5.6, 4.4)], "Eeq", (0.3, -0.2), floor=9)
+TREE = lumps([(11, 8.5, 9.5, 7.5), (6.5, 7.5, 5.5, 5), (15.5, 8, 5.5, 5), (11, 4.8, 6, 4.6), (7.5, 11.5, 5, 3.8),
+              (14.5, 12, 5, 3.6)], "Eeq", (0.3, -0.2), under=(8, 14, ".nOOo.\n.nOOo.\n.OOoo.\n.OOoo.\n.OOoo.\n.OOoo.\nOOOoon"))
 PINE = """
 .......E.......
 ......EEE......
@@ -330,7 +328,7 @@ PINE = """
 ......OOo......
 ......OOo......
 """
-ROCK = "...mmmm...\n..mMMMmd..\n.mMMMMmdd.\nmMMMMmmddd\nmMMMmmmddd\n.mmmmmddd.\n..dddddd.."
+ROCK = lumps([(7, 5.5, 6.5, 5), (4, 7, 4, 3.2), (10.5, 7.2, 3.5, 2.8)], "Mmd", (0.35, -0.2), floor=8)
 CRYSTAL = "....C.......\n...CCc..C...\n...CCc.CCc..\n..CCCc.CCc..\n..CCCcCCCcc.\n.CCCCcCCCcc.\n.CCCccCCccc.\nmCCCccCCcccd\nmmmmmmmmmmdd"
 CAULDRON = "..DD......DD..\n.DDDDDDDDDDDD.\n..DEEEEEEEED..\n.DDDDDDDDDDDD.\nDDDDDDDDDDDDDD\nDDDDDDDDDDDDDD\nDDDDDDDDDDDDDD\n.DDDDDDDDDDDD.\n..DDDDDDDDDD..\n..DD......DD.."
 ANVIL = "mMMMMMMMMMMd\n.mMMMMMMMMd.\n....mMMd....\n....mMMd....\n..mMMMMMMd..\n..dddddddd.."
@@ -512,66 +510,299 @@ WWWWWWWw
 ..hhhh.."""
 
 
+# ---------------------------------------------------------------- front and back views
+HEAD_FRONT = """
+....W..W...W....
+...WW.WWW.WW....
+..WWWWWWWWWWW.W.
+.WWWWWWWWWWWWWW.
+WWWWWWWWWWWWWWww
+WWWWWWWWWWWWWWww
+WWWWWWWWWWWWWwww
+WwWWwWWWwWWwWwwh
+WwwSwwSSwwSSwwhh
+.hwSSSSSSSSSSwh.
+.hSSSKSSSSKSSSh.
+.hSSSKSSSSKSSSh.
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+"""
+HEAD_BACK = """
+....W..W...W....
+...WW.WWW.WW....
+..WWWWWWWWWWW.W.
+.WWWWWWWWWWWWWW.
+WWWWWWWWWWWWWWww
+WWWWWWWWWWWWWWww
+WWWWWWWWWWWWWwww
+WWWWWWWWWWWWwwww
+WWwWWWwWWWwWwwwh
+.wwWwwwWwwwwwwh.
+.hwwwwhwwwwhwwh.
+.hhwwhhwwwhhwhh.
+..hhwhhhwhhhhh..
+..shhhhhhhhhhs..
+....sSSSSSSs....
+"""
+HEAD_ROUND_FRONT = """
+....WWWWWWWW....
+..WWWWWWWWWWWW..
+.WWWWWWWWWWWWWw.
+WWWWWWWWWWWWWWww
+WWWWWWWWWWWWWwww
+WWwWWwWWWwWWwwww
+WwwSwwSSSwwSwwhh
+.hSSSSSSSSSSSSh.
+.hSSSKSSSSKSSSh.
+..SSSKSSSSKSSS..
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+"""
+HEAD_ROUND_BACK = """
+....WWWWWWWW....
+..WWWWWWWWWWWW..
+.WWWWWWWWWWWWWw.
+WWWWWWWWWWWWWWww
+WWWWWWWWWWWWWwww
+WWWWWWWWWWWWwwww
+WWwWWWwWWWwWwwwh
+.wwWwwwWwwwwwwh.
+.hwwwwhwwwwhwwh.
+..hwwhhwwwhhwh..
+..hhhhhhhhhhhh..
+..shhhhhhhhhhs..
+....sSSSSSSs....
+"""
+BODY_BACK = BODY.replace("NNNNGgNNNn", "NNNNNNNNNn")
+ROBE_FRONT = """
+..LLBBBBBb..
+.LLBBBBBBbb.
+.LBBBBBBBbb.
+.NNNNGgNNNn.
+.LBBBBBBBbb.
+.LBBBBBBBbb.
+LLBBBBBBBbbb
+LLBBBBBBBbbb
+.bbbbbbbbbb.
+"""
+ROBE_BACK = ROBE_FRONT.replace("NNNNGgNNNn", "NNNNNNNNNn")
+LEGS_FRONT = {
+    "stand": ".BB..Bb.\n.BB..Bb.\nNNN..NNn\nnnn..nnn",
+    "step_l": ".BB..Bb.\n.BB..Nn.\nNNN..nn.\nnnn.....",
+    "step_r": ".BB..Bb.\n.NN..Bb.\n.nn..NNn\n.....nnn",
+    "pass": ".BB..Bb.\n.BB..Bb.\n.BB..Bb.\nNNN..NNn\nnnn..nnn",
+}
+SIDE_LEG_POS = {"stand": (12, 26), "near_fwd": (11, 26), "near_support": (12, 25), "far_fwd": (11, 26),
+                "far_support": (12, 25)}
+FRONT_LEG_POS = {"stand": (12, 26), "step_l": (12, 26), "step_r": (12, 26), "pass": (12, 25)}
+# Front view: the weapon hand is on the viewer's left. swing -> (transform, hand top-left, drawn in front of the body).
+# The back view mirrors these, and what is in front of the body in the front view is behind it there.
+SWINGS = {
+    "rest": (None, (8, 22), False),
+    "raise": (None, (8, 19), False),
+    "strike": (rot90, (12, 23), True),
+    "low": (lambda r: tilt_down(rot90(r)), (13, 24), True),
+}
+# Seen from behind, a swing across the body would hide behind it, so the weapon stabs up beside the head instead.
+SWINGS_AWAY = {**SWINGS, "strike": (None, (8, 17), False), "low": (None, (8, 21), False)}
+from pixlib import DIRECTIONS  # noqa: E402
+
+
+def squint(grid: str) -> str:
+    """Closed eyes for the hurt frames: each 1x2 eye becomes a 2x1 dash on its lower row."""
+    rows = [list(r) for r in rows_of(grid)]
+    for y in range(len(rows) - 1):
+        for x in range(len(rows[y])):
+            if rows[y][x] == "K" and rows[y + 1][x] == "K":
+                rows[y][x] = "S"
+                rows[y + 1][x - 1] = "K"
+    return "\n".join("".join(r) for r in rows)
+
+
+class Rig:
+    """Collects a character's layers. put() paints a layer the first time its name is used and returns the frame
+    placement that shows it at the asked position, so one layer serves every frame and view that reuses it."""
+
+    def __init__(self):
+        self.layers: dict[str, Layer] = {}
+        self.at: dict[str, tuple[int, int]] = {}
+
+    def put(self, name, rows, x, y, d=(0, 0), outline=True):
+        if name not in self.layers:
+            self.layers[name] = layer(name, rows, x, y, outline)
+            self.at[name] = (x, y)
+        ox, oy = self.at[name]
+        return (name, x - ox + d[0], y - oy + d[1])
+
+    def mirrored(self, frame):
+        """The same frame facing the other way: every layer flipped about the middle of the canvas."""
+        out = []
+        for name, dx, dy in frame:
+            twin = name + "_m"
+            if twin not in self.layers:
+                src = self.layers[name]
+                flipped = Layer(twin, outline=src.outline)
+                flipped.px = {(31 - x, y): k for (x, y), k in src.px.items()}
+                self.layers[twin] = flipped
+            out.append((twin, -dx, dy))
+        return out
+
+
 def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky", back=None, front=None,
               robe=False, hat=None, trim="Nn", long_hair=False, pose="rest", beard=False, front_pos=None):
-    hm = ("Wwh", HAIR[hair])
+    """A character sheet: idle, walk, attack and hurt in four directions. `base` is the right-facing signature pose."""
+    hm = ("Wwh", CLOTH[cloth] if head == "hood" else HAIR[hair])
     sm = ("Ssp", SKIN[skin])
     cm = ("LBb", CLOTH[cloth])
     tm = ("Nn", trim)
-    hg = HEAD_ROUND if head == "round" else HEAD
-    if head == "hood":
-        hm = ("Wwh", CLOTH[cloth])
-    layers, base, w0, w1, w2, w3 = [], [], [], [], [], []
+    is_round = head == "round"
+    heads = {"side": HEAD_ROUND if is_round else HEAD, "down": HEAD_ROUND_FRONT if is_round else HEAD_FRONT,
+             "up": HEAD_ROUND_BACK if is_round else HEAD_BACK}
+    head_y = 8 if is_round else 6
+    bodies = {"side": ROBE if robe else BODY, "down": ROBE_FRONT if robe else BODY, "up": ROBE_BACK if robe else BODY_BACK}
+    fist = recolor(FIST, sm)
+    hair_back = recolor(HAIR_BACK, hm)
+    rig = Rig()
 
-    def add(name, rows, x, y, offsets, outline=True):
-        layers.append(layer(name, rows, x, y, outline))
-        for frame, (dx, dy) in zip((base, w0, w1, w2, w3), offsets):
-            frame.append((name, dx, dy))
+    signature = FORCED_POSE.get(back, pose)
+    signature = "raise" if signature in ("shoulder", "overhead") else signature
+    swings = back not in FORCED_POSE and back != "bone_arm"  # can be raised, thrust and lowered
+    armed = back or "unarmed"
 
-    up = [(0, 0), (0, 0), (0, -1), (0, 0), (0, -1)]
-    legs = {k: recolor(v, cm, tm) for k, v in LEGS.items()}
-    for name, (x, y) in (("legs_stand", (12, 26)), ("legs_near_fwd", (11, 26)), ("legs_near_support", (12, 25)),
-                         ("legs_far_fwd", (11, 26)), ("legs_far_support", (12, 25))):
-        layers.append(layer(name, legs[name[5:]], x, y))
-    base.append(("legs_stand", 0, 0)); w0.append(("legs_near_fwd", 0, 0)); w1.append(("legs_near_support", 0, 0))
-    w2.append(("legs_far_fwd", 0, 0)); w3.append(("legs_far_support", 0, 0))
-    if long_hair:
-        add("hair_back", recolor(HAIR_BACK, hm), 9, 17, up)
-    sway = [(0, 0), (-1, 0), (0, -1), (1, 0), (0, -1)]
-    held = None
-    if back:
-        pose_name = FORCED_POSE.get(back, pose)
-        pose_name = "raise" if pose_name in ("shoulder", "overhead") else pose_name
-        grid, transform, hand, side = SPECIAL.get((back, pose_name), (WEAPONS[back], *POSES[pose_name]))
-        rows, grip = grip_weapon(grid, transform, (cm, sm), HANDLE.get(back, "n"))
-        pos, hand = placed(rows, grip, hand)
-        held = (rows, pos, hand, side)
-        if side == "back":
-            add("back_item", rows, pos[0], pos[1], sway)
-            if back != "bone_arm":
-                add("back_hand", recolor(FIST, sm), hand[0], hand[1], sway)
-    add("body", recolor(ROBE if robe else BODY, cm, tm), 11, 20, up)
-    if front:
-        grid, pos = FRONT[front]
-        pos = front_pos or pos
-        add("front_item", [r.replace("+", "N") for r in recolor(grid, cm)], pos[0], pos[1], up)
-    if held and held[3] == "mid":
-        add("held_item", held[0], held[1][0], held[1][1], up)
-    add("head", recolor(hg, hm, sm), 8, 6 if head != "round" else 8, up)
-    if beard:
-        add("beard", recolor(BEARD, hm), 13, 19, up, outline=False)
-    if held and held[3] in ("front", "mid"):
-        rows, pos, hand, side = held
-        if side == "front":
-            add("held_item", rows, pos[0], pos[1], up)
-        if back != "bone_arm":
-            add("front_hand", recolor(FIST, sm), hand[0], hand[1], up)
-    if hat:
-        grid, pos = HATS[hat]
-        add("hat", recolor(grid, cm), pos[0], pos[1], up)
-    frames = {"base": base, "walk_0": w0, "walk_1": w1, "walk_2": w2, "walk_3": w3}
-    anims = {"walk": [("walk_0", 150), ("walk_1", 150), ("walk_2", 150), ("walk_3", 150)]}
-    return Recipe(meta=meta(aid, title), layers=layers, frames=frames, anims=anims)
+    def grip(weapon, pose_name=None, swing=None, away=False):
+        """Rows of the held thing, its top-left, the fist's top-left and where it sits relative to the body."""
+        if swing:
+            transform, hand, in_front = (SWINGS_AWAY if away else SWINGS)[swing]
+            grid, side = WEAPONS[weapon], "front" if in_front else "back"
+        else:
+            grid, transform, hand, side = SPECIAL.get((weapon, pose_name), (WEAPONS[weapon], *POSES[pose_name]))
+        rows, cell = grip_weapon(grid, transform, (cm, sm), HANDLE.get(weapon, "n"))
+        pos, hand = placed(rows, cell, hand)
+        return rows, pos, hand, side
+
+    def side_view(leg, up=(0, 0), sway=None, weapon=back, pose_name=signature, hurt=False, nod=0):
+        sway = up if sway is None else sway
+        nodded = (up[0], up[1] + nod)
+        f = [rig.put(f"r_legs_{leg}", recolor(LEGS[leg], cm, tm), *SIDE_LEG_POS[leg])]
+        if long_hair:
+            f.append(rig.put("hair_back", hair_back, 9, 17, up))
+        held = grip(weapon, pose_name) if weapon else None
+        item = f"r_{weapon}_{pose_name}"
+        if held and held[3] == "back":
+            f.append(rig.put(item, held[0], *held[1], sway))
+            if weapon != "bone_arm":
+                f.append(rig.put("fist", fist, *held[2], sway))
+        f.append(rig.put("r_body", recolor(bodies["side"], cm, tm), 11, 20, up))
+        if front:
+            grid, pos = FRONT[front]
+            f.append(rig.put("r_front_item", [r.replace("+", "N") for r in recolor(grid, cm)], *(front_pos or pos), up))
+        if held and held[3] == "mid":
+            f.append(rig.put(item, held[0], *held[1], up))
+        f.append(rig.put("r_head_hurt" if hurt else "r_head",
+                         recolor(squint(heads["side"]) if hurt else heads["side"], hm, sm), 8, head_y, nodded))
+        if beard:
+            f.append(rig.put("r_beard", recolor(BEARD, hm), 13, 19, nodded, outline=False))
+        if held and held[3] in ("front", "mid"):
+            if held[3] == "front":
+                f.append(rig.put(item, held[0], *held[1], up))
+            if weapon != "bone_arm":
+                f.append(rig.put("fist", fist, *held[2], up))
+        if hat:
+            grid, pos = HATS[hat]
+            f.append(rig.put("hat", recolor(grid, cm), *pos, nodded))
+        return f
+
+    def facing(view, leg, up=(0, 0), swing="rest", hurt=False, nod=0, weapon=None if back == "bone_arm" else back):
+        away = view == "up"
+        v = view[0]
+        nodded = (up[0], up[1] + nod)
+
+        def sided(name, rows, x, y, d=up):  # things that change sides when the character turns its back
+            if away:
+                rows, x = [r[::-1] for r in rows], 32 - x - len(rows[0])
+            return rig.put(f"{v}_{name}", rows, x, y, d)
+
+        f = []
+        if long_hair and not away:
+            f.append(rig.put("hair_back", hair_back, 9, 17, up))
+        f.append(rig.put(f"f_legs_{leg}", recolor(LEGS_FRONT[leg], cm, tm), *FRONT_LEG_POS[leg]))
+        held = grip(weapon, swing=swing, away=away) if weapon else None
+        over = held and (held[3] == "front") != away  # the weapon passes in front of the body
+        hand_last = held and (over or swing == "raise")
+
+        def weapon_parts(with_hand):
+            parts = [sided(f"{weapon}_{swing}", held[0], *held[1])]
+            return parts + [sided("hand", fist, *held[2])] if with_hand else parts
+
+        shield = None
+        if front:
+            grid, pos = FRONT[front]
+            shield = sided("front_item", [r.replace("+", "N") for r in recolor(grid, cm)], *(front_pos or pos))
+        if held and not over:
+            f += weapon_parts(not hand_last)
+        if shield and away:
+            f.append(shield)
+        f.append(rig.put(f"{v}_body", recolor(bodies[view], cm, tm), 11 if len(rows_of(bodies[view])[0]) == 10 else 10, 20, up))
+        f.append(sided("off_hand", fist, 22, 22))
+        if not held:
+            f.append(sided("hand", fist, 8, 22))
+        if shield and not away:
+            f.append(shield)
+        if long_hair and away:
+            f.append(rig.put("hair_back", hair_back, 9, 17, up))
+        if held and over:
+            f += weapon_parts(False)
+        f.append(rig.put(f"{v}_head_hurt" if hurt else f"{v}_head",
+                         recolor(squint(heads[view]) if hurt else heads[view], hm, sm), 8, head_y, nodded))
+        if beard and not away:
+            f.append(rig.put("d_beard", recolor(BEARD, hm), 12, 19, nodded, outline=False))
+        if hand_last:
+            f.append(sided("hand", fist, *held[2]))
+        if hat:
+            grid, pos = HATS[hat]
+            f.append(rig.put("hat", recolor(grid, cm), *pos, nodded))
+        return f
+
+    lift = (0, -1)
+    right = {
+        "idle": [(side_view("stand"), 500), (side_view("stand", nod=1), 500)],
+        "walk": [(side_view("near_fwd", sway=(-1, 0)), 150), (side_view("near_support", lift), 150),
+                 (side_view("far_fwd", sway=(1, 0)), 150), (side_view("far_support", lift), 150)],
+        "attack": ([(side_view("stand", weapon=armed, pose_name="raise"), 120),
+                    (side_view("near_fwd", (1, 0), weapon=armed, pose_name="thrust"), 90),
+                    (side_view("near_fwd", weapon=armed, pose_name="low"), 180)] if swings else
+                   [(side_view("stand", (-1, 0)), 120), (side_view("near_fwd", (1, 0)), 90),
+                    (side_view("near_fwd"), 180)]),
+        "hurt": [(side_view("stand", (-1, -1), hurt=True), 100), (side_view("stand", (-1, 0), hurt=True), 200)],
+    }
+
+    def toward(view):
+        strike = dict(weapon=armed) if swings else {}
+        lunge = dict(leg="pass", up=lift) if view == "up" else dict(leg="step_l", nod=1)  # leans the way it faces
+        return {
+            "idle": [(facing(view, "stand"), 500), (facing(view, "stand", nod=1), 500)],
+            "walk": [(facing(view, "step_l"), 150), (facing(view, "pass", lift), 150),
+                     (facing(view, "step_r"), 150), (facing(view, "pass", lift), 150)],
+            "attack": [(facing(view, "stand", swing="raise" if swings else "rest", **strike), 120),
+                       (facing(view, **lunge, swing="strike" if swings else "rest", **strike), 90),
+                       (facing(view, "step_l", swing="low" if swings else "rest", **strike), 180)],
+            "hurt": [(facing(view, "stand", (-1, 0), hurt=True), 100), (facing(view, "stand", (1, 0), hurt=True), 200)],
+        }
+
+    views = {"down": toward("down"), "right": right, "up": toward("up"),
+             "left": {kind: [(rig.mirrored(f), ms) for f, ms in seq] for kind, seq in right.items()}}
+    frames = {"base": side_view("stand")}
+    anims = {}
+    for kind in ("idle", "walk", "attack", "hurt"):
+        for direction in DIRECTIONS:
+            name = f"{kind}_{direction}"
+            anims[name] = []
+            for i, (frame, ms) in enumerate(views[direction][kind]):
+                frames[f"{name}_{i}"] = frame
+                anims[name].append((f"{name}_{i}", ms))
+    return Recipe(meta=meta(aid, title), layers=list(rig.layers.values()), frames=frames, anims=anims)
 
 
 # Hand-drawn upper blade of a 45-degree double axe (head up and to the right of its haft); the lower blade is its
@@ -610,9 +841,10 @@ SPECIAL = {("axe", "raise"): (DIAG_AXE, None, FRONT_HAND, "mid")}
 
 WEAPONS = {"sword": SWORD, "dagger": DAGGER, "axe": AXE, "spear": SPEAR, "wand": WAND, "hammer": HAMMER,
            "staff": STAFF, "bow": BOW, "lute": LUTE, "bag": BAG, "lantern": LANTERN_HELD,
-           "bone_arm": "SS\nSS\nBB\nBB\nBB"}  # a zombie's outstretched arm: no fist, the grid is the arm
+           "bone_arm": "SS\nSS\nBB\nBB\nBB",
+           "unarmed": "++\n++"}  # a zombie's outstretched arm: no fist, the grid is the arm
 HANDLE = {"axe": "O", "spear": "O", "wand": "O", "hammer": "O", "staff": "O", "bow": "O", "lute": "O", "bag": "N",
-          "lantern": "m", "bone_arm": "S"}
+          "lantern": "m", "bone_arm": "S", "unarmed": "S"}
 FRONT = {"shield": (SHIELD, (18, 19)), "book": (BOOK, (19, 21)), "bag": (BAG, (19, 22))}
 HATS = {"witch": (HAT_WITCH, (6, 3)), "helmet": (HELMET, (8, 4)), "crown": (CROWN, (11, 3)), "halo": (HALO, (12, 3)),
         "horns": (""".D......D.
@@ -779,8 +1011,10 @@ def spec(aid, desc, fn):
     CATEGORY[aid] = _section[0]
 
 
-# characters (30)
+# characters (30, plus the hero)
 section("characters")
+spec("hero", "용사. 흰 삐침머리, 푸른 옷, 장검과 둥근 방패. 스타일의 기준 캐릭터.",
+     lambda: character("hero", "Hero with longsword and round shield", back="sword", front="shield"))
 spec("mage_f", "여성 마법사. 긴 보라색 머리에 마녀 모자, 푸른 로브, 수정 지팡이를 들었다.",
      lambda: character("mage_f", "Female mage with crystal staff", hair="purple", cloth="blue", back="staff", robe=True, hat="witch", long_hair=True))
 spec("witch", "초록 피부의 마녀. 검은 로브와 뾰족 모자, 손에는 마법 지팡이.",

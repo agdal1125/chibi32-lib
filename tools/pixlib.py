@@ -6,6 +6,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTLINE_KEY = "K"
+DIRECTIONS = ("down", "left", "right", "up")
 
 
 @dataclass(frozen=True)
@@ -70,6 +71,17 @@ class Sprite:
             return None
         w, h = self.meta["bbox"].split()
         return int(w), int(h)
+
+    def sheet_rows(self) -> dict[str, list[tuple[str, list[tuple[str, int]]]]] | None:
+        """Rows of the character sheet: direction -> its animations in source order.
+        Only sprites whose animations are all named <kind>_<direction> have one."""
+        rows: dict[str, list] = {d: [] for d in DIRECTIONS}
+        for anim, seq in self.anims.items():
+            kind, _, direction = anim.rpartition("_")
+            if not kind or direction not in rows:
+                return None
+            rows[direction].append((anim, seq))
+        return rows if all(rows.values()) else None
 
     def palette(self) -> Palette:
         return Palette.load((self.path.parent / self.meta["palette"]).resolve())

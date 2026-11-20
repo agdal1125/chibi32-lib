@@ -34,7 +34,7 @@ class CheckTest(unittest.TestCase):
         self.assertEqual(self.errors(), [])
 
     def test_off_palette_pixel_fails(self):
-        f = self.dist / "hero" / "hero_walk_1.png"
+        f = self.dist / "hero" / "hero_walk_right_1.png"
         img = Image.open(f)
         img.putpixel((16, 16), (255, 0, 255, 255))
         img.save(f)
@@ -48,18 +48,25 @@ class CheckTest(unittest.TestCase):
         self.assertTrue(any("semi-transparent" in e for e in self.errors()))
 
     def test_wrong_frame_rect_fails(self):
-        f = self.dist / "hero" / "hero_walk.json"
+        f = self.dist / "hero" / "hero_walk_right.json"
         meta = json.loads(f.read_text(encoding="utf-8"))
         meta["frames"][2]["x"] = 40
         f.write_text(json.dumps(meta), encoding="utf-8")
-        self.assertTrue(any("differs from hero_walk_2.png" in e for e in self.errors()))
+        self.assertTrue(any("differs from hero_walk_right_2.png" in e for e in self.errors()))
 
     def test_missing_file_fails(self):
-        (self.dist / "hero" / "hero_walk_x8.gif").unlink()
-        self.assertTrue(any("hero_walk_x8.gif" in e for e in self.errors()))
+        (self.dist / "hero" / "hero_walk_right_x8.gif").unlink()
+        self.assertTrue(any("hero_walk_right_x8.gif" in e for e in self.errors()))
+
+    def test_character_sheet_cell_must_match_its_frame(self):
+        f = self.dist / "hero" / "hero_sheet.png"
+        img = Image.open(f)
+        img.putpixel((16, 16), (26, 20, 32, 255) if img.getpixel((16, 16))[3] == 0 else (0, 0, 0, 0))
+        img.save(f)
+        self.assertTrue(any("hero_sheet.json: sheet cell" in e for e in self.errors()))
 
     def test_wrong_size_fails(self):
-        f = self.dist / "hero" / "hero_walk_0.png"
+        f = self.dist / "hero" / "hero_walk_right_0.png"
         Image.open(f).crop((0, 0, 31, 32)).save(f)
         self.assertTrue(any("size" in e for e in self.errors()))
 

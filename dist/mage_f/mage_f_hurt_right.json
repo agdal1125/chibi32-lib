@@ -1,0 +1,40 @@
+{
+  "id": "mage_f",
+  "animation": "hurt_right",
+  "image": "mage_f_hurt_right_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/mage_f/mage_f.sprite",
+  "frames": [
+    {
+      "name": "hurt_right_0",
+      "file": "mage_f_hurt_right_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 100
+    },
+    {
+      "name": "hurt_right_1",
+      "file": "mage_f_hurt_right_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 200
+    }
+  ]
+}

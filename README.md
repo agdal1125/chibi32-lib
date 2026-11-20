@@ -14,7 +14,7 @@ Every sprite is stored as plain text (a grid of palette keys), so you can read, 
 
 | Category | Count | Animated |
 |---|---:|---|
-| [Characters](#characters) | 78 | all: 4-frame walk |
+| [Characters](#characters) | 78 | all: idle, walk, attack, hurt in 4 directions |
 | [Monsters](#monsters) | 56 | slimes, bats: 2 to 4 frames |
 | [Animals](#animals) | 10 | |
 | [Items and equipment](#items-and-equipment) | 48 | coin spin |
@@ -29,9 +29,20 @@ The full list with every id, title and description is in [docs/catalog.md](docs/
 
 ### Characters
 
-78 characters share one walk cycle. Each holds its weapon in a small fist that touches the body, in one of five poses: rest (upright at the hip), raise (fist at the chin, weapon up behind the head), thrust (level, pointing ahead), guard (upright in front) and low (tipped toward the ground). The double-bladed great axe is always carried diagonally on the shoulder.
+78 characters, each a full character sheet: idle, walk, attack and hurt in four directions (down, left, right, up), 44 frames per character.
 
 ![Characters](preview/characters.png)
+
+![character sheets](preview/sheets.png)
+
+| Animation | Frames | Notes |
+|---|---:|---|
+| `idle_<dir>` | 2 | The head bobs 1 px |
+| `walk_<dir>` | 4 | Contact, pass, contact, pass |
+| `attack_<dir>` | 3 | Wind-up, strike, follow-through. Play once, then return to idle |
+| `hurt_<dir>` | 2 | Recoil with closed eyes. Play once |
+
+`<dir>` is `down`, `left`, `right` or `up`. `left` is `right` mirrored. `<id>_base.png` is the right-facing portrait pose shown in the gallery: rest, raise, thrust, guard or low, depending on the character.
 
 ### Monsters
 
@@ -75,11 +86,13 @@ Take the files you need from `dist/<id>/`. For example, `dist/mage_f/`:
 
 | File | Contents |
 |---|---|
-| `mage_f_base.png` | Standing frame, 32×32 |
-| `mage_f_walk_0.png` … `_walk_3.png` | Walk frames, 32×32 |
-| `mage_f_walk_sheet.png` | Walk sprite sheet, one row, 128×32 |
-| `mage_f_walk.json` | Frame order, sheet rectangles, durations (ms), anchor, loop flag |
-| `mage_f_walk.gif`, `mage_f_walk_x8.gif` | GIF at 1× and 8× |
+| `mage_f_sheet.png` | The whole character sheet, 352×128. One row per direction (down, left, right, up); columns are idle, walk, attack, hurt |
+| `mage_f_sheet.json` | Cell rectangle and duration (ms) of every frame in the sheet, grouped by animation |
+| `mage_f_base.png` | Portrait pose, 32×32 |
+| `mage_f_walk_down_0.png` … `_3.png` | Single frames, 32×32, named `<animation>_<index>` |
+| `mage_f_walk_down_sheet.png` | One animation as a one-row strip |
+| `mage_f_walk_down.json` | Frame order, strip rectangles, durations (ms), anchor, loop flag |
+| `mage_f_walk_down.gif`, `mage_f_walk_down_x8.gif` | GIF at 1× and 8× |
 
 Static assets have only `<id>_base.png`, plus extra stills where they exist, such as `potion_mana.png` or `chest_open.png`.
 
@@ -125,9 +138,9 @@ python -m unittest discover tests
 
 | Path | Role |
 |---|---|
-| `assets/<id>/<id>.sprite` | Pixel grids, frames and animations as text. Generated for most assets; hand-typed source for 9 of them (`hero`, `slime`, `bat`, `coin`, `potion`, `key`, `scroll`, `chest`, `torch`); `tile_grass` and `tile_stone` come from their own `recipe.py` |
+| `assets/<id>/<id>.sprite` | Pixel grids, frames and animations as text. Generated for most assets; hand-typed source for 8 of them (`slime`, `bat`, `coin`, `potion`, `key`, `scroll`, `chest`, `torch`); `tile_grass` and `tile_stone` come from their own `recipe.py` |
 | `assets/<id>/recipe.py` | Draws the `.sprite`. For templated assets it is one line, `make("<id>")` |
-| `tools/kit32.py` | Shared grids (heads, bodies, legs, weapons), recoloring, character and item templates, weapon poses and grips |
+| `tools/kit32.py` | Shared grids (heads, bodies and legs for the front, side and back views, weapons), recoloring, the four-direction character rig, item templates, weapon poses and grips |
 | `tools/kit32_more.py`, `kit32_nature.py`, `kit32_gaps.py` | The later groups of asset specs |
 | `styles/chibi32/palette.txt` | The 34 allowed colors, one letter each |
 | `styles/chibi32/rules.md` | Proportions, outline, lighting and animation rules (Korean) |

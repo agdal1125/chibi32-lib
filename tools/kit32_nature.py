@@ -1,5 +1,6 @@
 """kit32_nature: the third hundred rpg specs, natural scenery and outdoor props.
 Imported by kit32 at the end of its module; registers into kit32.SPECS."""
+from drawkit import dotted, lumps
 from kit32 import (section, BUSH, PINE, ROCK, TREE, Recipe, bricks, checker, item, layer, meta, planks, rows_of, spec, tile,
                    waves)
 
@@ -89,9 +90,9 @@ FLOWER_RED = "..R...R...\n.RYR.RYR..\n..R...R...\n..Ee.Ee...\n.E.EeE.E..\n.EEEEE
 TULIPS = ".P..R..Y.\nPPPRRRYYY\nPPPRRRYYY\n.P..R..Y.\n.Ee.Ee.Ee\nEEeEEeEEe\n.Ee.Ee.Ee\n.ee.ee.ee"
 VINE = "Ee......\nEEe.....\n.EEe....\n..EEe.E.\n...EEEEe\n....EEe.\n...EEe..\n..EEe...\n.EEe....\nEEe.....\nEe......"
 IVY_WALL = "mMMMMMMMMMMMMd\nmMEEMMMMMEMMMd\nmMEEEMMMEEEMMd\nmMMEEEMEEEEMMd\nmMMMEEEEEEMMMd\nmMMMMEEEMMMMMd\nmMMMMEEMMMMMMd\nmMMMMEEEMMMMMd\nmmmmmEEmmmmmmd\n.....ee......."
-BERRY_BUSH = "....EEEE....\n..EEEREEEE..\n.EEEEEEERRe.\nEEREEEEEEEee\nEEEEEREEEeee\n.EEEEEEEeee.\n..eeeeeeee.."
-FLOWER_BUSH = "....EEEE....\n..EEEPEEEE..\n.EPEEEEEPEe.\nEEEEEEPEEEee\nEEPEEEEEEeee\n.EEEEEPEeee.\n..eeeeeeee.."
-HEDGE = "EEEEEEEEEEEEEEEe\nEEEEEEEEEEEEEEee\nEEEEEEEEEEEEEeee\nEEEEEEEEEEEEeeee\nEEEEEEEEEEEeeeee\neeeeeeeeeeeeeeee"
+BERRY_BUSH = dotted(BUSH, "R", [(4, 3), (8, 2), (11, 4), (6, 6), (2, 6), (12, 7), (9, 7)])
+FLOWER_BUSH = dotted(BUSH, "P", [(4, 3), (8, 2), (11, 4), (6, 6), (2, 6), (12, 7), (9, 7)])
+HEDGE = lumps([(4 + 4.5 * i, 5, 4.2, 4.4) for i in range(5)], "Eeq", (0.3, -0.2), floor=8)
 SAPLING = "..EEe..\n.EEEEe.\n..EEe..\n...Oo..\n...Oo..\n.nnnnn.\nnnnnnnn"
 LOG_MOSS = "..OOOOEEOOOOo\n.OEEOOOOEEOOo\nOmOOOOOOOOEOo\nOOoOOOOEEOOOo\n.ooooooooooo."
 MUSHROOM_GLOW = "...CCCC...\n..CCYYCC..\n.CCCCCCCc.\n.cccccccc.\n...WWWw...\n...WWWw...\n...WWWw...\n..wwwwww.."
@@ -117,19 +118,8 @@ CLOVER = "..EE.EE..\n.EEEEEEE.\n..EEEEE..\n.EEE.EEE.\n....Ee...\n....Ee..."
 THORNS = "D..D....D..D\nDD.DD..DD.DD\n.DDDDDDDDDD.\n..DDDDDDDD..\n.DDDDDDDDDD.\nDD.DD..DD.DD\nD..D....D..D"
 
 # ---------------------------------------------------------------- rocks, terrain features, water
-BOULDER = """
-......mmmmm.....
-....mmMMMMMmd...
-...mMMMMMMMmmd..
-..mMMMMMMMMmmdd.
-.mMMMMMMMmmmmdd.
-.mMMMMMMmmmmddd.
-mMMMMMmmmmmmdddd
-mMMMmmmmmmmdddd.
-.mmmmmmmmddddd..
-..ddddddddddd...
-"""
-ROCK_MOSS = "...EEmm...\n..EMMMmd..\n.mMMMMmdd.\nmMMMMmmddE\nmMMMmmmdEE\n.mmmmmEEe.\n..ddddee.."
+BOULDER = lumps([(10, 8, 9.5, 7.5), (5, 10.5, 5, 4), (15, 11, 4.5, 3.5)], "Mmd", (0.35, -0.2), floor=13)
+ROCK_MOSS = "\n".join(r.replace("M", "E").replace("m", "e") if y < 3 else r for y, r in enumerate(ROCK.split("\n")))
 ROCK_PILE = "......mmm.....\n..mm.mMMmd.mm.\n.mMMmMMMmdmMmd\nmMMMmMMmmdMMmd\nmMMmmmmmddmmdd\n.mmmddmmmdddd.\n..dddd.dddd..."
 PEBBLES = "..mm....mm..\n.mMmd..mMmd.\n.mmdd..mmdd.\n......mm....\n..mm.mMmd...\n.mMmdmmdd.mm\n.mmdd....mMd\n.........mdd"
 ORE_IRON = "...mmmm...\n..mMMDmd..\n.mMDDMmdd.\nmMMMMDmddd\nmMDDMmmddd\n.mmmmDddd.\n..dddddd.."
@@ -189,7 +179,7 @@ ANCHOR = "....mm....\n...mMMd...\n....mm....\n....Md....\n.mm.Md.mm.\n.MmmMdmMd.
 BUOY = "....R.....\n...RRr....\n..RRRRr...\n..WWWWw...\n..RRRRr...\n..RRRRr...\n...rrr....\n..LLLLLL..\n.LLLLLLLB.\n..LLLLLB.."
 ROWBOAT = "O..............O\nOo............Oo\nOOOOOOOOOOOOOOOo\n.OOooooooooooOo.\n..OOOOOOOOOOOo..\n...ooooooooo...."
 DOCK = "OOOOOOOOOOOOOOOOOOOOOOOO\nOoOoOoOoOoOoOoOoOoOoOoOo\nOOOOOOOOOOOOOOOOOOOOOOOO\nnn....nn....nn....nn....\nnn....nn....nn....nn...."
-CLOUD = "......WWWW......\n....WWWWWWWW....\n..WWWWWWWWWWWW..\n.WWWWWWWWWWWWWw.\nWWWWWWWWWWWWWWww\n.wwwwwwwwwwwwww."
+CLOUD = lumps([(6, 7, 5, 4), (18.5, 7.5, 5, 3.8), (12, 5.5, 6.5, 5.2), (12, 8.5, 9, 3)], "Wwh", (-0.05, -0.6), floor=10)
 RAIN_CLOUD = "......mmmm......\n....mmmmmmmm....\n..mmmmmmmmmmmm..\n.mmmmmmmmmmmmmd.\nmmmmmmmmmmmmmmdd\n.dddddddddddddd.\n..L..L..L..L....\n.L..L..L..L.....\n..L..L..L..L...."
 SUN = "....Y.......\n.Y..Y..Y....\n..YYYYY.....\n.YYYYYYY....\nYYYYGYYYY...\n.YYYYYYY....\n..YYYYY.....\n.Y..Y..Y....\n....Y......."
 MOON = "...YYYY...\n..YYYYYY..\n.YYYY..YY.\n.YYY....Y.\n.YYY......\n.YYY....Y.\n.YYYY..YY.\n..YYYYYY..\n...YYYY..."

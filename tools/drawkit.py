@@ -227,6 +227,35 @@ class Layer:
                         for y in range(y0, max(ys) + 1)]
 
 
+def lumps(blobs: list[tuple[float, float, float, float]], tones: str, cuts: Iterable[float],
+          under: tuple[int, int, str] | None = None, floor: int | None = None) -> str:
+    """A grid of overlapping balls (cx, cy, rx, ry), drawn back to front and each lit on its own, so foliage, clouds
+    and rocks read as clusters instead of one flat shape. `under` = (x, y, rows) is painted first (a trunk, a neck);
+    `floor` cuts everything below that row so the shape sits flat on the ground."""
+    lay = Layer("lumps")
+    if under:
+        lay.rows(*under)
+    cuts = tuple(cuts)
+    for cx, cy, rx, ry in blobs:
+        def normal(x, y, cx=cx, cy=cy, rx=rx, ry=ry):
+            nx, ny = (x + .5 - cx) / rx, (y + .5 - cy) / ry
+            return (nx, ny, math.sqrt(max(0.0, 1 - nx * nx - ny * ny)))
+        lay.shade(ellipse(cx, cy, rx, ry), normal, tones, cuts)
+    lay.despeckle()
+    if floor is not None:
+        lay.px = {p: k for p, k in lay.px.items() if p[1] <= floor}
+    return "\n".join(lay.crop()[2])
+
+
+def dotted(grid: str, key: str, points: list[Pixel]) -> str:
+    """The grid with `key` at the given painted cells: berries, flowers, moss."""
+    rows = [list(r) for r in grid.split("\n")]
+    for x, y in points:
+        if rows[y][x] != ".":
+            rows[y][x] = key
+    return "\n".join("".join(r) for r in rows)
+
+
 @dataclass
 class Recipe:
     meta: dict[str, str]

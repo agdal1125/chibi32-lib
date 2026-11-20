@@ -1,0 +1,40 @@
+{
+  "id": "healer_f",
+  "animation": "idle_left",
+  "image": "healer_f_idle_left_sheet.png",
+  "imageSize": {
+    "w": 64,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/healer_f/healer_f.sprite",
+  "frames": [
+    {
+      "name": "idle_left_0",
+      "file": "healer_f_idle_left_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 500
+    },
+    {
+      "name": "idle_left_1",
+      "file": "healer_f_idle_left_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 500
+    }
+  ]
+}

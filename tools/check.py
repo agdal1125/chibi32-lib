@@ -52,6 +52,34 @@ def lowest_opaque_row(img: Image.Image) -> int:
     return bbox[3] - 1 if bbox else -1
 
 
+def check_sheet(sprite, out: Path, colors: set) -> list[str]:
+    """The character sheet holds every animation frame once, in the cell its JSON names."""
+    rows = sprite.sheet_rows()
+    meta_path = out / f"{sprite.id}_sheet.json"
+    if not rows:
+        return [f"{meta_path.name}: sheet without directional animations"] if meta_path.exists() else []
+    if not meta_path.exists():
+        return [f"{meta_path.name}: missing"]
+    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    sheet_path = out / meta["image"]
+    if not sheet_path.exists():
+        return [f"{meta_path.name}: image {meta['image']} missing"]
+    sheet = Image.open(sheet_path)
+    errors = check_png(sheet, sheet.size, colors, sheet_path.name, 0)
+    if set(meta["animations"]) != set(sprite.anims):
+        errors.append(f"{meta_path.name}: animations differ from the source")
+    for anim, seq in sprite.anims.items():
+        cells = meta["animations"].get(anim, {}).get("frames", [])
+        if [(c["name"], c["duration"]) for c in cells] != seq:
+            errors.append(f"{meta_path.name}: {anim} frames differ from the source")
+            continue
+        for c in cells:
+            crop = sheet.crop((c["x"], c["y"], c["x"] + c["w"], c["y"] + c["h"]))
+            if not same_pixels(crop, Image.open(out / f"{sprite.id}_{c['name']}.png")):
+                errors.append(f"{meta_path.name}: sheet cell {c['name']} differs from its frame")
+    return errors
+
+
 def check(dist: Path) -> tuple[list[str], list[str]]:
     errors, notes = draw.stale(), []
     catalog_path = dist / "catalog.json"
@@ -146,6 +174,8 @@ def check(dist: Path) -> tuple[list[str], list[str]]:
                     want = Image.open(out / f"{sprite.id}_{name}.png").resize((size[0] * scale, size[1] * scale), Image.NEAREST)
                     if not same_pixels(gframes[i], want):
                         errors.append(f"{gif_name}: frame {i} pixels differ from {sprite.id}_{name}.png")
+
+        errors += check_sheet(sprite, out, colors)
 
         credits_path = sprite.path.parent / "credits.json"
         if not credits_path.exists():

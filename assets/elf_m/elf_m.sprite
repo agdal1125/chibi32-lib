@@ -6,39 +6,13 @@ size = 32 32
 anchor = 16 29
 palette = ../../styles/chibi32/palette.txt
 
-[part legs_stand]
+[part r_legs_stand]
 eq..eq.
 eq..eq.
 NNN.NNN
 nnn.nnn
 
-[part legs_near_fwd]
-..qqee...
-.qq...ee.
-nnn...NNN
-nn....nnn
-
-[part legs_near_support]
-.qqee.
-.qqee.
-nnnee.
-nn.NNN
-...nnn
-
-[part legs_far_fwd]
-..eeqq...
-.ee...qq.
-NNN...nnn
-nn....nnn
-
-[part legs_far_support]
-qqee.
-qqee.
-qqNNN
-qqnnn
-nnn..
-
-[part body]
+[part r_body]
 .EEeeeeeq.
 EEeeeeeeqq
 Eeeeeeeeqq
@@ -46,7 +20,7 @@ NNNNGgNNNn
 Eeeeeeeeqq
 .eeeeeeeq.
 
-[part head]
+[part r_head]
 .......Y....Y...
 ......YY...YY...
 ...Y.YYY..YYY...
@@ -63,7 +37,7 @@ YYYYYYYYYYYYYYGG
 ....gsSSSSSSSs..
 ......sSSSSs....
 
-[part held_item]
+[part r_sword_guard]
 .M..
 .Mm.
 .Mm.
@@ -77,47 +51,836 @@ GGgg
 .nn.
 .gg.
 
-[part front_hand]
+[part fist]
 SS
 Ss
 
+[part r_legs_near_fwd]
+..qqee...
+.qq...ee.
+nnn...NNN
+nn....nnn
+
+[part r_legs_near_support]
+.qqee.
+.qqee.
+nnnee.
+nn.NNN
+...nnn
+
+[part r_legs_far_fwd]
+..eeqq...
+.ee...qq.
+NNN...nnn
+nn....nnn
+
+[part r_legs_far_support]
+qqee.
+qqee.
+qqNNN
+qqnnn
+nnn..
+
+[part r_sword_raise]
+.....M.
+.....Mm
+....Mm.
+....Mm.
+...Mm..
+...Mm..
+..Mm...
+..Md...
+GGgg...
+.nn....
+nn.....
+gg.....
+
+[part r_sword_thrust]
+...G........
+gnnGMMMMMMMM
+gnngdmmmmmm.
+...g........
+
+[part r_sword_low]
+gn.G........
+gnnG........
+..ngMM......
+...gdmMM....
+......mmMM..
+........mmMM
+..........m.
+
+[part r_head_hurt]
+.......Y....Y...
+......YY...YY...
+...Y.YYY..YYY...
+...YYYYYYYYYYY..
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+.YYYYYYYYYYYYGGG
+..GYYYGYYYGSGGG.
+.YGGYGgSSSgSSSg.
+..gGGgSSSSSSSSS.
+..ggGSSSSSSSSSS.
+...ggSSSKKSSKKS.
+...ggsSSpSSSSpS.
+....gsSSSSSSSs..
+......sSSSSs....
+
+[part f_legs_stand]
+.ee..eq.
+.ee..eq.
+NNN..NNn
+nnn..nnn
+
+[part d_sword_rest]
+.M..
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Md.
+GGgg
+.nn.
+.nn.
+.gg.
+
+[part d_hand]
+SS
+Ss
+
+[part d_body]
+.EEeeeeeq.
+EEeeeeeeqq
+Eeeeeeeeqq
+NNNNGgNNNn
+Eeeeeeeeqq
+.eeeeeeeq.
+
+[part d_off_hand]
+SS
+Ss
+
+[part d_head]
+....Y..Y...Y....
+...YY.YYY.YY....
+..YYYYYYYYYYY.Y.
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYGGG
+YGYYGYYYGYYGYGGg
+YGGSGGSSGGSSGGgg
+.gGSSSSSSSSSSGg.
+.gSSSKSSSSKSSSg.
+.gSSSKSSSSKSSSg.
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+
+[part f_legs_step_l]
+.ee..eq
+.ee..Nn
+NNN..nn
+nnn....
+
+[part f_legs_pass]
+.ee..eq.
+.ee..eq.
+.ee..eq.
+NNN..NNn
+nnn..nnn
+
+[part f_legs_step_r]
+ee..eq.
+NN..eq.
+nn..NNn
+....nnn
+
+[part d_sword_raise]
+.M..
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Mm.
+.Md.
+GGgg
+.nn.
+.nn.
+.gg.
+
+[part d_sword_strike]
+...G........
+gnnGMMMMMMMM
+gnngdmmmmmm.
+...g........
+
+[part d_sword_low]
+gn.G........
+gnnG........
+..ngMM......
+...gdmMM....
+......mmMM..
+........mmMM
+..........m.
+
+[part d_head_hurt]
+....Y..Y...Y....
+...YY.YYY.YY....
+..YYYYYYYYYYY.Y.
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYGGG
+YGYYGYYYGYYGYGGg
+YGGSGGSSGGSSGGgg
+.gGSSSSSSSSSSGg.
+.gSSSSSSSSSSSSg.
+.gSSKKSSSKKSSSg.
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+
+[part u_body]
+.EEeeeeeq.
+EEeeeeeeqq
+Eeeeeeeeqq
+NNNNNNNNNn
+Eeeeeeeeqq
+.eeeeeeeq.
+
+[part u_off_hand]
+SS
+sS
+
+[part u_sword_rest]
+..M.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.dM.
+ggGG
+.nn.
+.nn.
+.gg.
+
+[part u_head]
+....Y..Y...Y....
+...YY.YYY.YY....
+..YYYYYYYYYYY.Y.
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYGGG
+YYYYYYYYYYYYGGGG
+YYGYYYGYYYGYGGGg
+.GGYGGGYGGGGGGg.
+.gGGGGgGGGGgGGg.
+.ggGGggGGGggGgg.
+..ggGgggGggggg..
+..sggggggggggs..
+....sSSSSSSs....
+
+[part u_hand]
+SS
+sS
+
+[part u_sword_raise]
+..M.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.dM.
+ggGG
+.nn.
+.nn.
+.gg.
+
+[part u_sword_strike]
+..M.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.dM.
+ggGG
+.nn.
+.nn.
+.gg.
+
+[part u_sword_low]
+..M.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.dM.
+ggGG
+.nn.
+.nn.
+.gg.
+
+[part u_head_hurt]
+....Y..Y...Y....
+...YY.YYY.YY....
+..YYYYYYYYYYY.Y.
+.YYYYYYYYYYYYYY.
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYYGG
+YYYYYYYYYYYYYGGG
+YYYYYYYYYYYYGGGG
+YYGYYYGYYYGYGGGg
+.GGYGGGYGGGGGGg.
+.gGGGGgGGGGgGGg.
+.ggGGggGGGggGgg.
+..ggGgggGggggg..
+..sggggggggggs..
+....sSSSSSSs....
+
+[part r_legs_stand_m]
+.qe..qe
+.qe..qe
+NNN.NNN
+nnn.nnn
+
+[part r_body_m]
+.qeeeeeEE.
+qqeeeeeeEE
+qqeeeeeeeE
+nNNNgGNNNN
+qqeeeeeeeE
+.qeeeeeee.
+
+[part r_head_m]
+...Y....Y.......
+...YY...YY......
+...YYY..YYY.Y...
+..YYYYYYYYYYY...
+.YYYYYYYYYYYYYY.
+GGYYYYYYYYYYYYYY
+GGGYYYYYYYYYYYY.
+.GGGSGYYYGYYYG..
+.gSSSgSSSgGYGGY.
+.SSSSSSSSSgGGg..
+.SKSSSKSSSSGgg..
+.SKSSSKSSSSgg...
+.SpSSSSpSSsgg...
+..sSSSSSSSsg....
+....sSSSSs......
+
+[part r_sword_guard_m]
+..M.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.mM.
+.dM.
+ggGG
+.nn.
+.nn.
+.gg.
+
+[part fist_m]
+SS
+sS
+
+[part r_legs_near_fwd_m]
+...eeqq..
+.ee...qq.
+NNN...nnn
+nnn....nn
+
+[part r_legs_near_support_m]
+.eeqq.
+.eeqq.
+.eennn
+NNN.nn
+nnn...
+
+[part r_legs_far_fwd_m]
+...qqee..
+.qq...ee.
+nnn...NNN
+nnn....nn
+
+[part r_legs_far_support_m]
+.eeqq
+.eeqq
+NNNqq
+nnnqq
+..nnn
+
+[part r_sword_raise_m]
+.M.....
+mM.....
+.mM....
+.mM....
+..mM...
+..mM...
+...mM..
+...dM..
+...ggGG
+....nn.
+.....nn
+.....gg
+
+[part r_sword_thrust_m]
+........G...
+MMMMMMMMGnng
+.mmmmmmdgnng
+........g...
+
+[part r_sword_low_m]
+........G.ng
+........Gnng
+......MMgn..
+....MMmdg...
+..MMmm......
+MMmm........
+.m..........
+
+[part r_head_hurt_m]
+...Y....Y.......
+...YY...YY......
+...YYY..YYY.Y...
+..YYYYYYYYYYY...
+.YYYYYYYYYYYYYY.
+GGYYYYYYYYYYYYYY
+GGGYYYYYYYYYYYY.
+.GGGSGYYYGYYYG..
+.gSSSgSSSgGYGGY.
+.SSSSSSSSSgGGg..
+.SSSSSSSSSSGgg..
+.SKKSSKKSSSgg...
+.SpSSSSpSSsgg...
+..sSSSSSSSsg....
+....sSSSSs......
+
 [frame base]
-legs_stand 13 26
-body 11 20
-head 8 6
-held_item 22 13
-front_hand 23 22
+r_legs_stand 13 26
+r_body 11 20
+r_head 8 6
+r_sword_guard 22 13
+fist 23 22
 
-[frame walk_0]
-legs_near_fwd 12 26
-body 11 20
-head 8 6
-held_item 22 13
-front_hand 23 22
+[frame idle_down_0]
+f_legs_stand 12 26
+d_sword_rest 7 13
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
 
-[frame walk_1]
-legs_near_support 13 25
-body 11 19
-head 8 5
-held_item 22 12
-front_hand 23 21
+[frame idle_down_1]
+f_legs_stand 12 26
+d_sword_rest 7 13
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 7
 
-[frame walk_2]
-legs_far_fwd 12 26
-body 11 20
-head 8 6
-held_item 22 13
-front_hand 23 22
+[frame idle_left_0]
+r_legs_stand_m 12 26
+r_body_m 11 20
+r_head_m 8 6
+r_sword_guard_m 6 13
+fist_m 7 22
 
-[frame walk_3]
-legs_far_support 14 25
-body 11 19
-head 8 5
-held_item 22 12
-front_hand 23 21
+[frame idle_left_1]
+r_legs_stand_m 12 26
+r_body_m 11 20
+r_head_m 8 7
+r_sword_guard_m 6 13
+fist_m 7 22
 
-[anim walk]
-walk_0 150
-walk_1 150
-walk_2 150
-walk_3 150
+[frame idle_right_0]
+r_legs_stand 13 26
+r_body 11 20
+r_head 8 6
+r_sword_guard 22 13
+fist 23 22
+
+[frame idle_right_1]
+r_legs_stand 13 26
+r_body 11 20
+r_head 8 7
+r_sword_guard 22 13
+fist 23 22
+
+[frame idle_up_0]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+u_sword_rest 21 13
+u_head 8 6
+u_hand 22 22
+
+[frame idle_up_1]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+u_sword_rest 21 13
+u_head 8 7
+u_hand 22 22
+
+[frame walk_down_0]
+f_legs_step_l 12 26
+d_sword_rest 7 13
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame walk_down_1]
+f_legs_pass 12 25
+d_sword_rest 7 12
+d_hand 8 21
+d_body 11 19
+d_off_hand 22 21
+d_head 8 5
+
+[frame walk_down_2]
+f_legs_step_r 13 26
+d_sword_rest 7 13
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame walk_down_3]
+f_legs_pass 12 25
+d_sword_rest 7 12
+d_hand 8 21
+d_body 11 19
+d_off_hand 22 21
+d_head 8 5
+
+[frame walk_left_0]
+r_legs_near_fwd_m 11 26
+r_body_m 11 20
+r_head_m 8 6
+r_sword_guard_m 6 13
+fist_m 7 22
+
+[frame walk_left_1]
+r_legs_near_support_m 13 25
+r_body_m 11 19
+r_head_m 8 5
+r_sword_guard_m 6 12
+fist_m 7 21
+
+[frame walk_left_2]
+r_legs_far_fwd_m 11 26
+r_body_m 11 20
+r_head_m 8 6
+r_sword_guard_m 6 13
+fist_m 7 22
+
+[frame walk_left_3]
+r_legs_far_support_m 13 25
+r_body_m 11 19
+r_head_m 8 5
+r_sword_guard_m 6 12
+fist_m 7 21
+
+[frame walk_right_0]
+r_legs_near_fwd 12 26
+r_body 11 20
+r_head 8 6
+r_sword_guard 22 13
+fist 23 22
+
+[frame walk_right_1]
+r_legs_near_support 13 25
+r_body 11 19
+r_head 8 5
+r_sword_guard 22 12
+fist 23 21
+
+[frame walk_right_2]
+r_legs_far_fwd 12 26
+r_body 11 20
+r_head 8 6
+r_sword_guard 22 13
+fist 23 22
+
+[frame walk_right_3]
+r_legs_far_support 14 25
+r_body 11 19
+r_head 8 5
+r_sword_guard 22 12
+fist 23 21
+
+[frame walk_up_0]
+f_legs_step_l 12 26
+u_body 11 20
+u_off_hand 8 22
+u_sword_rest 21 13
+u_head 8 6
+u_hand 22 22
+
+[frame walk_up_1]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+u_sword_rest 21 12
+u_head 8 5
+u_hand 22 21
+
+[frame walk_up_2]
+f_legs_step_r 13 26
+u_body 11 20
+u_off_hand 8 22
+u_sword_rest 21 13
+u_head 8 6
+u_hand 22 22
+
+[frame walk_up_3]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+u_sword_rest 21 12
+u_head 8 5
+u_hand 22 21
+
+[frame attack_down_0]
+f_legs_stand 12 26
+d_sword_raise 7 10
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+d_hand 8 19
+
+[frame attack_down_1]
+f_legs_step_l 12 26
+d_body 11 20
+d_off_hand 22 22
+d_sword_strike 11 22
+d_head 8 7
+d_hand 12 23
+
+[frame attack_down_2]
+f_legs_step_l 12 26
+d_body 11 20
+d_off_hand 22 22
+d_sword_low 12 21
+d_head 8 6
+d_hand 13 21
+
+[frame attack_left_0]
+r_legs_stand_m 12 26
+r_body_m 11 20
+r_sword_raise_m 4 11
+r_head_m 8 6
+fist_m 9 20
+
+[frame attack_left_1]
+r_legs_near_fwd_m 11 26
+r_body_m 10 20
+r_head_m 7 6
+r_sword_thrust_m 2 21
+fist_m 11 22
+
+[frame attack_left_2]
+r_legs_near_fwd_m 11 26
+r_body_m 11 20
+r_head_m 8 6
+r_sword_low_m 3 21
+fist_m 12 21
+
+[frame attack_right_0]
+r_legs_stand 13 26
+r_body 11 20
+r_sword_raise 21 11
+r_head 8 6
+fist 21 20
+
+[frame attack_right_1]
+r_legs_near_fwd 12 26
+r_body 12 20
+r_head 9 6
+r_sword_thrust 18 21
+fist 19 22
+
+[frame attack_right_2]
+r_legs_near_fwd 12 26
+r_body 11 20
+r_head 8 6
+r_sword_low 17 21
+fist 18 21
+
+[frame attack_up_0]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+u_sword_raise 21 10
+u_head 8 6
+u_hand 22 19
+
+[frame attack_up_1]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+u_sword_strike 21 7
+u_head 8 5
+u_hand 22 16
+
+[frame attack_up_2]
+f_legs_step_l 12 26
+u_body 11 20
+u_off_hand 8 22
+u_sword_low 21 12
+u_head 8 6
+u_hand 22 21
+
+[frame hurt_down_0]
+f_legs_stand 12 26
+d_sword_rest 6 13
+d_hand 7 22
+d_body 10 20
+d_off_hand 21 22
+d_head_hurt 7 6
+
+[frame hurt_down_1]
+f_legs_stand 12 26
+d_sword_rest 8 13
+d_hand 9 22
+d_body 12 20
+d_off_hand 23 22
+d_head_hurt 9 6
+
+[frame hurt_left_0]
+r_legs_stand_m 12 26
+r_body_m 12 19
+r_head_hurt_m 9 5
+r_sword_guard_m 7 12
+fist_m 8 21
+
+[frame hurt_left_1]
+r_legs_stand_m 12 26
+r_body_m 12 20
+r_head_hurt_m 9 6
+r_sword_guard_m 7 13
+fist_m 8 22
+
+[frame hurt_right_0]
+r_legs_stand 13 26
+r_body 10 19
+r_head_hurt 7 5
+r_sword_guard 21 12
+fist 22 21
+
+[frame hurt_right_1]
+r_legs_stand 13 26
+r_body 10 20
+r_head_hurt 7 6
+r_sword_guard 21 13
+fist 22 22
+
+[frame hurt_up_0]
+f_legs_stand 12 26
+u_body 10 20
+u_off_hand 7 22
+u_sword_rest 20 13
+u_head_hurt 7 6
+u_hand 21 22
+
+[frame hurt_up_1]
+f_legs_stand 12 26
+u_body 12 20
+u_off_hand 9 22
+u_sword_rest 22 13
+u_head_hurt 9 6
+u_hand 23 22
+
+[anim idle_down]
+idle_down_0 500
+idle_down_1 500
+
+[anim idle_left]
+idle_left_0 500
+idle_left_1 500
+
+[anim idle_right]
+idle_right_0 500
+idle_right_1 500
+
+[anim idle_up]
+idle_up_0 500
+idle_up_1 500
+
+[anim walk_down]
+walk_down_0 150
+walk_down_1 150
+walk_down_2 150
+walk_down_3 150
+
+[anim walk_left]
+walk_left_0 150
+walk_left_1 150
+walk_left_2 150
+walk_left_3 150
+
+[anim walk_right]
+walk_right_0 150
+walk_right_1 150
+walk_right_2 150
+walk_right_3 150
+
+[anim walk_up]
+walk_up_0 150
+walk_up_1 150
+walk_up_2 150
+walk_up_3 150
+
+[anim attack_down]
+attack_down_0 120
+attack_down_1 90
+attack_down_2 180
+
+[anim attack_left]
+attack_left_0 120
+attack_left_1 90
+attack_left_2 180
+
+[anim attack_right]
+attack_right_0 120
+attack_right_1 90
+attack_right_2 180
+
+[anim attack_up]
+attack_up_0 120
+attack_up_1 90
+attack_up_2 180
+
+[anim hurt_down]
+hurt_down_0 100
+hurt_down_1 200
+
+[anim hurt_left]
+hurt_left_0 100
+hurt_left_1 200
+
+[anim hurt_right]
+hurt_right_0 100
+hurt_right_1 200
+
+[anim hurt_up]
+hurt_up_0 100
+hurt_up_1 200

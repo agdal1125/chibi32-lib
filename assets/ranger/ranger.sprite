@@ -6,39 +6,13 @@ size = 32 32
 anchor = 16 29
 palette = ../../styles/chibi32/palette.txt
 
-[part legs_stand]
+[part r_legs_stand]
 eq..eq.
 eq..eq.
 NNN.NNN
 nnn.nnn
 
-[part legs_near_fwd]
-..qqee...
-.qq...ee.
-nnn...NNN
-nn....nnn
-
-[part legs_near_support]
-.qqee.
-.qqee.
-nnnee.
-nn.NNN
-...nnn
-
-[part legs_far_fwd]
-..eeqq...
-.ee...qq.
-NNN...nnn
-nn....nnn
-
-[part legs_far_support]
-qqee.
-qqee.
-qqNNN
-qqnnn
-nnn..
-
-[part body]
+[part r_body]
 .EEeeeeeq.
 EEeeeeeeqq
 Eeeeeeeeqq
@@ -46,7 +20,7 @@ NNNNGgNNNn
 Eeeeeeeeqq
 .eeeeeeeq.
 
-[part head]
+[part r_head]
 .......E....E...
 ......EE...EE...
 ...E.EEE..EEE...
@@ -63,7 +37,7 @@ EEEEEEEEEEEEEEee
 ....qsSSSSSSSs..
 ......sSSSSs....
 
-[part held_item]
+[part r_bow_guard]
 ..O.
 .OoW
 Oo.W
@@ -77,47 +51,707 @@ Oo.W
 .OoW
 ..O.
 
-[part front_hand]
+[part fist]
 SS
 Ss
 
+[part r_legs_near_fwd]
+..qqee...
+.qq...ee.
+nnn...NNN
+nn....nnn
+
+[part r_legs_near_support]
+.qqee.
+.qqee.
+nnnee.
+nn.NNN
+...nnn
+
+[part r_legs_far_fwd]
+..eeqq...
+.ee...qq.
+NNN...nnn
+nn....nnn
+
+[part r_legs_far_support]
+qqee.
+qqee.
+qqNNN
+qqnnn
+nnn..
+
+[part r_head_hurt]
+.......E....E...
+......EE...EE...
+...E.EEE..EEE...
+...EEEEEEEEEEE..
+.EEEEEEEEEEEEEE.
+EEEEEEEEEEEEEEee
+.EEEEEEEEEEEEeee
+..eEEEeEEEeSeee.
+.EeeEeqSSSqSSSq.
+..qeeqSSSSSSSSS.
+..qqeSSSSSSSSSS.
+...qqSSSKKSSKKS.
+...qqsSSpSSSSpS.
+....qsSSSSSSSs..
+......sSSSSs....
+
+[part f_legs_stand]
+.ee..eq.
+.ee..eq.
+NNN..NNn
+nnn..nnn
+
+[part d_bow_rest]
+..O.
+.OoW
+Oo.W
+Oo.W
+Oo.W
+OO.W
+OO.W
+Oo.W
+Oo.W
+Oo.W
+.OoW
+..O.
+
+[part d_hand]
+SS
+Ss
+
+[part d_body]
+.EEeeeeeq.
+EEeeeeeeqq
+Eeeeeeeeqq
+NNNNGgNNNn
+Eeeeeeeeqq
+.eeeeeeeq.
+
+[part d_off_hand]
+SS
+Ss
+
+[part d_head]
+....E..E...E....
+...EE.EEE.EE....
+..EEEEEEEEEEE.E.
+.EEEEEEEEEEEEEE.
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEeee
+EeEEeEEEeEEeEeeq
+EeeSeeSSeeSSeeqq
+.qeSSSSSSSSSSeq.
+.qSSSKSSSSKSSSq.
+.qSSSKSSSSKSSSq.
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+
+[part f_legs_step_l]
+.ee..eq
+.ee..Nn
+NNN..nn
+nnn....
+
+[part f_legs_pass]
+.ee..eq.
+.ee..eq.
+.ee..eq.
+NNN..NNn
+nnn..nnn
+
+[part f_legs_step_r]
+ee..eq.
+NN..eq.
+nn..NNn
+....nnn
+
+[part d_head_hurt]
+....E..E...E....
+...EE.EEE.EE....
+..EEEEEEEEEEE.E.
+.EEEEEEEEEEEEEE.
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEeee
+EeEEeEEEeEEeEeeq
+EeeSeeSSeeSSeeqq
+.qeSSSSSSSSSSeq.
+.qSSSSSSSSSSSSq.
+.qSSKKSSSKKSSSq.
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+
+[part u_body]
+.EEeeeeeq.
+EEeeeeeeqq
+Eeeeeeeeqq
+NNNNNNNNNn
+Eeeeeeeeqq
+.eeeeeeeq.
+
+[part u_off_hand]
+SS
+sS
+
+[part u_bow_rest]
+.O..
+WoO.
+W.oO
+W.oO
+W.oO
+W.OO
+W.OO
+W.oO
+W.oO
+W.oO
+WoO.
+.O..
+
+[part u_head]
+....E..E...E....
+...EE.EEE.EE....
+..EEEEEEEEEEE.E.
+.EEEEEEEEEEEEEE.
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEeee
+EEEEEEEEEEEEeeee
+EEeEEEeEEEeEeeeq
+.eeEeeeEeeeeeeq.
+.qeeeeqeeeeqeeq.
+.qqeeqqeeeqqeqq.
+..qqeqqqeqqqqq..
+..sqqqqqqqqqqs..
+....sSSSSSSs....
+
+[part u_hand]
+SS
+sS
+
+[part u_head_hurt]
+....E..E...E....
+...EE.EEE.EE....
+..EEEEEEEEEEE.E.
+.EEEEEEEEEEEEEE.
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEEee
+EEEEEEEEEEEEEeee
+EEEEEEEEEEEEeeee
+EEeEEEeEEEeEeeeq
+.eeEeeeEeeeeeeq.
+.qeeeeqeeeeqeeq.
+.qqeeqqeeeqqeqq.
+..qqeqqqeqqqqq..
+..sqqqqqqqqqqs..
+....sSSSSSSs....
+
+[part r_legs_stand_m]
+.qe..qe
+.qe..qe
+NNN.NNN
+nnn.nnn
+
+[part r_body_m]
+.qeeeeeEE.
+qqeeeeeeEE
+qqeeeeeeeE
+nNNNgGNNNN
+qqeeeeeeeE
+.qeeeeeee.
+
+[part r_head_m]
+...E....E.......
+...EE...EE......
+...EEE..EEE.E...
+..EEEEEEEEEEE...
+.EEEEEEEEEEEEEE.
+eeEEEEEEEEEEEEEE
+eeeEEEEEEEEEEEE.
+.eeeSeEEEeEEEe..
+.qSSSqSSSqeEeeE.
+.SSSSSSSSSqeeq..
+.SKSSSKSSSSeqq..
+.SKSSSKSSSSqq...
+.SpSSSSpSSsqq...
+..sSSSSSSSsq....
+....sSSSSs......
+
+[part r_bow_guard_m]
+.O..
+WoO.
+W.oO
+W.oO
+W.oO
+W.OO
+W.OO
+W.oO
+W.oO
+W.oO
+WoO.
+.O..
+
+[part fist_m]
+SS
+sS
+
+[part r_legs_near_fwd_m]
+...eeqq..
+.ee...qq.
+NNN...nnn
+nnn....nn
+
+[part r_legs_near_support_m]
+.eeqq.
+.eeqq.
+.eennn
+NNN.nn
+nnn...
+
+[part r_legs_far_fwd_m]
+...qqee..
+.qq...ee.
+nnn...NNN
+nnn....nn
+
+[part r_legs_far_support_m]
+.eeqq
+.eeqq
+NNNqq
+nnnqq
+..nnn
+
+[part r_head_hurt_m]
+...E....E.......
+...EE...EE......
+...EEE..EEE.E...
+..EEEEEEEEEEE...
+.EEEEEEEEEEEEEE.
+eeEEEEEEEEEEEEEE
+eeeEEEEEEEEEEEE.
+.eeeSeEEEeEEEe..
+.qSSSqSSSqeEeeE.
+.SSSSSSSSSqeeq..
+.SSSSSSSSSSeqq..
+.SKKSSKKSSSqq...
+.SpSSSSpSSsqq...
+..sSSSSSSSsq....
+....sSSSSs......
+
 [frame base]
-legs_stand 13 26
-body 11 20
-head 8 6
-held_item 23 17
-front_hand 23 22
+r_legs_stand 13 26
+r_body 11 20
+r_head 8 6
+r_bow_guard 23 17
+fist 23 22
 
-[frame walk_0]
-legs_near_fwd 12 26
-body 11 20
-head 8 6
-held_item 23 17
-front_hand 23 22
+[frame idle_down_0]
+f_legs_stand 12 26
+d_bow_rest 8 17
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
 
-[frame walk_1]
-legs_near_support 13 25
-body 11 19
-head 8 5
-held_item 23 16
-front_hand 23 21
+[frame idle_down_1]
+f_legs_stand 12 26
+d_bow_rest 8 17
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 7
 
-[frame walk_2]
-legs_far_fwd 12 26
-body 11 20
-head 8 6
-held_item 23 17
-front_hand 23 22
+[frame idle_left_0]
+r_legs_stand_m 12 26
+r_body_m 11 20
+r_head_m 8 6
+r_bow_guard_m 5 17
+fist_m 7 22
 
-[frame walk_3]
-legs_far_support 14 25
-body 11 19
-head 8 5
-held_item 23 16
-front_hand 23 21
+[frame idle_left_1]
+r_legs_stand_m 12 26
+r_body_m 11 20
+r_head_m 8 7
+r_bow_guard_m 5 17
+fist_m 7 22
 
-[anim walk]
-walk_0 150
-walk_1 150
-walk_2 150
-walk_3 150
+[frame idle_right_0]
+r_legs_stand 13 26
+r_body 11 20
+r_head 8 6
+r_bow_guard 23 17
+fist 23 22
+
+[frame idle_right_1]
+r_legs_stand 13 26
+r_body 11 20
+r_head 8 7
+r_bow_guard 23 17
+fist 23 22
+
+[frame idle_up_0]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+u_bow_rest 20 17
+u_head 8 6
+u_hand 22 22
+
+[frame idle_up_1]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+u_bow_rest 20 17
+u_head 8 7
+u_hand 22 22
+
+[frame walk_down_0]
+f_legs_step_l 12 26
+d_bow_rest 8 17
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame walk_down_1]
+f_legs_pass 12 25
+d_bow_rest 8 16
+d_hand 8 21
+d_body 11 19
+d_off_hand 22 21
+d_head 8 5
+
+[frame walk_down_2]
+f_legs_step_r 13 26
+d_bow_rest 8 17
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame walk_down_3]
+f_legs_pass 12 25
+d_bow_rest 8 16
+d_hand 8 21
+d_body 11 19
+d_off_hand 22 21
+d_head 8 5
+
+[frame walk_left_0]
+r_legs_near_fwd_m 11 26
+r_body_m 11 20
+r_head_m 8 6
+r_bow_guard_m 5 17
+fist_m 7 22
+
+[frame walk_left_1]
+r_legs_near_support_m 13 25
+r_body_m 11 19
+r_head_m 8 5
+r_bow_guard_m 5 16
+fist_m 7 21
+
+[frame walk_left_2]
+r_legs_far_fwd_m 11 26
+r_body_m 11 20
+r_head_m 8 6
+r_bow_guard_m 5 17
+fist_m 7 22
+
+[frame walk_left_3]
+r_legs_far_support_m 13 25
+r_body_m 11 19
+r_head_m 8 5
+r_bow_guard_m 5 16
+fist_m 7 21
+
+[frame walk_right_0]
+r_legs_near_fwd 12 26
+r_body 11 20
+r_head 8 6
+r_bow_guard 23 17
+fist 23 22
+
+[frame walk_right_1]
+r_legs_near_support 13 25
+r_body 11 19
+r_head 8 5
+r_bow_guard 23 16
+fist 23 21
+
+[frame walk_right_2]
+r_legs_far_fwd 12 26
+r_body 11 20
+r_head 8 6
+r_bow_guard 23 17
+fist 23 22
+
+[frame walk_right_3]
+r_legs_far_support 14 25
+r_body 11 19
+r_head 8 5
+r_bow_guard 23 16
+fist 23 21
+
+[frame walk_up_0]
+f_legs_step_l 12 26
+u_body 11 20
+u_off_hand 8 22
+u_bow_rest 20 17
+u_head 8 6
+u_hand 22 22
+
+[frame walk_up_1]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+u_bow_rest 20 16
+u_head 8 5
+u_hand 22 21
+
+[frame walk_up_2]
+f_legs_step_r 13 26
+u_body 11 20
+u_off_hand 8 22
+u_bow_rest 20 17
+u_head 8 6
+u_hand 22 22
+
+[frame walk_up_3]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+u_bow_rest 20 16
+u_head 8 5
+u_hand 22 21
+
+[frame attack_down_0]
+f_legs_stand 12 26
+d_bow_rest 8 17
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame attack_down_1]
+f_legs_step_l 12 26
+d_bow_rest 8 17
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 7
+
+[frame attack_down_2]
+f_legs_step_l 12 26
+d_bow_rest 8 17
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame attack_left_0]
+r_legs_stand_m 12 26
+r_body_m 12 20
+r_head_m 9 6
+r_bow_guard_m 6 17
+fist_m 8 22
+
+[frame attack_left_1]
+r_legs_near_fwd_m 11 26
+r_body_m 10 20
+r_head_m 7 6
+r_bow_guard_m 4 17
+fist_m 6 22
+
+[frame attack_left_2]
+r_legs_near_fwd_m 11 26
+r_body_m 11 20
+r_head_m 8 6
+r_bow_guard_m 5 17
+fist_m 7 22
+
+[frame attack_right_0]
+r_legs_stand 13 26
+r_body 10 20
+r_head 7 6
+r_bow_guard 22 17
+fist 22 22
+
+[frame attack_right_1]
+r_legs_near_fwd 12 26
+r_body 12 20
+r_head 9 6
+r_bow_guard 24 17
+fist 24 22
+
+[frame attack_right_2]
+r_legs_near_fwd 12 26
+r_body 11 20
+r_head 8 6
+r_bow_guard 23 17
+fist 23 22
+
+[frame attack_up_0]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+u_bow_rest 20 17
+u_head 8 6
+u_hand 22 22
+
+[frame attack_up_1]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+u_bow_rest 20 16
+u_head 8 5
+u_hand 22 21
+
+[frame attack_up_2]
+f_legs_step_l 12 26
+u_body 11 20
+u_off_hand 8 22
+u_bow_rest 20 17
+u_head 8 6
+u_hand 22 22
+
+[frame hurt_down_0]
+f_legs_stand 12 26
+d_bow_rest 7 17
+d_hand 7 22
+d_body 10 20
+d_off_hand 21 22
+d_head_hurt 7 6
+
+[frame hurt_down_1]
+f_legs_stand 12 26
+d_bow_rest 9 17
+d_hand 9 22
+d_body 12 20
+d_off_hand 23 22
+d_head_hurt 9 6
+
+[frame hurt_left_0]
+r_legs_stand_m 12 26
+r_body_m 12 19
+r_head_hurt_m 9 5
+r_bow_guard_m 6 16
+fist_m 8 21
+
+[frame hurt_left_1]
+r_legs_stand_m 12 26
+r_body_m 12 20
+r_head_hurt_m 9 6
+r_bow_guard_m 6 17
+fist_m 8 22
+
+[frame hurt_right_0]
+r_legs_stand 13 26
+r_body 10 19
+r_head_hurt 7 5
+r_bow_guard 22 16
+fist 22 21
+
+[frame hurt_right_1]
+r_legs_stand 13 26
+r_body 10 20
+r_head_hurt 7 6
+r_bow_guard 22 17
+fist 22 22
+
+[frame hurt_up_0]
+f_legs_stand 12 26
+u_body 10 20
+u_off_hand 7 22
+u_bow_rest 19 17
+u_head_hurt 7 6
+u_hand 21 22
+
+[frame hurt_up_1]
+f_legs_stand 12 26
+u_body 12 20
+u_off_hand 9 22
+u_bow_rest 21 17
+u_head_hurt 9 6
+u_hand 23 22
+
+[anim idle_down]
+idle_down_0 500
+idle_down_1 500
+
+[anim idle_left]
+idle_left_0 500
+idle_left_1 500
+
+[anim idle_right]
+idle_right_0 500
+idle_right_1 500
+
+[anim idle_up]
+idle_up_0 500
+idle_up_1 500
+
+[anim walk_down]
+walk_down_0 150
+walk_down_1 150
+walk_down_2 150
+walk_down_3 150
+
+[anim walk_left]
+walk_left_0 150
+walk_left_1 150
+walk_left_2 150
+walk_left_3 150
+
+[anim walk_right]
+walk_right_0 150
+walk_right_1 150
+walk_right_2 150
+walk_right_3 150
+
+[anim walk_up]
+walk_up_0 150
+walk_up_1 150
+walk_up_2 150
+walk_up_3 150
+
+[anim attack_down]
+attack_down_0 120
+attack_down_1 90
+attack_down_2 180
+
+[anim attack_left]
+attack_left_0 120
+attack_left_1 90
+attack_left_2 180
+
+[anim attack_right]
+attack_right_0 120
+attack_right_1 90
+attack_right_2 180
+
+[anim attack_up]
+attack_up_0 120
+attack_up_1 90
+attack_up_2 180
+
+[anim hurt_down]
+hurt_down_0 100
+hurt_down_1 200
+
+[anim hurt_left]
+hurt_left_0 100
+hurt_left_1 200
+
+[anim hurt_right]
+hurt_right_0 100
+hurt_right_1 200
+
+[anim hurt_up]
+hurt_up_0 100
+hurt_up_1 200

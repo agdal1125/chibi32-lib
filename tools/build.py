@@ -34,6 +34,32 @@ def save_gif(path, frames: list[Image.Image], durations: list[int]) -> None:
                    loop=0, transparency=0, disposal=2, optimize=False)
 
 
+def character_sheet(sprite: Sprite, rendered: dict[str, Image.Image], out) -> dict | None:
+    """One PNG with a row per direction and every animation side by side, plus a JSON map of its cells."""
+    rows = sprite.sheet_rows()
+    if not rows:
+        return None
+    w, h = sprite.size
+    cols = max(sum(len(seq) for _, seq in anims) for anims in rows.values())
+    sheet = Image.new("RGBA", (w * cols, h * len(rows)), (0, 0, 0, 0))
+    animations = {}
+    for r, (direction, anims) in enumerate(rows.items()):
+        c = 0
+        for anim, seq in anims:
+            animations[anim] = {"direction": direction, "row": r, "frames": []}
+            for name, ms in seq:
+                sheet.paste(rendered[name], (c * w, r * h))
+                animations[anim]["frames"].append({"name": name, "x": c * w, "y": r * h, "w": w, "h": h, "duration": ms})
+                c += 1
+    image, meta_file = f"{sprite.id}_sheet.png", f"{sprite.id}_sheet.json"
+    sheet.save(out / image)
+    meta = {"id": sprite.id, "image": image, "imageSize": {"w": sheet.width, "h": sheet.height},
+            "frameSize": {"w": w, "h": h}, "anchor": dict(zip("xy", sprite.anchor)),
+            "directions": list(rows), "animations": animations}
+    (out / meta_file).write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+    return {"image": image, "json": meta_file}
+
+
 def build_sprite(sprite: Sprite) -> dict:
     palette = sprite.palette()
     out = DIST / sprite.id
@@ -76,6 +102,8 @@ def build_sprite(sprite: Sprite) -> dict:
         animations.append({"name": anim, "sheet": sheet_file, "json": meta_file,
                            "gif": gif_file, "gifPreview": gif_big, "frames": frames})
 
+    sheet = character_sheet(sprite, rendered, out)
+
     credits = json.loads((sprite.path.parent / "credits.json").read_text(encoding="utf-8"))
     return {
         "id": sprite.id,
@@ -85,6 +113,7 @@ def build_sprite(sprite: Sprite) -> dict:
         "base": f"{sprite.id}_base.png",
         "stills": [f"{sprite.id}_{n}.png" for n in rendered],
         "animations": animations,
+        **({"sheet": sheet} if sheet else {}),
         "palette": [{"key": k, "hex": "#%02x%02x%02x" % rgb} for k, rgb in palette.colors.items()],
         "credits": credits,
     }

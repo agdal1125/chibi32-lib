@@ -1,21 +1,22 @@
 """kit32_more: the second hundred rpg specs (characters with varied poses, monsters, props).
 Imported by kit32 at the end of its module; registers into kit32.SPECS."""
+from drawkit import dotted, lumps
 from kit32 import (section, CROWN, HEAD, HEAD_ROUND, M, Recipe, bat, character, item, layer, meta, recolor, rows_of,
                    skeleton, slime, spec, still)
 
 # ---------------------------------------------------------------- new monster grids
 WOLF = """
-.......OOo......
-......OOOo..O...
-.OOOOOOOOOOOOo..
-OOOOOOOOOOOKOoo.
-OOOOOOOOOOOOooo.
-OOOOOOOOOOOOooMm
-oOOOOOOOOOOoooo.
-.ooOOOOOOOooo...
-..Oo.Oo..Oo.Oo..
-..Oo.Oo..Oo.Oo..
-..oo.oo..oo.oo..
+..............O..O..
+.............OOOOOo.
+oo...........OOOKOOK
+.oo..OOOOOOOOOOOOOoo
+..oOOOOOOOOOOOOOOo..
+..OOOOOOOOOOOOOooo..
+..OOOOOOOOOOOOOoo...
+..oOOOOoooooOOOo....
+..oOo.oo....Oo.oo...
+..Oo..oo....Oo.oo...
+..Oo..o.....Oo.o....
 """
 SNAKE = """
 ..........EEE...
@@ -252,7 +253,7 @@ CHAIR = "OOOOOo\nOo..Oo\nOo..Oo\nOOOOOo\nOOOOOo\nOo..Oo\nOo..Oo\noo..oo"
 STOOL = "OOOOOOOo\nooooooo.\n.Oo..Oo.\n.Oo..Oo.\n.oo..oo."
 CANDLE = ".Y.\nYAY\n.R.\nWWw\nWWw\nWWw\nWWw\nmMd\nmmd"
 BUCKET = "OOOOOOo\nOo...Oo\nmMMMMmd\nmMMMMmd\nmMMMMmd\nmmmmmdd\n.ddddd."
-HAY = "...GGGGGG...\n.GGYGGGGGGg.\nGGGGGGYGGGgg\nGGYGGGGGGGgg\nGGGGGGGGYGgg\n.ggggggggggg"
+HAY = lumps([(8, 7.5, 7.5, 7), (4, 9, 3.5, 3), (12, 9.5, 3.5, 2.6)], "YGg", (0.45, -0.15), floor=11)
 LOG = "..OOOOOOOOOOo\n.OOOOOOOOOOOo\nOmOOOOOOOOOOo\nOOoOOOOOOOOOo\n.ooooooooooo."
 STUMP = "..OOOOOOOO..\n.OOmmmmmmOo.\nOOmOOOOOOmOo\nOOmOOmmOOmOo\nOOmOOOOOOmOo\n.OOmmmmmmOoo\n.OOOOOOOOOoo\n.OOOOOOOOOoo\n..oooooooo.."
 MUSHROOMS = "...RRR......\n..RMRRr.RRR.\n..rrrrr.RMRr\n...SSs..rrrr\n...SSs...SSs\nRRR.SSs..SSs\nRMRr.......\nrrrr.......\n.SSs........"
@@ -275,7 +276,8 @@ oooooooooooooooooooooooooooo
 """
 LADDER = "Oo......Oo\nOOOOOOOOOo\nOo......Oo\nOo......Oo\nOOOOOOOOOo\nOo......Oo\nOo......Oo\nOOOOOOOOOo\nOo......Oo\nOo......Oo\nOOOOOOOOOo\noo......oo"
 VASE = "..LLLLb..\n...LLb...\n..LLLLb..\n.LLLBLLb.\nLLLBLBLLb\nLLLLBLLLb\nLLLLLLLbb\n.LLLLLbb.\n..bbbbb.."
-CAGE = ".DDDDDDDDDD.\nDDDDDDDDDDDD\nDD.D.DD.D.DD\nDD.D.DD.D.DD\nDD.D.DD.D.DD\nDD.D.DD.D.DD\nDD.D.DD.D.DD\nDD.D.DD.D.DD\nDDDDDDDDDDDD\nDDDDDDDDDDDD"
+CAGE = "\n".join(["....mMMd.....", "....M..d.....", "..dMMMMMmmd..", ".MMMMMMMmmmd."] + ["M.M.M.M.m.m.d"] * 8
+                 + ["MMMMMMMMmmmmd", "ddddddddddddD"])
 SPIKES = "M...M...M...M\nMm..Mm..Mm..Mm\nMm..Mm..Mm..Mm\nmmmmmmmmmmmmmm\ndddddddddddddd"
 PLATE = "mmmmmmmmmmmm\nmMMMMMMMMMmd\nmMMMMMMMMMmd\nmmmmmmmmmmdd\ndddddddddddd"
 LEVER = "......Oo..\n.....Oo...\n....Oo....\n...Oo.....\nmmMMMMmmd.\nmMMMMMMMmd\nmmmmmmmmdd"
@@ -285,9 +287,18 @@ BENCH = "OOOOOOOOOOOOOOOo\nooooooooooooooo.\n.Oo..........Oo.\n.Oo..........Oo.\
 WINDOW = "OOOOOOOOOOo\nOCCCCoCCCOo\nOCCCCoCCCOo\nOCCMCoCCCOo\nOoooooooooo\nOCCCCoCCCOo\nOCCCCoCCCOo\nOCCCCoCCCOo\nooooooooooo"
 TORCH_STAND = "....R....\n...RAR...\n...RAYAR.\n..RAYYAR.\n..RAAAr..\n...mMd...\n...mMd...\n...OOo...\n...OOo...\n...OOo...\n...OOo...\n...OOo...\n.mMMMMMd.\n.ddddddd."
 GRAVE_CROSS = "....OOo....\n....OOo....\n.OOOOOOOOo.\n.ooooooooo.\n....OOo....\n....OOo....\n....OOo....\n....OOo....\n..mmmmmmd..\n..dddddddd."
-SACK = "....Nn....\n...NNNn...\n..NNNNNn..\n.NNNNNNNn.\n.NNNNNNNn.\n.NNNNNNNn.\n..NNNNNn..\n...nnnnn.."
+SACK = lumps([(6, 8.5, 5.6, 5.2)], "ONn", (0.5, -0.1), under=(3, 0, "N..Nn.\n.NNNn.\n..GG.."), floor=12)
 POT_GOLD = "..DDDDDDDD..\n.DGYGGYGGGD.\n.DDDDDDDDDD.\nDDDDDDDDDDDD\nDDDDDDDDDDDD\nDDDDDDDDDDDD\n.DDDDDDDDDD.\n..DDDDDDDD.."
-CHEST_GOLD = "..GGGGGGGGGGGGGGg..\n.GGGGGGGGGGGGGGGGg.\nGGGGGGGGGGGGGGGGGgg\nGGGGGGGGGKKGGGGGGgg\nGGGGGGGGGgKgGGGGGgg\nGGGGGGGGGGGGGGGGGgg\nGGGGGGGGGGGGGGGGGgg\nGGGGGGGGGGGGGGGGGgg\n.gggggggggggggggggg"
+CHEST_GOLD = "\n".join(recolor(""".OOOOGgOOOOOOGgOOOo.
+OOOOOGgOOOOOOGgOOooo
+OOOOOGgOOOOOOGgOoooo
+GGGGGGGGGGGGGGGGgggg
+OOOOOGgOOGGOOGgOOooo
+OOOOOGgOGKKgOGgOOooo
+OOOOOGgOGgKgOGgOoooo
+OOOOOGgOOggOOGgOoooo
+oOOOOGgOOOOOOGgooooo
+oooooggooooooggooooo""", ("OoGg", "GgMm")))
 CRATES = "......OOOOOOOo\n......OoooooOo\n......OoOOOoOo\n......OoooooOo\nOOOOOOOOOOOOOo\nOoooooOoooooOo\nOoOOOoOoOOOoOo\nOoooooOoooooOo\nOOOOOOOOOOOOOo\noooooooooooooo"
 SIGN_ARROW = "OOOOOOOOOOOo..\nOhhhhhhhhhOOo.\nOOOOOOOOOOOOOo\nooooooooooooo.\n.....Oo.......\n.....Oo.......\n.....Oo.......\n.....oo......."
 WAGON_WHEEL = "...DDDD...\n..DMDDMD..\n.DDDMMDDD.\nDMDDMMDDMD\nDDMMMMMMDD\nDDMMMMMMDD\nDMDDMMDDMD\n.DDDMMDDD.\n..DMDDMD..\n...DDDD..."

@@ -1,0 +1,49 @@
+{
+  "id": "villager_m",
+  "animation": "attack_left",
+  "image": "villager_m_attack_left_sheet.png",
+  "imageSize": {
+    "w": 96,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/villager_m/villager_m.sprite",
+  "frames": [
+    {
+      "name": "attack_left_0",
+      "file": "villager_m_attack_left_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "attack_left_1",
+      "file": "villager_m_attack_left_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 90
+    },
+    {
+      "name": "attack_left_2",
+      "file": "villager_m_attack_left_2.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 180
+    }
+  ]
+}

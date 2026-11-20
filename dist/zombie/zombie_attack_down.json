@@ -1,0 +1,49 @@
+{
+  "id": "zombie",
+  "animation": "attack_down",
+  "image": "zombie_attack_down_sheet.png",
+  "imageSize": {
+    "w": 96,
+    "h": 32
+  },
+  "frameSize": {
+    "w": 32,
+    "h": 32
+  },
+  "anchor": {
+    "x": 16,
+    "y": 29
+  },
+  "loop": true,
+  "palette": "chibi32",
+  "source": "assets/zombie/zombie.sprite",
+  "frames": [
+    {
+      "name": "attack_down_0",
+      "file": "zombie_attack_down_0.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 120
+    },
+    {
+      "name": "attack_down_1",
+      "file": "zombie_attack_down_1.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 90
+    },
+    {
+      "name": "attack_down_2",
+      "file": "zombie_attack_down_2.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "duration": 180
+    }
+  ]
+}

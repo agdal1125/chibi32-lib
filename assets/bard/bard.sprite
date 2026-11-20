@@ -6,37 +6,11 @@ size = 32 32
 anchor = 16 29
 palette = ../../styles/chibi32/palette.txt
 
-[part legs_stand]
+[part r_legs_stand]
 Vv..Vv.
 Vv..Vv.
 NNN.NNN
 nnn.nnn
-
-[part legs_near_fwd]
-..vvVV...
-.vv...VV.
-nnn...NNN
-nn....nnn
-
-[part legs_near_support]
-.vvVV.
-.vvVV.
-nnnVV.
-nn.NNN
-...nnn
-
-[part legs_far_fwd]
-..VVvv...
-.VV...vv.
-NNN...nnn
-nn....nnn
-
-[part legs_far_support]
-vvVV.
-vvVV.
-vvNNN
-vvnnn
-nnn..
 
 [part hair_back]
 .PPPPPPPPPPPP.
@@ -47,7 +21,7 @@ PPPPPxxPPPPPPP
 .xxPPxxPPPPxx.
 ..xxxxxxxxxx..
 
-[part body]
+[part r_body]
 .VVVVVVVv.
 VVVVVVVVvv
 VVVVVVVVvv
@@ -55,7 +29,7 @@ NNNNGgNNNn
 VVVVVVVVvv
 .VVVVVVVv.
 
-[part head]
+[part r_head]
 .......P....P...
 ......PP...PP...
 ...P.PPP..PPP...
@@ -72,7 +46,7 @@ PPPPPPPPPPPPPPPP
 ....xsSSSSSSSs..
 ......sSSSSs....
 
-[part held_item]
+[part r_lute_guard]
 .OOo
 .OOo
 .Oo.
@@ -81,52 +55,746 @@ OGOo
 OOoo
 .ooo
 
-[part front_hand]
+[part fist]
 SS
 Ss
 
+[part r_legs_near_fwd]
+..vvVV...
+.vv...VV.
+nnn...NNN
+nn....nnn
+
+[part r_legs_near_support]
+.vvVV.
+.vvVV.
+nnnVV.
+nn.NNN
+...nnn
+
+[part r_legs_far_fwd]
+..VVvv...
+.VV...vv.
+NNN...nnn
+nn....nnn
+
+[part r_legs_far_support]
+vvVV.
+vvVV.
+vvNNN
+vvnnn
+nnn..
+
+[part r_head_hurt]
+.......P....P...
+......PP...PP...
+...P.PPP..PPP...
+...PPPPPPPPPPP..
+.PPPPPPPPPPPPPP.
+PPPPPPPPPPPPPPPP
+.PPPPPPPPPPPPPPP
+..PPPPPPPPPSPPP.
+.PPPPPxSSSxSSSx.
+..xPPxSSSSSSSSS.
+..xxPSSSSSSSSSS.
+...xxSSSKKSSKKS.
+...xxsSSpSSSSpS.
+....xsSSSSSSSs..
+......sSSSSs....
+
+[part f_legs_stand]
+.VV..Vv.
+.VV..Vv.
+NNN..NNn
+nnn..nnn
+
+[part d_lute_rest]
+.OOo
+.OOo
+.Oo.
+OOOo
+OGOo
+OOoo
+.ooo
+
+[part d_hand]
+SS
+Ss
+
+[part d_body]
+.VVVVVVVv.
+VVVVVVVVvv
+VVVVVVVVvv
+NNNNGgNNNn
+VVVVVVVVvv
+.VVVVVVVv.
+
+[part d_off_hand]
+SS
+Ss
+
+[part d_head]
+....P..P...P....
+...PP.PPP.PP....
+..PPPPPPPPPPP.P.
+.PPPPPPPPPPPPPP.
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPx
+PPPSPPSSPPSSPPxx
+.xPSSSSSSSSSSPx.
+.xSSSKSSSSKSSSx.
+.xSSSKSSSSKSSSx.
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+
+[part f_legs_step_l]
+.VV..Vv
+.VV..Nn
+NNN..nn
+nnn....
+
+[part f_legs_pass]
+.VV..Vv.
+.VV..Vv.
+.VV..Vv.
+NNN..NNn
+nnn..nnn
+
+[part f_legs_step_r]
+VV..Vv.
+NN..Vv.
+nn..NNn
+....nnn
+
+[part d_head_hurt]
+....P..P...P....
+...PP.PPP.PP....
+..PPPPPPPPPPP.P.
+.PPPPPPPPPPPPPP.
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPx
+PPPSPPSSPPSSPPxx
+.xPSSSSSSSSSSPx.
+.xSSSSSSSSSSSSx.
+.xSSKKSSSKKSSSx.
+..SpSSSSSSSSpS..
+..sSSSSSSSSSSs..
+....sSSSSSSs....
+
+[part u_body]
+.VVVVVVVv.
+VVVVVVVVvv
+VVVVVVVVvv
+NNNNNNNNNn
+VVVVVVVVvv
+.VVVVVVVv.
+
+[part u_off_hand]
+SS
+sS
+
+[part u_lute_rest]
+oOO.
+oOO.
+.oO.
+oOOO
+oOGO
+ooOO
+ooo.
+
+[part u_head]
+....P..P...P....
+...PP.PPP.PP....
+..PPPPPPPPPPP.P.
+.PPPPPPPPPPPPPP.
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPx
+.PPPPPPPPPPPPPx.
+.xPPPPxPPPPxPPx.
+.xxPPxxPPPxxPxx.
+..xxPxxxPxxxxx..
+..sxxxxxxxxxxs..
+....sSSSSSSs....
+
+[part u_hand]
+SS
+sS
+
+[part u_head_hurt]
+....P..P...P....
+...PP.PPP.PP....
+..PPPPPPPPPPP.P.
+.PPPPPPPPPPPPPP.
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPx
+.PPPPPPPPPPPPPx.
+.xPPPPxPPPPxPPx.
+.xxPPxxPPPxxPxx.
+..xxPxxxPxxxxx..
+..sxxxxxxxxxxs..
+....sSSSSSSs....
+
+[part r_legs_stand_m]
+.vV..vV
+.vV..vV
+NNN.NNN
+nnn.nnn
+
+[part hair_back_m]
+.PPPPPPPPPPPP.
+PPPPPPPxPPPPPP
+PPPPPPPxxPPPPP
+.PPPPPPxxPPPP.
+.xPPPPPxxPPPx.
+.xxPPPPxxPPxx.
+..xxxxxxxxxx..
+
+[part r_body_m]
+.vVVVVVVV.
+vvVVVVVVVV
+vvVVVVVVVV
+nNNNgGNNNN
+vvVVVVVVVV
+.vVVVVVVV.
+
+[part r_head_m]
+...P....P.......
+...PP...PP......
+...PPP..PPP.P...
+..PPPPPPPPPPP...
+.PPPPPPPPPPPPPP.
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPP.
+.PPPSPPPPPPPPP..
+.xSSSxSSSxPPPPP.
+.SSSSSSSSSxPPx..
+.SKSSSKSSSSPxx..
+.SKSSSKSSSSxx...
+.SpSSSSpSSsxx...
+..sSSSSSSSsx....
+....sSSSSs......
+
+[part r_lute_guard_m]
+oOO.
+oOO.
+.oO.
+oOOO
+oOGO
+ooOO
+ooo.
+
+[part fist_m]
+SS
+sS
+
+[part r_legs_near_fwd_m]
+...VVvv..
+.VV...vv.
+NNN...nnn
+nnn....nn
+
+[part r_legs_near_support_m]
+.VVvv.
+.VVvv.
+.VVnnn
+NNN.nn
+nnn...
+
+[part r_legs_far_fwd_m]
+...vvVV..
+.vv...VV.
+nnn...NNN
+nnn....nn
+
+[part r_legs_far_support_m]
+.VVvv
+.VVvv
+NNNvv
+nnnvv
+..nnn
+
+[part r_head_hurt_m]
+...P....P.......
+...PP...PP......
+...PPP..PPP.P...
+..PPPPPPPPPPP...
+.PPPPPPPPPPPPPP.
+PPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPP.
+.PPPSPPPPPPPPP..
+.xSSSxSSSxPPPPP.
+.SSSSSSSSSxPPx..
+.SSSSSSSSSSPxx..
+.SKKSSKKSSSxx...
+.SpSSSSpSSsxx...
+..sSSSSSSSsx....
+....sSSSSs......
+
 [frame base]
-legs_stand 13 26
+r_legs_stand 13 26
 hair_back 9 17
-body 11 20
-head 8 6
-held_item 22 22
-front_hand 23 22
+r_body 11 20
+r_head 8 6
+r_lute_guard 22 22
+fist 23 22
 
-[frame walk_0]
-legs_near_fwd 12 26
+[frame idle_down_0]
 hair_back 9 17
-body 11 20
-head 8 6
-held_item 22 22
-front_hand 23 22
+f_legs_stand 12 26
+d_lute_rest 7 22
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
 
-[frame walk_1]
-legs_near_support 13 25
+[frame idle_down_1]
+hair_back 9 17
+f_legs_stand 12 26
+d_lute_rest 7 22
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 7
+
+[frame idle_left_0]
+r_legs_stand_m 12 26
+hair_back_m 9 17
+r_body_m 11 20
+r_head_m 8 6
+r_lute_guard_m 6 22
+fist_m 7 22
+
+[frame idle_left_1]
+r_legs_stand_m 12 26
+hair_back_m 9 17
+r_body_m 11 20
+r_head_m 8 7
+r_lute_guard_m 6 22
+fist_m 7 22
+
+[frame idle_right_0]
+r_legs_stand 13 26
+hair_back 9 17
+r_body 11 20
+r_head 8 6
+r_lute_guard 22 22
+fist 23 22
+
+[frame idle_right_1]
+r_legs_stand 13 26
+hair_back 9 17
+r_body 11 20
+r_head 8 7
+r_lute_guard 22 22
+fist 23 22
+
+[frame idle_up_0]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+hair_back 9 17
+u_lute_rest 21 22
+u_head 8 6
+u_hand 22 22
+
+[frame idle_up_1]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+hair_back 9 17
+u_lute_rest 21 22
+u_head 8 7
+u_hand 22 22
+
+[frame walk_down_0]
+hair_back 9 17
+f_legs_step_l 12 26
+d_lute_rest 7 22
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame walk_down_1]
 hair_back 9 16
-body 11 19
-head 8 5
-held_item 22 21
-front_hand 23 21
+f_legs_pass 12 25
+d_lute_rest 7 21
+d_hand 8 21
+d_body 11 19
+d_off_hand 22 21
+d_head 8 5
 
-[frame walk_2]
-legs_far_fwd 12 26
+[frame walk_down_2]
 hair_back 9 17
-body 11 20
-head 8 6
-held_item 22 22
-front_hand 23 22
+f_legs_step_r 13 26
+d_lute_rest 7 22
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
 
-[frame walk_3]
-legs_far_support 14 25
+[frame walk_down_3]
 hair_back 9 16
-body 11 19
-head 8 5
-held_item 22 21
-front_hand 23 21
+f_legs_pass 12 25
+d_lute_rest 7 21
+d_hand 8 21
+d_body 11 19
+d_off_hand 22 21
+d_head 8 5
 
-[anim walk]
-walk_0 150
-walk_1 150
-walk_2 150
-walk_3 150
+[frame walk_left_0]
+r_legs_near_fwd_m 11 26
+hair_back_m 9 17
+r_body_m 11 20
+r_head_m 8 6
+r_lute_guard_m 6 22
+fist_m 7 22
+
+[frame walk_left_1]
+r_legs_near_support_m 13 25
+hair_back_m 9 16
+r_body_m 11 19
+r_head_m 8 5
+r_lute_guard_m 6 21
+fist_m 7 21
+
+[frame walk_left_2]
+r_legs_far_fwd_m 11 26
+hair_back_m 9 17
+r_body_m 11 20
+r_head_m 8 6
+r_lute_guard_m 6 22
+fist_m 7 22
+
+[frame walk_left_3]
+r_legs_far_support_m 13 25
+hair_back_m 9 16
+r_body_m 11 19
+r_head_m 8 5
+r_lute_guard_m 6 21
+fist_m 7 21
+
+[frame walk_right_0]
+r_legs_near_fwd 12 26
+hair_back 9 17
+r_body 11 20
+r_head 8 6
+r_lute_guard 22 22
+fist 23 22
+
+[frame walk_right_1]
+r_legs_near_support 13 25
+hair_back 9 16
+r_body 11 19
+r_head 8 5
+r_lute_guard 22 21
+fist 23 21
+
+[frame walk_right_2]
+r_legs_far_fwd 12 26
+hair_back 9 17
+r_body 11 20
+r_head 8 6
+r_lute_guard 22 22
+fist 23 22
+
+[frame walk_right_3]
+r_legs_far_support 14 25
+hair_back 9 16
+r_body 11 19
+r_head 8 5
+r_lute_guard 22 21
+fist 23 21
+
+[frame walk_up_0]
+f_legs_step_l 12 26
+u_body 11 20
+u_off_hand 8 22
+hair_back 9 17
+u_lute_rest 21 22
+u_head 8 6
+u_hand 22 22
+
+[frame walk_up_1]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+hair_back 9 16
+u_lute_rest 21 21
+u_head 8 5
+u_hand 22 21
+
+[frame walk_up_2]
+f_legs_step_r 13 26
+u_body 11 20
+u_off_hand 8 22
+hair_back 9 17
+u_lute_rest 21 22
+u_head 8 6
+u_hand 22 22
+
+[frame walk_up_3]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+hair_back 9 16
+u_lute_rest 21 21
+u_head 8 5
+u_hand 22 21
+
+[frame attack_down_0]
+hair_back 9 17
+f_legs_stand 12 26
+d_lute_rest 7 22
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame attack_down_1]
+hair_back 9 17
+f_legs_step_l 12 26
+d_lute_rest 7 22
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 7
+
+[frame attack_down_2]
+hair_back 9 17
+f_legs_step_l 12 26
+d_lute_rest 7 22
+d_hand 8 22
+d_body 11 20
+d_off_hand 22 22
+d_head 8 6
+
+[frame attack_left_0]
+r_legs_stand_m 12 26
+hair_back_m 10 17
+r_body_m 12 20
+r_head_m 9 6
+r_lute_guard_m 7 22
+fist_m 8 22
+
+[frame attack_left_1]
+r_legs_near_fwd_m 11 26
+hair_back_m 8 17
+r_body_m 10 20
+r_head_m 7 6
+r_lute_guard_m 5 22
+fist_m 6 22
+
+[frame attack_left_2]
+r_legs_near_fwd_m 11 26
+hair_back_m 9 17
+r_body_m 11 20
+r_head_m 8 6
+r_lute_guard_m 6 22
+fist_m 7 22
+
+[frame attack_right_0]
+r_legs_stand 13 26
+hair_back 8 17
+r_body 10 20
+r_head 7 6
+r_lute_guard 21 22
+fist 22 22
+
+[frame attack_right_1]
+r_legs_near_fwd 12 26
+hair_back 10 17
+r_body 12 20
+r_head 9 6
+r_lute_guard 23 22
+fist 24 22
+
+[frame attack_right_2]
+r_legs_near_fwd 12 26
+hair_back 9 17
+r_body 11 20
+r_head 8 6
+r_lute_guard 22 22
+fist 23 22
+
+[frame attack_up_0]
+f_legs_stand 12 26
+u_body 11 20
+u_off_hand 8 22
+hair_back 9 17
+u_lute_rest 21 22
+u_head 8 6
+u_hand 22 22
+
+[frame attack_up_1]
+f_legs_pass 12 25
+u_body 11 19
+u_off_hand 8 21
+hair_back 9 16
+u_lute_rest 21 21
+u_head 8 5
+u_hand 22 21
+
+[frame attack_up_2]
+f_legs_step_l 12 26
+u_body 11 20
+u_off_hand 8 22
+hair_back 9 17
+u_lute_rest 21 22
+u_head 8 6
+u_hand 22 22
+
+[frame hurt_down_0]
+hair_back 8 17
+f_legs_stand 12 26
+d_lute_rest 6 22
+d_hand 7 22
+d_body 10 20
+d_off_hand 21 22
+d_head_hurt 7 6
+
+[frame hurt_down_1]
+hair_back 10 17
+f_legs_stand 12 26
+d_lute_rest 8 22
+d_hand 9 22
+d_body 12 20
+d_off_hand 23 22
+d_head_hurt 9 6
+
+[frame hurt_left_0]
+r_legs_stand_m 12 26
+hair_back_m 10 16
+r_body_m 12 19
+r_head_hurt_m 9 5
+r_lute_guard_m 7 21
+fist_m 8 21
+
+[frame hurt_left_1]
+r_legs_stand_m 12 26
+hair_back_m 10 17
+r_body_m 12 20
+r_head_hurt_m 9 6
+r_lute_guard_m 7 22
+fist_m 8 22
+
+[frame hurt_right_0]
+r_legs_stand 13 26
+hair_back 8 16
+r_body 10 19
+r_head_hurt 7 5
+r_lute_guard 21 21
+fist 22 21
+
+[frame hurt_right_1]
+r_legs_stand 13 26
+hair_back 8 17
+r_body 10 20
+r_head_hurt 7 6
+r_lute_guard 21 22
+fist 22 22
+
+[frame hurt_up_0]
+f_legs_stand 12 26
+u_body 10 20
+u_off_hand 7 22
+hair_back 8 17
+u_lute_rest 20 22
+u_head_hurt 7 6
+u_hand 21 22
+
+[frame hurt_up_1]
+f_legs_stand 12 26
+u_body 12 20
+u_off_hand 9 22
+hair_back 10 17
+u_lute_rest 22 22
+u_head_hurt 9 6
+u_hand 23 22
+
+[anim idle_down]
+idle_down_0 500
+idle_down_1 500
+
+[anim idle_left]
+idle_left_0 500
+idle_left_1 500
+
+[anim idle_right]
+idle_right_0 500
+idle_right_1 500
+
+[anim idle_up]
+idle_up_0 500
+idle_up_1 500
+
+[anim walk_down]
+walk_down_0 150
+walk_down_1 150
+walk_down_2 150
+walk_down_3 150
+
+[anim walk_left]
+walk_left_0 150
+walk_left_1 150
+walk_left_2 150
+walk_left_3 150
+
+[anim walk_right]
+walk_right_0 150
+walk_right_1 150
+walk_right_2 150
+walk_right_3 150
+
+[anim walk_up]
+walk_up_0 150
+walk_up_1 150
+walk_up_2 150
+walk_up_3 150
+
+[anim attack_down]
+attack_down_0 120
+attack_down_1 90
+attack_down_2 180
+
+[anim attack_left]
+attack_left_0 120
+attack_left_1 90
+attack_left_2 180
+
+[anim attack_right]
+attack_right_0 120
+attack_right_1 90
+attack_right_2 180
+
+[anim attack_up]
+attack_up_0 120
+attack_up_1 90
+attack_up_2 180
+
+[anim hurt_down]
+hurt_down_0 100
+hurt_down_1 200
+
+[anim hurt_left]
+hurt_left_0 100
+hurt_left_1 200
+
+[anim hurt_right]
+hurt_right_0 100
+hurt_right_1 200
+
+[anim hurt_up]
+hurt_up_0 100
+hurt_up_1 200
