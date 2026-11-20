@@ -85,6 +85,12 @@ vvNNN
 vvnnn
 nnn..
 
+[part side_note]
+.V
+.V
+VV
+VV
+
 [part r_head_hurt]
 .......P....P...
 ......PP...PP...
@@ -169,6 +175,21 @@ NN..Vv.
 nn..NNn
 ....nnn
 
+[part d_lute_raise]
+.OOo
+.OOo
+.Oo.
+OOOo
+OGOo
+OOoo
+.ooo
+
+[part down_note]
+.V
+.V
+VV
+VV
+
 [part d_head_hurt]
 ....P..P...P....
 ...PP.PPP.PP....
@@ -227,6 +248,21 @@ PPPPPPPPPPPPPPPx
 [part u_hand]
 SS
 sS
+
+[part u_lute_raise]
+oOO.
+oOO.
+.oO.
+oOOO
+oOGO
+ooOO
+ooo.
+
+[part up_note]
+.V
+.V
+VV
+VV
 
 [part u_head_hurt]
 ....P..P...P....
@@ -323,6 +359,12 @@ nnn....nn
 NNNvv
 nnnvv
 ..nnn
+
+[part side_note_m]
+V.
+V.
+VV
+VV
 
 [part r_head_hurt_m]
 ...P....P.......
@@ -556,20 +598,21 @@ u_hand 22 21
 [frame attack_down_0]
 hair_back 9 17
 f_legs_stand 12 26
-d_lute_rest 7 22
-d_hand 8 22
+d_lute_raise 7 19
 d_body 11 20
 d_off_hand 22 22
 d_head 8 6
+d_hand 8 19
 
 [frame attack_down_1]
 hair_back 9 17
 f_legs_step_l 12 26
-d_lute_rest 7 22
-d_hand 8 22
+d_lute_raise 7 19
 d_body 11 20
 d_off_hand 22 22
 d_head 8 7
+d_hand 8 19
+down_note 4 12
 
 [frame attack_down_2]
 hair_back 9 17
@@ -579,6 +622,7 @@ d_hand 8 22
 d_body 11 20
 d_off_hand 22 22
 d_head 8 6
+down_note 3 8
 
 [frame attack_left_0]
 r_legs_stand_m 12 26
@@ -595,6 +639,7 @@ r_body_m 10 20
 r_head_m 7 6
 r_lute_guard_m 5 22
 fist_m 6 22
+side_note_m 5 11
 
 [frame attack_left_2]
 r_legs_near_fwd_m 11 26
@@ -603,6 +648,7 @@ r_body_m 11 20
 r_head_m 8 6
 r_lute_guard_m 6 22
 fist_m 7 22
+side_note_m 4 7
 
 [frame attack_right_0]
 r_legs_stand 13 26
@@ -619,6 +665,7 @@ r_body 12 20
 r_head 9 6
 r_lute_guard 23 22
 fist 24 22
+side_note 25 11
 
 [frame attack_right_2]
 r_legs_near_fwd 12 26
@@ -627,24 +674,26 @@ r_body 11 20
 r_head 8 6
 r_lute_guard 22 22
 fist 23 22
+side_note 26 7
 
 [frame attack_up_0]
 f_legs_stand 12 26
 u_body 11 20
 u_off_hand 8 22
 hair_back 9 17
-u_lute_rest 21 22
+u_lute_raise 21 19
 u_head 8 6
-u_hand 22 22
+u_hand 22 19
 
 [frame attack_up_1]
 f_legs_pass 12 25
 u_body 11 19
 u_off_hand 8 21
 hair_back 9 16
-u_lute_rest 21 21
+u_lute_raise 21 18
 u_head 8 5
-u_hand 22 21
+u_hand 22 18
+up_note 26 12
 
 [frame attack_up_2]
 f_legs_step_l 12 26
@@ -654,6 +703,7 @@ hair_back 9 17
 u_lute_rest 21 22
 u_head 8 6
 u_hand 22 22
+up_note 27 8
 
 [frame hurt_down_0]
 hair_back 8 17

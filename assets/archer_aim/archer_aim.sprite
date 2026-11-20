@@ -81,6 +81,9 @@ qqNNN
 qqnnn
 nnn..
 
+[part side_arrow]
+WOOOOM
+
 [part r_head_hurt]
 .......E....E...
 ......EE...EE...
@@ -170,6 +173,28 @@ NN..eq.
 nn..NNn
 ....nnn
 
+[part d_bow_raise]
+..O.
+.OoW
+Oo.W
+Oo.W
+Oo.W
+OO.W
+OO.W
+Oo.W
+Oo.W
+Oo.W
+.OoW
+..O.
+
+[part down_arrow]
+W
+O
+O
+O
+O
+M
+
 [part d_head_hurt]
 ....E..E...E....
 ...EE.EEE.EE....
@@ -233,6 +258,28 @@ EEeEEEeEEEeEeeeq
 [part u_hand]
 SS
 sS
+
+[part u_bow_raise]
+.O..
+WoO.
+W.oO
+W.oO
+W.oO
+W.OO
+W.OO
+W.oO
+W.oO
+W.oO
+WoO.
+.O..
+
+[part up_arrow]
+M
+O
+O
+O
+O
+W
 
 [part u_head_hurt]
 ....E..E...E....
@@ -325,6 +372,9 @@ nnn....nn
 NNNqq
 nnnqq
 ..nnn
+
+[part side_arrow_m]
+MOOOOW
 
 [part r_head_hurt_m]
 ...E....E.......
@@ -532,19 +582,21 @@ u_hand 22 21
 
 [frame attack_down_0]
 f_legs_stand 12 26
-d_bow_rest 8 17
-d_hand 8 22
+d_bow_raise 8 14
 d_body 11 20
 d_off_hand 22 22
 d_head 8 6
+d_hand 8 19
+down_arrow 6 19
 
 [frame attack_down_1]
 f_legs_step_l 12 26
-d_bow_rest 8 17
-d_hand 8 22
+d_bow_raise 8 14
 d_body 11 20
 d_off_hand 22 22
 d_head 8 7
+d_hand 8 19
+down_arrow 6 23
 
 [frame attack_down_2]
 f_legs_step_l 12 26
@@ -560,6 +612,7 @@ r_body_m 12 20
 r_head_m 9 6
 r_bow_guard_m 6 17
 fist_m 8 22
+side_arrow_m 7 22
 
 [frame attack_left_1]
 r_legs_near_fwd_m 11 26
@@ -567,6 +620,7 @@ r_body_m 10 20
 r_head_m 7 6
 r_bow_guard_m 4 17
 fist_m 6 22
+side_arrow_m 2 22
 
 [frame attack_left_2]
 r_legs_near_fwd_m 11 26
@@ -581,6 +635,7 @@ r_body 10 20
 r_head 7 6
 r_bow_guard 22 17
 fist 22 22
+side_arrow 19 22
 
 [frame attack_right_1]
 r_legs_near_fwd 12 26
@@ -588,6 +643,7 @@ r_body 12 20
 r_head 9 6
 r_bow_guard 24 17
 fist 24 22
+side_arrow 24 22
 
 [frame attack_right_2]
 r_legs_near_fwd 12 26
@@ -600,17 +656,19 @@ fist 23 22
 f_legs_stand 12 26
 u_body 11 20
 u_off_hand 8 22
-u_bow_rest 20 17
+u_bow_raise 20 14
 u_head 8 6
-u_hand 22 22
+u_hand 22 19
+up_arrow 25 12
 
 [frame attack_up_1]
 f_legs_pass 12 25
 u_body 11 19
 u_off_hand 8 21
-u_bow_rest 20 16
+u_bow_raise 20 13
 u_head 8 5
-u_hand 22 21
+u_hand 22 18
+up_arrow 25 6
 
 [frame attack_up_2]
 f_legs_step_l 12 26

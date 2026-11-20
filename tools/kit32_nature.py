@@ -194,7 +194,21 @@ RRRRWWWWRRRRWWWWRRRR
 .Oo..............Oo.
 .oo..............oo.
 """
-BARREL_APPLES = "..RR.RRR..\n.RRRRRRRR.\nmmmmmmmmmm\nOOOOOOOOoo\nOOOOOOOOoo\nmmmmmmmmmm\nOOOOOOOOoo\nOOOOOOOOoo\nmmmmmmmmmm\n.oooooooo."
+BARREL_APPLES = """
+...RR.RR...
+..RRRRRrR..
+.ORRrRRRro.
+mmmmmmmmmmd
+OONOONOOnoo
+OONOONOOnoo
+OONOONOOnoo
+mmmmmmmmmmd
+OONOONOOnoo
+OONOONOOnoo
+.mmmmmmmmd.
+.ONOONOOno.
+..ooooooo..
+"""
 FLOWER_BED = "P.R.Y.P.R.Y.P.\nPPRRYYPPRRYYPP\nEEEEEEEEEEEEEE\nOOOOOOOOOOOOOo\nnOOOOOOOOOOOOn\nnnnnnnnnnnnnnn"
 LAMP_STONE = "...YY...\n..mYYd..\n..mYYd..\n..mMMd..\n...Md...\n...Md...\n...Md...\n...Md...\n..mMMd..\n.mMMMMd.\n.dddddd."
 BIRDHOUSE = "...OOo...\n..OOOOo..\n.OOOOOOo.\nOOOOOOOOo\n.OOOKOOo.\n.OOOKOOo.\n.OOOOOOo.\n.ooooooo.\n....Oo...\n....Oo...\n....Oo...\n....Oo..."
@@ -202,19 +216,108 @@ BEEHIVE = "...GGGG...\n.GGGGGGGg.\nGgggggggGg\nGGGGGGGGGg\nGgggggggGg\nGGGGKGGGG
 NEST = "...CC.CC..\n..CCCCCCC.\nOOooOOooOo\nOOOOOOOOOo\n.oOOOOOOo.\n..oooooo.."
 COBWEB = "W.......W\n.W..W..W.\n..W.W.W..\n...WWW...\nWWWWWWWWW\n...WWW...\n..W.W.W..\n.W..W..W.\nW.......W"
 HANGING_SIGN = "nnnnnnnnnnnn\n.....Nn.....\n.OOOOOOOOOo.\n.OhhhhhhhOo.\n.OOOOOOOOOo.\n.OhhhhOOOOo.\n.ooooooooo.."
-WHEELBARROW = ".............Oo\n............Oo.\nOOOOOOOOOOOOo..\nOGGGGGGGGGOo...\n.OOOOOOOOOo....\n..DDD..oo......\n.DDMDD.........\n..DDD.........."
-FIREWOOD = "...OoOoOo...\n..OoOoOoOo..\n.OoOoOoOoOo.\nOoOoOoOoOoOo"
-TROUGH = "OOOOOOOOOOOOOo\nOCCCCCCCCCCCOo\nOCCCCCCCCCCCOo\nOOOOOOOOOOOOOo\n.Oo........Oo.\n.oo........oo."
-HITCHING = "Oo.........Oo\nOOOOOOOOOOOOo\nOo.........Oo\nOo.........Oo\nOo.........Oo\noo.........oo"
-MILESTONE = "..mMMMd..\n.mMMMMMd.\n.mMKMMMd.\n.mMMMMMd.\n.mMKKMMd.\n.mMMMMMd.\n.mMMMMMd.\nmmmmmmmdd"
-OBELISK = "....Y....\n...mMd...\n...mMd...\n...mMd...\n...mMd...\n..mMMMd..\n..mMMMd..\n..mMMMd..\n..mMMMd..\n..mMMMd..\n.mMMMMMd.\n.ddddddd."
+WHEELBARROW = """
+N................
+NN.OOOOOOOOOOOOo.
+.NNOOOOOOOOOOOo..
+..NNOOOOOOOOOo...
+...NNNNNNNNNo....
+...n......DDD....
+...n.....DDmDD...
+...n.....DmMmD...
+..nn.....DDmDD...
+..........DDD....
+"""
+FIREWOOD = """
+....SSn.SSn...
+...SOSnSOSn...
+...SSnnSSnn...
+..SSnnSSnnSSn.
+.SOSnSOSnSOSn.
+.SSnnSSnnSSnn.
+..nn..nn..nn..
+"""
+TROUGH = """
+OOOOOOOOOOOOOOOo
+OCCCCCCCCCCCCCNo
+OcCCWWCCCCCCCcNo
+NNNNNNNNNNNNNNNo
+NONNNNONNNNNONno
+oooooooooooooooo
+.No..........No.
+.no..........no.
+"""
+HITCHING = """
+.Oo.........Oo.
+OOOOOOOOOOOOOOo
+NNNNNNNNNNNNNNo
+.No..n......No.
+.No..n......No.
+.No.nnn.....No.
+.No.........No.
+.no.........no.
+"""
+MILESTONE = """
+..MMMmd..
+.MMMMmmd.
+.MMdMmmd.
+.MMMMmmd.
+.MddMmmd.
+.MMMMmmd.
+.MMMmmmd.
+EmmmmmddE
+"""
+OBELISK = """
+....Y....
+...MMd...
+...Mmd...
+..MMmdd..
+..MMmdd..
+..MCmdd..
+..MMmdd..
+..MCmdd..
+..MMmdd..
+.MMMmddd.
+.MMMmddd.
+MMMMmdddd
+ddddddddD
+"""
 RUNE_STONE = "...mmmm...\n..mMMMMmd.\n.mMMCMMmdd\n.mMCCCMmdd\n.mMMCMMmdd\n.mMMCMMmdd\n.mMCMCMmdd\n.mMMMMMmdd\n.mmmmmmddd\n..dddddd.."
 SHRINE = "......RRr......\n.RRRRRRRRRRRRr.\n..rrrrrrrrrrr..\n...Rr.....Rr...\n...Rr.....Rr...\n...Rr.YYY.Rr...\n...Rr.YGY.Rr...\n...Rr.YYY.Rr...\n..mmmmmmmmmmd..\n..dddddddddddd."
 WOOD_GATE = "OOOOOOOOOOOOOOo\nOo...........Oo\nOo...........Oo\nOo.OOOOOOOOO.Oo\nOo.OoOoOoOoO.Oo\nOo.OOOOOOOOO.Oo\nOo.OoOoOoOoO.Oo\nOo.OOOOOOOOO.Oo\noo.ooooooooo.oo"
 ARCH = "....mMMMMMMd....\n..mMMMMMMMMMMd..\n.mMMMmddddmMMMd.\nmMMMd......mMMMd\nmMMMd......mMMMd\nmMMMd......mMMMd\nmMMMd......mMMMd\nmMMMd......mMMMd\nmMMMd......mMMMd\nmmmmd......dmmmd"
-BROKEN_PILLAR = "..mMMd.M..\n..mMMMd...\n..mMMMMd..\n..mMMMMd..\n..mMMMMd..\n..mMMMMd..\n.mMMMMMMd.\n.mmmmmmmd."
-RUIN_WALL = "mMMMd.........\nmMMMMMd.......\nmMMMMMMMMd....\nmMMMMMMMMMMd..\nmMMMMMMMMMMMMd\nmMMMMMMMMMMMMd\nmmmmmmmmmmmmmd"
-GRAVE_MOUND = "....OOOO....\n..OOOOOOOO..\n.OOOOOOOOOo.\nOOOOOOOOOOoo\noooooooooooo"
+BROKEN_PILLAR = """
+..M...m...
+..MMm.md..
+..MMMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+.MMMMmmdd.
+MMMMMmmmdd
+dddddddddd
+"""
+RUIN_WALL = """
+MMMm............
+MMMmMMm.........
+ddddddd.MM......
+MmMMMmMMMMm.....
+MmMMMmMMMmMMm...
+dddddddddddddd..
+MMMmMMMmMMMmMMMd
+MMMmMMEmMMMmMMMd
+dddddddddddddddd
+EmMMMmMMMmMMMmdd
+"""
+GRAVE_MOUND = """
+.....OOOO.....
+...OOOOOOOo...
+..OOONOOOOOoo.
+.OOOOOOONOOooo
+OONOOOOOOOoooo
+oooooooooooonn
+"""
 TOTEM = "..RRRRr..\n.RRKRKRr.\n.RRRRRRr.\n.RRKKKRr.\n..YYYYG..\n.YYKYKYG.\n.YYYYYYG.\n.YYKKKYG.\n..LLLLb..\n.LLKLKLb.\n.LLLLLLb.\n.LLKKKLb.\n.nnnnnnn."
 FIRE_RING = "..mm.mm.mm..\n.mMMMMMMMMd.\nmMMnnnnnnMMd\nmMMnOoOonMMd\nmMMnnnnnnMMd\n.mmmmmmmmmd.\n..dd.dd.dd.."
 STONE_CIRCLE = "...mMd....mMd...\n...mMd....mMd...\n...mMd....mMd...\nmMd.........mMd.\nmMd.........mMd.\nmMd.........mMd.\n...mMd....mMd...\n...mMd....mMd...\n...dddd...dddd.."

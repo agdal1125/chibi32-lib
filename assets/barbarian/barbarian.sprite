@@ -91,6 +91,37 @@ NNNNN
 NNnnn
 nnn..
 
+[part r_axe_thrust]
+......WWWWWWW.
+......MMMMMMM.
+.......MMMMM..
+........MMM...
+........MMM...
+oOOOOOOOMGMMMG
+ooOOoooomgmmmg
+........mmm...
+........mmm...
+.......mmmmm..
+......mmmmmmm.
+......ddddddd.
+
+[part r_axe_low]
+......WW......
+......MMWW....
+oO.....MMMWW..
+ooOO....MMMMW.
+..OOOO..MMMMM.
+....ooOOMMM...
+......ooMGM...
+........mgMM..
+........mmmmMG
+.......mmmm.mg
+......mmmmm...
+......ddmmmm..
+........ddmm..
+..........ddm.
+............d.
+
 [part r_head_hurt]
 .......R....R...
 ......RR...RR...
@@ -182,6 +213,53 @@ NN..oN.
 nn..NNn
 ....nnn
 
+[part d_axe_raise]
+.....Gg.....
+WM...Mm...md
+WMM..Mm..mmd
+WMMMMMmmmmmd
+WMMMMGgmmmmd
+WMMMMMmmmmmd
+WMM..Oo..mmd
+WM...Oo...md
+.....Oo.....
+.....Oo.....
+.....OO.....
+.....OO.....
+.....Oo.....
+.....oo.....
+
+[part d_axe_strike]
+......WWWWWWW.
+......MMMMMMM.
+.......MMMMM..
+........MMM...
+........MMM...
+oOOOOOOOMGMMMG
+ooOOoooomgmmmg
+........mmm...
+........mmm...
+.......mmmmm..
+......mmmmmmm.
+......ddddddd.
+
+[part d_axe_low]
+......WW......
+......MMWW....
+oO.....MMMWW..
+ooOO....MMMMW.
+..OOOO..MMMMM.
+....ooOOMMM...
+......ooMGM...
+........mgMM..
+........mmmmMG
+.......mmmm.mg
+......mmmmm...
+......ddmmmm..
+........ddmm..
+..........ddm.
+............d.
+
 [part d_head_hurt]
 ....R..R...R....
 ...RR.RRR.RR....
@@ -247,6 +325,54 @@ RRARRRARRRARAAAa
 [part u_hand]
 SS
 sS
+
+[part u_axe_raise]
+.....gG.....
+dm...mM...MW
+dmm..mM..MMW
+dmmmmmMMMMMW
+dmmmmgGMMMMW
+dmmmmmMMMMMW
+dmm..oO..MMW
+dm...oO...MW
+.....oO.....
+.....oO.....
+.....OO.....
+.....OO.....
+.....oO.....
+.....oo.....
+
+[part u_axe_strike]
+.....gG.....
+dm...mM...MW
+dmm..mM..MMW
+dmmmmmMMMMMW
+dmmmmgGMMMMW
+dmmmmmMMMMMW
+dmm..oO..MMW
+dm...oO...MW
+.....oO.....
+.....oO.....
+.....OO.....
+.....OO.....
+.....oO.....
+.....oo.....
+
+[part u_axe_low]
+.....gG.....
+dm...mM...MW
+dmm..mM..MMW
+dmmmmmMMMMMW
+dmmmmgGMMMMW
+dmmmmmMMMMMW
+dmm..oO..MMW
+dm...oO...MW
+.....oO.....
+.....oO.....
+.....OO.....
+.....OO.....
+.....oO.....
+.....oo.....
 
 [part u_head_hurt]
 ....R..R...R....
@@ -349,6 +475,37 @@ nnn....nn
 NNNNN
 nnnNN
 ..nnn
+
+[part r_axe_thrust_m]
+.WWWWWWW......
+.MMMMMMM......
+..MMMMM.......
+...MMM........
+...MMM........
+GMMMGMOOOOOOOo
+gmmmgmooooOOoo
+...mmm........
+...mmm........
+..mmmmm.......
+.mmmmmmm......
+.ddddddd......
+
+[part r_axe_low_m]
+......WW......
+....WWMM......
+..WWMMM.....Oo
+.WMMMM....OOoo
+.MMMMM..OOOO..
+...MMMOOoo....
+...MGMoo......
+..MMgm........
+GMmmmm........
+gm.mmmm.......
+...mmmmm......
+..mmmmdd......
+..mmdd........
+.mdd..........
+.d............
 
 [part r_head_hurt_m]
 ...R....R.......
@@ -556,93 +713,93 @@ u_hand 22 21
 
 [frame attack_down_0]
 f_legs_stand 12 26
-d_axe_rest 3 12
-d_hand 8 22
+d_axe_raise 3 9
 d_body 11 20
 d_off_hand 22 22
 d_head 8 6
+d_hand 8 19
 
 [frame attack_down_1]
 f_legs_step_l 12 26
-d_axe_rest 3 12
-d_hand 8 22
 d_body 11 20
 d_off_hand 22 22
+d_axe_strike 10 17
 d_head 8 7
+d_hand 12 22
 
 [frame attack_down_2]
 f_legs_step_l 12 26
-d_axe_rest 3 12
-d_hand 8 22
 d_body 11 20
 d_off_hand 22 22
+d_axe_low 11 14
 d_head 8 6
+d_hand 13 17
 
 [frame attack_left_0]
 r_legs_stand_m 12 26
-r_body_m 12 20
-r_axe_raise_m 7 3
-r_head_m 9 6
-fist_m 9 22
-
-[frame attack_left_1]
-r_legs_near_fwd_m 11 26
-r_body_m 10 20
-r_axe_raise_m 5 3
-r_head_m 7 6
-fist_m 7 22
-
-[frame attack_left_2]
-r_legs_near_fwd_m 11 26
 r_body_m 11 20
 r_axe_raise_m 6 3
 r_head_m 8 6
 fist_m 8 22
 
+[frame attack_left_1]
+r_legs_near_fwd_m 11 26
+r_body_m 10 20
+r_head_m 7 6
+r_axe_thrust_m 2 17
+fist_m 12 22
+
+[frame attack_left_2]
+r_legs_near_fwd_m 11 26
+r_body_m 11 20
+r_head_m 8 6
+r_axe_low_m 3 14
+fist_m 13 17
+
 [frame attack_right_0]
 r_legs_stand 13 26
-r_body 10 20
-r_axe_raise 2 3
-r_head 7 6
-fist 21 22
-
-[frame attack_right_1]
-r_legs_near_fwd 12 26
-r_body 12 20
-r_axe_raise 4 3
-r_head 9 6
-fist 23 22
-
-[frame attack_right_2]
-r_legs_near_fwd 12 26
 r_body 11 20
 r_axe_raise 3 3
 r_head 8 6
 fist 22 22
 
+[frame attack_right_1]
+r_legs_near_fwd 12 26
+r_body 12 20
+r_head 9 6
+r_axe_thrust 16 17
+fist 18 22
+
+[frame attack_right_2]
+r_legs_near_fwd 12 26
+r_body 11 20
+r_head 8 6
+r_axe_low 15 14
+fist 17 17
+
 [frame attack_up_0]
 f_legs_stand 12 26
 u_body 11 20
 u_off_hand 8 22
-u_axe_rest 17 12
+u_axe_raise 17 9
 u_head 8 6
-u_hand 22 22
+u_hand 22 19
 
 [frame attack_up_1]
 f_legs_pass 12 25
 u_body 11 19
 u_off_hand 8 21
-u_axe_rest 17 11
+u_axe_strike 17 6
 u_head 8 5
-u_hand 22 21
+u_hand 22 16
 
 [frame attack_up_2]
 f_legs_step_l 12 26
 u_body 11 20
 u_off_hand 8 22
-u_axe_rest 17 12
+u_axe_low 17 11
 u_head 8 6
-u_hand 22 22
+u_hand 22 21
 
 [frame hurt_down_0]
 f_legs_stand 12 26

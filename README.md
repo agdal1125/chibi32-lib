@@ -42,6 +42,8 @@ The full list with every id, title and description is in [docs/catalog.md](docs/
 | `attack_<dir>` | 3 | Wind-up, strike, follow-through. Play once, then return to idle |
 | `hurt_<dir>` | 2 | Recoil with closed eyes. Play once |
 
+Axes swing like every other weapon. Things that are not thrust act in their own way: a bow looses an arrow, a lute plays a note, and a lantern or bag is swung forward.
+
 `<dir>` is `down`, `left`, `right` or `up`. `left` is `right` mirrored. `<id>_base.png` is the right-facing portrait pose shown in the gallery: rest, raise, thrust, guard or low, depending on the character.
 
 ### Monsters

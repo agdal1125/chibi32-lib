@@ -89,27 +89,29 @@ p..mdd...mdd....
 .pp.............
 """
 CRAB = """
-.R........R.
-RRr......RRr
-RRr......RRr
-.Rr.RRRR.Rr.
-..RRRRRRRR..
-..RRKRRKRRr.
-.RRRRRRRRRRr
-..rRRRRRRrr.
-.Rr.Rr.Rr.Rr
+.Rr..........Rr.
+RR.R..W..W..RR.R
+RRRr..K..K..RRRr
+.Rr.RRRRRRRR.Rr.
+..RRRRRRRRRRRr..
+..RRRRrRRrRRRr..
+.RRRRRRRRRRRRrr.
+..rRRRRRRRRrrr..
+.Rr.Rr....Rr.Rr.
+R..R........R..R
 """
 BEE = """
-...WW..WW...
-..WwW..WwW..
-...WYYYYW...
-..YYKYYKYY..
-.YYYYYYYYYG.
-.YDDYYDDYYG.
-.YYYYYYYYYG.
-..DDYYDDYG..
-...YYYYYG...
-.....YG.....
+..WWW....WWW..
+.WCCWW..WWCCW.
+.WWCCWYYWCCWW.
+..WWYYYYYYWW..
+..YYYKYYKYYG..
+.YYYYYYYYYYYG.
+.DDDDDDDDDDDg.
+.YYYYYYYYYYYG.
+..DDDDDDDDDg..
+...YYYYYYYG...
+......DD......
 """
 FROG = """
 ..EEE.....EEE...
@@ -179,27 +181,29 @@ SCORPION = """
 ..a.a.a.a.a..A.AA.
 """
 WORM = """
-.....PPP..........
-....PKPKP.........
-....PPPPP.........
-....PPPPp.........
-....PPPPp.....PPP.
-....PPPPpPPPPPPPPp
-....PPPPPPPPPPPPPp
-.....PPPPPPpppppp.
-......pppppp......
+..........PPPP..
+.........PPPPPP.
+.........PKPPKP.
+.........PPPPPx.
+..PPP....PPPPPx.
+.PPPPPxPPPPPPx..
+PPPxPPPxPPPxPx..
+PPPPxPPPxPPPx...
+.xxxxxxxxxxx....
 """
 OWL = """
-...OOo..OOo...
-..OOOOOOOOOo..
-.OOYKOOOOYKOo.
-.OOKYOOOOKYOo.
-.OOOOOGOOOOOo.
-.OOSSSSSSSSOo.
-.OOSSSSSSSSoo.
-.OOOSSSSSSOoo.
-..OOOOOOOOoo..
-...GG....GG...
+.O..........O.
+.OOOOOOOOOOOo.
+OOYYYOOOOYYYOo
+OOYKYOAAOYKYOo
+OOYYYOAAOYYYOo
+NOOOOOOOOOOOon
+NOSSoSSoSSoOon
+NOoSSoSSoSSOon
+NNSSoSSoSSoOnn
+.NOoSSoSSOOnn.
+..NOOOOOOonn..
+...AA....AA...
 """
 JELLY = """
 ....VVVVVV....
@@ -281,7 +285,17 @@ STOOL = """
 ..no..no..
 """
 CANDLE = ".Y.\nYAY\n.R.\nWWw\nWWw\nWWw\nWWw\nmMd\nmmd"
-BUCKET = "OOOOOOo\nOo...Oo\nmMMMMmd\nmMMMMmd\nmMMMMmd\nmmmmmdd\n.ddddd."
+BUCKET = """
+..nnnnn..
+.n.....n.
+mMMMMMMMd
+mCCCCCCcd
+mMMmmmmdd
+.MMmmmdd.
+.ddddddd.
+.mMmmmdd.
+..ddddd..
+"""
 HAY = lumps([(8, 7.5, 7.5, 7), (4, 9, 3.5, 3), (12, 9.5, 3.5, 2.6)], "YGg", (0.45, -0.15), floor=11)
 LOG = """
 ..SSNNNNNNNNNNn.
@@ -307,8 +321,36 @@ NNnNNNNNnnnnnn
 MUSHROOMS = "...RRR......\n..RMRRr.RRR.\n..rrrrr.RMRr\n...SSs..rrrr\n...SSs...SSs\nRRR.SSs..SSs\nRMRr.......\nrrrr.......\n.SSs........"
 PUMPKIN = "......Eq......\n.....Ee.......\n..AAAAAAAAAA..\n.AAYAAAAAAAAa.\nAAYAAAAAAAAAaa\nAAAAAAAAAAAAaa\nAAAAAAAAAAAAaa\n.AAAAAAAAAAaa.\n..aaaaaaaaaa.."
 JACK = "......Eq......\n.....Ee.......\n..AAAAAAAAAA..\n.AAYAAAAAAAAa.\nAAYKKAAAAKKAaa\nAAAAKAAAAKAAaa\nAAAKAAAAAAKAaa\n.AAAKKKKKKAaa.\n..aaaaaaaaaa.."
-CACTUS = "....EEe.....\n....EEe..Ee.\nEe..EEe..Ee.\nEe..EEe..Ee.\nEEEEEEe..Ee.\n.eeeEEEEEEe.\n....EEeeee..\n....EEe.....\n....EEe.....\n....EEe.....\n....eee....."
-DEAD_TREE = "..Oo......Oo..\n...Oo....Oo...\n....Oo..Oo....\n.....OoOo.....\n......OOo.....\n......OOo..Oo.\n......OOo.Oo..\n......OOoOo...\n......OOOo....\n......OOo.....\n......OOo.....\n.....oOOoo...."
+CACTUS = """
+.....PE......
+....EEeq.....
+....EEeq..Ee.
+Ee..EEeq.EEeq
+EEe.EEeq.EEeq
+EEe.EEeq.EEeq
+EEeEEEeq.EEeq
+.EEEEEeEEEEq.
+..eeEEeeeeq..
+....EEeq.....
+....EEeq.....
+....EEeq.....
+....eeqq.....
+"""
+DEAD_TREE = """
+..No........No..
+...No......No...
+....No.No.No....
+.....NoNoNo.....
+......ONNo...No.
+......ONNo..No..
+......ONNoNNo...
+......OKNNNo....
+......OKNNo.....
+......ONNNo.....
+......ONNNo.....
+.....OONNNoo....
+....OO.NNo.oo...
+"""
 SNOWMAN = ".....OOo.....\n.....OOo.....\n...WWWWWWw...\n..WWKWWWKWw..\n..WWWWAAAWw..\n...WWWWWWw...\n.OOWWWWWWwOo.\n..oWWKWWWwo..\n.WWWWWWWWWWw.\nWWWWWKWWWWWww\nWWWWWWWWWWWww\n.WWWWWWWWWww.\n..wwwwwwwww.."
 BRAZIER = ".....R......\n....RAR.....\n...RAYAR....\n...RAYYAR...\n..RAAYAAr...\n...RAAAr....\nmMMMMMMMMMd.\n.mmmmmmmmmd.\n....mMMd....\n....mMMd....\n..mMMMMMMd..\n..dddddddd.."
 ALTAR = "....mMMMMMMd....\n...mMMMMMMMMd...\n..mMMMMYMMMMMd..\n..mMMMYYYMMMMd..\n..mMMMMYMMMMMd..\n...mMMMMMMMMd...\n.mMMMMMMMMMMMMd.\nmMMMMMMMMMMMMMMd\nmmmmmmmmmmmmmmdd"
@@ -322,15 +364,58 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOO
 nOnOnOnOnOnOnOnOnOnOnOnOnOnO
 oooooooooooooooooooooooooooo
 """
-LADDER = "Oo......Oo\nOOOOOOOOOo\nOo......Oo\nOo......Oo\nOOOOOOOOOo\nOo......Oo\nOo......Oo\nOOOOOOOOOo\nOo......Oo\nOo......Oo\nOOOOOOOOOo\noo......oo"
+LADDER = """
+Oo......No
+OOOOOOOONo
+Oonnnnnnno
+Oo......No
+OOOOOOOONo
+Oonnnnnnno
+Oo......No
+OOOOOOOONo
+Oonnnnnnno
+Oo......No
+OOOOOOOONo
+Oonnnnnnno
+Oo......No
+oo......no
+"""
 VASE = "..LLLLb..\n...LLb...\n..LLLLb..\n.LLLBLLb.\nLLLBLBLLb\nLLLLBLLLb\nLLLLLLLbb\n.LLLLLbb.\n..bbbbb.."
 CAGE = "\n".join(["....mMMd.....", "....M..d.....", "..dMMMMMmmd..", ".MMMMMMMmmmd."] + ["M.M.M.M.m.m.d"] * 8
                  + ["MMMMMMMMmmmmd", "ddddddddddddD"])
 SPIKES = "M...M...M...M\nMm..Mm..Mm..Mm\nMm..Mm..Mm..Mm\nmmmmmmmmmmmmmm\ndddddddddddddd"
-PLATE = "mmmmmmmmmmmm\nmMMMMMMMMMmd\nmMMMMMMMMMmd\nmmmmmmmmmmdd\ndddddddddddd"
-LEVER = "......Oo..\n.....Oo...\n....Oo....\n...Oo.....\nmmMMMMmmd.\nmMMMMMMMmd\nmmmmmmmmdd"
+PLATE = """
+.mmmmmmmmmmmm.
+mMMMMMMMMMMMmd
+mMmRRRRRRrmMmd
+mMmrrrrrrrmMdd
+mmmmmmmmmmmmdd
+.dddddddddddd.
+"""
+LEVER = """
+.......RR..
+.......Rr..
+......No...
+.....No....
+....No.....
+.mMMNoMMd..
+mMMMMMMMmd.
+mmmmmmmmdd.
+"""
 BANNER = "GGGGGGGGGGg\nRRRRRRRRRrg\nRRRRRRRRRr.\nRRRYYYRRRr.\nRRYYYYYRRr.\nRRRYYYRRRr.\nRRRRRRRRRr.\nRRRRRRRRRr.\nRRRrRRrRRr.\nRRr.RRr.Rr."
-BELL = "....GG....\n...GGGg...\n..GGGGGg..\n..GYGGGg..\n.GGYGGGGg.\n.GGGGGGGg.\nGGGGGGGGGg\nggggggggg.\n....Gg...."
+BELL = """
+....NN.....
+....GG.....
+...GYGg....
+..GYGGGg...
+..GYGGGg...
+..GYGGGgg..
+.GGYGGGGg..
+.GGGGGGGgg.
+GGGGGGGGGgg
+ggggggggggg
+....Dd.....
+"""
 BENCH = """
 OOOOOOOOOOOOOOOOOOOO
 NNNNNNNNNNNNNNNNNNNo
@@ -357,7 +442,18 @@ OOOOOGgOOggOOGgOoooo
 oOOOOGgOOOOOOGgooooo
 oooooggooooooggooooo""", ("OoGg", "GgMm")))
 CRATES = "......OOOOOOOo\n......OoooooOo\n......OoOOOoOo\n......OoooooOo\nOOOOOOOOOOOOOo\nOoooooOoooooOo\nOoOOOoOoOOOoOo\nOoooooOoooooOo\nOOOOOOOOOOOOOo\noooooooooooooo"
-SIGN_ARROW = "OOOOOOOOOOOo..\nOhhhhhhhhhOOo.\nOOOOOOOOOOOOOo\nooooooooooooo.\n.....Oo.......\n.....Oo.......\n.....Oo.......\n.....oo......."
+SIGN_ARROW = """
+.OOOOOOOOOOO...
+OOOOOOOOOOOOO..
+OOnnnnnnnOOOOOO
+NNNNNNNNNNNNN..
+.ooooooooooo...
+.....No........
+.....No........
+.....No........
+.....No........
+....nNoo.......
+"""
 WAGON_WHEEL = "...DDDD...\n..DMDDMD..\n.DDDMMDDD.\nDMDDMMDDMD\nDDMMMMMMDD\nDDMMMMMMDD\nDMDDMMDDMD\n.DDDMMDDD.\n..DMDDMD..\n...DDDD..."
 
 # ---------------------------------------------------------------- characters with poses (45)

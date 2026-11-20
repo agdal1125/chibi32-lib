@@ -277,17 +277,19 @@ BOOTS = "NNNn..\nNNNn..\nNNNn..\nNNNNNn\nnnnnnn"
 CHESTPLATE = ".MMMMMMMm.\nMMMMMMMMmm\nMMMMMMMMmm\n.MMMMMMmm.\n.MMMGMMmm.\n.mmmmmmmm."
 HELMET_ITEM = "...MMMM...\n.MMMMMMMm.\nMMMMMMMMmm\nMMMMMMMmmm\nMMMMMMmmmd\nMM.mmmd.dd"
 BARREL = """
-.OOOOOOOOo.
-mmmmmmmmmmm
-OOOOOOOOOoo
-OOOOOOOOOoo
-mmmmmmmmmmm
-OOOOOOOOOoo
-OOOOOOOOOoo
-OOOOOOOOOoo
-mmmmmmmmmmm
-OOOOOOOOOoo
-.ooooooooo.
+..OOOOOOO..
+.OONNNNNOo.
+.NOOOOOOOo.
+mmmmmmmmmmd
+OONOONOOnoo
+OONOONOOnoo
+OONOONOOnoo
+mmmmmmmmmmd
+OONOONOOnoo
+OONOONOOnoo
+.mmmmmmmmd.
+.ONOONOOno.
+..ooooooo..
 """
 CRATE = """
 OOOOOOOOOOOOOo
@@ -303,7 +305,21 @@ OnnnnnnnnnnnOo
 OOOOOOOOOOOOOo
 oooooooooooooo
 """
-SIGN = "OOOOOOOOOOOOOo\nOhhhhhhhhhhhOo\nOOOOOOOOOOOOOo\nOhhhhhhhhOOOOo\nOOOOOOOOOOOOOo\nooooooooooooo.\n......Oo......\n......Oo......\n......Oo......\n......Oo......\n......oo......"
+SIGN = """
+.OOOOOOOOOOOO.
+OOOOOOOOOOOOOo
+OOnnnnnnnnOOOo
+OOOOOOOOOOOOOo
+OOnnnnnnOOOOOo
+OOOOOOOOOOOOOo
+NNNNNNNNNNNNNo
+.oooooooooooo.
+......No......
+......No......
+......No......
+......No......
+.....nNoo.....
+"""
 TOMB = "..mmmmm..\n.mMMMMMd.\nmMMMMMMMd\nmMMKMMMMd\nmMKKKMMMd\nmMMKMMMMd\nmMMKMMMMd\nmMMMMMMMd\nmMMMMMMMd\nddddddddd"
 FIRE_LOGS = "oOOOOOOOOOOo\nnOOOOOOOOOon\nnnnnnnnnnnnn"
 FIRE_0 = "....R....\n...RR....\n...RAR...\n..RAYAR..\n..RAYYAR.\n.RAYYYAR.\n.RAAYAAr.\n..RAAAr..\n...RRr..."
@@ -336,8 +352,27 @@ EEeEEEeEEeeeqeqqq
 ROCK = lumps([(7, 5.5, 6.5, 5), (4, 7, 4, 3.2), (10.5, 7.2, 3.5, 2.8)], "Mmd", (0.35, -0.2), floor=8)
 CRYSTAL = "....C.......\n...CCc..C...\n...CCc.CCc..\n..CCCc.CCc..\n..CCCcCCCcc.\n.CCCCcCCCcc.\n.CCCccCCccc.\nmCCCccCCcccd\nmmmmmmmmmmdd"
 CAULDRON = "..DD......DD..\n.DDDDDDDDDDDD.\n..DEEEEEEEED..\n.DDDDDDDDDDDD.\nDDDDDDDDDDDDDD\nDDDDDDDDDDDDDD\nDDDDDDDDDDDDDD\n.DDDDDDDDDDDD.\n..DDDDDDDDDD..\n..DD......DD.."
-ANVIL = "mMMMMMMMMMMd\n.mMMMMMMMMd.\n....mMMd....\n....mMMd....\n..mMMMMMMd..\n..dddddddd.."
-FENCE = "Oo....Oo....Oo\nOo....Oo....Oo\nOOOOOOOOOOOOOo\nOo....Oo....Oo\nOOOOOOOOOOOOOo\nOo....Oo....Oo\noo....oo....oo"
+ANVIL = """
+MMMMMMMMMMMMmd
+.dmmmmmmmmmdd.
+...mmmmmmdd...
+....mMmdd.....
+....mMmdd.....
+...mMMmmdd....
+..MMMMMmmmdd..
+..dddddddddd..
+"""
+FENCE = """
+.O...O...O...O.
+OOo.OOo.OOo.OOo
+OOo.OOo.OOo.OOo
+OOoNOOoNOOoNOOo
+OOo.OOo.OOo.OOo
+OOo.OOo.OOo.OOo
+OOoNOOoNOOoNOOo
+OOo.OOo.OOo.OOo
+ooo.ooo.ooo.ooo
+"""
 WELL = """
 .......OOOOOOo.....
 .....OOOOOOOOOOo...
@@ -397,7 +432,22 @@ DOOR = """
 .OOOoOOOOoOOo.
 .oooooooooooo.
 """
-PILLAR = "mMMMMMMd\n.mMMMMd.\n.mMMMMd.\n.mMMMMd.\n.mMMMMd.\n.mMMMMd.\n.mMMMMd.\n.mMMMMd.\n.mMMMMd.\n.mMMMMd.\nmMMMMMMd\nmmmmmmdd"
+PILLAR = """
+MMMMMMMmmd
+.MMMMmmmd.
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+..MmMmmd..
+.MMMMmmmd.
+MMMMMMmmmd
+dddddddddd
+"""
 STATUE = """
 ......M.........
 .....MMm........
@@ -417,7 +467,20 @@ STATUE = """
 ..mMMMMMMMMMMmmd
 ..mmmmmmmmmmmddd
 """
-MAILBOX = "..LLLLLLLL..\n.LLLLLLLLLb.\nLLLLLLLLLLbb\nLLMMLLLLLLbb\nLLLLLLLLLLbb\n.bbbbbbbbbb.\n.....Oo.....\n.....Oo.....\n.....Oo.....\n.....Oo....."
+MAILBOX = """
+..LLLLLLL...
+.LLLLLLLLb.R
+LLLLLLLLLbbR
+LLDDDDLLLbbR
+LLLLLLLLLbbO
+LBBBBBBBBbb.
+.bbbbbbbbb..
+....No......
+....No......
+....No......
+....No......
+...nNoo.....
+"""
 CAMPTENT = """
 ........Oo.........
 ........Oo.........
@@ -431,7 +494,16 @@ CAMPTENT = """
 ONNNNNNKKKKKNNnnnn.
 o.................n
 """
-STAIRS = "............MMMMd\n.........MMMmmmmd\n......MMMmmmmmmmd\n...MMMmmmmmmmmmmd\nMMMmmmmmmmmmmmmmd\ndddddddddddddddd."
+STAIRS = """
+............MMMMd
+........MMMMmmmmd
+........mmmmmmmmd
+....MMMMmmmmmmmmd
+....mmmmmmmmmmmmd
+MMMMmmmmmmmmmmmmd
+mmmmmmmmmmmmmmmmd
+ddddddddddddddddd
+"""
 CART = """
 .OOOOOOOOOOOOO....
 NOOOOOOOOOOOOOo...
@@ -528,6 +600,8 @@ POSES = {
     "guard": (None, GUARD_HAND, "front"),                        # upright in the front hand beside the face
     "low": (lambda r: tilt_down(rot90(r)), FRONT_HAND, "front"),  # front hand, tip lowered toward the ground
 }
+POSES["swing"] = (None, FRONT_HAND, "front")                       # a hanging thing swung out ahead
+POSES["hang"] = (None, (22, 23), "front")                         # and let drop after the swing
 POSES["shoulder"] = POSES["raise"]
 POSES["overhead"] = POSES["raise"]
 FORCED_POSE = {"bow": "guard", "lute": "guard", "bag": "rest", "lantern": "rest", "axe": "raise"}  # things held only one way
@@ -657,8 +731,28 @@ SWINGS = {
     "strike": (rot90, (12, 23), True),
     "low": (lambda r: tilt_down(rot90(r)), (13, 24), True),
 }
+SWINGS["swing"] = (None, (13, 22), True)
+SWINGS["hang"] = (None, (13, 23), True)
 # Seen from behind, a swing across the body would hide behind it, so the weapon stabs up beside the head instead.
-SWINGS_AWAY = {**SWINGS, "strike": (None, (8, 17), False), "low": (None, (8, 21), False)}
+SWINGS_AWAY = {**SWINGS, "strike": (None, (8, 17), False), "low": (None, (8, 21), False),
+               "swing": (None, (8, 19), False), "hang": (None, (8, 21), False)}
+# Held things that are not thrust: weapon -> (side pose per attack frame, front/back swing per frame, effect).
+ACTIONS = {
+    "bow": (("guard", "guard", "guard"), ("raise", "raise", "rest"), "arrow"),
+    "lute": (("guard", "guard", "guard"), ("raise", "raise", "rest"), "note"),
+    "bag": (("rest", "swing", "hang"), ("raise", "swing", "hang"), None),
+    "lantern": (("rest", "swing", "hang"), ("raise", "swing", "hang"), None),
+}
+# effect -> view -> (grid, top-left per attack frame or None). The up view is mirrored like the weapon hand.
+NOTE = ".V\n.V\nVV\nVV"
+EFFECTS = {
+    "arrow": {"side": ("WOOOOM", ((19, 22), (24, 22), None)),
+              "down": ("W\nO\nO\nO\nO\nM", ((6, 19), (6, 23), None)),
+              "up": ("M\nO\nO\nO\nO\nW", ((6, 12), (6, 6), None))},
+    "note": {"side": (NOTE, (None, (25, 11), (26, 7))),
+             "down": (NOTE, (None, (4, 12), (3, 8))),
+             "up": (NOTE, (None, (4, 12), (3, 8)))},
+}
 from pixlib import DIRECTIONS  # noqa: E402
 
 
@@ -720,7 +814,8 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
 
     signature = FORCED_POSE.get(back, pose)
     signature = "raise" if signature in ("shoulder", "overhead") else signature
-    swings = back not in FORCED_POSE and back != "bone_arm"  # can be raised, thrust and lowered
+    action = ACTIONS.get(back)
+    swings = not action and back != "bone_arm"  # can be raised, thrust and lowered
     armed = back or "unarmed"
 
     def grip(weapon, pose_name=None, swing=None, away=False):
@@ -817,6 +912,18 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
             f.append(rig.put("hat", recolor(grid, cm), *pos, nodded))
         return f
 
+    def effect(view, i):
+        """The arrow or note that goes with attack frame i, for the things in ACTIONS."""
+        if not action or not action[2]:
+            return []
+        grid, spots = EFFECTS[action[2]][view]
+        if not spots[i]:
+            return []
+        rows, (x, y) = rows_of(grid), spots[i]
+        if view == "up":
+            x = 32 - x - len(rows[0])
+        return [rig.put(f"{view}_{action[2]}", rows, x, y)]
+
     lift = (0, -1)
     right = {
         "idle": [(side_view("stand"), 500), (side_view("stand", nod=1), 500)],
@@ -826,20 +933,23 @@ def character(aid, title, hair="white", skin="light", cloth="blue", head="spiky"
                     (side_view("near_fwd", (1, 0), weapon=armed, pose_name="thrust"), 90),
                     (side_view("near_fwd", weapon=armed, pose_name="low"), 180)] if swings else
                    [(side_view("stand", (-1, 0)), 120), (side_view("near_fwd", (1, 0)), 90),
-                    (side_view("near_fwd"), 180)]),
+                    (side_view("near_fwd"), 180)] if not action else
+                   [(side_view(leg, up, pose_name=pose) + effect("side", i), ms) for i, (pose, (leg, up, ms)) in
+                    enumerate(zip(action[0], (("stand", (-1, 0), 120), ("near_fwd", (1, 0), 90), ("near_fwd", (0, 0), 180))))]),
         "hurt": [(side_view("stand", (-1, -1), hurt=True), 100), (side_view("stand", (-1, 0), hurt=True), 200)],
     }
 
     def toward(view):
         strike = dict(weapon=armed) if swings else {}
         lunge = dict(leg="pass", up=lift) if view == "up" else dict(leg="step_l", nod=1)  # leans the way it faces
+        names = action[1] if action else ("raise", "strike", "low") if swings else ("rest",) * 3
         return {
             "idle": [(facing(view, "stand"), 500), (facing(view, "stand", nod=1), 500)],
             "walk": [(facing(view, "step_l"), 150), (facing(view, "pass", lift), 150),
                      (facing(view, "step_r"), 150), (facing(view, "pass", lift), 150)],
-            "attack": [(facing(view, "stand", swing="raise" if swings else "rest", **strike), 120),
-                       (facing(view, **lunge, swing="strike" if swings else "rest", **strike), 90),
-                       (facing(view, "step_l", swing="low" if swings else "rest", **strike), 180)],
+            "attack": [(facing(view, "stand", swing=names[0], **strike) + effect(view, 0), 120),
+                       (facing(view, **lunge, swing=names[1], **strike) + effect(view, 1), 90),
+                       (facing(view, "step_l", swing=names[2], **strike) + effect(view, 2), 180)],
             "hurt": [(facing(view, "stand", (-1, 0), hurt=True), 100), (facing(view, "stand", (1, 0), hurt=True), 200)],
         }
 

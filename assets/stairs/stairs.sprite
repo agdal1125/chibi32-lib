@@ -8,11 +8,13 @@ palette = ../../styles/chibi32/palette.txt
 
 [part item]
 ............MMMMd
-.........MMMmmmmd
-......MMMmmmmmmmd
-...MMMmmmmmmmmmmd
-MMMmmmmmmmmmmmmmd
-dddddddddddddddd.
+........MMMMmmmmd
+........mmmmmmmmd
+....MMMMmmmmmmmmd
+....mmmmmmmmmmmmd
+MMMMmmmmmmmmmmmmd
+mmmmmmmmmmmmmmmmd
+ddddddddddddddddd
 
 [frame base]
-item 7 23
+item 7 21
