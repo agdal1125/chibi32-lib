@@ -81,11 +81,11 @@ function renderList(activeId) {
   }));
 }
 
-async function show(id) {
+async function show(id, animName) {
   clearTimeout(timer);
   const a = assets.find(x => x.id === id);
   renderList(id);
-  const anim = a.animations[0];
+  const anim = a.animations.find(x => x.name === animName) || a.animations.find(x => x.name === "walk_down") || a.animations[0];
   const frames = anim ? anim.frames : [{ name: "base", file: a.base, duration: 0 }];
   const images = await Promise.all(frames.map(f => loadImage(`${a.dir}/${f.file}`)));
   const canvas = el("canvas");
@@ -121,6 +121,9 @@ async function show(id) {
   const bg = el("select", { "aria-label": "Background" });
   ["dark", "light", "checker"].forEach(b => bg.append(el("option", { value: b, text: b })));
   bg.onchange = () => { stage.className = `stage ${bg.value}`; };
+  const pick = el("select", { "aria-label": "Animation" });
+  a.animations.forEach(x => pick.append(el("option", { value: x.name, text: x.name, ...(x === anim ? { selected: "" } : {}) })));
+  pick.onchange = () => show(id, pick.value);
   const frameLabel = el("span", { class: "muted" });
 
   const strip = el("div", { class: "strip" }, ...frames.map((f, i) => {
@@ -130,6 +133,7 @@ async function show(id) {
   }));
 
   const files = [a.base, ...a.stills.filter(s => s !== a.base)];
+  if (a.sheet) files.push(a.sheet.image, a.sheet.json);
   for (const an of a.animations) files.push(an.sheet, an.json, an.gif, an.gifPreview);
   const fileList = el("ul", { class: "files" }, ...files.map(f => el("li", {}, el("a", { href: `${a.dir}/${f}`, download: f, text: f }))));
 
@@ -143,9 +147,12 @@ async function show(id) {
   detail.replaceChildren(
     el("h2", { text: a.title }),
     stage,
-    el("div", { class: "controls" }, ...(anim ? [play, prev, next] : []),
+    el("div", { class: "controls" }, ...(a.animations.length > 1 ? [el("label", {}, "Animation", pick)] : []),
+      ...(anim ? [play, prev, next] : []),
       el("label", {}, "Zoom", zoom), el("label", {}, "Background", bg), frameLabel),
     strip,
+    ...(a.sheet ? [el("h2", { text: "Character sheet (rows: down, left, right, up)" }),
+      el("div", { class: "stage dark" }, el("img", { src: `${a.dir}/${a.sheet.image}`, alt: `${a.title} sheet`, style: "width:704px;max-width:100%" }))] : []),
     el("h2", { text: "Download" }), fileList,
     el("h2", { text: "Palette" }), el("div", { class: "swatches" }, ...a.palette.map(p => el("span", { title: `${p.key} ${p.hex}`, style: `background:${p.hex}` }))),
     el("h2", { text: "Credits" }), credits);
